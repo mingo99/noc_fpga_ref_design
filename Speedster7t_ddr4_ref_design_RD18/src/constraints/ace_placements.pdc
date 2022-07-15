@@ -1,0 +1,18 @@
+# -------------------------------------------------------------------------
+# ACE placements file
+# This defines the physical placement of instances on the die
+# Primarily the IO locations, however instance locations and placement
+# regions can also be defined here
+# -------------------------------------------------------------------------
+
+# -------------------------------------------------------------------------
+# Example of how to place the NAPs in the design
+# -------------------------------------------------------------------------
+set_placement -fixed {i:i_axi_slave_wrapper_in.i_axi_slave}  {s:x_core.NOC[3][2].logic.noc.nap_s}
+
+# -------------------------------------------------------------------------
+# Example of how to fix the location of an MLP and a BRAM
+# -------------------------------------------------------------------------
+# set_placement -fixed {i:<my_hierarchical_path>.i_bram.U_BRAM72K} {s:x_core.BMLP[29][5].logic.bmlp.bram[0]}
+# set_placement -fixed {i:<my_hierarchical_path>.i_mlp.U_MLP72}    {s:x_core.BMLP[29][5].logic.bmlp.mlp[0]}
+

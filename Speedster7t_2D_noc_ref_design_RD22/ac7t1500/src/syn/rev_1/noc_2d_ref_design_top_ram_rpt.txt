@@ -1,0 +1,50 @@
+
+#####  START OF RAM REPORT  #####
+
+#####  BLOCK_RAM REPORT  #####
+
+INSTANTIATED     RTL_INSTANCE_NAME     PRIMITIVE_TYPE     DEPTHXWIDTH(RTL)     USER_ATTRIBUTE     MAPPED_INSTANCE_NAME     DEPTHXWIDTH(CONFIGURATION)(A/B)     OUT_PIPE_REG_PORTA(EN/ARST/SRST)     OUT_PIPE_REG_PORTB(EN/ARST/SRST)     REASON
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+===============================================================================================================================================================================================================================================
+
+
+
+
+#####  LOGIC_RAM REPORT  #####
+
+INSTANTIATED     RTL_INSTANCE_NAME     PRIMITIVE_TYPE     DEPTHXWIDTH(RTL)     USER_ATTRIBUTE     MAPPED_INSTANCE_NAME     DEPTHXWIDTH(CONFIGURATION)(A/B)     OUT_PIPE_REG_PORTA(EN/ARST/SRST)     OUT_PIPE_REG_PORTB(EN/ARST/SRST)     REASON
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+===============================================================================================================================================================================================================================================
+
+
+
+
+#####  RAM/ROM TO REGISTER/LOGIC REPORT  #####
+
+RTL_INSTANCE_NAME                                                                PRIMITIVE_TYPE     DEPTHXWIDTH(RTL)     USER_ATTRIBUTE     REASON                                                                                               
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+i_axi_pkt_chk.arid_pipe[7:0]                                                     RAM                2x8                  DEFAULT            RAM instance meets required threshold for register mapping (128), inferring instance using registers.
+x_shift_reg_fail_axi.gb\.gb_keep\.shift_reg_pipe\[17\]_0                         NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_reg_xact_done.gb\.gb_keep\.shift_reg_pipe\[15\]_0                        NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_reg_start_axi.gb\.gb_keep\.shift_reg_pipe\[1\]_0                         NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_reg_fail_col.gb\.gb_keep\.shift_reg_pipe\[15\]_0                         NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_reg_fail_row.gb\.gb_keep\.shift_reg_pipe\[1\]_0                          NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_reg_chk_v.gb\.gb_keep\.shift_reg_pipe\[15\]_0                            NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_reg_start_v.gb\.gb_keep\.shift_reg_pipe\[1\]_0                           NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_reg_chk_h.gb\.gb_keep\.shift_reg_pipe\[15\]_0                            NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_reg_start_h.gb\.gb_keep\.shift_reg_pipe\[1\]_0                           NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_led_xact_done.gb\.gb_keep\.shift_reg_pipe\[1\]_0                         NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_led_fail_row.gb\.gb_keep\.shift_reg_pipe\[1\]_0                          NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_led_fail_col.gb\.gb_keep\.shift_reg_pipe\[1\]_0                          NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_led_start_chk.gb\.gb_keep\.shift_reg_pipe\[1\]_0                         NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_led_start_v_send.gb\.gb_keep\.shift_reg_pipe\[1\]_0                      NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_led_start_h_send.gb\.gb_keep\.shift_reg_pipe\[1\]_0                      NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_led_fail_axi.gb\.gb_keep\.shift_reg_pipe\[1\]_0                          NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+x_shift_led_start_axi.gb\.gb_keep\.shift_reg_pipe\[1\]_0                         NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+i_reset_processor_reg.gb_sync_inputs\.gb_per_input\[2\]\.sync_rstn_pipe_0[4]     NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+i_reset_processor_reg.gb_sync_inputs\.gb_per_input\[1\]\.sync_rstn_pipe_0[4]     NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+i_reset_processor_reg.gb_sync_inputs\.gb_per_input\[0\]\.sync_rstn_pipe_0[4]     NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.
+=================================================================================================================================================================================================================================================
+
+#####  END OF RAM REPORT  #####
+

@@ -1,0 +1,20 @@
+#ACE 0.X (Main) IP Properties File, generated on:
+#Wed Jul 08 07:34:29 PDT 2020
+acxip_version=1
+data_rate=16
+dc_axi_clock_name=gddr6_5_dci_clk
+enable_dc0_axi_interface=No
+enable_dc1_axi_interface=No
+enable_dc_interrupts_interface=No
+gddr6_core_clock_name=gddr_ctlr_clk_NE
+library=Speedster7t
+mem_capacity=8
+memory_part=MT61K256M32-A
+mode_of_operation=x16
+name=GDDR6
+output.path_relative_to=ACXIP File
+placement=GDDR6_4
+reset_source=Internal Reset from FCU
+reset_source_name=gddr6_rstn
+target_device=AC7t1500ES0
+zq_calib=Master

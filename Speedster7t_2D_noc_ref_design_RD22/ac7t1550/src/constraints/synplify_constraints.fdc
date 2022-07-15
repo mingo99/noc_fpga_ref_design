@@ -1,0 +1,55 @@
+# -------------------------------------------------------------------------
+# Synplify physical constraints file
+# This file is used to set Synplify physical constraints, and attributes.
+# Note : Timing constraints are normally set in an SDC file
+# -------------------------------------------------------------------------
+
+# -------------------------------------------------------------------------
+# Example of how to change the available resources in the target device
+# -------------------------------------------------------------------------
+# define_global_attribute syn_allowed_resources {blockmults=0}
+
+# -------------------------------------------------------------------------
+# Example of how to set a soft compile point
+# -------------------------------------------------------------------------
+# define_compile_point  {v:work.alu_avr_cm4} -type {soft}
+
+# -------------------------------------------------------------------------
+# Example of how to set a soft compile point
+# if the compile point changed name on each run
+# -------------------------------------------------------------------------
+#foreach inst [c_list [find -hier -view oc_avr_hp_cm4*]] {
+#    define_compile_point $inst -type {soft}
+#}
+
+# -------------------------------------------------------------------------
+# Example of defaulting all roms to logic, (rather than LRAM or BRAM)
+# -------------------------------------------------------------------------
+# define_global_attribute  {syn_romstyle} {logic}
+
+# -------------------------------------------------------------------------
+# Example of ensuring RAMs only inferred for sufficiently large register sets
+# -------------------------------------------------------------------------
+# define_global_attribute  {syn_max_memsize_reg} {2048}
+
+
+# -------------------------------------------------------------------------
+# Find all instances of the modules data_stream_pkt_gen and data_stream_pkt_chk
+# and set the hierarchy so that Synplify doesn't try to optimize the logic
+# between the instances. These need to be separate because Synplify doesn't
+# know that they will be placed physically at different locations.
+# This is done to help timing with NoC connections.
+# -------------------------------------------------------------------------
+foreach inst [c_list [find -hier -view data_stream_pkt_*]] {
+   define_attribute $inst syn_hier hard
+
+}
+
+# ------------------------------------------------------------------------
+# Attributes to control synthesis optimizations
+# ------------------------------------------------------------------------
+define_attribute  {i:i_ds_col_pkt_chk.rd_data_stream[292:0]} {syn_useenables} {0}
+define_attribute  {i:i_axi_pkt_chk.rd_axi_data[255:0]} {syn_useenables} {0}
+define_attribute  {i:i_axi_pkt_gen.burst_len[3:0]} {syn_allow_retiming} {0}
+define_attribute  {i:i_axi_bram_rsp.xact_wstrb[31:0]} {syn_allow_retiming} {0}
+define_attribute  {i:i_ds_col_pkt_gen.if_data_stream\.data[292:0]} {syn_allow_retiming} {0}

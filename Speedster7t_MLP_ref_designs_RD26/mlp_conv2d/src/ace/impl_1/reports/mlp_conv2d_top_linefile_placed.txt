@@ -1,0 +1,10 @@
+Unable to repair Instance: LUT6_T : Vdd_src1_2const1_RR4_0
+Unable to repair Instance: LUT6_T : Vdd_src1_2const1_RR4_1
+Unable to repair Instance: LUT6_T : Vdd_src1_2const1_RR4_2
+Unable to repair Instance: LUT6_T : Vdd_src1_2const1_RR4_3
+Unable to repair Instance: LUT6_T : Vdd_src1_2const1_RR4_4
+Unable to repair Instance: LUT6_T : Vdd_src1_2const1_RR4_5
+Unable to repair Instance: LUT6_T : Vdd_src1_2const1_RR4_6
+Unable to repair Instance: LUT6_T : Vdd_src1_2const1_RR4_7
+Unable to repair Instance: LUT6_T : Vdd_src1_2const1_RR4_8
+Number Repaired: 0 Number Broken: 9

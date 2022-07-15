@@ -1,0 +1,806 @@
+
+Timing Report - prepared
+
+Paths:
+
+Path fc_s0:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1932.37 Required: 0 Slack: -54.6354
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2572.38 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2615 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3063 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3146.36 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_10_.ce (DFFER_T) Arrival: 3530.36 Required: 0 Slack: -54.6354
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_control.lines_to_go_10_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Path fc_s1:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1932.37 Required: 0 Slack: -54.6354
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2572.38 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2615 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3063 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3146.36 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_11_.ce (DFFER_T) Arrival: 3530.36 Required: 0 Slack: -54.6354
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_control.lines_to_go_11_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Path fc_s2:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1932.37 Required: 0 Slack: -54.6354
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2572.38 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2615 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3063 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3146.36 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_1_.ce (DFFER_T) Arrival: 3530.36 Required: 0 Slack: -54.6354
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_control.lines_to_go_1_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Path fc_s3:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1932.37 Required: 0 Slack: -54.6354
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2572.38 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2615 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3063 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3146.36 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_2_.ce (DFFER_T) Arrival: 3530.36 Required: 0 Slack: -54.6354
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_control.lines_to_go_2_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Path fc_s4:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1932.37 Required: 0 Slack: -54.6354
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2572.38 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2615 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3063 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3146.36 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_3_.ce (DFFER_T) Arrival: 3530.36 Required: 0 Slack: -54.6354
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_control.lines_to_go_3_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Path fc_s5:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1932.37 Required: 0 Slack: -54.6354
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2572.38 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2615 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3063 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3146.36 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_4_.ce (DFFER_T) Arrival: 3530.36 Required: 0 Slack: -54.6354
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_control.lines_to_go_4_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Path fc_s6:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1932.37 Required: 0 Slack: -54.6354
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2572.38 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2615 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3063 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3146.36 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_5_.ce (DFFER_T) Arrival: 3530.36 Required: 0 Slack: -54.6354
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_control.lines_to_go_5_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Path fc_s7:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1932.37 Required: 0 Slack: -54.6354
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2572.38 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2615 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3063 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3146.36 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_6_.ce (DFFER_T) Arrival: 3530.36 Required: 0 Slack: -54.6354
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_control.lines_to_go_6_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Path fc_s8:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1932.37 Required: 0 Slack: -54.6354
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2572.38 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2615 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3063 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3146.36 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_7_.ce (DFFER_T) Arrival: 3530.36 Required: 0 Slack: -54.6354
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_control.lines_to_go_7_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Path fc_s9:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1932.37 Required: 0 Slack: -54.6354
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2572.38 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2615 Required: 0 Slack: -54.6354 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3063 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3146.36 Required: 0 Slack: -54.6354 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_8_.ce (DFFER_T) Arrival: 3530.36 Required: 0 Slack: -54.6354
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -54.6354
+Node: i_control.lines_to_go_8_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -54.6354
+
+Path fc_s10:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_in_fifo.i_bram_l.rdclk (BRAM72K_SDP_T) Arrival: 1898 Required: 0 Slack: 1036.29
+Node: i_in_fifo.i_bram_l._n_clk_cm_rdclk (BRAM72K_SDP_T) Arrival: 1941.27 Required: 0 Slack: 1036.29
+Node: i_in_fifo.i_bram_l._n_clk_cm_rdclk_sel (BRAM72K_SDP_T) Arrival: 1969.52 Required: 0 Slack: 1036.29
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_in_fifo.i_bram_l.wrclk (BRAM72K_SDP_T) Arrival: 1898 Required: 0 Slack: 1036.29
+Node: i_in_fifo.i_bram_l._n_clk_cm_wrclk (BRAM72K_SDP_T) Arrival: 1941.33 Required: 0 Slack: 1036.29
+Node: i_in_fifo.i_bram_l._n_clk_cm_wrclk_sel (BRAM72K_SDP_T) Arrival: 1967.66 Required: 0 Slack: 1036.29
+
+Path fc_s11:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1941.27 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 1969.52 Required: 0 Slack: 1036.29
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1941.33 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 1967.66 Required: 0 Slack: 1036.29
+
+Path fc_s12:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1941.27 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 1969.52 Required: 0 Slack: 1036.29
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1941.33 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 1967.66 Required: 0 Slack: 1036.29
+
+Path fc_s13:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1941.27 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 1969.52 Required: 0 Slack: 1036.29
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1941.33 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 1967.66 Required: 0 Slack: 1036.29
+
+Path fc_s14:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1941.27 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 1969.52 Required: 0 Slack: 1036.29
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1941.33 Required: 0 Slack: 1036.29
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 1967.66 Required: 0 Slack: 1036.29
+
+Path fc_s15:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_in_fifo.i_bram_h.wrclk (BRAM72K_SDP_T) Arrival: 1898 Required: 0 Slack: 1059.91
+Node: i_in_fifo.i_bram_h._n_clk_cm_wrclk (BRAM72K_SDP_T) Arrival: 1944.22 Required: 0 Slack: 1059.91
+Node: i_in_fifo.i_bram_h._n_clk_cm_wrclk_sel (BRAM72K_SDP_T) Arrival: 1982.56 Required: 0 Slack: 1059.91
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_in_fifo.i_bram_h.rdclk (BRAM72K_SDP_T) Arrival: 1898 Required: 0 Slack: 1059.91
+Node: i_in_fifo.i_bram_h._n_clk_cm_rdclk (BRAM72K_SDP_T) Arrival: 1945.56 Required: 0 Slack: 1059.91
+Node: i_in_fifo.i_bram_h._n_clk_cm_rdclk_sel (BRAM72K_SDP_T) Arrival: 1970.69 Required: 0 Slack: 1059.91
+
+Path fc_s16:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1944.22 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 1982.56 Required: 0 Slack: 1059.91
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1945.56 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 1970.69 Required: 0 Slack: 1059.91
+
+Path fc_s17:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1944.22 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 1982.56 Required: 0 Slack: 1059.91
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1945.56 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 1970.69 Required: 0 Slack: 1059.91
+
+Path fc_s18:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1944.22 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 1982.56 Required: 0 Slack: 1059.91
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1945.56 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 1970.69 Required: 0 Slack: 1059.91
+
+Path fc_s19:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1944.22 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 1982.56 Required: 0 Slack: 1059.91
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1945.56 Required: 0 Slack: 1059.91
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 1970.69 Required: 0 Slack: 1059.91
+
+Paths:
+
+Path sc_s0:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1956.23 Required: 0 Slack: -222.386
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2596.23 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2665.75 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.lines_to_go_4572.din2 (LUT6_T) Arrival: 3113.75 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_4572.dout (LUT6_T) Net: i_control.N_10219_i Arrival: 3247.67 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_10_.rn (DFFER_T) Arrival: 3567.67 Required: 0 Slack: -222.386
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_control.lines_to_go_10_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Path sc_s1:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1956.23 Required: 0 Slack: -222.386
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2596.23 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2665.75 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.lines_to_go_4572.din2 (LUT6_T) Arrival: 3113.75 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_4572.dout (LUT6_T) Net: i_control.N_10219_i Arrival: 3247.67 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_11_.rn (DFFER_T) Arrival: 3567.67 Required: 0 Slack: -222.386
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_control.lines_to_go_11_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Path sc_s2:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1956.23 Required: 0 Slack: -222.386
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2596.23 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2665.75 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.lines_to_go_4572.din2 (LUT6_T) Arrival: 3113.75 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_4572.dout (LUT6_T) Net: i_control.N_10219_i Arrival: 3247.67 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_2_.rn (DFFER_T) Arrival: 3567.67 Required: 0 Slack: -222.386
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_control.lines_to_go_2_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Path sc_s3:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1956.23 Required: 0 Slack: -222.386
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2596.23 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2665.75 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.lines_to_go_4572.din2 (LUT6_T) Arrival: 3113.75 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_4572.dout (LUT6_T) Net: i_control.N_10219_i Arrival: 3247.67 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_3_.rn (DFFER_T) Arrival: 3567.67 Required: 0 Slack: -222.386
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_control.lines_to_go_3_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Path sc_s4:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1956.23 Required: 0 Slack: -222.386
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2596.23 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2665.75 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.lines_to_go_4572.din2 (LUT6_T) Arrival: 3113.75 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_4572.dout (LUT6_T) Net: i_control.N_10219_i Arrival: 3247.67 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_4_.rn (DFFER_T) Arrival: 3567.67 Required: 0 Slack: -222.386
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_control.lines_to_go_4_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Path sc_s5:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1956.23 Required: 0 Slack: -222.386
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2596.23 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2665.75 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.lines_to_go_4572.din2 (LUT6_T) Arrival: 3113.75 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_4572.dout (LUT6_T) Net: i_control.N_10219_i Arrival: 3247.67 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_8_.rn (DFFER_T) Arrival: 3567.67 Required: 0 Slack: -222.386
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_control.lines_to_go_8_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Path sc_s6:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1956.23 Required: 0 Slack: -222.386
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2596.23 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2665.75 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.lines_to_go_4572.din2 (LUT6_T) Arrival: 3113.75 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_4572.dout (LUT6_T) Net: i_control.N_10219_i Arrival: 3247.67 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_9_.rn (DFFER_T) Arrival: 3567.67 Required: 0 Slack: -222.386
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_control.lines_to_go_9_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Path sc_s7:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1956.23 Required: 0 Slack: -222.386
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2596.23 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2665.75 Required: 0 Slack: -222.386 Function: fffefffefffefffe
+Node: i_control.lines_to_go_4572.din2 (LUT6_T) Arrival: 3113.75 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_4572.dout (LUT6_T) Net: i_control.N_10219_i Arrival: 3247.67 Required: 0 Slack: -222.386 Function: 5575f5f55575f5f5
+Node: i_control.lines_to_go_mod_0_.sn (DFFES_T) Arrival: 3567.67 Required: 0 Slack: -222.386
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -222.386
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -222.386
+Node: i_control.lines_to_go_mod_0_.ck (DFFES_T) Arrival: 1898 Required: 0 Slack: -222.386
+
+Path sc_s8:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1956.23 Required: 0 Slack: -190.62
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2596.23 Required: 0 Slack: -190.62 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2665.75 Required: 0 Slack: -190.62 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3113.75 Required: 0 Slack: -190.62 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3247.67 Required: 0 Slack: -190.62 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_10_.ce (DFFER_T) Arrival: 3631.67 Required: 0 Slack: -190.62
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -190.62
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -190.62
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -190.62
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -190.62
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -190.62
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -190.62
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -190.62
+Node: i_control.lines_to_go_10_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -190.62
+
+Path sc_s9:
+
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.q (DFF_T) Net: sys_rstn_RR_DUP_16 Arrival: 1956.23 Required: 0 Slack: -190.62
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.din3 (LUT6_T) Arrival: 2596.23 Required: 0 Slack: -190.62 Function: fffefffefffefffe
+Node: i_control.N_499_m_1_iv_i_o2_i_a3_0_a4.dout (LUT6_T) Net: i_control.arvalid10 Arrival: 2665.75 Required: 0 Slack: -190.62 Function: fffefffefffefffe
+Node: i_control.un1_rready_d57_3_i_0_0.din2 (LUT6_T) Arrival: 3113.75 Required: 0 Slack: -190.62 Function: ffffaf8fffff0f0f
+Node: i_control.un1_rready_d57_3_i_0_0.dout (LUT6_T) Net: i_control.un1_rready_d57_3_i_0_0_Z Arrival: 3247.67 Required: 0 Slack: -190.62 Function: ffffaf8fffff0f0f
+Node: i_control.lines_to_go_11_.ce (DFFER_T) Arrival: 3631.67 Required: 0 Slack: -190.62
+
+Source clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -190.62
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -190.62
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -190.62
+Node: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16.ck (DFF_T) Arrival: 1898 Required: 0 Slack: -190.62
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: -190.62
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: -190.62
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: -190.62
+Node: i_control.lines_to_go_11_.ck (DFFER_T) Arrival: 1898 Required: 0 Slack: -190.62
+
+Path sc_s10:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 756.552
+Node: i_in_fifo.i_bram_l.rdclk (BRAM72K_SDP_T) Arrival: 1898 Required: 0 Slack: 756.552
+Node: i_in_fifo.i_bram_l._n_clk_cm_rdclk (BRAM72K_SDP_T) Arrival: 1970.58 Required: 0 Slack: 756.552
+Node: i_in_fifo.i_bram_l._n_clk_cm_rdclk_sel (BRAM72K_SDP_T) Arrival: 2027.89 Required: 0 Slack: 756.552
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 756.552
+Node: i_in_fifo.i_bram_l.wrclk (BRAM72K_SDP_T) Arrival: 1898 Required: 0 Slack: 756.552
+Node: i_in_fifo.i_bram_l._n_clk_cm_wrclk (BRAM72K_SDP_T) Arrival: 1971.56 Required: 0 Slack: 756.552
+Node: i_in_fifo.i_bram_l._n_clk_cm_wrclk_sel (BRAM72K_SDP_T) Arrival: 2023.56 Required: 0 Slack: 756.552
+
+Path sc_s11:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1970.58 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 2027.89 Required: 0 Slack: 756.552
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1971.56 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 2023.56 Required: 0 Slack: 756.552
+
+Path sc_s12:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1970.58 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 2027.89 Required: 0 Slack: 756.552
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1971.56 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 2023.56 Required: 0 Slack: 756.552
+
+Path sc_s13:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1970.58 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 2027.89 Required: 0 Slack: 756.552
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1971.56 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 2023.56 Required: 0 Slack: 756.552
+
+Path sc_s14:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1970.58 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 2027.89 Required: 0 Slack: 756.552
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 756.552
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1971.56 Required: 0 Slack: 756.552
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 2023.56 Required: 0 Slack: 756.552
+
+Path sc_s15:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 796.989
+Node: i_in_fifo.i_bram_h.wrclk (BRAM72K_SDP_T) Arrival: 1898 Required: 0 Slack: 796.989
+Node: i_in_fifo.i_bram_h._n_clk_cm_wrclk (BRAM72K_SDP_T) Arrival: 1977.75 Required: 0 Slack: 796.989
+Node: i_in_fifo.i_bram_h._n_clk_cm_wrclk_sel (BRAM72K_SDP_T) Arrival: 2048.45 Required: 0 Slack: 796.989
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 796.989
+Node: i_in_fifo.i_bram_h.rdclk (BRAM72K_SDP_T) Arrival: 1898 Required: 0 Slack: 796.989
+Node: i_in_fifo.i_bram_h._n_clk_cm_rdclk (BRAM72K_SDP_T) Arrival: 1979.64 Required: 0 Slack: 796.989
+Node: i_in_fifo.i_bram_h._n_clk_cm_rdclk_sel (BRAM72K_SDP_T) Arrival: 2028.69 Required: 0 Slack: 796.989
+
+Path sc_s16:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1977.75 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 2048.45 Required: 0 Slack: 796.989
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1979.64 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 2028.69 Required: 0 Slack: 796.989
+
+Path sc_s17:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1977.75 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 2048.45 Required: 0 Slack: 796.989
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1979.64 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 2028.69 Required: 0 Slack: 796.989
+
+Path sc_s18:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1977.75 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 2048.45 Required: 0 Slack: 796.989
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1979.64 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 2028.69 Required: 0 Slack: 796.989
+
+Path sc_s19:
+
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K.wrclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K._n_clk_cm_wrclk (BRAM72K_T) Arrival: 1977.75 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K._n_clk_cm_wrclk_sel (BRAM72K_T) Arrival: 2048.45 Required: 0 Slack: 796.989
+
+Source clock (i_clk):
+
+Target clock (i_clk):
+Node: i_clk (primary) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.din (CLK_IPIN_T) Arrival: 0 Required: 0 Slack: 796.989
+Node: i_clk_ipin.dout (CLK_IPIN_T) Net: i_clk_ipin_net Arrival: 0 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K.rdclk (BRAM72K_T) Arrival: 1898 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K._n_clk_cm_rdclk (BRAM72K_T) Arrival: 1979.64 Required: 0 Slack: 796.989
+Node: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K._n_clk_cm_rdclk_sel (BRAM72K_T) Arrival: 2028.69 Required: 0 Slack: 796.989

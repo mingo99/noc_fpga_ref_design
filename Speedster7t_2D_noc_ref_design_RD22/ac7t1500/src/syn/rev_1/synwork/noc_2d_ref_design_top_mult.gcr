@@ -1,0 +1,20 @@
+i i_send_clk
+m 0 0
+u 206 3943
+p {p:i_send_clk}{t:ds_send_en_h.C}
+e ckid0_0 {t:ds_send_en_h.C} sdffre
+c ckid0_0 {p:i_send_clk} port Unsupported/too complex instance on clock path
+i i_chk_clk
+m 0 0
+u 128 1617
+p {p:i_chk_clk}{t:chk_pipe_v[7:0].C}
+e ckid0_1 {t:chk_pipe_v[7:0].C} dff
+c ckid0_1 {p:i_chk_clk} port Unsupported/too complex instance on clock path
+i i_reg_clk
+m 0 0
+u 182 1877
+p {p:i_reg_clk}{t:reset_pipe[31].C}
+e ckid0_2 {t:reset_pipe[31].C} dffr
+c ckid0_2 {p:i_reg_clk} port Unsupported/too complex instance on clock path
+l 0 0 0 0 0 0
+r 0 0 0 0 0 0 0 0

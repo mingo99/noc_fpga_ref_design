@@ -1,0 +1,5 @@
+# To prevent multiplications being inferred to DSP64, remove any DSP64 resources from device
+# Note, there are no DSP64 in 7t fabric
+# This is to counter a current issue in Synplify, which will be resolved in later versions.
+# Now MLP72 are treated as DSP/mluts by Synlplify. Can not set blockmults to 0.
+# define_global_attribute syn_allowed_resources {blockmults=0}

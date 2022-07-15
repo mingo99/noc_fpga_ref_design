@@ -1,0 +1,2 @@
+top mlp_conv2d_top
+parameter BATCH 60;

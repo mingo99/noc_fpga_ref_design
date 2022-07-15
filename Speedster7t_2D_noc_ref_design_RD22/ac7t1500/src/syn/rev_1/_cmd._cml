@@ -1,0 +1,1 @@
+-link -encrypt -top noc_2d_ref_design_top -osyn /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synwork/noc_2d_ref_design_top_comp.srs /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synwork/layer0.srs  -jobname linker  

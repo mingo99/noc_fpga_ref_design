@@ -1,0 +1,34 @@
+
+------------------START-CHAIN------------------
+LUT i_control.lines_to_go_4572 [x_core.L[147][50].rlb.lg[2].ls[1].lut[1]]
+LUT i_control.nap_in_state_s1_0_a2_0_o2_i_a3_0_a2 [x_core.L[147][50].rlb.lg[2].ls[1].lut[0]]
+
+------------------START-CHAIN------------------
+LUT i_control.N_499_m_1_iv_i_0_1 [x_core.L[148][51].rlb.lg[2].ls[1].lut[1]]
+LUT i_control.N_499_m_1_iv_i_0_0_o2 [x_core.L[148][51].rlb.lg[2].ls[1].lut[0]]
+
+------------------START-CHAIN------------------
+LUT i_control.N_499_m_1_iv_i_0_0_0 [x_core.L[148][51].rlb.lg[1].ls[1].lut[1]]
+LUT i_control.N_499_m_1_iv_i_0_0_m2 [x_core.L[148][51].rlb.lg[1].ls[1].lut[0]]
+
+------------------START-CHAIN------------------
+LUT i_control.un1_matrix_h_count91_i_0 [x_core.L[147][54].rlb.lg[2].ls[1].lut[1]]
+LUT i_control.play_matrix_0.un1_matrix_v_count_c4 [x_core.L[147][54].rlb.lg[2].ls[1].lut[0]]
+
+------------------START-CHAIN------------------
+LUT i_out_fifo.bresp_error_0_sqmuxa [x_core.L[149][86].rlb.lg[2].ls[1].lut[1]]
+LUT i_out_fifo.bresp_error10 [x_core.L[149][86].rlb.lg[2].ls[1].lut[0]]
+
+------------------START-CHAIN------------------
+LUT i_control.un1_i_reset_n_1_0_0_RR_RULE1_ [x_core.L[147][52].rlb.lg[2].ls[1].lut[1]]
+LUT i_control.un1_i_reset_n_1_0_0_4585_tz [x_core.L[147][52].rlb.lg[2].ls[1].lut[0]]
+LUT i_control.N_235_m_0_0_a4_0_1_0 [x_core.L[147][52].rlb.lg[2].ls[0].lut[1]]
+
+------------------START-CHAIN------------------
+LUT i_control.m26_0_a4_0 [x_core.L[148][56].rlb.lg[2].ls[1].lut[1]]
+LUT i_control.N_109_mux_i [x_core.L[148][56].rlb.lg[2].ls[1].lut[0]]
+LUT i_control.m79_0_a2 [x_core.L[148][56].rlb.lg[2].ls[0].lut[1]]
+
+------------------START-CHAIN------------------
+LUT i_control.un6_matrix_v_start_ls_height_i [x_core.L[147][57].rlb.lg[2].ls[1].lut[1]]
+LUT i_control.un6_matrix_v_start_ls_heightlto5 [x_core.L[147][57].rlb.lg[2].ls[1].lut[0]]

@@ -1,0 +1,44 @@
+# -------------------------------------------------------------------------
+# ACE placements file
+# This defines the physical placement of instances on the die
+# Primarily the IO locations, however instance locations and placement
+# regions can also be defined here
+# -------------------------------------------------------------------------
+
+# -------------------------------------------------------------------------
+# Example of how to place the NAPs in the design
+# -------------------------------------------------------------------------
+
+# place the horizontal NAPs (data streaming)
+# col=9 row=4
+set_placement -fixed {i:i_nap_row_in.i_nap_horizontal}  {s:x_core.NOC[9][4].logic.noc.nap_s}
+# col=6 row=4
+set_placement -fixed {i:i_nap_row_out.i_nap_horizontal}  {s:x_core.NOC[6][4].logic.noc.nap_s}
+
+
+# place the vertical NAPs (data streaming)
+# col=3 row=1
+set_placement -fixed {i:i_nap_col_3.i_nap_vertical}  {s:x_core.NOC[3][1].logic.noc.nap_m}
+# col=3 row=7
+set_placement -fixed {i:i_nap_col_4.i_nap_vertical}  {s:x_core.NOC[3][7].logic.noc.nap_m}
+
+
+# place the AXI slave NAP
+# col=1 row=1
+set_placement -fixed {i:i_axi_slave_wrapper_in.i_axi_slave} {s:x_core.NOC[1][1].logic.noc.nap_s}
+
+# place the AXI master NAP
+# col=9 row=8
+set_placement -fixed {i:i_axi_bram_rsp.i_axi_master_nap.i_axi_master} {s:x_core.NOC[9][8].logic.noc.nap_m}
+
+# place the AXI master NAP for Register Control Block
+# col=3 row=3
+set_placement -fixed {i:i_reg_control_block.i_axi_master.i_axi_master} {s:x_core.NOC[3][3].logic.noc.nap_m}
+
+# Region for AXI bram responder code to prevent logic from pulling away from the NAP
+create_region "region_bram_resp" {204 1 242 39}
+add_region_find_insts "region_bram_resp" {find {i_axi_bram_rsp.*} -insts}
+
+# Fix the FIFO's to be halfway up the NAP, (they were tending be bias towards the bottom)
+set_placement -fixed {i:i_axi_bram_rsp.xact_mem_lo} {s:x_core.BMLP[31][29].logic.bmlp.bram[1]}
+set_placement -fixed {i:i_axi_bram_rsp.xact_mem_hi} {s:x_core.BMLP[31][30].logic.bmlp.bram[0]}

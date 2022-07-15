@@ -1,0 +1,9 @@
+# Create a compile point on the b60 core.
+# This speeds up Synthesis and reduces memory requirements
+# define_compile_point  {v:bmlp_conv2d_top} -type {locked}
+
+# For some reason Synplify is mapping something to LRAMs now
+# define_global_attribute  syn_allowed_resources {blockmults=0,blockrams=2560,logicrams=0,luts=691200,registers=1382400}
+
+# Try to find a signal and set a fanout limit on it
+define_attribute [find -net nap_out.awready] syn_maxfan 8

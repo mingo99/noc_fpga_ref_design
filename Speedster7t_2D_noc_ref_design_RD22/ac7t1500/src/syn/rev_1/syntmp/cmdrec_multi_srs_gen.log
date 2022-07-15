@@ -1,0 +1,8 @@
+/eda/synpro/fpga/R-2021.03X/bin/syn_nfilter  -link  -top  noc_2d_ref_design_top  -multisrs  /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synwork/noc_2d_ref_design_top_comp.srs  -osyn  /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synwork/noc_2d_ref_design_top_mult.srs  -log  /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synlog/noc_2d_ref_design_top_multi_srs_gen.srr 
+relcom:/eda/synpro/fpga/R-2021.03X/bin/syn_nfilter -link -top noc_2d_ref_design_top -multisrs ../synwork/noc_2d_ref_design_top_comp.srs -osyn ../synwork/noc_2d_ref_design_top_mult.srs -log ../synlog/noc_2d_ref_design_top_multi_srs_gen.srr
+rc:0 success:1 runtime:0
+file:../synwork/noc_2d_ref_design_top_comp.srs|io:i|time:1657697723|size:211601|exec:0|csum:120C8FE272D2B8CC8D01B3B4C9B065F5
+file:../synwork/noc_2d_ref_design_top_mult.srs|io:o|time:1657697724|size:43908|exec:0|csum:
+file:../synlog/noc_2d_ref_design_top_multi_srs_gen.srr|io:o|time:1657697724|size:1112|exec:0|csum:
+file:/eda/synpro/fpga/R-2021.03X/linux_a_64/syn_nfilter|io:i|time:1633021224|size:12428832|exec:1|csum:B18C7A116B82736F8950646B7A727F54
+file:/eda/synpro/fpga/R-2021.03X/bin/syn_nfilter|io:i|time:1633021076|size:368|exec:1|csum:004E4455B64BA10AD6A92FB2301610E0

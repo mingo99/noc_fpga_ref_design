@@ -1,0 +1,3 @@
+INFO: Pulling in Fabric Flops for BRAMs
+INFO: Cannot pull output flops into BRAM72K_SDP_T i_in_fifo.i_bram_l: no flops on output 
+INFO: Cannot pull output flops into BRAM72K_SDP_T i_in_fifo.i_bram_h: no flops on output 

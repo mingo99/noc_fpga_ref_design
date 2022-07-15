@@ -1,0 +1,6 @@
+# Create a compile point on the core which is repeated
+# but only needs to be compiled once.
+# This greatly reduces synplify runtime and memory usage
+
+define_compile_point  {v:mlp_conv2d_top} -type {hard}
+

@@ -1,0 +1,55 @@
+# Written by Synplify Pro version map202103acx, Build 143R. Synopsys Run ID: sid1657697728 
+# Top Level Design Parameters 
+
+# Clocks 
+create_clock -period 2.000 -name {send_clk} [get_ports {i_send_clk}] 
+create_clock -period 2.004 -name {chk_clk} [get_ports {i_chk_clk}] 
+create_clock -period 5.000 -name {reg_clk} [get_ports {i_reg_clk}] 
+
+# Virtual Clocks 
+
+# Generated Clocks 
+
+# Paths Between Clocks 
+
+# Multicycle Constraints 
+
+# Point-to-point Delay Constraints 
+
+# False Path Constraints 
+
+# Output Load Constraints 
+
+# Driving Cell Constraints 
+
+# Input Delay Constraints 
+
+# Output Delay Constraints 
+
+# Wire Loads 
+
+# Other Constraints 
+
+# syn_hier Attributes 
+
+# set_case Attributes 
+
+# Clock Delay Constraints 
+set_clock_groups -asynchronous -group [get_clocks {send_clk}] -group [get_clocks {chk_clk}] -group [get_clocks {reg_clk}]
+
+# syn_mode Attributes 
+
+# Cells 
+
+# Port DRC Rules 
+
+# Input Transition Constraints 
+
+# Unused constraints (intentionally commented out) 
+
+# Unused constraints (not checked for applicability) 
+
+# Non-forward-annotatable constraints (intentionally commented out) 
+
+# Block Path constraints 
+

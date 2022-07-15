@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synlog/noc_2d_ref_design_top_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>chk_clk</data>
+<data>499.0 MHz</data>
+<data>423.4 MHz</data>
+<data>-0.358</data>
+</row>
+<row>
+<data>reg_clk</data>
+<data>200.0 MHz</data>
+<data>289.7 MHz</data>
+<data>1.548</data>
+</row>
+<row>
+<data>send_clk</data>
+<data>500.0 MHz</data>
+<data>338.8 MHz</data>
+<data>-0.952</data>
+</row>
+</report_table>

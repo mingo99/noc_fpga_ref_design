@@ -1,0 +1,4 @@
+# Clock track assignment solution found by ACE
+# To get the same clock track routing with a new placement, add this PDC file to your ACE project
+# This file should be used in the Partial Reconfiguration flow
+set_property ClockTrackMask fffe {n:i_clk_ipin_net}

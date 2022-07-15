@@ -1,0 +1,19 @@
+# -------------------------------------------------------------------------
+# ACE placements file
+# This defines the physical placement of instances on the die
+# Primarily the IO locations, however instance locations and placement
+# regions can also be defined here
+# -------------------------------------------------------------------------
+
+# columns: pick for bmlp
+# bmlp[28]  bmlp[29]  nap  bmlp[30]  bmlp[31]
+set bmlp_col 29
+
+for {set i 0} {$i < 8} {incr i} {
+    set b [expr $i & 1]
+    set b2 [expr $i / 2]
+    set_placement -fixed -batch "i:u_mvm_8mlp_16int8_earlyout.u_bram_deep_w.bram_stage\\\[$i\\\].u_bram.U_BRAM72K" "s:x_core.BMLP\\\[$bmlp_col\\\]\\\[$b2\\\].logic.bmlp.bram\\\[$b\\\]"
+}
+set_placement -fixed -batch {i:u_nap_read_8wide.u_nap_axi_slave} {s:x_core.NOC[3][1].logic.noc.nap_s}
+
+

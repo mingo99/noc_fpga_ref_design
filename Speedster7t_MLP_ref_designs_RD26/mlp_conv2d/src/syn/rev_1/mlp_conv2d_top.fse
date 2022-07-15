@@ -1,0 +1,60 @@
+
+fsm_encoding {3240644064} sequential
+
+fsm_state_encoding {3240644064} 001 {0}
+
+fsm_state_encoding {3240644064} 100 {1}
+
+fsm_registers {3240644064} {un1_matrix_calc_state[0]} 
+
+fsm_encoding {3240644063} sequential
+
+fsm_state_encoding {3240644063} IDLE_CALC {0}
+
+fsm_state_encoding {3240644063} DO_CALC {1}
+
+fsm_registers {3240644063} {matrix_calc_state[0]} 
+
+fsm_encoding {3223642365} sequential
+
+fsm_state_encoding {3223642365} 0000000001 {000}
+
+fsm_state_encoding {3223642365} 0000010000 {001}
+
+fsm_state_encoding {3223642365} 0000100000 {010}
+
+fsm_state_encoding {3223642365} 0001000000 {011}
+
+fsm_state_encoding {3223642365} 0010000000 {100}
+
+fsm_state_encoding {3223642365} 0100000000 {101}
+
+fsm_state_encoding {3223642365} 1000000000 {110}
+
+fsm_registers {3223642365} {un1_lines_to_load_dec[2]}  {un1_lines_to_load_dec[1]}  {un1_lines_to_load_dec[0]} 
+
+fsm_encoding {3223642362} sequential
+
+fsm_state_encoding {3223642362} IDLE_NAP_IN {000}
+
+fsm_state_encoding {3223642362} LOAD_KERNEL {001}
+
+fsm_state_encoding {3223642362} LOAD_KERNEL_WAIT1 {010}
+
+fsm_state_encoding {3223642362} LOAD_KERNEL_WAIT2 {011}
+
+fsm_state_encoding {3223642362} LOAD_IN_FIFO {100}
+
+fsm_state_encoding {3223642362} LOAD_IN_FIFO_WAIT {101}
+
+fsm_state_encoding {3223642362} LOAD_IN_FIFO_WAIT2 {110}
+
+fsm_registers {3223642362} {nap_in_state[2]}  {nap_in_state[1]}  {nap_in_state[0]} 
+
+fsm_encoding {3518741871} sequential
+
+fsm_state_encoding {3518741871} ADDR_IDLE {0}
+
+fsm_state_encoding {3518741871} ADDR_XFER {1}
+
+fsm_registers {3518741871} {addr_state[0]} 

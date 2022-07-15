@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the job information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<job_run_status name="Mapper">
+<report_link name="Detailed report">
+<data>/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/synlog/mlp_conv2d_top_fpga_mapper.srr</data>
+<title></title>
+</report_link>
+<job_status>
+<data>Completed</data>
+</job_status>
+<job_info>
+<info name="Notes">
+<data>95</data>
+<report_link name="more">
+<data>/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/synlog/report/mlp_conv2d_top_fpga_mapper_notes.txt</data>
+</report_link>
+</info>
+<info name="Warnings">
+<data>297</data>
+<report_link name="more">
+<data>/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/synlog/report/mlp_conv2d_top_fpga_mapper_warnings.txt</data>
+</report_link>
+</info>
+<info name="Errors">
+<data>0</data>
+<report_link name="more">
+<data>/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/synlog/report/mlp_conv2d_top_fpga_mapper_errors.txt</data>
+</report_link>
+</info>
+<info name="CPU Time">
+<data>0h:01m:17s</data>
+</info>
+<info name="Real Time">
+<data>0h:01m:21s</data>
+</info>
+<info name="Peak Memory">
+<data>628MB</data>
+</info>
+<info name="Date &amp; Time">
+<data type="timestamp">1657608025</data>
+</info>
+</job_info>
+</job_run_status>

@@ -1,0 +1,203 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' /><style type='text/css'>
+BODY { color: #00008B;
+       font-family: Arial, sans-serif;
+       font-size: 11px;
+     }
+P { margin-left: 20px; margin-top: 0.3em; margin-bottom: 0.3em;  }
+H1 { margin-left: 0px; }
+TABLE { margin-left: 20px; }
+TABLE.noborder TD { padding: 0px 4px 0px 4px; }
+TABLE.noborder TH { padding: 0px 4px 0px 4px; }
+</style>
+<title>Utilization Report - Placed &mdash; mlp_conv2d_top</title>
+<body>
+<H1>Utilization Report - Placed</H1>
+
+<p>
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00<br>
+Design: mlp_conv2d_top - impl_1 - mlp_conv2d_top
+<br>
+Device: AC7t1500ES0
+<br>
+Generated on Wed Jul 13 15:22:35 CST 2022
+<br>
+Host: OMEN.localdomain
+
+</p>
+
+<br><hr><br>
+<h2> Utilization Summary </h2>
+<table border='1' rules='all' cellpadding='4'>
+<tr>
+<td> RLB Tiles (Occupied): </td><td> 0.710% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    LUT Sites: </td><td> 0.080% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    DFF Sites: </td><td> 0.220% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    ALU Sites: </td><td> 0.020% </td></tr>
+<tr>
+<td> LRAM/MLP Sites: </td><td> 2.340% </td></tr>
+<tr>
+<td> BRAM Sites: </td><td> 2.420% </td></tr>
+<tr>
+<td> I/O Pin Sites: </td><td> 0.010% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    Clock Pins: </td><td> 0.110% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Clock Input Pins: </td><td> 0.180% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Clock Output Pins: </td><td> 0.000% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    Data Pins: </td><td> 0.010% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Data Input Pins: </td><td> 0.010% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        Data Output Pins: </td><td> 0.010% </td></tr>
+<tr>
+<td> IO Pad Sites </td><td> 0.000% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    GPIO Pad Sites </td><td> 0.000% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    CLKIO Pad Sites </td><td> 0.000% </td></tr>
+</table>
+<h2> Utilization Details </h2>
+<table border='1' rules='all' cellpadding='4'>
+<thead><tr>
+<th> Cell Name </th><th> Instances </th><th> Sites </th><th> Utilization </th></tr></thead>
+<tr>
+<td> ALU8i </td><td> 41 </td><td> 172800     </td><td> 0.020% </td></tr>
+<tr>
+<td> BRAM Total </td><td> 62 </td><td> 2560       </td><td> 2.420% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    BRAM72K_SDP </td><td> 2 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    BRAM72K </td><td> 60 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> BUS_DFF Total </td><td> 0 </td><td> 46080      </td><td> 0.000% </td></tr>
+<tr>
+<td> BUS_MUX4 </td><td> 0 </td><td> 46080      </td><td> 0.000% </td></tr>
+<tr>
+<td> CLKDIV </td><td> 0 </td><td> 256        </td><td> 0.000% </td></tr>
+<tr>
+<td> CLKGATE </td><td> 0 </td><td> 128        </td><td> 0.000% </td></tr>
+<tr>
+<td> CLKSWITCH </td><td> 0 </td><td> 128        </td><td> 0.000% </td></tr>
+<tr>
+<td> I/O Pin Total </td><td> 8 </td><td> 64466      </td><td> 0.010% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    Clock Pin Total </td><td> 1 </td><td> 896        </td><td> 0.110% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        CLK_IPIN Total </td><td> 1 </td><td> 560        </td><td> 0.180% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            trunk </td><td> 1 </td><td> 256        </td><td> 0.390% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            mini-trunk </td><td> 0 </td><td> 240        </td><td> 0.000% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            branch </td><td> 0 </td><td> 64         </td><td> 0.000% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        CLK_OPIN Total </td><td> 0 </td><td> 336        </td><td> 0.000% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            mini-trunk </td><td> 0 </td><td> 80         </td><td> 0.000% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            branch </td><td> 0 </td><td> 256        </td><td> 0.000% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    Data Pin Total </td><td> 7 </td><td> 63570      </td><td> 0.010% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        IPIN Total </td><td> 3 </td><td> 31766      </td><td> 0.010% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            clocked </td><td> 0 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            unclocked </td><td> 3 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        OPIN Total </td><td> 4 </td><td> 31804      </td><td> 0.010% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            clocked </td><td> 0 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;            unclocked </td><td> 4 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> DFF Total (see notes) </td><td> 2991 </td><td> 1382400    </td><td> 0.220% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    general purpose DFFs (a) </td><td> 2963 </td><td> 1382400    </td><td> 0.210% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        DFFER </td><td> 162 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        DFFES </td><td> 3 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        DFFE </td><td> 2219 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        DFFR </td><td> 45 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        DFFS </td><td> 23 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        DFF </td><td> 511 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    inaccessible (b) </td><td> 28 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> LMUX2 </td><td> 7 </td><td> 1382400    </td><td> 0.000% </td></tr>
+<tr>
+<td> LRAM/MLP Total (see notes) </td><td> 60 </td><td> 2560       </td><td> 2.340% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    general purpose LRAMs/MLPs (a) </td><td> 60 </td><td> 2560       </td><td> 2.340% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;        MLP72 </td><td> 60 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    inaccessible (b) </td><td> 0 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> LUT Total (see notes) </td><td> 561 </td><td> 691200     </td><td> 0.080% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    general purpose LUTs (a) </td><td> 526 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    pass-through sites (b) </td><td> 35 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    virtual IO LUTs (c) </td><td> 0 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> MUX2 </td><td> 0 </td><td> 345600     </td><td> 0.000% </td></tr>
+<tr>
+<td> NAP_MASTER Total </td><td> 0 </td><td> 80         </td><td> 0.000% </td></tr>
+<tr>
+<td> NAP_SLAVE Total </td><td> 2 </td><td> 80         </td><td> 2.500% </td></tr>
+<tr>
+<td> &nbsp;&nbsp;&nbsp;&nbsp;    NAP_AXI_SLAVE </td><td> 2 </td><td> &nbsp; </td><td> &nbsp; </td></tr>
+<tr>
+<td> I/O Pads (Total) </td><td> 0 </td><td> 88 </td><td> 0.000% </td></tr>
+<tr>
+<td> GPIO Pads </td><td> 0 </td><td> 64 </td><td> 0.000% </td></tr>
+<tr>
+<td> CLKIO Pads </td><td> 0 </td><td> 24 </td><td> 0.000% </td></tr>
+<tr>
+<td> PLLs </td><td> 2 </td><td> 16 </td><td> 12.50% </td></tr>
+<tr>
+<td> DDR4s </td><td> 0 </td><td> 1 </td><td> 0.000% </td></tr>
+<tr>
+<td> GDDR6s </td><td> 1 </td><td> 8 </td><td> 12.50% </td></tr>
+<tr>
+<td> Ethernet Controllers </td><td> 0 </td><td> 2 </td><td> 0.000% </td></tr>
+<tr>
+<td> PCIe Controllers </td><td> 0 </td><td> 2 </td><td> 0.000% </td></tr>
+<tr>
+<td> SerDes Lanes </td><td> 0 </td><td> 32 </td><td> 0.000% </td></tr>
+</table>
+<h2> Other Resources </h2>
+<table border='1' rules='all' cellpadding='4'>
+<thead><tr>
+<th> Category </th><th> Required </th><th> Available </th><th> Utilization </th></tr></thead>
+<tr>
+<td> RLB Tiles (Occupied) </td><td> 411 </td><td> 57600      </td><td> 0.710% </td></tr>
+</table>
+
+<br><hr><br>
+<h2> Notes </h2>
+<p> Total DFF count = (a + b) <br clear=all></p>
+<ul> 
+<li> (a) "general purpose" DFFs are DFF instances that are placed on a DFF site. </li>
+<li> (b) "inaccessible DFFs" are DFF sites that must remain empty due to a mutex with an ALU or MUX instance that does not drive a DFF.  They are required for routing. </li></ul> <p> Total LUT count = (a + b - c) <br clear=all></p>
+<ul> 
+<li> (a) "general purpose" LUTs are LUT sites occupied by a physical LUT instance. </li>
+<li> (b) "pass-Through LUT sites" are LUT sites that must remain empty due to a mutex with an ALU or MUX instance input not driven by a LUT.  They are required for routing. </li>
+<li> (c) "virtual IO LUTs" are LUT instances created by ACE when virtualizing overflow IOs. These will only be present in evaluation mode, and not in the final design.  For that reason we do not report them as contributing to the total LUT count. </li></ul> <p> Total LRAM/MLP count = (a + b) <br clear=all></p>
+<ul> 
+<li> (a) "general purpose" LRAM/MLP sites occupied by a physical LRAM/MLP instance. </li>
+<li> (b) "inaccessible MLPs" are MLP sites that must remain empty due to a mutex with a wide-made BRAM. </li></ul> </body></html>

@@ -1,0 +1,40 @@
+/eda/synpro/fpga/R-2021.03X/bin/c_hdl  -osyn  /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synwork/noc_2d_ref_design_top_comp.srs  -top  noc_2d_ref_design_top  -hdllog  /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synlog/noc_2d_ref_design_top_compiler.srr  -encrypt  -mp  4  -verification_mode 0 -rtl_xmr_naming  -verilog  -prodtype  synplify_pro  -primux -infer_seqShift -fixsmult -sdff_counter  -dspmac -nram -divnmod -pqdpadd -nostructver  -achronix   -I /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include  -I /eda/ace/libraries  -I /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/  -I /eda/synpro/fpga/R-2021.03X/lib   -sysv  -devicelib  /eda/synpro/fpga/R-2021.03X/lib/generic/speedster7t.v  -encrypt  -pro  -dmgen  /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/dm  -ui -fid2 -ram -sharing on -ll 2000 -autosm  -D_MULTIPLE_FILE_COMPILATION_UNIT_  -dc_root  /eda/dc2016  -lib work -fsysv /eda/ace/libraries/device_models/AC7t1500ES0_synplify.sv -lib work /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/default_nettype.v -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/reset_processor_v2.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/random_seq_engine.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/nap_horizontal_wrapper.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/nap_vertical_wrapper.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/nap_slave_wrapper.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/nap_master_wrapper.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_gen.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/shift_reg.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/reg_control_block.sv -lib work -fsysv /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/noc_2d_ref_design_top.sv  -jobname  "compiler" 
+relcom:/eda/synpro/fpga/R-2021.03X/bin/c_hdl -osyn ../synwork/noc_2d_ref_design_top_comp.srs -top noc_2d_ref_design_top -hdllog ../synlog/noc_2d_ref_design_top_compiler.srr -encrypt -mp 4 -verification_mode 0 -rtl_xmr_naming -verilog -prodtype synplify_pro -primux -infer_seqShift -fixsmult -sdff_counter -dspmac -nram -divnmod -pqdpadd -nostructver -achronix -I ../../../include -I /eda/ace/libraries -I ../../ -I /eda/synpro/fpga/R-2021.03X/lib -sysv -devicelib /eda/synpro/fpga/R-2021.03X/lib/generic/speedster7t.v -encrypt -pro -dmgen ../dm -ui -fid2 -ram -sharing on -ll 2000 -autosm -D_MULTIPLE_FILE_COMPILATION_UNIT_ -dc_root /eda/dc2016 -lib work -fsysv /eda/ace/libraries/device_models/AC7t1500ES0_synplify.sv -lib work ../../../rtl/default_nettype.v -lib work -fsysv ../../../rtl/reset_processor_v2.sv -lib work -fsysv ../../../rtl/random_seq_engine.sv -lib work -fsysv ../../../rtl/nap_horizontal_wrapper.sv -lib work -fsysv ../../../rtl/nap_vertical_wrapper.sv -lib work -fsysv ../../../rtl/nap_slave_wrapper.sv -lib work -fsysv ../../../rtl/nap_master_wrapper.sv -lib work -fsysv ../../../rtl/data_stream_pkt_gen.sv -lib work -fsysv ../../../rtl/data_stream_pkt_chk.sv -lib work -fsysv ../../../rtl/axi_pkt_gen.sv -lib work -fsysv ../../../rtl/axi_pkt_chk.sv -lib work -fsysv ../../../rtl/axi_bram_responder.sv -lib work -fsysv ../../../rtl/shift_reg.sv -lib work -fsysv ../../../rtl/reg_control_block.sv -lib work -fsysv ../../../rtl/noc_2d_ref_design_top.sv -jobname "compiler"
+rc:0 success:1 runtime:6
+file:../synwork/noc_2d_ref_design_top_comp.srs|io:o|time:1657697723|size:211601|exec:0|csum:
+file:../synlog/noc_2d_ref_design_top_compiler.srr|io:o|time:1657697723|size:137931|exec:0|csum:
+file:/eda/synpro/fpga/R-2021.03X/lib/generic/speedster7t.v|io:i|time:1632938142|size:125444|exec:0|csum:D00EB231BA4747C102DF0E4D840FFECA
+file:/eda/dc2016|io:o|time:1461053986|size:4096|exec:0|csum:
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:/eda/ace/libraries/device_models/AC7t1500ES0_synplify.sv|io:i|time:1647540430|size:2230|exec:0|csum:0FD2384D28C422C44B28AB439B0EFDEA
+file:../../../rtl/default_nettype.v|io:i|time:1644086595|size:1431|exec:0|csum:54875A0A617D3D221CE44B5B5ED068D7
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/reset_processor_v2.sv|io:i|time:1644086595|size:4856|exec:0|csum:84EBBB9D13AB43D87FAC1E941578A6A8
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/random_seq_engine.sv|io:i|time:1644086595|size:6106|exec:0|csum:E72EF9940ADD4B96F1DE32A2811FAAD7
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/nap_horizontal_wrapper.sv|io:i|time:1644086595|size:3495|exec:0|csum:7C5C6958874EFE4523B8AD1AB8EDF50B
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/nap_vertical_wrapper.sv|io:i|time:1644086595|size:3688|exec:0|csum:32996325EC03AD71D14D86F17B45EFCD
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/nap_slave_wrapper.sv|io:i|time:1644086595|size:4020|exec:0|csum:2CBBFB2AC47AD429A0E99B92C2651880
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/nap_master_wrapper.sv|io:i|time:1644086595|size:4158|exec:0|csum:6AACEE486620A179C218E71A15A8C1C4
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/data_stream_pkt_gen.sv|io:i|time:1644086595|size:11848|exec:0|csum:8EB67F72C341DB4A36F9C0C8E330F9AB
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/data_stream_pkt_chk.sv|io:i|time:1644086595|size:17801|exec:0|csum:EA5D15B9DFB4E57E905777ADBA654321
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/axi_pkt_gen.sv|io:i|time:1644086595|size:17016|exec:0|csum:C8060746C25318285124359190E9D353
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/axi_pkt_chk.sv|io:i|time:1644086595|size:15978|exec:0|csum:2BE821EB268AD3536FC9788C9179E2CA
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/axi_bram_responder.sv|io:i|time:1644086595|size:25875|exec:0|csum:EFAB7719C61632381AF7585CA402A4A4
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/shift_reg.sv|io:i|time:1644086595|size:5045|exec:0|csum:434BCC7D7DC3FC6FE07DFD45C42ED224
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/reg_control_block.sv|io:i|time:1644086595|size:16083|exec:0|csum:A5B7D45082270BB8254355592BC7EF58
+file:./-fsysv|io:i|time:0|size:-1|exec:0|csum:
+file:../../../rtl/noc_2d_ref_design_top.sv|io:i|time:1644086569|size:43022|exec:0|csum:63AC43E9B9431D8C81C9BE379C0BF947
+file:/eda/synpro/fpga/R-2021.03X/linux_a_64/c_hdl|io:i|time:1633021222|size:8782216|exec:1|csum:036CCF80E41A005CA0D22832BA63A868
+file:/eda/synpro/fpga/R-2021.03X/bin/c_hdl|io:i|time:1633021075|size:367|exec:1|csum:E52A0D56112AD6C22F02B648B6F508CE

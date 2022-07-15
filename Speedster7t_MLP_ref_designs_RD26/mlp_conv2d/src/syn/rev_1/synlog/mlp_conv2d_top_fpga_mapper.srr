@@ -1,0 +1,1450 @@
+# Tue Jul 12 14:39:03 2022
+
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03X+7t
+Install: /eda/synpro/fpga/R-2021.03X
+OS: Ubuntu 20.04.4 LTS
+Hostname: OMEN
+max virtual memory: unlimited (bytes)
+max user processes: 31123
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+Synopsys Generic Technology Mapper, Version map202103acx, Build 143R, Built Sep 30 2021 09:54:49, @3999424
+
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 209MB peak: 209MB)
+
+@N: MF916 |Option synthesis_strategy=base is enabled. 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 219MB peak: 219MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 219MB peak: 219MB)
+
+Reading custom part data from path: /eda/synpro/fpga/R-2021.03X/lib/generic/custom_partdata.txt
+Resources available on the part ac7t1500es0f53a0 :
+blockrams = 2560 
+logicrams = 2560 
+dsps = 2560 
+registers = 691200 
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 219MB peak: 219MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 219MB peak: 220MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:01s; Memory used current: 470MB peak: 470MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: FX493 |Applying initial value "0" on instance i_mlp_multi.i_dp_16_8x8.last_del[0].
+@N: FX493 |Applying initial value "0" on instance i_mlp_multi.i_dp_16_8x8.last_del[1].
+@N: FX493 |Applying initial value "0" on instance i_mlp_multi.i_dp_16_8x8.last_del[2].
+@N: MT204 |Auto Constrain mode is disabled because the following clocks are already defined:
+
+            clk
+
+@W: FA239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":207:44:207:63|ROM i_out_fifo.un9_nap_out\.awaddr[0:1] (in view: work.mlp_conv2d_top(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@W: FA239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":207:44:207:63|ROM i_out_fifo.un9_nap_out\.awaddr[0:1] (in view: work.mlp_conv2d_top(verilog)) mapped in logic. To map to a technology ROM, apply attribute syn_romstyle on this instance.
+@N: MO106 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":207:44:207:63|Found ROM i_out_fifo.un9_nap_out\.awaddr[0:1] (in view: work.mlp_conv2d_top(verilog)) with 4 words by 2 bits.
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:07s; CPU Time elapsed 0h:00m:06s; Memory used current: 543MB peak: 543MB)
+
+@N: MO231 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":258:4:258:9|Found counter in view:work.mlp_conv2d_top(verilog) instance i_out_fifo.exp_id[7:0] 
+@N: MO231 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Found counter in view:work.mlp_conv2d_top(verilog) instance i_out_fifo.nap_out\.awid[7:0] 
+@N: MO231 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/line_fifo.sv":53:4:53:9|Found counter in view:work.mlp_conv2d_top(verilog) instance i_in_fifo.wr_addr[9:0] 
+@N: MO231 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Found counter in view:work.dataflow_control_Z3017380(verilog) instance bram_sel[5:0] 
+@N: MO231 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Found counter in view:work.dataflow_control_Z3017380(verilog) instance nap_in\.arid[7:0] 
+@N: MO231 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":333:4:333:9|Found counter in view:work.dataflow_control_Z3017380(verilog) instance bram_wr_addr[9:0] 
+
+Starting factoring (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 550MB peak: 550MB)
+
+
+Finished factoring (Real Time elapsed 0h:00m:08s; CPU Time elapsed 0h:00m:08s; Memory used current: 550MB peak: 550MB)
+
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_0_mod[0] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_0_mod[1] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_0_mod[0] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_0_mod[1] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_0_mod[0] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_mod[2] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_mod[3] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_mod[4] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_mod[5] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_mod[6] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_mod[7] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_mod[8] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_mod[9] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_mod[10] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_m1_mod[11] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_mod[2] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_mod[3] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_mod[4] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_mod[5] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_mod[6] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_mod[7] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_mod[8] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_mod[9] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_mod[10] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Removing sequential instance i_control.lines_to_load_ps_mod[11] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_0_mod[1] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_0_mod[2] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_0_mod[3] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_0_mod[4] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_0_mod[5] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_0_mod[6] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_0_mod[7] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_0_mod[8] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_0_mod[9] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_0_mod[10] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_0_mod[11] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_mod[1] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_mod[2] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_mod[3] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_mod[4] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_mod[5] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_mod[6] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_mod[7] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_mod[8] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_mod[9] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_mod[10] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing sequential instance i_control.lines_to_go_mod[11] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod[1] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod[2] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod[3] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod[4] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod[5] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod[6] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod[7] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod[8] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod[9] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod[10] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod[11] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod_0[1] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod_0[2] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod_0[3] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod_0[4] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod_0[5] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod_0[6] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod_0[7] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod_0[8] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod_0[9] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod_0[10] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing sequential instance i_control.lines_to_go_dec_mod_0[11] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:12s; CPU Time elapsed 0h:00m:12s; Memory used current: 628MB peak: 628MB)
+
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[0] because it is equivalent to instance i_control.line_read_num_next_0_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[1] because it is equivalent to instance i_control.line_read_num_next_0_mod[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[2] because it is equivalent to instance i_control.line_read_num_next_0_mod[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[3] because it is equivalent to instance i_control.line_read_num_next_0_mod[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[4] because it is equivalent to instance i_control.line_read_num_next_0_mod[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[5] because it is equivalent to instance i_control.line_read_num_next_0_mod[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[6] because it is equivalent to instance i_control.line_read_num_next_0_mod[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[7] because it is equivalent to instance i_control.line_read_num_next_0_mod[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[8] because it is equivalent to instance i_control.line_read_num_next_0_mod[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[9] because it is equivalent to instance i_control.line_read_num_next_0_mod[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[10] because it is equivalent to instance i_control.line_read_num_next_0_mod[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.line_read_num_next_mod[11] because it is equivalent to instance i_control.line_read_num_next_0_mod[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":195:4:195:9|Removing instance i_control.lines_to_go_dec_mod_0[0] because it is equivalent to instance i_control.lines_to_go_dec_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[0] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[1] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[2] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[3] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[4] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[5] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[6] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[7] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[8] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[9] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[10] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":388:4:388:9|Removing instance i_control.matrix_v_start_next_mod[11] because it is equivalent to instance i_control.matrix_v_start_next_0_mod[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[0] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[1] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[2] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[3] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[4] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[5] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[6] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[7] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[8] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[9] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[10] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[11] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[12] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[13] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[14] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_mod[15] because it is equivalent to instance i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":406:4:406:9|Removing instance i_control.matrix_v_count_1_mod_0[0] because it is equivalent to instance i_control.matrix_v_count_1_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":406:4:406:9|Removing instance i_control.matrix_v_count_1_mod[0] because it is equivalent to instance i_control.matrix_v_count_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":406:4:406:9|Removing instance i_control.matrix_v_count_mod[0] because it is equivalent to instance i_control.matrix_v_count_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":406:4:406:9|Removing instance i_control.matrix_v_count_mod[1] because it is equivalent to instance i_control.matrix_v_count_0[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":406:4:406:9|Removing instance i_control.matrix_v_count_mod[2] because it is equivalent to instance i_control.matrix_v_count_0[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[0] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[1] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[2] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[3] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[4] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[5] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[6] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[7] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[8] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[9] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[10] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[11] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[12] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[13] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[14] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_mod[15] because it is equivalent to instance i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[0] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[1] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[2] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[3] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[4] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[5] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[6] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[7] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[8] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[9] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[10] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[11] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[12] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[13] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[14] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_mod[15] because it is equivalent to instance i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[0] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[1] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[2] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[3] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[4] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[5] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[6] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[6]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[7] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[7]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[8] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[8]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[9] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[9]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[10] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[10]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[11] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[11]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[12] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[12]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[13] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[13]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[14] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[14]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":109:8:109:13|Removing instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_mod[15] because it is equivalent to instance i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod[15]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing instance i_control.nap_in_addr_mod[0] because it is equivalent to instance i_control.nap_in_addr_0[0]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing instance i_control.nap_in_addr_mod[1] because it is equivalent to instance i_control.nap_in_addr_0[1]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing instance i_control.nap_in_addr_mod[2] because it is equivalent to instance i_control.nap_in_addr_0[2]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing instance i_control.nap_in_addr_mod[3] because it is equivalent to instance i_control.nap_in_addr_0[3]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing instance i_control.nap_in_addr_mod[4] because it is equivalent to instance i_control.nap_in_addr_0[4]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+@W: BN132 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing instance i_control.nap_in_addr_mod[5] because it is equivalent to instance i_control.nap_in_addr_0[5]. To keep the instance, apply constraint syn_preserve=1 on the instance.
+
+Only the first 100 messages of id 'BN132' are reported. To see all messages use 'report_messages -log /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/synlog/mlp_conv2d_top_fpga_mapper.srr -id BN132' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {BN132} -count unlimited' in the Tcl shell.
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:18s; CPU Time elapsed 0h:00m:18s; Memory used current: 628MB peak: 628MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:23s; CPU Time elapsed 0h:00m:23s; Memory used current: 628MB peak: 628MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:26s; CPU Time elapsed 0h:00m:25s; Memory used current: 628MB peak: 628MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:32s; CPU Time elapsed 0h:00m:31s; Memory used current: 628MB peak: 628MB)
+
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":473:4:473:9|Removing sequential instance i_control.mlp_matrix_addr[6] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":473:4:473:9|Removing sequential instance i_control.mlp_matrix_addr_d[6] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":473:4:473:9|Removing sequential instance i_control.mlp_matrix_addr_2d[6] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+@N: BN362 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":90:4:90:9|Removing sequential instance i_mlp_multi.i_dp_16_8x8.rdaddr_del[6] (in view: work.mlp_conv2d_top(verilog)) because it does not drive other instances.
+
+Finished technology mapping (Real Time elapsed 0h:00m:33s; CPU Time elapsed 0h:00m:33s; Memory used current: 628MB peak: 628MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:34s		    -4.18ns		 748 /      2854
+   2		0h:00m:35s		    -2.55ns		 748 /      2865
+   3		0h:00m:35s		    -2.41ns		 748 /      2873
+@N: FX271 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":167:4:167:9|Replicating instance i_control.load_kernel_state (in view: work.mlp_conv2d_top(verilog)) with 66 loads 3 times to improve timing.
+Timing driven replication report
+Added 3 Registers via timing driven replication
+Added 0 LUTs via timing driven replication
+
+
+
+
+   4		0h:00m:40s		    -2.41ns		 773 /      3001
+
+   5		0h:00m:41s		    -2.41ns		 773 /      3001
+Net buffering Report for view:work.mlp_conv2d_top(verilog):
+Added 0 Buffers
+Added 3 Registers via replication
+Added 0 LUTs via replication
+
+@N: MF322 |Retiming summary: 248 registers retimed to 295 
+
+		#####  BEGIN RETIMING REPORT  #####
+
+Retiming summary : 248 registers retimed to 295
+
+Original and Pipelined registers replaced by retiming :
+		i_control.in_fifo_rd_addr_mod[0]
+		i_control.in_fifo_rd_addr_mod[1]
+		i_control.in_fifo_rd_addr_mod[2]
+		i_control.in_fifo_rd_addr_mod[3]
+		i_control.in_fifo_rd_addr_mod[4]
+		i_control.in_fifo_rd_addr_mod[5]
+		i_control.in_fifo_rd_addr_mod[6]
+		i_control.in_fifo_rd_addr_mod[7]
+		i_control.in_fifo_rd_addr_mod[8]
+		i_control.in_fifo_rd_addr_mod[9]
+		i_control.line_read_num_0[3]
+		i_control.line_read_num_0[4]
+		i_control.line_read_num_0[5]
+		i_control.line_read_num_0[6]
+		i_control.line_read_num_0[7]
+		i_control.lines_to_go_0_mod[1]
+		i_control.lines_to_go_0_mod[2]
+		i_control.lines_to_go_0_mod[3]
+		i_control.lines_to_go_0_mod[4]
+		i_control.lines_to_go_0_mod[5]
+		i_control.lines_to_go_0_mod[6]
+		i_control.lines_to_go_0_mod[7]
+		i_control.lines_to_go_0_mod[8]
+		i_control.lines_to_go_0_mod[9]
+		i_control.lines_to_go_0_mod[10]
+		i_control.lines_to_go_0_mod[11]
+		i_control.lines_to_go_dec_0_mod[0]
+		i_control.lines_to_go_dec_mod[1]
+		i_control.lines_to_go_dec_mod[2]
+		i_control.lines_to_go_dec_mod[3]
+		i_control.lines_to_go_dec_mod[4]
+		i_control.lines_to_go_dec_mod[5]
+		i_control.lines_to_go_dec_mod[6]
+		i_control.lines_to_go_dec_mod[7]
+		i_control.lines_to_go_dec_mod[8]
+		i_control.lines_to_go_dec_mod[9]
+		i_control.lines_to_go_dec_mod[10]
+		i_control.lines_to_go_dec_mod[11]
+		i_control.lines_to_go_dec_mod_0[1]
+		i_control.lines_to_go_dec_mod_0[2]
+		i_control.lines_to_go_dec_mod_0[3]
+		i_control.lines_to_go_dec_mod_0[4]
+		i_control.lines_to_go_dec_mod_0[5]
+		i_control.lines_to_go_dec_mod_0[6]
+		i_control.lines_to_go_dec_mod_0[7]
+		i_control.lines_to_go_dec_mod_0[8]
+		i_control.lines_to_go_dec_mod_0[9]
+		i_control.lines_to_go_dec_mod_0[10]
+		i_control.lines_to_go_dec_mod_0[11]
+		i_control.lines_to_go_mod[1]
+		i_control.lines_to_go_mod[2]
+		i_control.lines_to_go_mod[3]
+		i_control.lines_to_go_mod[4]
+		i_control.lines_to_go_mod[5]
+		i_control.lines_to_go_mod[6]
+		i_control.lines_to_go_mod[7]
+		i_control.lines_to_go_mod[8]
+		i_control.lines_to_go_mod[9]
+		i_control.lines_to_go_mod[10]
+		i_control.lines_to_go_mod[11]
+		i_control.lines_to_load[3]
+		i_control.lines_to_load[4]
+		i_control.lines_to_load[7]
+		i_control.lines_to_load[8]
+		i_control.lines_to_load[9]
+		i_control.lines_to_load[10]
+		i_control.lines_to_load[11]
+		i_control.lines_to_load_0_mod[0]
+		i_control.lines_to_load_m1_0_mod[0]
+		i_control.lines_to_load_m1_0_mod[1]
+		i_control.lines_to_load_m1_mod[2]
+		i_control.lines_to_load_m1_mod[3]
+		i_control.lines_to_load_m1_mod[4]
+		i_control.lines_to_load_m1_mod[5]
+		i_control.lines_to_load_m1_mod[6]
+		i_control.lines_to_load_m1_mod[7]
+		i_control.lines_to_load_m1_mod[8]
+		i_control.lines_to_load_m1_mod[9]
+		i_control.lines_to_load_m1_mod[10]
+		i_control.lines_to_load_m1_mod[11]
+		i_control.lines_to_load_ps_0_mod[0]
+		i_control.lines_to_load_ps_0_mod[1]
+		i_control.lines_to_load_ps_mod[2]
+		i_control.lines_to_load_ps_mod[3]
+		i_control.lines_to_load_ps_mod[4]
+		i_control.lines_to_load_ps_mod[5]
+		i_control.lines_to_load_ps_mod[6]
+		i_control.lines_to_load_ps_mod[7]
+		i_control.lines_to_load_ps_mod[8]
+		i_control.lines_to_load_ps_mod[9]
+		i_control.lines_to_load_ps_mod[10]
+		i_control.lines_to_load_ps_mod[11]
+		i_control.matrix_v_start_0[0]
+		i_control.matrix_v_start_0[1]
+		i_control.matrix_v_start_0[2]
+		i_control.matrix_v_start_0[3]
+		i_control.matrix_v_start_0[4]
+		i_control.matrix_v_start_0[5]
+		i_control.matrix_v_start_0[6]
+		i_control.matrix_v_start_0[7]
+		i_control.matrix_v_start_0[8]
+		i_control.matrix_v_start_0[9]
+		i_control.matrix_v_start_0[10]
+		i_control.matrix_v_start_0[11]
+		i_control.mlp_matrix_addr[6]
+		i_control.mlp_matrix_addr_2d[6]
+		i_control.mlp_matrix_addr_d[6]
+		i_control.rvalid_d
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[0]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[1]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[2]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[3]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[4]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[5]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[6]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[7]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[8]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[9]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[10]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[11]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[12]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[13]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[14]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[15]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[16]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[17]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[18]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[19]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[20]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[21]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[22]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[23]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[24]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[25]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[26]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[27]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[28]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[29]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[30]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[31]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[32]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[33]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[34]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[35]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[36]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[37]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[38]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[39]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[40]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[41]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[42]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[43]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[44]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[45]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[46]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[47]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[48]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[49]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[50]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[51]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[52]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[53]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[54]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[55]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[56]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[57]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[58]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[59]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[60]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[61]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[62]
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data[63]
+		i_mlp_multi.i_dp_16_8x8.wren_del
+		i_out_fifo.addr_state[0]
+		i_out_fifo.arb_count[0]
+		i_out_fifo.arb_count[1]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[0]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[1]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[2]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[3]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[4]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[5]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[6]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[7]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[8]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[9]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[10]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[11]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[12]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[13]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[14]
+		i_out_fifo.gb_addr_offset\[0\]\.addr_offset_next\[0\]_0_mod[15]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[0]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[1]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[2]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[3]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[4]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[5]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[6]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[7]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[8]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[9]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[10]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[11]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[12]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[13]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[14]
+		i_out_fifo.gb_addr_offset\[1\]\.addr_offset_next\[1\]_0_mod[15]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[0]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[1]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[2]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[3]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[4]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[5]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[6]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[7]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[8]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[9]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[10]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[11]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[12]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[13]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[14]
+		i_out_fifo.gb_addr_offset\[2\]\.addr_offset_next\[2\]_0_mod[15]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[0]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[1]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[2]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[3]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[4]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[5]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[6]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[7]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[8]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[9]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[10]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[11]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[12]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[13]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[14]
+		i_out_fifo.gb_addr_offset\[3\]\.addr_offset_next\[3\]_0_mod[15]
+		i_out_fifo.gb_arb\[0\]\.mlp_req[0]
+		i_out_fifo.gb_arb\[1\]\.mlp_req[1]
+		i_out_fifo.gb_arb\[2\]\.mlp_req[2]
+		i_out_fifo.gb_arb\[3\]\.mlp_req[3]
+		i_out_fifo.mlp_ack[0]
+		i_out_fifo.mlp_ack[1]
+		i_out_fifo.mlp_ack[2]
+		i_out_fifo.mlp_ack[3]
+
+New registers created by retiming :
+		i_control.gb_per_clk[0].pipe_rstn_1_ret
+		i_control.gb_per_clk[0].pipe_rstn_1_ret_0
+		i_control.in_fifo_rd_addr_mod_ret
+		i_control.in_fifo_rd_addr_mod_ret_1
+		i_control.in_fifo_rd_addr_mod_ret_2
+		i_control.in_fifo_rd_addr_mod_ret_3
+		i_control.in_fifo_rd_addr_mod_ret_4
+		i_control.in_fifo_rd_addr_mod_ret_5
+		i_control.in_fifo_rd_addr_mod_ret_20
+		i_control.in_fifo_rd_addr_mod_ret_21
+		i_control.in_fifo_rd_addr_mod_ret_22
+		i_control.in_fifo_rd_addr_mod_ret_23
+		i_control.in_fifo_rd_addr_mod_ret_24
+		i_control.in_fifo_rd_addr_mod_ret_25
+		i_control.in_fifo_rd_addr_mod_ret_26
+		i_control.in_fifo_rd_addr_mod_ret_27
+		i_control.in_fifo_rd_addr_mod_ret_28
+		i_control.in_fifo_rd_addr_mod_ret_29
+		i_control.in_fifo_rd_addr_mod_ret_30
+		i_control.in_fifo_rd_addr_mod_ret_31
+		i_control.in_fifo_rd_addr_mod_ret_32
+		i_control.in_fifo_rd_addr_mod_ret_33
+		i_control.in_fifo_rd_addr_mod_ret_34
+		i_control.in_fifo_rd_addr_mod_ret_35
+		i_control.in_fifo_rd_addr_mod_ret_36
+		i_control.in_fifo_rd_addr_mod_ret_37
+		i_control.in_fifo_rd_addr_mod_ret_38
+		i_control.in_fifo_rd_addr_mod_ret_39
+		i_control.in_fifo_rd_addr_mod_ret_40
+		i_control.in_fifo_rd_addr_mod_ret_41
+		i_control.line_read_num_0_ret
+		i_control.lines_to_load_ret
+		i_control.lines_to_load_ret_0
+		i_control.matrix_h_start_0_mod_ret_1
+		i_control.matrix_v_start_0_ret_1
+		i_control.matrix_v_start_ls_height_mod_ret
+		i_control.matrix_v_start_ls_height_mod_ret_0
+		i_control.rvalid_d_ret_1
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_2
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_3
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_4
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_6
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_7
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_11
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_12
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_16
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_17
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_21
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_22
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_26
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_27
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_31
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_32
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_35
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_36
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_37
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_39
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_41
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_42
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_46
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_47
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_48
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_51
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_52
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_56
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_57
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_61
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_62
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_66
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_67
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_71
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_72
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_76
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_77
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_80
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_81
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_82
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_84
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_86
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_87
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_91
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_92
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_93
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_96
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_97
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_101
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_102
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_106
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_107
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_111
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_112
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_116
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_117
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_121
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_122
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_125
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_126
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_127
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_129
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_131
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_132
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_136
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_137
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_138
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_141
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_142
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_146
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_147
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_151
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_152
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_156
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_157
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_161
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_162
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_166
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_167
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_170
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_171
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_172
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_174
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_176
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_177
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_181
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_182
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_183
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_186
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_187
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_191
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_192
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_196
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_197
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_201
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_202
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_206
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_207
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_211
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_212
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_215
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_216
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_217
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_219
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_221
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_222
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_226
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_227
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_228
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_231
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_232
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_236
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_237
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_241
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_242
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_246
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_247
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_251
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_252
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_256
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_257
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_260
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_261
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_262
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_266
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_267
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_271
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_272
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_273
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_276
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_277
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_281
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_282
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_284
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_286
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_287
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_289
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_291
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_292
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_296
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_297
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_301
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_302
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_305
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_306
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_307
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_309
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_311
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_312
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_314
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_315
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_316
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_317
+		i_mlp_multi.i_dp_16_8x8.bram_wr_data_ret_318
+		i_out_fifo.addr_state_ret
+		i_out_fifo.addr_state_ret_1
+		i_out_fifo.addr_state_ret_2
+		i_out_fifo.addr_state_ret_3
+		i_out_fifo.arb_count_ret_0
+		i_out_fifo.arb_count_ret_3
+		i_out_fifo.arb_count_ret_4
+		i_out_fifo.arb_count_ret_5
+		i_out_fifo.arb_count_ret_6
+		i_out_fifo.arb_count_ret_7
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_1
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_2
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_3
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_4
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_5
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_6
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_7
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_8
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_9
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_10
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_11
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_12
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_13
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_14
+		i_out_fifo.gb_addr_offset[0].addr_offset_next[0]_0_mod_ret_15
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_1
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_2
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_3
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_4
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_5
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_6
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_7
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_8
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_9
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_10
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_11
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_12
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_13
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_14
+		i_out_fifo.gb_addr_offset[1].addr_offset_next[1]_0_mod_ret_15
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_1
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_2
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_3
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_4
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_5
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_6
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_7
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_8
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_9
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_10
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_11
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_12
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_13
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_14
+		i_out_fifo.gb_addr_offset[2].addr_offset_next[2]_0_mod_ret_15
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_1
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_2
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_3
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_4
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_5
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_6
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_7
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_8
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_9
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_10
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_11
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_12
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_13
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_14
+		i_out_fifo.gb_addr_offset[3].addr_offset_next[3]_0_mod_ret_15
+		i_out_fifo.gb_arb[0].mlp_req_ret
+		i_out_fifo.gb_arb[0].mlp_req_ret_1
+		i_out_fifo.gb_arb[1].mlp_req_ret
+		i_out_fifo.gb_arb[1].mlp_req_ret_1
+		i_out_fifo.gb_arb[2].mlp_req_ret
+		i_out_fifo.gb_arb[2].mlp_req_ret_1
+		i_out_fifo.gb_arb[2].mlp_req_ret_2
+		i_out_fifo.gb_arb[3].mlp_req_ret
+		i_out_fifo.gb_arb[3].mlp_req_ret_1
+		i_out_fifo.gb_arb[3].mlp_req_ret_2
+		i_out_fifo.mlp_ack_ret
+		i_out_fifo.mlp_ack_ret_0
+		i_out_fifo.mlp_ack_ret_1
+		i_out_fifo.mlp_ack_ret_2
+		i_out_fifo.mlp_ack_ret_3
+		i_out_fifo.mlp_ack_ret_4
+		i_out_fifo.mlp_ack_ret_5
+		i_out_fifo.mlp_ack_ret_6
+		i_out_fifo.mlp_ack_ret_7
+		i_out_fifo.mlp_ack_ret_8
+		i_out_fifo.mlp_ack_ret_9
+		i_out_fifo.mlp_ack_ret_10
+		i_out_fifo.mlp_ack_ret_11
+		i_out_fifo.mlp_ack_ret_12
+		i_out_fifo.mlp_ack_ret_13
+		i_out_fifo.mlp_ack_ret_14
+		i_out_fifo.mlp_ack_ret_15
+		i_out_fifo.mlp_ack_ret_16
+		i_out_fifo.mlp_ack_ret_17
+		i_out_fifo.mlp_ack_ret_18
+
+
+		#####   END RETIMING REPORT  #####
+
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:46s; CPU Time elapsed 0h:00m:46s; Memory used current: 628MB peak: 628MB)
+
+@N: FX164 |The option to pack registers in the IOB has not been specified. Please set syn_useioff attribute.  
+@W: BN114 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":186:4:186:9|Removing instance i_control.bram_blk_wr_addr_i[4] (in view: work.mlp_conv2d_top(verilog)) of black box view:achronix.LUT4(PRIM) because it does not drive other instances.
+@W: BN114 :|Removing instance dsp_join_kb_6_l[5] (in view: work.mlp_conv2d_top(verilog)) of black box view:achronix.LUT4(PRIM) because it does not drive other instances.
+@W: BN114 :|Removing instance i_control.lines_to_load_zero_2_0_4_l (in view: work.mlp_conv2d_top(verilog)) of black box view:achronix.LUT4(PRIM) because it does not drive other instances.
+@W: BN114 :|Removing instance i_reset_processor.gb_per_clk\[0\]\.pipe_rstn_0_l[3] (in view: work.mlp_conv2d_top(verilog)) of black box view:achronix.LUT4(PRIM) because it does not drive other instances.
+@W: BN114 :|Removing instance i_control.un6_matrix_v_start_ls_height_i_0_l (in view: work.mlp_conv2d_top(verilog)) of black box view:achronix.LUT4(PRIM) because it does not drive other instances.
+@W: BN114 :|Removing instance sys_rstn_reto_l (in view: work.mlp_conv2d_top(verilog)) of black box view:achronix.LUT4(PRIM) because it does not drive other instances.
+@W: BN114 :|Removing instance nap_in\.rvalid_l (in view: work.mlp_conv2d_top(verilog)) of black box view:achronix.LUT4(PRIM) because it does not drive other instances.
+@W: BN114 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing instance i_control.nap_in_state_i_i[0] (in view: work.mlp_conv2d_top(verilog)) of black box view:achronix.LUT4(PRIM) because it does not drive other instances.
+
+Finished restoring hierarchy (Real Time elapsed 0h:01m:03s; CPU Time elapsed 0h:01m:03s; Memory used current: 628MB peak: 628MB)
+
+
+Start Writing Netlists (Real Time elapsed 0h:01m:05s; CPU Time elapsed 0h:01m:04s; Memory used current: 628MB peak: 628MB)
+
+Writing Analyst data base /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/synwork/mlp_conv2d_top_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:01m:10s; CPU Time elapsed 0h:01m:08s; Memory used current: 628MB peak: 628MB)
+
+Writing Verilog Simulation files
+
+Writing scf file... (Real Time elapsed 0h:01m:17s; CPU Time elapsed 0h:01m:14s; Memory used current: 628MB peak: 628MB)
+
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+
+Finished Writing Verilog Simulation files (Real Time elapsed 0h:01m:17s; CPU Time elapsed 0h:01m:14s; Memory used current: 628MB peak: 628MB)
+
+
+Finished Writing Netlists (Real Time elapsed 0h:01m:17s; CPU Time elapsed 0h:01m:14s; Memory used current: 628MB peak: 628MB)
+
+
+Start final timing analysis (Real Time elapsed 0h:01m:19s; CPU Time elapsed 0h:01m:16s; Memory used current: 628MB peak: 628MB)
+
+@N: MT615 |Found clock clk with period 1.66ns 
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z2043780_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[13\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3700290_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[7\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z4363750_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[10\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z576400_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[2\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z2244760_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[15\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3097350_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[1\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3499310_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[5\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z978360_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[6\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z2117110_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[0\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z1842800_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[11\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3298330_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[3\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z1842800_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[11\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z4363750_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[10\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3700290_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[7\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3499310_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[5\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z978360_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[6\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z2117110_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[0\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z2043780_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[13\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3298330_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[3\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z1842800_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[11\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z2043780_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[13\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z978360_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[6\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z777380_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[4\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3499310_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[5\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3097350_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[1\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z4765710_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[14\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z4363750_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[10\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3901270_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[9\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3298330_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[3\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z576400_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[2\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z4765710_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[14\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z2117110_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[0\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3700290_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[7\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3298330_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[3\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z2244760_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[15\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z4564730_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[12\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z777380_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[4\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z1179340_0|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[8\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z4363750_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[10\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z4564730_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[12\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z2043780_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[13\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3499310_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[5\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3901270_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[9\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z1179340_1|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[8\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z576400_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[2\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3700290_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[7\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3901270_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[9\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z1179340_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[8\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z777380_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[4\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z576400_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[2\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3097350_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[1\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z777380_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[4\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z2117110_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[0\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z1179340_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[8\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z4564730_2|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[12\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z4564730_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[12\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z978360_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[6\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z1842800_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[11\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3097350_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[1\]\.i_bram.mlpram_rden.
+@W: MT420 |Found inferred clock ACX_BRAM72K_Z3901270_3|mlpram_rden_inferred_clock with period 5.00ns. Please declare a user-defined clock on net i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[9\]\.i_bram.mlpram_rden.
+
+
+##### START OF TIMING REPORT #####[
+# Timing report written on Tue Jul 12 14:40:24 2022
+#
+
+
+Top view:               mlp_conv2d_top
+Requested Frequency:    200.0 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d_synplify.sdc
+                       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d.fdc
+                       
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.
+
+
+
+Performance Summary
+*******************
+
+
+Worst slack in design: -1.231
+
+                                                      Requested     Estimated     Requested     Estimated                Clock        Clock               
+Starting Clock                                        Frequency     Frequency     Period        Period        Slack      Type         Group               
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+ACX_BRAM72K_Z576400_0|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_3 
+ACX_BRAM72K_Z576400_1|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_29
+ACX_BRAM72K_Z576400_2|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_44
+ACX_BRAM72K_Z576400_3|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_49
+ACX_BRAM72K_Z777380_0|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_22
+ACX_BRAM72K_Z777380_1|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_36
+ACX_BRAM72K_Z777380_2|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_48
+ACX_BRAM72K_Z777380_3|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_51
+ACX_BRAM72K_Z978360_0|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_7 
+ACX_BRAM72K_Z978360_1|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_15
+ACX_BRAM72K_Z978360_2|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_21
+ACX_BRAM72K_Z978360_3|mlpram_rden_inferred_clock      200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_56
+ACX_BRAM72K_Z1179340_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_37
+ACX_BRAM72K_Z1179340_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_43
+ACX_BRAM72K_Z1179340_2|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_47
+ACX_BRAM72K_Z1179340_3|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_53
+ACX_BRAM72K_Z1842800_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_9 
+ACX_BRAM72K_Z1842800_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_11
+ACX_BRAM72K_Z1842800_2|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_19
+ACX_BRAM72K_Z1842800_3|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_57
+ACX_BRAM72K_Z2043780_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_0 
+ACX_BRAM72K_Z2043780_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_17
+ACX_BRAM72K_Z2043780_2|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_20
+ACX_BRAM72K_Z2043780_3|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_40
+ACX_BRAM72K_Z2117110_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_8 
+ACX_BRAM72K_Z2117110_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_16
+ACX_BRAM72K_Z2117110_2|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_31
+ACX_BRAM72K_Z2117110_3|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_52
+ACX_BRAM72K_Z2244760_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_4 
+ACX_BRAM72K_Z2244760_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_34
+ACX_BRAM72K_Z3097350_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_5 
+ACX_BRAM72K_Z3097350_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_24
+ACX_BRAM72K_Z3097350_2|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_50
+ACX_BRAM72K_Z3097350_3|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_58
+ACX_BRAM72K_Z3298330_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_10
+ACX_BRAM72K_Z3298330_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_18
+ACX_BRAM72K_Z3298330_2|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_28
+ACX_BRAM72K_Z3298330_3|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_33
+ACX_BRAM72K_Z3499310_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_6 
+ACX_BRAM72K_Z3499310_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_14
+ACX_BRAM72K_Z3499310_2|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_23
+ACX_BRAM72K_Z3499310_3|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_41
+ACX_BRAM72K_Z3700290_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_1 
+ACX_BRAM72K_Z3700290_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_13
+ACX_BRAM72K_Z3700290_2|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_32
+ACX_BRAM72K_Z3700290_3|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_45
+ACX_BRAM72K_Z3901270_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_27
+ACX_BRAM72K_Z3901270_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_42
+ACX_BRAM72K_Z3901270_2|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_46
+ACX_BRAM72K_Z3901270_3|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_59
+ACX_BRAM72K_Z4363750_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_2 
+ACX_BRAM72K_Z4363750_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_12
+ACX_BRAM72K_Z4363750_2|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_26
+ACX_BRAM72K_Z4363750_3|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_38
+ACX_BRAM72K_Z4564730_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_35
+ACX_BRAM72K_Z4564730_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_39
+ACX_BRAM72K_Z4564730_2|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_54
+ACX_BRAM72K_Z4564730_3|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_55
+ACX_BRAM72K_Z4765710_0|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_25
+ACX_BRAM72K_Z4765710_1|mlpram_rden_inferred_clock     200.0 MHz     NA            5.000         NA            NA         inferred     Inferred_clkgroup_30
+clk                                                   602.4 MHz     345.9 MHz     1.660         2.891         -1.231     declared     default_clkgroup    
+System                                                200.0 MHz     224.6 MHz     5.000         4.453         0.547      system       system_clkgroup     
+==========================================================================================================================================================
+Estimated period and frequency reported as NA means no slack depends directly on the clock waveform
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks            |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+---------------------------------------------------------------------------------------------------------
+Starting  Ending  |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+---------------------------------------------------------------------------------------------------------
+System    clk     |  1.660       0.547   |  No paths    -      |  No paths    -      |  No paths    -    
+clk       clk     |  1.660       -1.231  |  No paths    -      |  No paths    -      |  No paths    -    
+=========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: clk
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                      Starting                                                                     Arrival           
+Instance                                              Reference     Type              Pin         Net                              Time        Slack 
+                                                      Clock                                                                                          
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+i_axi_slave_wrapper_in.i_axi_slave                    clk           NAP_AXI_SLAVE     arready     arready                          0.600       -1.231
+i_reset_processor.gb_per_clk\[0\]\.pipe_rstn_1[4]     clk           DFF               q           sys_rstn                         0.053       -0.848
+i_control.un1_lines_to_load_dec_mod[0]                clk           DFF               q           un1_lines_to_load_dec_mod[0]     0.053       -0.715
+i_control.un1_lines_to_load_dec[2]                    clk           DFF               q           un1_lines_to_load_dec[2]         0.053       -0.708
+i_control.un1_lines_to_load_dec[0]                    clk           DFFP              q           un1_lines_to_load_dec[0]         0.053       -0.707
+i_control.lines_to_load_dec                           clk           DFFE              q           lines_to_load_deckeepkeep        0.053       -0.697
+i_control.lines_to_load_inc                           clk           DFFEC             q           lines_to_load_inc                0.053       -0.694
+i_control.matrix_v_count_0[0]                         clk           DFFC              q           dsp_join_kb_4[0]                 0.053       -0.686
+i_control.lines_to_go_zero                            clk           DFFC              q           lines_to_go_zerokeepkeep         0.053       -0.680
+i_control.lines_to_load_m1_0_mod[8]                   clk           DFF               q           lines_to_load_m1_0_mod[8]        0.053       -0.679
+=====================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                 Starting                                                          Required           
+Instance                                         Reference     Type     Pin     Net                                Time         Slack 
+                                                 Clock                                                                                
+--------------------------------------------------------------------------------------------------------------------------------------
+i_control.nap_in_state[2]                        clk           DFFP     d       N_8741_0                           1.541        -1.231
+i_control.nap_in_state[1]                        clk           DFFP     d       N_498_0                            1.541        -0.715
+i_control.lines_to_load_ret_0                    clk           DFFC     d       lines_to_load_zero_2_0_reti        1.541        -0.697
+i_control.lines_to_load_ret                      clk           DFFC     d       lines_to_load_zero_2_0_4_reti      1.541        -0.691
+i_control.nap_in\.arvalid                        clk           DFFE     ce      un1_i_reset_n_1                    1.541        -0.691
+i_control.gb_per_clk\[0\]\.pipe_rstn_1_ret       clk           DFFC     d       matrix_h_start_1_sqmuxa_reti_0     1.541        -0.686
+i_control.gb_per_clk\[0\]\.pipe_rstn_1_ret_0     clk           DFF      d       N_70_reti                          1.541        -0.685
+i_out_fifo.axi_idle_count_0_mod[6]               clk           DFFP     d       axi_idle_count_3[6]                1.541        -0.659
+i_out_fifo.axi_idle_count_0_mod[4]               clk           DFFP     d       axi_idle_count_3[4]                1.541        -0.647
+i_out_fifo.axi_idle_count_0_mod[5]               clk           DFFP     d       axi_idle_count_3[5]                1.541        -0.646
+======================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1.660
+    - Setup time:                            0.119
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.541
+
+    - Propagation time:                      2.772
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.231
+
+    Number of logic level(s):                3
+    Starting point:                          i_axi_slave_wrapper_in.i_axi_slave / arready
+    Ending point:                            i_control.nap_in_state[2] / d
+    The start point is clocked by            clk [rising] (rise=0.000 fall=0.830 period=1.660) on pin clk
+    The end   point is clocked by            clk [rising] (rise=0.000 fall=0.830 period=1.660) on pin ck
+
+Instance / Net                                           Pin         Pin               Arrival     No. of    
+Name                                   Type              Name        Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------
+i_axi_slave_wrapper_in.i_axi_slave     NAP_AXI_SLAVE     arready     Out     0.600     0.600 r     -         
+arready                                Net               -           -       0.472     -           15        
+i_control.N_499_m_1_iv_i_0_0_m2        LUT4              din1        In      -         1.072 r     -         
+i_control.N_499_m_1_iv_i_0_0_m2        LUT4              dout        Out     0.109     1.181 f     -         
+N_136                                  Net               -           -       0.458     -           2         
+i_control.N_499_m_1_iv_i_0_0_0         LUT6              din0        In      -         1.639 f     -         
+i_control.N_499_m_1_iv_i_0_0_0         LUT6              dout        Out     0.111     1.749 f     -         
+N_499_m_1_iv_i_0_0_0                   Net               -           -       0.457     -           1         
+i_control.N_499_m_1_iv_i_0_1           LUT4              din1        In      -         2.206 f     -         
+i_control.N_499_m_1_iv_i_0_1           LUT4              dout        Out     0.109     2.315 f     -         
+N_8741_0                               Net               -           -       0.457     -           1         
+i_control.nap_in_state[2]              DFFP              d           In      -         2.772 f     -         
+=============================================================================================================
+Total path delay (propagation time + setup) of 2.891 is 1.048(36.3%) logic and 1.843(63.7%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      1.660
+    - Setup time:                            0.119
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.541
+
+    - Propagation time:                      2.389
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.848
+
+    Number of logic level(s):                3
+    Starting point:                          i_reset_processor.gb_per_clk\[0\]\.pipe_rstn_1[4] / q
+    Ending point:                            i_control.nap_in_state[2] / d
+    The start point is clocked by            clk [rising] (rise=0.000 fall=0.830 period=1.660) on pin ck
+    The end   point is clocked by            clk [rising] (rise=0.000 fall=0.830 period=1.660) on pin ck
+
+Instance / Net                                                 Pin      Pin               Arrival     No. of    
+Name                                                  Type     Name     Dir     Delay     Time        Fan Out(s)
+----------------------------------------------------------------------------------------------------------------
+i_reset_processor.gb_per_clk\[0\]\.pipe_rstn_1[4]     DFF      q        Out     0.053     0.053 r     -         
+sys_rstn                                              Net      -        -       0.630     -           159       
+i_control.N_499_m_1_iv_i_0_0_m2                       LUT4     din2     In      -         0.683 r     -         
+i_control.N_499_m_1_iv_i_0_0_m2                       LUT4     dout     Out     0.115     0.798 f     -         
+N_136                                                 Net      -        -       0.458     -           2         
+i_control.N_499_m_1_iv_i_0_0_0                        LUT6     din0     In      -         1.256 f     -         
+i_control.N_499_m_1_iv_i_0_0_0                        LUT6     dout     Out     0.111     1.367 f     -         
+N_499_m_1_iv_i_0_0_0                                  Net      -        -       0.457     -           1         
+i_control.N_499_m_1_iv_i_0_1                          LUT4     din1     In      -         1.823 f     -         
+i_control.N_499_m_1_iv_i_0_1                          LUT4     dout     Out     0.109     1.932 f     -         
+N_8741_0                                              Net      -        -       0.457     -           1         
+i_control.nap_in_state[2]                             DFFP     d        In      -         2.389 f     -         
+================================================================================================================
+Total path delay (propagation time + setup) of 2.508 is 0.507(20.2%) logic and 2.001(79.8%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      1.660
+    - Setup time:                            0.119
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.541
+
+    - Propagation time:                      2.256
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.715
+
+    Number of logic level(s):                3
+    Starting point:                          i_control.un1_lines_to_load_dec_mod[0] / q
+    Ending point:                            i_control.nap_in_state[1] / d
+    The start point is clocked by            clk [rising] (rise=0.000 fall=0.830 period=1.660) on pin ck
+    The end   point is clocked by            clk [rising] (rise=0.000 fall=0.830 period=1.660) on pin ck
+
+Instance / Net                                      Pin      Pin               Arrival     No. of    
+Name                                       Type     Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------------------
+i_control.un1_lines_to_load_dec_mod[0]     DFF      q        Out     0.053     0.053 r     -         
+un1_lines_to_load_dec_mod[0]               Net      -        -       0.475     -           18        
+i_control.N_8776_i_0_a2                    LUT4     din2     In      -         0.528 r     -         
+i_control.N_8776_i_0_a2                    LUT4     dout     Out     0.115     0.643 f     -         
+N_8776_i                                   Net      -        -       0.474     -           17        
+i_control.N_498_m_1_iv_0_a4_7              LUT6     din0     In      -         1.117 f     -         
+i_control.N_498_m_1_iv_0_a4_7              LUT6     dout     Out     0.111     1.228 f     -         
+N_193                                      Net      -        -       0.457     -           1         
+i_control.N_498_m_1_iv_0_1                 LUT6     din2     In      -         1.684 f     -         
+i_control.N_498_m_1_iv_0_1                 LUT6     dout     Out     0.115     1.800 f     -         
+N_498_0                                    Net      -        -       0.457     -           1         
+i_control.nap_in_state[1]                  DFFP     d        In      -         2.256 f     -         
+=====================================================================================================
+Total path delay (propagation time + setup) of 2.375 is 0.513(21.6%) logic and 1.862(78.4%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      1.660
+    - Setup time:                            0.119
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.541
+
+    - Propagation time:                      2.249
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.708
+
+    Number of logic level(s):                3
+    Starting point:                          i_control.un1_lines_to_load_dec[2] / q
+    Ending point:                            i_control.nap_in_state[1] / d
+    The start point is clocked by            clk [rising] (rise=0.000 fall=0.830 period=1.660) on pin ck
+    The end   point is clocked by            clk [rising] (rise=0.000 fall=0.830 period=1.660) on pin ck
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                   Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+i_control.un1_lines_to_load_dec[2]     DFF      q        Out     0.053     0.053 r     -         
+un1_lines_to_load_dec[2]               Net      -        -       0.474     -           17        
+i_control.N_8776_i_0_a2                LUT4     din1     In      -         0.527 r     -         
+i_control.N_8776_i_0_a2                LUT4     dout     Out     0.109     0.636 f     -         
+N_8776_i                               Net      -        -       0.474     -           17        
+i_control.N_498_m_1_iv_0_a4_7          LUT6     din0     In      -         1.110 f     -         
+i_control.N_498_m_1_iv_0_a4_7          LUT6     dout     Out     0.111     1.221 f     -         
+N_193                                  Net      -        -       0.457     -           1         
+i_control.N_498_m_1_iv_0_1             LUT6     din2     In      -         1.677 f     -         
+i_control.N_498_m_1_iv_0_1             LUT6     dout     Out     0.115     1.793 f     -         
+N_498_0                                Net      -        -       0.457     -           1         
+i_control.nap_in_state[1]              DFFP     d        In      -         2.249 f     -         
+=================================================================================================
+Total path delay (propagation time + setup) of 2.368 is 0.507(21.4%) logic and 1.861(78.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      1.660
+    - Setup time:                            0.119
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.541
+
+    - Propagation time:                      2.248
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -0.707
+
+    Number of logic level(s):                3
+    Starting point:                          i_control.un1_lines_to_load_dec[0] / q
+    Ending point:                            i_control.nap_in_state[1] / d
+    The start point is clocked by            clk [rising] (rise=0.000 fall=0.830 period=1.660) on pin ck
+    The end   point is clocked by            clk [rising] (rise=0.000 fall=0.830 period=1.660) on pin ck
+
+Instance / Net                                  Pin      Pin               Arrival     No. of    
+Name                                   Type     Name     Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------
+i_control.un1_lines_to_load_dec[0]     DFFP     q        Out     0.053     0.053 r     -         
+un1_lines_to_load_dec[0]               Net      -        -       0.472     -           15        
+i_control.N_8776_i_0_a2                LUT4     din0     In      -         0.525 r     -         
+i_control.N_8776_i_0_a2                LUT4     dout     Out     0.111     0.635 f     -         
+N_8776_i                               Net      -        -       0.474     -           17        
+i_control.N_498_m_1_iv_0_a4_7          LUT6     din0     In      -         1.109 f     -         
+i_control.N_498_m_1_iv_0_a4_7          LUT6     dout     Out     0.111     1.220 f     -         
+N_193                                  Net      -        -       0.457     -           1         
+i_control.N_498_m_1_iv_0_1             LUT6     din2     In      -         1.676 f     -         
+i_control.N_498_m_1_iv_0_1             LUT6     dout     Out     0.115     1.792 f     -         
+N_498_0                                Net      -        -       0.457     -           1         
+i_control.nap_in_state[1]              DFFP     d        In      -         2.248 f     -         
+=================================================================================================
+Total path delay (propagation time + setup) of 2.367 is 0.508(21.5%) logic and 1.859(78.5%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+
+====================================
+Detailed Report for Clock: System
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                                                                               Starting                                               Arrival          
+Instance                                                                       Reference     Type          Pin     Net                Time        Slack
+                                                                               Clock                                                                   
+-------------------------------------------------------------------------------------------------------------------------------------------------------
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[0\]\.i_bram.undriven      System        ACX_FLOAT     y       un1_i_bram_149     0.000       0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[0\]\.i_bram.undriven      System        ACX_FLOAT     y       un1_i_bram_582     0.000       0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[0\]\.i_bram.undriven      System        ACX_FLOAT     y       un1_i_bram_412     0.000       0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[0\]\.i_bram.undriven      System        ACX_FLOAT     y       un1_i_bram_801     0.000       0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[10\]\.i_bram.undriven     System        ACX_FLOAT     y       un1_i_bram_209     0.000       0.626
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[7\]\.i_bram.undriven      System        ACX_FLOAT     y       un1_i_bram_393     0.000       0.626
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[5\]\.i_bram.undriven      System        ACX_FLOAT     y       un1_i_bram_477     0.000       0.626
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[6\]\.i_bram.undriven      System        ACX_FLOAT     y       un1_i_bram_717     0.000       0.626
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[15\]\.i_bram.undriven     System        ACX_FLOAT     y       un1_i_bram_143     0.000       0.626
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[11\]\.i_bram.undriven     System        ACX_FLOAT     y       un1_i_bram_809     0.000       0.626
+=======================================================================================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                                                                               Starting                                                 Required          
+Instance                                                                       Reference     Type        Pin         Net                Time         Slack
+                                                                               Clock                                                                      
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K     System        BRAM72K     din[72]     un1_i_bram_412     1.260        0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K     System        BRAM72K     din[72]     un1_i_bram_149     1.260        0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K     System        BRAM72K     din[72]     un1_i_bram_582     1.260        0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K     System        BRAM72K     din[72]     un1_i_bram_801     1.260        0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K     System        BRAM72K     din[73]     un1_i_bram_149     1.260        0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K     System        BRAM72K     din[73]     un1_i_bram_582     1.260        0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K     System        BRAM72K     din[73]     un1_i_bram_412     1.260        0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[1\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K     System        BRAM72K     din[73]     un1_i_bram_801     1.260        0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[3\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K     System        BRAM72K     din[74]     un1_i_bram_412     1.260        0.547
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[0\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K     System        BRAM72K     din[74]     un1_i_bram_582     1.260        0.547
+==========================================================================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      1.660
+    - Setup time:                            0.400
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         1.260
+
+    - Propagation time:                      0.713
+    - Clock delay at starting point:         0.000 (ideal)
+    - Estimated clock delay at start point:  -0.000
+    = Slack (non-critical) :                 0.547
+
+    Number of logic level(s):                0
+    Starting point:                          i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[0\]\.i_bram.undriven / y
+    Ending point:                            i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K / din[72]
+    The start point is clocked by            System [rising]
+    The end   point is clocked by            clk [rising] (rise=0.000 fall=0.830 period=1.660) on pin wrclk
+
+Instance / Net                                                                               Pin         Pin               Arrival     No. of    
+Name                                                                           Type          Name        Dir     Delay     Time        Fan Out(s)
+-------------------------------------------------------------------------------------------------------------------------------------------------
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[0\]\.i_bram.undriven      ACX_FLOAT     y           Out     0.000     0.000 r     -         
+un1_i_bram_149                                                                 Net           -           -       0.713     -           234       
+i_mlp_multi.i_dp_16_8x8.gb_mlp_col\[2\]\.gb_mlp_row\[0\]\.i_bram.U_BRAM72K     BRAM72K       din[72]     In      -         0.713 r     -         
+=================================================================================================================================================
+Total path delay (propagation time + setup) of 1.113 is 0.400(35.9%) logic and 0.713(64.1%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+Timing exceptions that could not be applied
+@W: MT446 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d_synplify.sdc":8:0:8:0|Timing constraint (from *mlp_multi_data_out*) (multi path 2) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design 
+None
+
+Finished final timing analysis (Real Time elapsed 0h:01m:21s; CPU Time elapsed 0h:01m:17s; Memory used current: 628MB peak: 628MB)
+
+
+Finished timing report (Real Time elapsed 0h:01m:21s; CPU Time elapsed 0h:01m:17s; Memory used current: 628MB peak: 628MB)
+
+---------------------------------------
+Resource Usage Report for mlp_conv2d_top 
+
+Mapping to part: ac7t1500es0f53a0c2
+Cell usage:
+ALU8       41 uses
+DFF        545 uses
+DFFE         2213 uses
+DFFER         162 uses
+DFFES         3 uses
+DFFC         50 uses
+DFFP         23 uses
+DFFEC         7 uses
+DFFEP        1 use
+ACX_BRAM72K_SDP  2 uses
+ACX_FLOAT       121 uses
+ACX_SYNCHRONIZER  1 use
+BRAM72K         60 uses
+MLP72           60 uses
+NAP_AXI_SLAVE   2 uses
+LUT4            128 uses
+LUT6            401 uses
+
+
+Resource usage inside Blackboxes:
+Block RAM : 62 uses
+Logic RAM : 0 use
+DSP64 : 60 uses
+ALU8 : 0 use
+LUT6 : 0 use
+DFF : 2 uses
+
+
+RAM/ROM usage summary
+Total BRAM :   0 + 62 = 62 of 2560 (2.42%)
+
+Total LRAM :   0 + 0 = 0 of 2560 (0.00%)
+
+
+DSP usage summary: 
+Total DSP:  0 + 60 = 60 of 2560 (2.34%)
+
+ALU usage summary: 
+Total ALU8:   41 + 0 = 41 of 172800 (less than 1%)
+
+Mapping Summary:
+No. of Resources used of Total No. of Resource Available: 
+Total LUT6:   = 401
+Total LUT4:   = 128
+Total LUT:   529  + 0 = 529 of 691200 (less than 1%))
+Total DFF :   3004 + 2 = 3006 of 1382400 (less than 1%)
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:01m:21s; CPU Time elapsed 0h:01m:17s; Memory used current: 628MB peak: 628MB)
+
+Process took 0h:01m:21s realtime, 0h:01m:17s cputime
+# Tue Jul 12 14:40:25 2022
+
+###########################################################]

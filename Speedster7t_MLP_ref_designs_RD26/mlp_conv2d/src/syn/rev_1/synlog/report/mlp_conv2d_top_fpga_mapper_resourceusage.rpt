@@ -1,0 +1,52 @@
+---------------------------------------
+Resource Usage Report for mlp_conv2d_top 
+
+Mapping to part: ac7t1500es0f53a0c2
+Cell usage:
+ALU8       41 uses
+DFF        545 uses
+DFFE         2213 uses
+DFFER         162 uses
+DFFES         3 uses
+DFFC         50 uses
+DFFP         23 uses
+DFFEC         7 uses
+DFFEP        1 use
+ACX_BRAM72K_SDP  2 uses
+ACX_FLOAT       121 uses
+ACX_SYNCHRONIZER  1 use
+BRAM72K         60 uses
+MLP72           60 uses
+NAP_AXI_SLAVE   2 uses
+LUT4            128 uses
+LUT6            401 uses
+
+
+Resource usage inside Blackboxes:
+Block RAM : 62 uses
+Logic RAM : 0 use
+DSP64 : 60 uses
+ALU8 : 0 use
+LUT6 : 0 use
+DFF : 2 uses
+
+
+RAM/ROM usage summary
+Total BRAM :   0 + 62 = 62 of 2560 (2.42%)
+
+Total LRAM :   0 + 0 = 0 of 2560 (0.00%)
+
+
+DSP usage summary: 
+Total DSP:  0 + 60 = 60 of 2560 (2.34%)
+
+ALU usage summary: 
+Total ALU8:   41 + 0 = 41 of 172800 (less than 1%)
+
+Mapping Summary:
+No. of Resources used of Total No. of Resource Available: 
+Total LUT6:   = 401
+Total LUT4:   = 128
+Total LUT:   529  + 0 = 529 of 691200 (less than 1%))
+Total DFF :   3004 + 2 = 3006 of 1382400 (less than 1%)
+

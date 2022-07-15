@@ -1,0 +1,42 @@
+Release Notes for PCIe Reference Design RD20
+=============================================
+
+Version 3.0 - 25th May 21
+        Compatible with ACE 8.3.3 and Synplify 202.09-SP1
+        Requires ac7t1500 DSM 8.3.3
+        Adds support for RTL simulation.  This requires separately
+        licenced VIP from Synopsys, (or alternative vendor if preferred)
+        Simulation flows supported, FULLCHIP_BFM and FULLCHIP_RTL
+        All .acxip and generated ioring files created using ACE 8.3.3.
+
+Version 2.0 - 22nd July 2020
+        Compatible with ACE 8.2
+        Updated RTL to improve timing in register set logic
+        Added new reset_processor.sv to design to control and
+         synchronize reset signals
+        Updated I/O to support ACE 8.2 changes
+        Updated all .acxip files for ACE 8.2
+        Updated ace_options.tcl to improve timing
+        Simplified PCIe BFM tasks called in testbench
+        Updated documentation to include information about I/O,
+        clock, and reset changes
+
+Version 1.1 - 13th May 2020
+        Added wire declarations to all IO ports
+        Corrected waveform file dumping options in testbench
+        Added in missing wave display file for Questa
+
+Version 1.0 - 12th May 2020
+    Initial Release.
+        Issues
+        ======
+        No known issues
+
+        ACE Versions
+        ============  
+        Compatible with ACE 8.1.2
+        Note that this design requires the ACE IO BFM sim overlay, version 8.1.2.update1
+        
+        Simulation
+        ========== 
+        Only FULLCHIP_BFM flow mode supported. STANDALONE mode is not applicable to this design

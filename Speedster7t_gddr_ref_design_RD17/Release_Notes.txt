@@ -1,0 +1,40 @@
+Release Notes for GDDR6 Reference Design RD17
+=============================================
+
+Version 3.1.a - 22 June 2021
+    * Patch file to update simulations only
+    * Simulations compatible with ACE 8.3.4 and DSM 8.3.3
+    * No changes to RTL source code
+
+Version 3.1 - 25th September 2020
+    * Compatible with ACE 8.2.1 and simulation package ACE 8.2 update1
+
+    * Updated signal names to match naming in ACE 8.2.1 IO designer
+
+    * Added RTL simulation mode to model GDDR subsystem using full RTL, users need to obtain GDDR6 sim models from vendors
+
+    * Updated ACE options, (both GUI and script flow) to fix timing violations
+
+Version 3.0 - 23rd July 2020
+    * Compatible with ACE 8.2 and simulation package ACE 8.2
+
+    * Updated signal names to match naming in ACE 8.2 IO designer
+
+    * Regenrated acxip using ACE 8.2 IO/IP designer
+
+    * Added RTL simulation mode to model GDDR subsystem using full RTL
+
+    * Updated ACE options, (both GUI and script flow) to fix timing violations
+
+Version 2.0 - 22nd May 2020
+    * Compatible with simulation package ACE 8.1.2.upgrade1
+
+    * Testbench parameters added to define the periods of the clocks in the design
+
+    * Updated ACE options, (both GUI and script flow) to fix timing violations
+
+
+Version 1.0 - 9th March 2020
+    * Initial Release.  Compatible with ACE 8.1.1
+
+

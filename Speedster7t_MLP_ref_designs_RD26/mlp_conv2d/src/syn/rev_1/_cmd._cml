@@ -1,0 +1,1 @@
+-link -encrypt -top mlp_conv2d_top -osyn /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/synwork/mlp_conv2d_top_comp.srs /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/synwork/layer0.srs  -jobname linker  

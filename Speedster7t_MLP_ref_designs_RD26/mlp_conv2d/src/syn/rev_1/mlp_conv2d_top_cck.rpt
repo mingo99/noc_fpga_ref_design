@@ -1,0 +1,90 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03X+7t
+Install: /eda/synpro/fpga/R-2021.03X
+OS: Ubuntu 20.04.4 LTS
+Hostname: OMEN
+max virtual memory: unlimited (bytes)
+max user processes: 31123
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+
+# Written on Tue Jul 12 14:39:02 2022
+
+##### DESIGN INFO #######################################################
+
+Top View:                "mlp_conv2d_top"
+Constraint File(s):      "/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d_synplify.sdc"
+                         "/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 5 issues in 2 out of 3 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending     |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-----------------------------------------------------------------------------------------------------------------------------------
+System       clk        |     1.660            |     No paths         |     No paths         |     No paths                         
+clk          clk        |     1.660            |     No paths         |     No paths         |     No paths                         
+===================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:i_reset_n
+p:o_conv_done
+p:o_conv_done_oe
+p:o_error
+p:o_error_oe
+p:pll_1_lock
+p:pll_2_lock
+
+
+Inapplicable constraints
+************************
+
+set_multicycle_path -from *mlp_multi_data_out* -hold 1
+	@E:MF896:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d_synplify.sdc":9:0:9:0|Object "*mlp_multi_data_out*" does not exist
+	@E::"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d_synplify.sdc":9:0:9:0|object "*mlp_multi_data_out*" is missing qualifier which may result in undesired results; "-from" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+set_multicycle_path -from *mlp_multi_data_out* -setup 2
+	@E:MF896:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d_synplify.sdc":8:0:8:0|Object "*mlp_multi_data_out*" does not exist
+	@E::"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d_synplify.sdc":8:0:8:0|Timing constraint (from *mlp_multi_data_out*) (multi path 2) was not applied to the design because none of the '-from' objects specified by the constraint exist in the design
+	@E::"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d_synplify.sdc":8:0:8:0|object "*mlp_multi_data_out*" is missing qualifier which may result in undesired results; "-from" objects must be of type clock (get_clocks), port (get_ports), cell (get_cells), or pin (get_pins)
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

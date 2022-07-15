@@ -1,0 +1,18 @@
+
+------------------START-CHAIN------------------
+LUT i_axi_bram_rsp.xact_ar_len_4_0_axb_7 [x_core.L[168][278].rlb.lg[2].ls[1].lut[1]]
+LUT i_axi_bram_rsp.un1_xact_ar_len [x_core.L[168][278].rlb.lg[2].ls[1].lut[0]]
+LUT i_axi_bram_rsp.un1_xact_ar_len_1 [x_core.L[168][278].rlb.lg[2].ls[0].lut[1]]
+
+------------------START-CHAIN------------------
+LUT i_ds_row_pkt_gen.un1_start_edge_detect6_i_RR_DUP_1 [x_core.L[10][77].rlb.lg[2].ls[1].lut[1]]
+LUT i_ds_row_pkt_gen.if_data_stream.valid_5_f0 [x_core.L[10][77].rlb.lg[2].ls[1].lut[0]]
+
+------------------START-CHAIN------------------
+LUT i_axi_bram_rsp.un1_write_conflict_2_i [x_core.L[166][272].rlb.lg[2].ls[1].lut[1]]
+LUT i_axi_bram_rsp.un1_write_conflict_2_i_o3 [x_core.L[166][272].rlb.lg[2].ls[1].lut[0]]
+LUT i_axi_bram_rsp.un1_write_conflict_2_i_o3_1 [x_core.L[166][272].rlb.lg[2].ls[0].lut[1]]
+
+------------------START-CHAIN------------------
+LUT i_axi_bram_rsp.xact_wstrb_6339_m5_i [x_core.L[165][272].rlb.lg[2].ls[1].lut[1]]
+LUT i_axi_bram_rsp.xact_wstrb_6339_m3_e_1 [x_core.L[165][272].rlb.lg[2].ls[1].lut[0]]

@@ -1,0 +1,25 @@
+#ACE 8.2 IP Properties File, generated on:
+#Tue Jul 14 16:59:27 PDT 2020
+acxip_version=1
+bypass_mode=No
+data_rate=3200
+dc_axi_clock_name=ddr_dci_clk
+ddr4_core_clock_name=ddr_clk
+density=8
+device=MTA8ATF1G64AZ-3G2
+device_type=UDIMM
+dimm_data_width=64
+dram_data_width=8
+ecc_enable=No
+enable_dc_axi_interface=Yes
+enable_dc_interrupts_interface=Yes
+library=Speedster7t
+name=DDR4
+noc_axi_clock_name=ddr_clk
+num_ranks=1
+num_slots=1
+output.path_relative_to=ACXIP File
+placement=DDR4
+reset_source=Internal Reset from FCU
+reset_source_name=ddr4_rstn
+target_device=AC7t1500ES0

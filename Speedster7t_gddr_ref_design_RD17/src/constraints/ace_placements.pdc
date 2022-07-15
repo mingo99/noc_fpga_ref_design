@@ -1,0 +1,30 @@
+# -------------------------------------------------------------------------
+# ACE placements file
+# This defines the physical placement of instances on the die
+# IO locations are defined within the IO ring PDC, however instance locations
+# and placement regions can be defined here
+
+# -------------------------------------------------------------------------
+# Place NAPs
+# For consistency between simulation and implmentation the NAP locations
+# match those in the top level testbench
+# -------------------------------------------------------------------------
+set_placement -fixed  [find -insts {i_axi_nap_csr_master.i_axi_slave_wrapper_cfg.i_axi_slave}] {s:x_core.NOC[4][5].logic.noc.nap_s}
+ 
+set_placement -fixed  [find -insts {gddr_gen_noc*0*i_axi_slave_wrapper.i_axi_slave}] {s:x_core.NOC[5][3].logic.noc.nap_s}
+set_placement -fixed  [find -insts {gddr_gen_noc*1*i_axi_slave_wrapper.i_axi_slave}] {s:x_core.NOC[5][4].logic.noc.nap_s}
+set_placement -fixed  [find -insts {gddr_gen_noc*2*i_axi_slave_wrapper.i_axi_slave}] {s:x_core.NOC[5][5].logic.noc.nap_s}
+set_placement -fixed  [find -insts {gddr_gen_noc*3*i_axi_slave_wrapper.i_axi_slave}] {s:x_core.NOC[5][6].logic.noc.nap_s}
+set_placement -fixed  [find -insts {gddr_gen_noc*4*i_axi_slave_wrapper.i_axi_slave}] {s:x_core.NOC[6][3].logic.noc.nap_s}
+set_placement -fixed  [find -insts {gddr_gen_noc*5*i_axi_slave_wrapper.i_axi_slave}] {s:x_core.NOC[6][4].logic.noc.nap_s}
+set_placement -fixed  [find -insts {gddr_gen_noc*6*i_axi_slave_wrapper.i_axi_slave}] {s:x_core.NOC[6][5].logic.noc.nap_s}
+set_placement -fixed  [find -insts {gddr_gen_noc*7*i_axi_slave_wrapper.i_axi_slave}] {s:x_core.NOC[6][6].logic.noc.nap_s}
+  
+# -------------------------------------------------------------------------
+# Example of how to fix the location of an MLP and a BRAM
+# -------------------------------------------------------------------------
+# set_placement -fixed {i:<my_hierarchical_path>.i_bram.U_BRAM72K} {s:x_core.BMLP[29][5].logic.bmlp.bram[0]}
+# set_placement -fixed {i:<my_hierarchical_path>.i_mlp.U_MLP72}    {s:x_core.BMLP[29][5].logic.bmlp.mlp[0]}
+
+#To help the design meet timing
+#set_property fanout_limit 5 [find {*i_axi_pkt_gen_nap.wready*} -nets]

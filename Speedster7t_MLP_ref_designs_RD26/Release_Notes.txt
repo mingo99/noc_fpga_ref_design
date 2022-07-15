@@ -1,0 +1,19 @@
+Release Notes for MLP Reference Designs RD26
+============================================
+
+Version 2.0 - 19th Jan 2021
+    Compatible with ACE 8.3 and Device Simulation Model 8.2.1
+    Adds dot product and matrix vector multiply designs
+
+Version 1.1 - 13th May 2020
+    Compatible with ACE 8.1.2 and IO Sim BFM package 8.1.2.update1.
+    Updated GDDR interface hierarchical name to new structure
+
+Version 1.0 - 22st April 2020
+    Combines Conv2D demo design along with existing split_mlp_shared_bram design.
+    Compatible with ACE 8.1.2
+
+Version 0.1 - 11th Feb 2020
+    Initial release with single split_mlp_shared_bram design.
+    Compatible with ACE 8.1
+

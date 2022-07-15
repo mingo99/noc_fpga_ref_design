@@ -1,0 +1,24 @@
+# -------------------------------------------------------------------------
+# ACE placements file
+# This defines the physical placement of instances on the die
+# Primarily the IO locations, however instance locations and placement
+# regions can also be defined here
+# -------------------------------------------------------------------------
+
+# -------------------------------------------------------------------------
+# Place the NAPs in columns 4 & 5 for Ethernet subsystem 1
+# NAPs in rows 7 & 8
+# Square arrangement of NAPs gives better timing performance
+# These assignments must match the `ACX_BIND statements in tb_ethernet_ref_design
+# -------------------------------------------------------------------------
+set_placement -fixed {i:gb_nap_0__i_nap_eth_lb.i_nap_vertical}  {s:x_core.NOC[5][7].logic.noc.nap_m}
+set_placement -fixed {i:gb_nap_1__i_nap_eth_lb.i_nap_vertical}  {s:x_core.NOC[5][8].logic.noc.nap_m}
+set_placement -fixed {i:gb_nap_2__i_nap_eth_lb.i_nap_vertical}  {s:x_core.NOC[4][7].logic.noc.nap_m}
+set_placement -fixed {i:gb_nap_3__i_nap_eth_lb.i_nap_vertical}  {s:x_core.NOC[4][8].logic.noc.nap_m}
+
+# -------------------------------------------------------------------------
+# Example of how to fix the location of an MLP and a BRAM
+# -------------------------------------------------------------------------
+# set_placement -fixed {i:<my_hierarchical_path>.i_bram.U_BRAM72K} {s:x_core.BMLP[29][5].logic.bmlp.bram[0]}
+# set_placement -fixed {i:<my_hierarchical_path>.i_mlp.U_MLP72}    {s:x_core.BMLP[29][5].logic.bmlp.mlp[0]}
+

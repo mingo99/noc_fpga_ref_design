@@ -1,0 +1,661 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03X+7t
+Install: /eda/synpro/fpga/R-2021.03X
+OS: Ubuntu 20.04.4 LTS
+Hostname: OMEN
+max virtual memory: unlimited (bytes)
+max user processes: 31123
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+
+#### START OF AREA REPORT #####[
+
+Part:			AC7T1500ES0F53A0C2 (Achronix)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  Top level view:   noc_2d_ref_design_top   ########
+=====================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      7971               100 %                
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top:	7971 (74.47 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     1328               100 %                
+LUT6     1311               100 %                
+ALU8     94                 100 %                
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top:	2733 (25.53 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+BRAM     2                  100 %                
+LRAM     1                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block noc_2d_ref_design_top:	3 (0.03 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   axi_bram_responder_Z4739190   ########
+Instance path:   noc_2d_ref_design_top.axi_bram_responder_Z4739190               
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      1141               14.3 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.axi_bram_responder_Z4739190:	1141 (10.66 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     40                 3.01 %               
+LUT6     272                20.7 %               
+ALU8     5                  5.32 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top.axi_bram_responder_Z4739190:	317 (2.96 % Utilization)
+
+
+MEMORY ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+BRAM     2                  100 %                
+=================================================
+Total MEMORY ELEMENTS in the block noc_2d_ref_design_top.axi_bram_responder_Z4739190:	2 (0.02 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   nap_master_wrapper_Z224421   ########
+Instance path:   axi_bram_responder_Z4739190.nap_master_wrapper_Z224421         
+================================================================================
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   axi_pkt_chk_Z4611980   ########
+Instance path:   noc_2d_ref_design_top.axi_pkt_chk_Z4611980               
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      618                7.75 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.axi_pkt_chk_Z4611980:	618 (5.77 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     51                 3.84 %               
+LUT6     95                 7.25 %               
+ALU8     17                 18.1 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top.axi_pkt_chk_Z4611980:	163 (1.52 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   random_seq_gen_Z4800250_1   ########
+Instance path:   axi_pkt_chk_Z4611980.random_seq_gen_Z4800250_1                
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      256                3.21 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block axi_pkt_chk_Z4611980.random_seq_gen_Z4800250_1:	256 (2.39 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     15                 1.13 %               
+ALU8     2                  2.13 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block axi_pkt_chk_Z4611980.random_seq_gen_Z4800250_1:	17 (0.16 % Utilization)
+
+--------------------------------------------------------------------------
+########   Utilization report for  cell:   axi_pkt_gen_Z4692260   ########
+Instance path:   noc_2d_ref_design_top.axi_pkt_gen_Z4692260               
+==========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      321                4.03 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.axi_pkt_gen_Z4692260:	321 (3.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     19                 1.43 %               
+LUT6     4                  0.3050 %             
+ALU8     5                  5.32 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top.axi_pkt_gen_Z4692260:	28 (0.26 % Utilization)
+
+----------------------------------------------------------------------------------------------
+########   Utilization report for  cell:   random_seq_gen_16s_16s_1s_0s_1s_0_1s_16s   ########
+Instance path:   axi_pkt_gen_Z4692260.random_seq_gen_16s_16s_1s_0s_1s_0_1s_16s                
+==============================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      12                 0.1510 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block axi_pkt_gen_Z4692260.random_seq_gen_16s_16s_1s_0s_1s_0_1s_16s:	12 (0.11 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+ALU8     2                  2.13 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block axi_pkt_gen_Z4692260.random_seq_gen_16s_16s_1s_0s_1s_0_1s_16s:	2 (0.02 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   random_seq_gen_Z4800250_0   ########
+Instance path:   axi_pkt_gen_Z4692260.random_seq_gen_Z4800250_0                
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      256                3.21 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block axi_pkt_gen_Z4692260.random_seq_gen_Z4800250_0:	256 (2.39 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     15                 1.13 %               
+ALU8     2                  2.13 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block axi_pkt_gen_Z4692260.random_seq_gen_Z4800250_0:	17 (0.16 % Utilization)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   data_stream_pkt_chk_Z2890890   ########
+Instance path:   noc_2d_ref_design_top.data_stream_pkt_chk_Z2890890               
+==================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      1214               15.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.data_stream_pkt_chk_Z2890890:	1214 (11.34 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     250                18.8 %               
+LUT6     133                10.1 %               
+ALU8     28                 29.8 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top.data_stream_pkt_chk_Z2890890:	411 (3.84 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   random_seq_gen_Z4229340_1   ########
+Instance path:   data_stream_pkt_chk_Z2890890.random_seq_gen_Z4229340_1        
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      288                3.61 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block data_stream_pkt_chk_Z2890890.random_seq_gen_Z4229340_1:	288 (2.69 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     14                 1.05 %               
+LUT6     4                  0.3050 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block data_stream_pkt_chk_Z2890890.random_seq_gen_Z4229340_1:	18 (0.17 % Utilization)
+
+----------------------------------------------------------------------------------
+########   Utilization report for  cell:   data_stream_pkt_chk_Z4647330   ########
+Instance path:   noc_2d_ref_design_top.data_stream_pkt_chk_Z4647330               
+==================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      919                11.5 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.data_stream_pkt_chk_Z4647330:	919 (8.59 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     178                13.4 %               
+LUT6     182                13.9 %               
+ALU8     28                 29.8 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top.data_stream_pkt_chk_Z4647330:	388 (3.63 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   random_seq_gen_Z3978100_1   ########
+Instance path:   data_stream_pkt_chk_Z4647330.random_seq_gen_Z3978100_1        
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      293                3.68 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block data_stream_pkt_chk_Z4647330.random_seq_gen_Z3978100_1:	293 (2.74 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     14                 1.05 %               
+LUT6     4                  0.3050 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block data_stream_pkt_chk_Z4647330.random_seq_gen_Z3978100_1:	18 (0.17 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   data_stream_pkt_gen_Z449940   ########
+Instance path:   noc_2d_ref_design_top.data_stream_pkt_gen_Z449940               
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      1177               14.8 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.data_stream_pkt_gen_Z449940:	1177 (11.00 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     312                23.5 %               
+LUT6     12                 0.9150 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top.data_stream_pkt_gen_Z449940:	324 (3.03 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   random_seq_gen_Z4229340_0   ########
+Instance path:   data_stream_pkt_gen_Z449940.random_seq_gen_Z4229340_0         
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      288                3.61 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block data_stream_pkt_gen_Z449940.random_seq_gen_Z4229340_0:	288 (2.69 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     16                 1.2 %                
+LUT6     4                  0.3050 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block data_stream_pkt_gen_Z449940.random_seq_gen_Z4229340_0:	20 (0.19 % Utilization)
+
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   data_stream_pkt_gen_Z459180   ########
+Instance path:   noc_2d_ref_design_top.data_stream_pkt_gen_Z459180               
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      888                11.1 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.data_stream_pkt_gen_Z459180:	888 (8.30 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     316                23.8 %               
+LUT6     8                  0.610 %              
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top.data_stream_pkt_gen_Z459180:	324 (3.03 % Utilization)
+
+-------------------------------------------------------------------------------
+########   Utilization report for  cell:   random_seq_gen_Z3978100_0   ########
+Instance path:   data_stream_pkt_gen_Z459180.random_seq_gen_Z3978100_0         
+===============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      293                3.68 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block data_stream_pkt_gen_Z459180.random_seq_gen_Z3978100_0:	293 (2.74 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     23                 1.73 %               
+LUT6     4                  0.3050 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block data_stream_pkt_gen_Z459180.random_seq_gen_Z3978100_0:	27 (0.25 % Utilization)
+
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   nap_horizontal_wrapper_Z3547280   ########
+Instance path:   noc_2d_ref_design_top.nap_horizontal_wrapper_Z3547280               
+=====================================================================================
+-------------------------------------------------------------------------------------
+########   Utilization report for  cell:   nap_horizontal_wrapper_Z3547281   ########
+Instance path:   noc_2d_ref_design_top.nap_horizontal_wrapper_Z3547281               
+=====================================================================================
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   nap_slave_wrapper_Z3012560   ########
+Instance path:   noc_2d_ref_design_top.nap_slave_wrapper_Z3012560               
+================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     27                 2.03 %               
+LUT6     26                 1.98 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top.nap_slave_wrapper_Z3012560:	53 (0.50 % Utilization)
+
+-----------------------------------------------------------------------------------
+########   Utilization report for  cell:   nap_vertical_wrapper_Z2102000   ########
+Instance path:   noc_2d_ref_design_top.nap_vertical_wrapper_Z2102000               
+===================================================================================
+-----------------------------------------------------------------------------------
+########   Utilization report for  cell:   nap_vertical_wrapper_Z2102001   ########
+Instance path:   noc_2d_ref_design_top.nap_vertical_wrapper_Z2102001               
+===================================================================================
+---------------------------------------------------------------------------------
+########   Utilization report for  cell:   reg_control_block_10s_2s_2s   ########
+Instance path:   noc_2d_ref_design_top.reg_control_block_10s_2s_2s               
+=================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      1370               17.2 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.reg_control_block_10s_2s_2s:	1370 (12.80 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     109                8.21 %               
+LUT6     571                43.6 %               
+ALU8     8                  8.51 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top.reg_control_block_10s_2s_2s:	688 (6.43 % Utilization)
+
+--------------------------------------------------------------------------------
+########   Utilization report for  cell:   nap_master_wrapper_Z224420   ########
+Instance path:   reg_control_block_10s_2s_2s.nap_master_wrapper_Z224420         
+================================================================================
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     3                  0.2260 %             
+LUT6     121                9.23 %               
+=================================================
+Total COMBINATIONAL LOGIC in the block reg_control_block_10s_2s_2s.nap_master_wrapper_Z224420:	124 (1.16 % Utilization)
+
+---------------------------------------------------------------------------------------
+########   Utilization report for  cell:   reset_processor_v2_3s_5s_1s_4s_1s   ########
+Instance path:   noc_2d_ref_design_top.reset_processor_v2_3s_5s_1s_4s_1s               
+=======================================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      23                 0.2890 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.reset_processor_v2_3s_5s_1s_4s_1s:	23 (0.21 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT4     2                  0.1510 %             
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top.reset_processor_v2_3s_5s_1s_4s_1s:	2 (0.02 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_10s_1s_0s_0s   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_10s_1s_0s_0s               
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      10                 0.1250 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_10s_1s_0s_0s:	10 (0.09 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_12s_1s_0s_0s   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_12s_1s_0s_0s               
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      12                 0.1510 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_12s_1s_0s_0s:	12 (0.11 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_16s_1s_0s_0s   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_16s_1s_0s_0s               
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      16                 0.2010 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_16s_1s_0s_0s:	16 (0.15 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_16s_1s_0s_0s_0   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_16s_1s_0s_0s_0               
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      16                 0.2010 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_16s_1s_0s_0s_0:	16 (0.15 % Utilization)
+
+
+COMBINATIONAL LOGIC
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+LUT6     1                  0.07630 %            
+=================================================
+Total COMBINATIONAL LOGIC in the block noc_2d_ref_design_top.shift_reg_16s_1s_0s_0s_0:	1 (0.01 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_16s_1s_0s_0s_1   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_16s_1s_0s_0s_1               
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      16                 0.2010 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_16s_1s_0s_0s_1:	16 (0.15 % Utilization)
+
+------------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_16s_1s_0s_0s_2   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_16s_1s_0s_0s_2               
+==============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      16                 0.2010 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_16s_1s_0s_0s_2:	16 (0.15 % Utilization)
+
+----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_18s_1s_0s_0s   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_18s_1s_0s_0s               
+============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      18                 0.2260 %             
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_18s_1s_0s_0s:	18 (0.17 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_6s_1s_0s_0s   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_6s_1s_0s_0s               
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      6                  0.07530 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_6s_1s_0s_0s:	6 (0.06 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_6s_1s_0s_0s_0   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_6s_1s_0s_0s_0               
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      6                  0.07530 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_6s_1s_0s_0s_0:	6 (0.06 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_6s_1s_0s_0s_1   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_6s_1s_0s_0s_1               
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      6                  0.07530 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_6s_1s_0s_0s_1:	6 (0.06 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_6s_1s_0s_0s_2   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_6s_1s_0s_0s_2               
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      6                  0.07530 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_6s_1s_0s_0s_2:	6 (0.06 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_7s_1s_0s_0s_0   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_7s_1s_0s_0s_0               
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      7                  0.08780 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_7s_1s_0s_0s_0:	7 (0.07 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_7s_1s_0s_0s_1   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_7s_1s_0s_0s_1               
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      7                  0.08780 %            
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_7s_1s_0s_0s_1:	7 (0.07 % Utilization)
+
+---------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_8s_1s_0s_0s   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_8s_1s_0s_0s               
+===========================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      8                  0.10 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_8s_1s_0s_0s:	8 (0.07 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_8s_1s_0s_0s_0   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_8s_1s_0s_0s_0               
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      8                  0.10 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_8s_1s_0s_0s_0:	8 (0.07 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_8s_1s_0s_0s_1   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_8s_1s_0s_0s_1               
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      8                  0.10 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_8s_1s_0s_0s_1:	8 (0.07 % Utilization)
+
+-----------------------------------------------------------------------------
+########   Utilization report for  cell:   shift_reg_8s_1s_0s_0s_2   ########
+Instance path:   noc_2d_ref_design_top.shift_reg_8s_1s_0s_0s_2               
+=============================================================================
+
+SEQUENTIAL ELEMENTS
+Name     Total elements     Utilization     Notes
+-------------------------------------------------
+DFF      8                  0.10 %               
+=================================================
+Total SEQUENTIAL ELEMENTS in the block noc_2d_ref_design_top.shift_reg_8s_1s_0s_0s_2:	8 (0.07 % Utilization)
+
+
+##### END OF AREA REPORT #####]
+

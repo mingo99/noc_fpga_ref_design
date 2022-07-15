@@ -1,0 +1,317 @@
+@N|Running in 64-bit mode
+@N|Running in 64-bit mode
+@N: CG1349 :	| Running Verilog Compiler in System Verilog mode
+@N: CG1350 :	| Running Verilog Compiler in Multiple File Compilation Unit mode
+@N: CG334 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":294:37:294:49|Read directive translate_off.
+@N: CG333 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":296:37:296:48|Read directive translate_on.
+@N: CG334 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":315:37:315:49|Read directive translate_off.
+@N: CG333 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":317:37:317:48|Read directive translate_on.
+@N: CG334 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":530:21:530:33|Read directive translate_off.
+@N: CG333 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":533:21:533:32|Read directive translate_on.
+@N: CG334 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":127:17:127:29|Read directive translate_off.
+@N: CG333 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":137:17:137:28|Read directive translate_on.
+@N: CG334 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":161:25:161:37|Read directive translate_off.
+@N: CG333 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":165:25:165:36|Read directive translate_on.
+@N: CG334 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":277:33:277:45|Read directive translate_off.
+@N: CG333 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":279:33:279:44|Read directive translate_on.
+@N|stack limit increased to max
+@N: Setting default value for parameter BATCH to 60;
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2279:57:2279:57|Synthesizing module work_/eda/ace/libraries/device_models/AC7t1500ES0_synplify.sv_unit in library work.
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":30:10:30:15|Synthesizing interface t_AXI4 in library work
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":34:32:34:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":35:32:35:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":36:32:36:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":37:32:37:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":38:32:38:35|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":39:32:39:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":40:32:40:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":41:32:41:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":42:32:42:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":43:32:43:39|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":44:32:44:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":45:32:45:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":46:32:46:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":47:32:47:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":48:32:48:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":49:32:49:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":50:32:50:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":51:32:51:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":52:32:52:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":53:32:53:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":54:32:54:34|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":55:32:55:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":56:32:56:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":57:32:57:35|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":58:32:58:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":59:32:59:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":60:32:60:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":61:32:61:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":62:32:62:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":63:32:63:39|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":64:32:64:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":65:32:65:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":66:32:66:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":67:32:67:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":68:32:68:34|Bi-directional port is being changed to input as port has no output
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":30:10:30:15|Synthesizing interface t_AXI4 in library work
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":34:32:34:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":35:32:35:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":36:32:36:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":37:32:37:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":38:32:38:35|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":39:32:39:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":40:32:40:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":41:32:41:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":42:32:42:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":43:32:43:39|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":44:32:44:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":45:32:45:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":46:32:46:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":47:32:47:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":48:32:48:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":49:32:49:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":50:32:50:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":51:32:51:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":52:32:52:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":53:32:53:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":54:32:54:34|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":55:32:55:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":56:32:56:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":57:32:57:35|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":58:32:58:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":59:32:59:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":60:32:60:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":61:32:61:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":62:32:62:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":63:32:63:39|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":64:32:64:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":65:32:65:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":66:32:66:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":67:32:67:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":68:32:68:34|Bi-directional port is being changed to input as port has no output
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":1018:7:1018:19|Synthesizing module NAP_AXI_SLAVE in library work.
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/nap_slave_wrapper.sv":25:7:25:23|Synthesizing module nap_slave_wrapper in library work.
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/nap_slave_wrapper.sv":25:7:25:23|Synthesizing module nap_slave_wrapper in library work.
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/reset_processor.sv":27:7:27:21|Synthesizing module reset_processor in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2314:7:2314:22|Synthesizing module ACX_SYNCHRONIZER in library work.
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":24:7:24:22|Synthesizing module dataflow_control in library work.
+@N: CG179 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":360:41:360:53|Removing redundant assignment.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[41] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[40] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[39] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[38] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[37] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[36] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[35] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[34] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[33] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[32] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[31] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[4] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[3] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[2] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[0] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.arsize[2] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.arsize[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.arsize[0] is always 1.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K_SDP.sv":1082:7:1082:21|Synthesizing module ACX_BRAM72K_SDP in library work.
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/line_fifo.sv":28:7:28:15|Synthesizing module line_fifo in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":296:7:296:15|Synthesizing module ACX_FLOAT in library work.
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":46:7:46:30|Synthesizing module dot_product_16_8x8_multi in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":22:7:22:13|Synthesizing module BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72.sv":22:7:22:11|Synthesizing module MLP72 in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":4655:7:4655:15|Synthesizing module ACX_MLP72 in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":4655:7:4655:15|Synthesizing module ACX_MLP72 in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":2059:7:2059:17|Synthesizing module ACX_BRAM72K in library work.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][15] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][14] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][13] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][12] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][11] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][10] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][9] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][8] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][7] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][6] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][5] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][4] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][3] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][2] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Register bit gb_mlp_col[0].gb_empty_rows.genblk1[14].mlp_dout_result[14][0] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":77:4:77:9|Register bit bram_wr_data[71] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":77:4:77:9|Register bit bram_wr_data[70] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":77:4:77:9|Register bit bram_wr_data[69] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":77:4:77:9|Register bit bram_wr_data[68] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":77:4:77:9|Register bit bram_wr_data[67] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":77:4:77:9|Register bit bram_wr_data[66] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":77:4:77:9|Register bit bram_wr_data[65] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":77:4:77:9|Register bit bram_wr_data[64] is always 0.
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_wrapper_multi.sv":28:7:28:23|Synthesizing module mlp_wrapper_multi in library work.
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":29:7:29:14|Synthesizing module out_fifo in library work.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[0] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[2] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[3] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[4] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[23] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[24] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[25] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[26] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[27] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[28] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[29] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[30] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[31] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[32] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[33] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[34] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[35] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[36] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[37] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[38] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[39] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[40] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Register bit nap_out.awaddr[41] is always 0.
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_conv2d_top.sv":26:7:26:20|Synthesizing module mlp_conv2d_top in library work.
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":187:4:187:9|Trying to extract state machine for register addr_state.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":4925:24:4925:36|Input mlpram_wraddr is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":4926:24:4926:41|Input mlpram_din2mlpdout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":4927:24:4927:34|Input mlpram_wren is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":4925:24:4925:36|Input mlpram_wraddr is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":4926:24:4926:41|Input mlpram_din2mlpdout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":4927:24:4927:34|Input mlpram_wren is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3198:36:3198:45|Input mlpram_din is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3199:36:3199:44|Input mlpram_we is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3201:36:3201:46|Input mlpram_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3203:36:3203:50|Input mlpram_mlp_dout is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3205:36:3205:41|Input mlpclk is unused.
+@N: CL159 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":3215:36:3215:51|Input fwdi_ram_wr_data is unused.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":77:4:77:9|Register bit bram_wr_data[64] is always 0.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":57:32:57:40|Input i_reset_n is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/line_fifo.sv":42:36:42:42|Input i_rd_en is unused.
+@N: CL135 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":372:4:372:9|Found sequential shift mlp_din_eof with address depth of 4 words and data bit width of 1.
+@N: CL135 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":372:4:372:9|Found sequential shift mlp_din_sof with address depth of 3 words and data bit width of 1.
+@N: CL135 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":473:4:473:9|Found sequential shift mlp_matrix_addr with address depth of 3 words and data bit width of 9.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in.arlen[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in.arlen[2] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in.arlen[7] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":406:4:406:9|Register bit matrix_h_count[2] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in.arburst[0] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in.arburst[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in_page_addr[0] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in_page_addr[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in_page_addr[3] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in_page_addr[4] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in_page_addr[5] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in_page_addr[6] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in_page_addr[7] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in_page_addr[8] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Register bit nap_in_page_addr[9] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[30] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[29] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[28] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[27] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[26] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[25] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[24] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[22] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":209:4:209:9|Register bit nap_in.araddr[21] is always 0.
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Trying to extract state machine for register nap_in_state.
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":406:4:406:9|Trying to extract state machine for register matrix_calc_state.
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":406:4:406:9|Trying to extract state machine for register NoName.
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Trying to extract state machine for register NoName.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":46:44:46:59|Input i_mlp_dout_valid is unused.
+@N|Running in 64-bit mode
+

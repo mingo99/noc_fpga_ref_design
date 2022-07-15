@@ -1,0 +1,285 @@
+#OPTIONS:"|-layerid|0|-orig_srs|/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/synwork/mlp_conv2d_top_comp.srs|-top|mlp_conv2d_top|-prodtype|synplify_pro|-primux|-infer_seqShift|-fixsmult|-sdff_counter|-dspmac|-nram|-divnmod|-pqdpadd|-nostructver|-achronix|-I|/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include|-I|/eda/ace/libraries|-I|/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/|-I|/eda/synpro/fpga/R-2021.03X/lib|-sysv|-devicelib|/eda/synpro/fpga/R-2021.03X/lib/generic/speedster7t.v|-encrypt|-pro|-params|/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/syntmp/hdlparams.dat|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-D_MULTIPLE_FILE_COMPILATION_UNIT_|-dc_root|/eda/dc2016|-lib|work|-fsysv|-lib|work|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv|-lib|work|-fsysv"
+#CUR:"/eda/synpro/fpga/R-2021.03X/linux_a_64/c_ver":1633021222
+#CUR:"/eda/synpro/fpga/R-2021.03X/lib/generic/speedster7t.v":1632938142
+#CUR:"/eda/synpro/fpga/R-2021.03X/lib/vlog/hypermods.v":1633020865
+#CUR:"/eda/synpro/fpga/R-2021.03X/lib/vlog/umr_capim.v":1633020865
+#CUR:"/eda/synpro/fpga/R-2021.03X/lib/vlog/scemi_objects.v":1633020865
+#CUR:"/eda/synpro/fpga/R-2021.03X/lib/vlog/scemi_pipes.svh":1633020865
+#CUR:"/eda/ace/libraries/device_models/AC7t1500ES0_synplify.sv":1647540430
+#CUR:"/eda/ace/libraries/speedster7t/speedster7t_user_macros.sv":1647540430
+#CUR:"/eda/ace/libraries/speedster7t/common/defines_inc.sv":1647540430
+#CUR:"/eda/ace/libraries/common/ace_defines.sv":1647548323
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":1647540425
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core_hd1000.sv":1647540430
+#CUR:"/eda/ace/libraries/speedster7t/common/bram80k_init_params_inc.sv":1647540430
+#CUR:"/eda/ace/libraries/speedster7t/common/bram20k_init_params_inc.sv":1647540430
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":1647540425
+#CUR:"/eda/ace/libraries/common/ace_defines.sv":1647548323
+#CUR:"/eda/ace/libraries/speedster7t/common/ioring_defines_inc.sv":1647540430
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_LRAM2K_FIFO.sv":1647540425
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_LRAM2K_SDP.sv":1647540425
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72.sv":1647540425
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72_INT8_MULT_4X.sv":1647540425
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72_INT16_MULT_2X.sv":1647540426
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72_INT.sv":1647540425
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K_SDP.sv":1647540425
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K_FIFO.sv":1647540425
+#CUR:"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv":1647540425
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/default_nettype.v":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_wrapper_multi.sv":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/nap_slave_wrapper.sv":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/line_fifo.sv":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/reset_processor.sv":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_conv2d_top.sv":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh":1611321168
+#CUR:"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/syntmp/hdlparams.dat":1657607897
+0			"/eda/ace/libraries/device_models/AC7t1500ES0_synplify.sv" verilog
+1		*	"/eda/ace/libraries/speedster7t/speedster7t_user_macros.sv" verilog
+2		*	"/eda/ace/libraries/speedster7t/common/defines_inc.sv" verilog
+3		*	"/eda/ace/libraries/common/ace_defines.sv" verilog
+4		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv" verilog
+5		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core_hd1000.sv" verilog
+6		*	"/eda/ace/libraries/speedster7t/common/bram80k_init_params_inc.sv" verilog
+7		*	"/eda/ace/libraries/speedster7t/common/bram20k_init_params_inc.sv" verilog
+8		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv" verilog
+9		*	"/eda/ace/libraries/speedster7t/common/ioring_defines_inc.sv" verilog
+10		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_LRAM2K_FIFO.sv" verilog
+11		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_LRAM2K_SDP.sv" verilog
+12		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72.sv" verilog
+13		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72_INT8_MULT_4X.sv" verilog
+14		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72_INT16_MULT_2X.sv" verilog
+15		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72_INT.sv" verilog
+16		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K_SDP.sv" verilog
+17		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K_FIFO.sv" verilog
+18		*	"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv" verilog
+19			"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/default_nettype.v" verilog
+20			"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_wrapper_multi.sv" verilog
+21		*	"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh" verilog
+22			"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv" verilog
+23			"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/nap_slave_wrapper.sv" verilog
+24			"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv" verilog
+25			"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/line_fifo.sv" verilog
+26			"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv" verilog
+27			"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/reset_processor.sv" verilog
+28			"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_conv2d_top.sv" verilog
+#Dependency Lists(Uses List)
+0 21 20 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+1 21 20 0 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2
+2 21 20 0 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 1
+3 21 20 0 18 17 16 15 14 13 12 11 10 9 3 8 7 6 5 4 2 1
+4 21 20 18 17 16 15 14 13 12 11 10 9 8 7 6 5 3 2 1 0
+5 21 20 18 17 16 15 14 13 12 11 10 9 8 7 6 4 3 2 1 0
+6 21 20 0 18 17 16 15 14 13 12 11 10 9 8 7 5 4 3 2 1
+7 21 20 0 18 17 16 15 14 13 12 11 10 9 8 6 5 4 3 2 1
+8 21 20 18 17 16 15 14 13 12 11 10 9 7 6 5 4 3 2 1 0
+9 21 20 0 18 17 16 15 14 13 12 11 10 8 7 6 5 4 3 2 1
+10 21 20 18 17 16 15 14 13 12 11 9 8 7 6 5 4 3 2 1 0
+11 21 20 18 17 16 15 14 13 12 10 9 8 7 6 5 4 3 2 1 0
+12 21 20 18 17 16 15 14 13 11 10 9 8 7 6 5 4 3 2 1 0
+13 21 20 18 17 16 15 14 12 11 10 9 8 7 6 5 4 3 2 1 0
+14 21 20 18 17 16 15 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+15 21 20 18 17 16 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+16 21 20 18 17 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+17 21 20 18 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+18 21 20 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+19 21 20
+20 20 22 21
+21 21 22 20
+22 20 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 21
+23 20 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 21
+24 20 21
+25 21 20 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+26 20 21
+27 21 20 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+28 26 25 24 27 23 20 21
+#Dependency Lists(Users Of)
+0 27 25 23 22 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
+1 27 25 23 22 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 0
+2 27 25 23 22 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 1 0
+3 27 25 23 22 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+4 27 25 23 22 18 17 16 15 14 13 12 11 10 9 8 7 6 5 3 2 1 0
+5 27 25 23 22 18 17 16 15 14 13 12 11 10 9 8 7 6 4 3 2 1 0
+6 27 25 23 22 18 17 16 15 14 13 12 11 10 9 8 7 5 4 3 2 1 0
+7 27 25 23 22 18 17 16 15 14 13 12 11 10 9 8 6 5 4 3 2 1 0
+8 27 25 23 22 18 17 16 15 14 13 12 11 10 9 7 6 5 4 3 2 1 0
+9 27 25 23 22 18 17 16 15 14 13 12 11 10 8 7 6 5 4 3 2 1 0
+10 27 25 23 22 18 17 16 15 14 13 12 11 9 8 7 6 5 4 3 2 1 0
+11 27 25 23 22 18 17 16 15 14 13 12 10 9 8 7 6 5 4 3 2 1 0
+12 27 25 23 22 18 17 16 15 14 13 11 10 9 8 7 6 5 4 3 2 1 0
+13 27 25 23 22 18 17 16 15 14 12 11 10 9 8 7 6 5 4 3 2 1 0
+14 27 25 23 22 18 17 16 15 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+15 27 25 23 22 18 17 16 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+16 27 25 23 22 18 17 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+17 27 25 23 22 18 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+18 27 25 23 22 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0
+19 -1
+20 27 25 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 28 26 24 23 22 21
+21 27 25 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1 0 28 26 24 23 22 21 20
+22 21 20
+23 28
+24 28
+25 28
+26 28
+27 28
+28 -1
+#Design Unit to File Association
+module work mlp_conv2d_top 28
+module work reset_processor 27
+module work out_fifo 26
+module work line_fifo 25
+module work dataflow_control 24
+module work nap_slave_wrapper 23
+module work dot_product_16_8x8_multi 22
+module work mlp_wrapper_multi 20
+module work t_AXI4 21
+module work ACX_MLP72 18
+module work ACX_BRAM72K 18
+module work ACX_BMLP72 18
+module work BRAM72K 18
+module work ACX_BRAM72K_FIFO 17
+module work BRAM72K_FIFO 17
+module work BRAM72K_SDPN 16
+module work BRAM72K_SDPW 16
+module work ACX_BRAM72K_SDP 16
+module work BRAM72K_SDP 16
+module work ACX_MLP72_INT 15
+module work MLP72_INT 15
+module work ACX_MLP72_INT16_MULT_2X 14
+module work MLP72_INT16_MULT_2X 14
+module work ACX_MLP72_INT8_MULT_4X 13
+module work MLP72_INT8_MULT_4X 13
+module work MLP72 12
+module work ACX_LRAM2K_SDP 11
+module work LRAM2K_SDP 11
+module work ACX_LRAM2K_FIFO 10
+module work LRAM2K_FIFO 10
+module work ACX_ITIELO 8
+module work ACX_ITIEHI 8
+module work ACX_TIELO 8
+module work ACX_TIEHI 8
+module work ACX_WEAK_PULLDOWN 8
+module work ACX_UNUSED 8
+module work ACX_FLOAT 8
+module work ACX_jtap 8
+module work jtap 8
+module work ACX_RST_SYNC_CLKTRUNK 8
+module work RST_SYNC_CLKTRUNK 8
+module work ACX_OPIN 8
+module work OPIN 8
+module work ACX_IPIN 8
+module work IPIN 8
+module work ACX_CLK_OPIN 8
+module work CLK_OPIN 8
+module work ACX_CLK_IPIN 8
+module work CLK_IPIN 8
+module work CFG_OPIN 8
+module work CFG_IPIN 8
+module work CFG_CLK_OPIN 8
+module work CFG_CLK_IPIN 8
+module work BMULT28X28 5
+module work ACX_BMACC56 5
+module work BMACC56 5
+module work BRAM80KFIFO 5
+module work BRAM80K 5
+module work ACX_DFFNEP 4
+module work ACX_DFFNEC 4
+module work ACX_DFFNP 4
+module work ACX_DFFNC 4
+module work ACX_DFFEP 4
+module work ACX_DFFEC 4
+module work ACX_DFFP 4
+module work ACX_DFFC 4
+module work ACX_PROBE_CONNECT 4
+module work ACX_PROBE_POINT 4
+module work ACX_PROBE_CONNECT256 4
+module work ACX_PROBE_POINT256 4
+module work ACX_SLACKMATCH 4
+module work ACX_SLACKMATCH_SINGLE 4
+module work ACX_WEAK_PULLUP 8
+module work ACX_AUTO_CLKGEN 4
+module work ACX_AUTO_CLKGEN_TOGGLE 4
+module work ACX_TIMING_DISABLE_BUF 4
+module work ACX_SYNCHRONIZER_N 4
+module work ACX_SYNCHRONIZER 4
+module work ALU8 4
+module work ACX_LUT4 4
+module work ACX_ALU8 4
+module work ACX_ALU4 4
+module work ACX_NAP_VERTICAL 4
+module work NAP_VERTICAL 4
+module work ACX_NAP_HORIZONTAL 4
+module work NAP_HORIZONTAL 4
+module work ACX_NAP_ETHERNET 4
+module work NAP_ETHERNET 4
+module work ACX_NAP_DFT_SLAVE 4
+module work NAP_DFT_SLAVE 4
+module work ACX_NAP_DFT_MASTER 4
+module work NAP_DFT_MASTER 4
+module work ACX_NAP_AXI_SLAVE 4
+module work NAP_AXI_SLAVE 4
+module work ACX_NAP_AXI_MASTER 4
+module work NAP_AXI_MASTER 4
+module work ACX_MUX2 4
+module work MUX2 4
+module work ACX_MLUT 4
+module work MLUT 4
+module work ACX_LUTf 4
+module work LUTf 4
+module work ACX_LUT6 4
+module work LUT6 4
+module work ACX_LUT5x2 4
+module work LUT5x2 4
+module work ACX_LMUX2 4
+module work LMUX2 4
+module work ACX_DFF 4
+module work DFF 4
+module work ACX_DFFS 4
+module work DFFS 4
+module work ACX_DFFR 4
+module work DFFR 4
+module work ACX_DFFN 4
+module work DFFN 4
+module work ACX_DFFNS 4
+module work DFFNS 4
+module work ACX_DFFNR 4
+module work DFFNR 4
+module work ACX_DFFNE 4
+module work DFFNE 4
+module work ACX_DFFNES 4
+module work DFFNES 4
+module work ACX_DFFNER 4
+module work DFFNER 4
+module work ACX_DFFE 4
+module work DFFE 4
+module work ACX_DFFES 4
+module work DFFES 4
+module work ACX_DFFER 4
+module work DFFER 4
+module work ACX_CLKSWITCH 4
+module work CLKSWITCH 4
+module work ACX_CLKGATE 4
+module work CLKGATE 4
+module work ACX_CLKDIV 4
+module work CLKDIV 4
+module work ACX_BUS_MUX4 4
+module work BUS_MUX4 4
+module work ACX_BUS_DFF 4
+module work BUS_DFF 4
+module work ACX_BUS_DFFN 4
+module work BUS_DFFN 4
+module work ACX_BUS_DFFNE 4
+module work BUS_DFFNE 4
+module work ACX_BUS_DFFE 4
+module work BUS_DFFE 4
+module work ACX_ALU8i 4
+module work ALU8i 4
+module work ACX_ALU8f 4
+module work ALU8f 4

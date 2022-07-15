@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' /><style type='text/css'>
+BODY { color: #00008B;
+       font-family: Arial, sans-serif;
+       font-size: 11px;
+     }
+P { margin-left: 20px; margin-top: 0.3em; margin-bottom: 0.3em;  }
+H1 { margin-left: 0px; }
+TABLE { margin-left: 20px; }
+TABLE.noborder TD { padding: 0px 4px 0px 4px; }
+TABLE.noborder TH { padding: 0px 4px 0px 4px; }
+</style>
+<title>Clock/Reset Report &mdash; mlp_conv2d_top</title>
+<body>
+<H1>Clock/Reset Report</H1>
+
+<p>
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00<br>
+Design: mlp_conv2d_top - impl_1 - mlp_conv2d_top
+<br>
+Device: AC7t1500ES0 C2 0.85V 0C
+<br>
+Generated on Wed Jul 13 15:22:35 CST 2022
+<br>
+Host: OMEN.localdomain
+
+</p>
+<ul> 
+<li> <A href='#summary'>Clock Summary</A> </li>
+<li> <A href='#relations'>Clock Relationships</A> </li>
+<li> <A href='#constraints'>Effective Clock Constraints</A> </li>
+<li> <A href='#regions'>Clock Regions</A> </li></ul> 
+<br><hr><br>
+<h2> <A name='summary'>Clock Summary</A> </h2>
+<p> This section shows a summary of each clock domain's effective target period, phase, and target frequency.  Clock constraints that were not specified by the user are highlighted in the table below.   <br clear=all></p>
+
+<br>
+<table border='1' rules='all' cellpadding='4'>
+<thead><tr>
+<th> Clock </th><th> Period </th><th> Phase </th><th> Target Frequency (MHz) </th></tr></thead>
+<tr>
+<td> i_clk </td><td> 1666.67ps </td><td> 0 </td><td> 600 </td></tr>
+</table>
+
+<br><hr><br>
+<h2> <A name='relations'>Clock Relationships</A> </h2>
+<p> This section shows a table of clock relationships for each clock group, followed by a list of unrelated clock domains (if any).  Entries in the clock relationship tables indicate the frequency ratio of the clock row / clock column. <br clear=all></p>
+
+<br>
+<h3> Unrelated clocks </h3>
+<table border='1' rules='all' cellpadding='4'>
+<thead><tr>
+<th> Unrelated Clock </th></tr></thead>
+<tr>
+<td> i_clk </td></tr>
+</table>
+
+<br>
+
+<br><hr><br>
+<h2> <A name='constraints'>Effective Clock Constraints</A> </h2>
+<p> This section shows the set of resolved clock constraints. For set_false_path constraints, only those where both -to and -from are clocks are shown. <br clear=all></p>
+
+<br>
+<pre>create_clock i_clk -period 1.666666667
+</pre>
+
+<br>
+
+<br><hr><br>
+<h2> <A name='regions'>Clock Region Summary (1 clocks)</A> </h2>
+<h3> Legend </h3>
+<ul> 
+<li> (t) - balanced trunk clock </li>
+<li> (m) - mini trunk clock </li>
+<li> (b) - branch clock </li>
+<li> (/) - divider </li>
+<li> (>) - clock gate </li>
+<li> (@) - data-generated </li>
+<li> (r) - ring connects only (never enters the core) </li>
+<li> +   - clock drives data </li>
+<li> [.## ] - a '.' for each region this net does not use, '#' for each region where this net is in use ( quick visual reference to see how many regions a net uses )  </li></ul> <table border='1' rules='all' cellpadding='4'>
+<tr>
+<td> <b>Total , 1 clocks (0 ring connects only)</b>
+ </td><td> &nbsp; </td><td> SEQ </td><td> CLK_IPIN </td><td> NAP_S </td><td> BRAM </td><td> MLP </td><td> Total </td></tr>
+<tr>
+<td> i_clk_ipin_net  [.............###] </td><td> (t)  </td><td> 2963 </td><td> 1 </td><td> 2 </td><td> 124 </td><td> 60 </td><td> 3150 </td></tr>
+<tr>
+<td> <b>Region CLK_REGION_1_3 , 1 clocks</b>
+ </td><td> &nbsp; </td><td> SEQ </td><td> CLK_IPIN </td><td> NAP_S </td><td> BRAM </td><td> MLP </td><td> Total </td></tr>
+<tr>
+<td> i_clk_ipin_net </td><td> (t)  </td><td> 3 </td><td> &nbsp; </td><td> &nbsp; </td><td> &nbsp; </td><td> &nbsp; </td><td> 3 </td></tr>
+<tr>
+<td> <b>Region CLK_REGION_1_2 , 1 clocks</b>
+ </td><td> &nbsp; </td><td> SEQ </td><td> CLK_IPIN </td><td> NAP_S </td><td> BRAM </td><td> MLP </td><td> Total </td></tr>
+<tr>
+<td> i_clk_ipin_net </td><td> (t)  </td><td> 1446 </td><td> &nbsp; </td><td> 1 </td><td> 60 </td><td> 30 </td><td> 1537 </td></tr>
+<tr>
+<td> <b>Region CLK_REGION_1_1 , 1 clocks</b>
+ </td><td> &nbsp; </td><td> SEQ </td><td> CLK_IPIN </td><td> NAP_S </td><td> BRAM </td><td> MLP </td><td> Total </td></tr>
+<tr>
+<td> i_clk_ipin_net </td><td> (t)  </td><td> 1514 </td><td> &nbsp; </td><td> 1 </td><td> 64 </td><td> 30 </td><td> 1609 </td></tr>
+</table>
+
+<br><hr><br>
+</body></html>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+Max Top 5 critical clocks will be reported. For rest user needs to refer to Detailed report
+*******************************************************************************************-->
+<report_table display_priority="2" name="Timing Summary">
+<report_link name="Detailed report">
+<data>/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/synlog/mlp_conv2d_top_fpga_mapper.srr</data>
+<title>START OF TIMING REPORT</title>
+</report_link>
+<row>
+<data tcl_name="clock_name">Clock Name</data>
+<data tcl_name="req_freq">Req Freq</data>
+<data tcl_name="est_freq">Est Freq</data>
+<data tcl_name="slack">Slack</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z576400_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z576400_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z576400_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z576400_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z777380_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z777380_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z777380_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z777380_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z978360_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z978360_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z978360_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z978360_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z1179340_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z1179340_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z1179340_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z1179340_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z1842800_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z1842800_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z1842800_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z1842800_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z2043780_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z2043780_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z2043780_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z2043780_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z2117110_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z2117110_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z2117110_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z2117110_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z2244760_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z2244760_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3097350_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3097350_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3097350_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3097350_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3298330_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3298330_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3298330_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3298330_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3499310_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3499310_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3499310_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3499310_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3700290_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3700290_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3700290_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3700290_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3901270_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3901270_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3901270_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z3901270_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z4363750_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z4363750_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z4363750_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z4363750_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z4564730_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z4564730_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z4564730_2|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z4564730_3|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z4765710_0|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>ACX_BRAM72K_Z4765710_1|mlpram_rden_inferred_clock</data>
+<data>200.0 MHz</data>
+<data>NA</data>
+<data>NA</data>
+</row>
+<row>
+<data>clk</data>
+<data>602.4 MHz</data>
+<data>345.9 MHz</data>
+<data>-1.231</data>
+</row>
+<row>
+<data>System</data>
+<data>200.0 MHz</data>
+<data>224.6 MHz</data>
+<data>0.547</data>
+</row>
+</report_table>

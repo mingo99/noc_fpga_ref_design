@@ -1,0 +1,32 @@
+# -----------------------------------------------------------------------------
+# ACE placmements file
+# Single instance of conv2d design
+# Fix location of any primitive
+# Set attributes such as fanout_limit or set a reset to be on the clock network
+# -----------------------------------------------------------------------------
+
+# Place NAPs
+set_placement -fixed {i:i_axi_slave_wrapper_in.i_axi_slave}  {s:x_core.NOC[8][2].logic.noc.nap_s}
+set_placement -fixed {i:i_axi_slave_wrapper_out.i_axi_slave} {s:x_core.NOC[8][3].logic.noc.nap_s}
+
+# Fix bottom of MLP columns
+# Move column [0] up by 2 MLP, (2 in a site), to allow for in fifo memory
+
+# Place columns out of order, to have in FIFO nearer to NAP
+set_placement -fixed {i:i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K} {s:x_core.BMLP[29][5].logic.bmlp.bram[0]}
+set_placement -fixed {i:i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_mlp.U_MLP72}    {s:x_core.BMLP[29][5].logic.bmlp.mlp[0]}
+
+set_placement -fixed {i:i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K} {s:x_core.BMLP[31][4].logic.bmlp.bram[0]}
+set_placement -fixed {i:i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_mlp.U_MLP72}    {s:x_core.BMLP[31][4].logic.bmlp.mlp[0]}
+
+set_placement -fixed {i:i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K} {s:x_core.BMLP[30][4].logic.bmlp.bram[0]}
+set_placement -fixed {i:i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_mlp.U_MLP72}    {s:x_core.BMLP[30][4].logic.bmlp.mlp[0]}
+
+set_placement -fixed {i:i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K} {s:x_core.BMLP[28][4].logic.bmlp.bram[0]}
+set_placement -fixed {i:i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_mlp.U_MLP72}    {s:x_core.BMLP[28][4].logic.bmlp.mlp[0]}
+
+# Place in fifo memory at the bottom of column [0]
+# With this data flow, the in_fifo is on the bottom RHS edge.  If it's outputs are on the RHS, then may be better to swap flow direction
+set_placement -fixed {i:i_in_fifo.i_bram_l} {s:x_core.BMLP[29][4].logic.bmlp.bram[0]}
+set_placement -fixed {i:i_in_fifo.i_bram_h} {s:x_core.BMLP[29][4].logic.bmlp.bram[1]}
+

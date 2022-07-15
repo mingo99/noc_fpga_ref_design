@@ -1,0 +1,264 @@
+        Utilization Report - Prepared - noc_2d_ref_design_top
+        _____________________________________________________
+
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+
+Design: noc_2d_ref_design_top - impl_1 - noc_2d_ref_design_top
+Device: AC7t1500ES0
+Generated on Wed Jul 13 15:36:55 CST 2022
+Host: OMEN.localdomain
+
+---------------------------------------------------------------------------
+
+
+Utilization Summary =======
+
+   RLB Tiles                        
+       LUT Sites:                    0.400%                               
+       DFF Sites:                    0.590%                               
+       ALU Sites:                    0.050%                               
+   LRAM/MLP Sites:                   0.120%                               
+   BRAM Sites:                       0.080%                               
+   I/O Pin Sites:                    0.200%                               
+       Clock Pins:                   0.780%                               
+           Clock Input Pins:         1.250%                               
+           Clock Output Pins:        0.000%                               
+       Data Pins:                    0.190%                               
+           Data Input Pins:          0.080%                               
+           Data Output Pins:         0.300%                               
+   IO Pad Sites                      82.95%                               
+       GPIO Pad Sites                84.38%                               
+       CLKIO Pad Sites               79.17%                               
+
+
+Utilization Details =======
+
+   Cell Name                                   Instances   Sites       Utilization 
+   ALU8i                                       94          172800      0.050%      
+   BRAM Total                                  2           2560        0.080%      
+       BRAM72K_SDP                             2                                   
+   BUS_DFF Total                               0           46080       0.000%      
+   BUS_MUX4                                    0           46080       0.000%      
+   CLKDIV                                      0           256         0.000%      
+   CLKGATE                                     0           128         0.000%      
+   CLKSWITCH                                   0           128         0.000%      
+   I/O Pin Total                               126         64466       0.200%      
+       Clock Pin Total                         7           896         0.780%      
+           CLK_IPIN Total                      7           560         1.250%      
+               trunk                           6           256         2.340%      
+               mini-trunk                      1           240         0.420%      
+               branch                          0           64          0.000%      
+           CLK_OPIN Total                      0           336         0.000%      
+               mini-trunk                      0           80          0.000%      
+               branch                          0           256         0.000%      
+       Data Pin Total                          119         63570       0.190%      
+           IPIN Total                          25          31766       0.080%      
+               clocked                         0                                   
+               unclocked                       25                                  
+           OPIN Total                          94          31804       0.300%      
+               clocked                         0                                   
+               unclocked                       94                                  
+   DFF Total (see notes)                       8180        1382400     0.590%      
+       general purpose DFFs (a)                7979        1382400     0.580%      
+           DFFER                               2059                                
+           DFFES                               5                                   
+           DFFE                                2766                                
+           DFFR                                715                                 
+           DFFS                                17                                  
+           DFF                                 2417                                
+       inaccessible (b)                        201                                 
+   LMUX2                                       40          1382400     0.000%      
+   LRAM/MLP Total (see notes)                  3           2560        0.120%      
+       general purpose LRAMs/MLPs (a)          1           2560        0.040%      
+           LRAM2K_FIFO                         1                                   
+       inaccessible (b)                        2                                   
+   LUT Total (see notes)                       2796        691200      0.400%      
+       general purpose LUTs (a)                2706                                
+       pass-through sites (b)                  90                                  
+       virtual IO LUTs (c)                     0                                   
+   MUX2                                        0           345600      0.000%      
+   NAP_MASTER Total                            4           80          5.000%      
+       NAP_AXI_MASTER                          2                                   
+       NAP_VERTICAL                            2                                   
+   NAP_SLAVE Total                             3           80          3.750%      
+       NAP_AXI_SLAVE                           1                                   
+       NAP_HORIZONTAL                          2                                   
+   I/O Pads (Total)                            73          88          82.95%      
+   GPIO Pads                                   54          64          84.38%      
+   CLKIO Pads                                  19          24          79.17%      
+   PLLs                                        4           16          25.00%      
+   DDR4s                                       0           1           0.000%      
+   GDDR6s                                      0           8           0.000%      
+   Ethernet Controllers                        0           2           0.000%      
+   PCIe Controllers                            0           2           0.000%      
+   SerDes Lanes                                0           32          0.000%      
+
+
+---------------------------------------------------------------------------
+
+
+Utilization Summary (Region: region_bram_resp) =======
+
+
+  This section reports the instances that are confined within the given
+  placement region constraint.  It includes instances that have been
+  added to the region, as well as instances that are placed-fixed within
+  the boundaries of the region.
+
+   RLB Tiles                        
+       LUT Sites:                    2.430%                               
+       DFF Sites:                    4.320%                               
+       ALU Sites:                    0.150%                               
+   LRAM/MLP Sites:                   4.170%                               
+   BRAM Sites:                       4.170%                               
+   IO Pad Sites                      82.95%                               
+       GPIO Pad Sites                84.38%                               
+       CLKIO Pad Sites               79.17%                               
+
+
+Utilization Details (Region: region_bram_resp) =======
+
+   Cell Name                                   Instances   Sites       Utilization 
+   ALU8i                                       5           3348        0.150%      
+   BRAM Total                                  2           48          4.170%      
+       BRAM72K_SDP                             2                                   
+   BUS_DFF Total                               0           864         0.000%      
+   BUS_MUX4                                    0           864         0.000%      
+   DFF Total (see notes)                       1156        26784       4.320%      
+       general purpose DFFs (a)                1147        26784       4.280%      
+           DFFER                               62                                  
+           DFFE                                1041                                
+           DFFR                                43                                  
+           DFF                                 1                                   
+       inaccessible (b)                        9                                   
+   LMUX2                                       19          26784       0.070%      
+   LRAM/MLP Total (see notes)                  2           48          4.170%      
+       general purpose LRAMs/MLPs (a)          0           48          0.000%      
+       inaccessible (b)                        2                                   
+   LUT Total (see notes)                       325         13392       2.430%      
+       general purpose LUTs (a)                318                                 
+       pass-through sites (b)                  7                                   
+       virtual IO LUTs (c)                     0                                   
+   MUX2                                        0           6696        0.000%      
+   NAP_MASTER Total                            1           1           100.00%     
+       NAP_AXI_MASTER                          1                                   
+   NAP_SLAVE Total                             0           1           0.000%      
+   I/O Pads (Total)                            73          88          82.95%      
+   GPIO Pads                                   54          64          84.38%      
+   CLKIO Pads                                  19          24          79.17%      
+   PLLs                                        4           16          25.00%      
+   DDR4s                                       0           1           0.000%      
+   GDDR6s                                      0           8           0.000%      
+   Ethernet Controllers                        0           2           0.000%      
+   PCIe Controllers                            0           2           0.000%      
+   SerDes Lanes                                0           32          0.000%      
+
+
+---------------------------------------------------------------------------
+
+
+Utilization Summary (Region: region_axi_pkt_gen) =======
+
+
+  This section reports the instances that are confined within the given
+  placement region constraint.  It includes instances that have been
+  added to the region, as well as instances that are placed-fixed within
+  the boundaries of the region.
+
+   RLB Tiles                        
+       LUT Sites:                    2.320%                               
+       DFF Sites:                    5.180%                               
+       ALU Sites:                    0.970%                               
+   LRAM/MLP Sites:                   3.120%                               
+   BRAM Sites:                       0.000%                               
+   IO Pad Sites                      82.95%                               
+       GPIO Pad Sites                84.38%                               
+       CLKIO Pad Sites               79.17%                               
+
+
+Utilization Details (Region: region_axi_pkt_gen) =======
+
+   Cell Name                                   Instances   Sites       Utilization 
+   ALU8i                                       24          2484        0.970%      
+   BRAM Total                                  0           32          0.000%      
+   BUS_DFF Total                               0           576         0.000%      
+   BUS_MUX4                                    0           576         0.000%      
+   DFF Total (see notes)                       1030        19872       5.180%      
+       general purpose DFFs (a)                967         19872       4.870%      
+           DFFER                               548                                 
+           DFFES                               3                                   
+           DFFE                                60                                  
+           DFFR                                51                                  
+           DFFS                                1                                   
+           DFF                                 304                                 
+       inaccessible (b)                        63                                  
+   LMUX2                                       21          19872       0.110%      
+   LRAM/MLP Total (see notes)                  1           32          3.120%      
+       general purpose LRAMs/MLPs (a)          1           32          3.120%      
+           LRAM2K_FIFO                         1                                   
+       inaccessible (b)                        0                                   
+   LUT Total (see notes)                       231         9936        2.320%      
+       general purpose LUTs (a)                205                                 
+       pass-through sites (b)                  26                                  
+       virtual IO LUTs (c)                     0                                   
+   MUX2                                        0           4968        0.000%      
+   NAP_MASTER Total                            0           1           0.000%      
+   NAP_SLAVE Total                             1           1           100.00%     
+       NAP_AXI_SLAVE                           1                                   
+   I/O Pads (Total)                            73          88          82.95%      
+   GPIO Pads                                   54          64          84.38%      
+   CLKIO Pads                                  19          24          79.17%      
+   PLLs                                        4           16          25.00%      
+   DDR4s                                       0           1           0.000%      
+   GDDR6s                                      0           8           0.000%      
+   Ethernet Controllers                        0           2           0.000%      
+   PCIe Controllers                            0           2           0.000%      
+   SerDes Lanes                                0           32          0.000%      
+
+
+---------------------------------------------------------------------------
+
+
+Notes =======
+
+
+  Total DFF count = (a + b)
+
+  - (a) "general purpose" DFFs are DFF instances that are placed on a DFF
+    site.
+  - (b) "inaccessible DFFs" are DFF sites that must remain empty due to a
+    mutex with an ALU or MUX instance that does not drive a DFF.  They
+    are required for routing.
+
+  Total LUT count = (a + b - c)
+
+  - (a) "general purpose" LUTs are LUT sites occupied by a physical LUT
+    instance.
+  - (b) "pass-Through LUT sites" are LUT sites that must remain empty due
+    to a mutex with an ALU or MUX instance input not driven by a LUT. 
+    They are required for routing.
+  - (c) "virtual IO LUTs" are LUT instances created by ACE when
+    virtualizing overflow IOs. These will only be present in evaluation
+    mode, and not in the final design.  For that reason we do not report
+    them as contributing to the total LUT count.
+
+  Total LRAM/MLP count = (w0*b0 + w1*b1 + w2*b2 + w3*b3 + w1*a0 + w3*a1 +
+  c + d + e + f)
+
+  - The weighted sum of general purpose MLPs is returned as non-full MLPs
+    can be merged during placement.
+  - (a0) MLP_INT16_MULT_2X (1/2 Full)
+  - (a1) MLP_INT16_MULT_2X (2/2 Full)
+  - (b0) MLP_INT8_MULT_4X (1/4 Full)
+  - (b1) MLP_INT8_MULT_4X (2/4 Full)
+  - (b2) MLP_INT8_MULT_4X (3/4 Full)
+  - (b3) MLP_INT8_MULT_4X (4/4 Full)
+  - (c) LRAM
+  - (d) MLP72_INT
+  - (e) MLP72
+  - (f) "inaccessible MLPs" are MLP sites that must remain empty due to a
+    mutex with a wide-made BRAM.
+  - (w0) 0.25 (Corresponds to 1/4 inputs used in MLP)
+  - (w1) 0.5 (Corresponds to half inputs used in MLP)
+  - (w2) 0.75 (Corresponds to 3/4 inputs used in MLP)
+  - (w3) 1 (Corresponds to all inputs used in MLP)

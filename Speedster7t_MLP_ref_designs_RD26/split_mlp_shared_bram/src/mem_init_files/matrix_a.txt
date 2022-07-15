@@ -1,0 +1,15 @@
+// 8x32 matrix, signed int8 elements in hex
+
+// this row computes the sum over the column
+01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01 01
+// alternating 1 and -1, except in the middle
+// if the column is an arithmetic sequence, then this row computes 2*(col[0]+col[31])
+01 ff 01 ff 01 ff 01 ff 01 ff 01 ff 01 ff 01 01 01 01 ff 01 ff 01 ff 01 ff 01 ff 01 ff 01 ff 01
+// sequence
+00 01 02 03 04 05 06 07 08 09 0a 0b 0c 0d 0e 0f 10 11 12 13 14 15 16 17 18 19 1a 1b 1c 1d 1e 1f
+// random
+cc 17 b5 64 3a eb fa d5 e2 f7 ba 39 94 06 63 a1 7d 58 89 85 6d 8e c9 79 36 aa 8a b4 7c 6c f2 ae 
+4f df 08 29 3c 3d a5 57 98 3b 80 a5 46 2c 91 dc 54 4b 5b d3 4b f2 77 54 79 fb 47 52 f1 45 ec 0e 
+65 23 ef 41 04 ce 54 36 80 78 5d 41 e0 f6 c8 36 14 15 60 e1 72 ae 50 a4 6d 72 66 ce 6e d2 4e b1 
+20 c1 bc 0d 26 e3 2c 23 d2 14 8b 8a 7c 31 0a a6 59 12 ec 89 b4 ed 81 ef 74 f5 e8 7e 79 b7 5f 32 
+d3 b8 c4 39 00 13 9c c1 3a 65 ce 37 b8 71 3e 69 b3 f8 bd 43 74 d7 a8 e2 09 eb 58 c9 46 1a c1 df 

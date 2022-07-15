@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the optimization information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="3" name="Optimizations Summary">
+<parameter tooltip="Non-gated/non-generated clock trees / Gated/generated clock trees" name="Combined Clock Conversion">
+<data>3 / 0</data>
+<report_link name="more">
+<data>/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synlog/report/noc_2d_ref_design_top_premap_combined_clk.rpt</data>
+<title>START OF CLOCK OPTIMIZATION REPORT</title>
+</report_link>
+</parameter>
+</report_table>

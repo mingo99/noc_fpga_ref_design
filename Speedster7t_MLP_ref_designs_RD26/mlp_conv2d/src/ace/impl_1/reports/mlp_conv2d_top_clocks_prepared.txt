@@ -1,0 +1,87 @@
+        Clock/Reset Report - mlp_conv2d_top
+        ___________________________________
+
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+
+Design: mlp_conv2d_top - impl_1 - mlp_conv2d_top
+Device: AC7t1500ES0 C2 0.85V 0C
+Generated on Wed Jul 13 15:15:06 CST 2022
+Host: OMEN.localdomain
+
+  - Clock Summary
+  - Clock Relationships
+  - Effective Clock Constraints
+  - Clock Regions
+
+---------------------------------------------------------------------------
+
+
+Clock Summary =======
+
+
+  This section shows a summary of each clock domain's effective target
+  period, phase, and target frequency.  Clock constraints that were not
+  specified by the user are highlighted in the table below.  
+
+   Clock  Period     Phase  Target Frequency (MHz) 
+   i_clk  1666.67ps  0      600                    
+
+
+---------------------------------------------------------------------------
+
+
+Clock Relationships =======
+
+
+  This section shows a table of clock relationships for each clock group,
+  followed by a list of unrelated clock domains (if any).  Entries in the
+  clock relationship tables indicate the frequency ratio of the clock row
+  / clock column.
+
+
+Unrelated clocks
+
+   Unrelated Clock 
+   i_clk           
+
+
+
+---------------------------------------------------------------------------
+
+
+Effective Clock Constraints =======
+
+
+  This section shows the set of resolved clock constraints. For
+  set_false_path constraints, only those where both -to and -from are
+  clocks are shown.
+
+create_clock i_clk -period 1.666666667
+
+
+---------------------------------------------------------------------------
+
+
+Clock Region Summary (1 clocks) =======
+
+
+Legend
+
+
+  - (t) - balanced trunk clock
+  - (m) - mini trunk clock
+  - (b) - branch clock
+  - (/) - divider
+  - (>) - clock gate
+  - (@) - data-generated
+  - (r) - ring connects only (never enters the core)
+  - +   - clock drives data
+  - [.## ] - a '.' for each region this net does not use, '#' for each
+    region where this net is in use ( quick visual reference to see how
+    many regions a net uses ) 
+   Total , 1 clocks (0 ring connects only)    SEQ   CLK_IPIN  NAP_S  BRAM  MLP  Total 
+   i_clk_ipin_net                             2964  1         2      124   60   3151  
+
+
+---------------------------------------------------------------------------
+

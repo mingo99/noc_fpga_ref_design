@@ -1,0 +1,300 @@
+#######################################
+# ACE GENERATED PDC FILE
+# Generated on: 2022.01.10 at 23:18:52 PST
+# By: ACE 8.6.1
+# From project: noc_2d_ref_design_top
+#######################################
+# IO Ring Boundary Pin Placement File
+#######################################
+
+# Insertion of boundary pin instances
+# Boundary pins for noc_2d
+# Boundary pins for pll_chk_clk
+create_boundary_pins {p:i_chk_clk} {i_chk_clk_ipin} -clock
+create_boundary_pins {p:pll_chk_clk_lock} {pll_chk_clk_lock_ipin} -data
+# Boundary pins for pll_send_clk
+create_boundary_pins {p:i_cc_clk} {i_cc_clk_ipin} -clock
+create_boundary_pins {p:i_reg_clk} {i_reg_clk_ipin} -clock
+create_boundary_pins {p:i_send_clk} {i_send_clk_ipin} -clock
+create_boundary_pins {p:pll_send_clk_lock} {pll_send_clk_lock_ipin} -data
+# Boundary pins for vp_1550_clkio_ne
+create_boundary_pins {p:fpga_rst_l} {fpga_rst_l_ipin} -clock
+set_property used_as_reset 1 {i:fpga_rst_l_ipin}
+# Boundary pins for vp_1550_clkio_nw
+# Boundary pins for vp_1550_clkio_se
+# Boundary pins for vp_1550_clkio_sw
+# Boundary pins for vp_1550_gpio_n_b0
+create_boundary_pins {p:ext_gpio_fpga_in[0]} {ext_gpio_fpga_in[0]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[1]} {ext_gpio_fpga_in[1]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[2]} {ext_gpio_fpga_in[2]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[3]} {ext_gpio_fpga_in[3]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[4]} {ext_gpio_fpga_in[4]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[5]} {ext_gpio_fpga_in[5]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[6]} {ext_gpio_fpga_in[6]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_in[7]} {ext_gpio_fpga_in[7]_ipin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[0]} {ext_gpio_fpga_oe[0]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[1]} {ext_gpio_fpga_oe[1]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[2]} {ext_gpio_fpga_oe[2]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[3]} {ext_gpio_fpga_oe[3]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[4]} {ext_gpio_fpga_oe[4]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[5]} {ext_gpio_fpga_oe[5]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[6]} {ext_gpio_fpga_oe[6]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_oe[7]} {ext_gpio_fpga_oe[7]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[0]} {ext_gpio_fpga_out[0]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[1]} {ext_gpio_fpga_out[1]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[2]} {ext_gpio_fpga_out[2]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[3]} {ext_gpio_fpga_out[3]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[4]} {ext_gpio_fpga_out[4]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[5]} {ext_gpio_fpga_out[5]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[6]} {ext_gpio_fpga_out[6]_opin} -data
+create_boundary_pins {p:ext_gpio_fpga_out[7]} {ext_gpio_fpga_out[7]_opin} -data
+create_boundary_pins {p:ext_gpio_oe_l} {ext_gpio_oe_l_opin} -data
+create_boundary_pins {p:ext_gpio_oe_l_oe} {ext_gpio_oe_l_oe_opin} -data
+create_boundary_pins {p:led_oe_l} {led_oe_l_opin} -data
+create_boundary_pins {p:led_oe_l_oe} {led_oe_l_oe_opin} -data
+# Boundary pins for vp_1550_gpio_n_b1
+create_boundary_pins {p:ext_gpio_dir[0]} {ext_gpio_dir[0]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[1]} {ext_gpio_dir[1]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[2]} {ext_gpio_dir[2]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[3]} {ext_gpio_dir[3]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[4]} {ext_gpio_dir[4]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[5]} {ext_gpio_dir[5]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[6]} {ext_gpio_dir[6]_opin} -data
+create_boundary_pins {p:ext_gpio_dir[7]} {ext_gpio_dir[7]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[0]} {ext_gpio_dir_oe[0]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[1]} {ext_gpio_dir_oe[1]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[2]} {ext_gpio_dir_oe[2]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[3]} {ext_gpio_dir_oe[3]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[4]} {ext_gpio_dir_oe[4]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[5]} {ext_gpio_dir_oe[5]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[6]} {ext_gpio_dir_oe[6]_opin} -data
+create_boundary_pins {p:ext_gpio_dir_oe[7]} {ext_gpio_dir_oe[7]_opin} -data
+create_boundary_pins {p:led_l[4]} {led_l[4]_opin} -data
+create_boundary_pins {p:led_l[5]} {led_l[5]_opin} -data
+create_boundary_pins {p:led_l_oe[4]} {led_l_oe[4]_opin} -data
+create_boundary_pins {p:led_l_oe[5]} {led_l_oe[5]_opin} -data
+# Boundary pins for vp_1550_gpio_n_b2
+create_boundary_pins {p:led_l[0]} {led_l[0]_opin} -data
+create_boundary_pins {p:led_l[1]} {led_l[1]_opin} -data
+create_boundary_pins {p:led_l[2]} {led_l[2]_opin} -data
+create_boundary_pins {p:led_l[3]} {led_l[3]_opin} -data
+create_boundary_pins {p:led_l[6]} {led_l[6]_opin} -data
+create_boundary_pins {p:led_l[7]} {led_l[7]_opin} -data
+create_boundary_pins {p:led_l_oe[0]} {led_l_oe[0]_opin} -data
+create_boundary_pins {p:led_l_oe[1]} {led_l_oe[1]_opin} -data
+create_boundary_pins {p:led_l_oe[2]} {led_l_oe[2]_opin} -data
+create_boundary_pins {p:led_l_oe[3]} {led_l_oe[3]_opin} -data
+create_boundary_pins {p:led_l_oe[6]} {led_l_oe[6]_opin} -data
+create_boundary_pins {p:led_l_oe[7]} {led_l_oe[7]_opin} -data
+# Boundary pins for vp_1550_gpio_s_b0
+create_boundary_pins {p:fpga_avr_rxd} {fpga_avr_rxd_ipin} -data
+create_boundary_pins {p:fpga_ftdi_rxd} {fpga_ftdi_rxd_ipin} -data
+create_boundary_pins {p:fpga_i2c_mux_gnt} {fpga_i2c_mux_gnt_ipin} -data
+create_boundary_pins {p:irq_to_fpga} {irq_to_fpga_ipin} -data
+create_boundary_pins {p:qsfp_int_fpga_l} {qsfp_int_fpga_l_ipin} -data
+create_boundary_pins {p:fpga_avr_txd} {fpga_avr_txd_opin} -data
+create_boundary_pins {p:fpga_avr_txd_oe} {fpga_avr_txd_oe_opin} -data
+create_boundary_pins {p:fpga_ftdi_txd} {fpga_ftdi_txd_opin} -data
+create_boundary_pins {p:fpga_ftdi_txd_oe} {fpga_ftdi_txd_oe_opin} -data
+create_boundary_pins {p:fpga_i2c_req_l} {fpga_i2c_req_l_opin} -data
+create_boundary_pins {p:fpga_i2c_req_l_oe} {fpga_i2c_req_l_oe_opin} -data
+create_boundary_pins {p:irq_to_avr} {irq_to_avr_opin} -data
+create_boundary_pins {p:irq_to_avr_oe} {irq_to_avr_oe_opin} -data
+create_boundary_pins {p:test[1]} {test[1]_opin} -data
+create_boundary_pins {p:test_oe[1]} {test_oe[1]_opin} -data
+# Boundary pins for vp_1550_gpio_s_b1
+create_boundary_pins {p:mcio_vio_45_10_clk} {mcio_vio_45_10_clk_ipin} -clock
+create_boundary_pins {p:mcio_vio_in[0]} {mcio_vio_in[0]_ipin} -data
+create_boundary_pins {p:mcio_vio_in[1]} {mcio_vio_in[1]_ipin} -data
+create_boundary_pins {p:mcio_vio_in[2]} {mcio_vio_in[2]_ipin} -data
+create_boundary_pins {p:mcio_vio_in[3]} {mcio_vio_in[3]_ipin} -data
+create_boundary_pins {p:mcio_dir[0]} {mcio_dir[0]_opin} -data
+create_boundary_pins {p:mcio_dir[1]} {mcio_dir[1]_opin} -data
+create_boundary_pins {p:mcio_dir[2]} {mcio_dir[2]_opin} -data
+create_boundary_pins {p:mcio_dir[3]} {mcio_dir[3]_opin} -data
+create_boundary_pins {p:mcio_dir_45} {mcio_dir_45_opin} -data
+create_boundary_pins {p:mcio_dir_45_oe} {mcio_dir_45_oe_opin} -data
+create_boundary_pins {p:mcio_dir_oe[0]} {mcio_dir_oe[0]_opin} -data
+create_boundary_pins {p:mcio_dir_oe[1]} {mcio_dir_oe[1]_opin} -data
+create_boundary_pins {p:mcio_dir_oe[2]} {mcio_dir_oe[2]_opin} -data
+create_boundary_pins {p:mcio_dir_oe[3]} {mcio_dir_oe[3]_opin} -data
+create_boundary_pins {p:mcio_vio_oe[0]} {mcio_vio_oe[0]_opin} -data
+create_boundary_pins {p:mcio_vio_oe[1]} {mcio_vio_oe[1]_opin} -data
+create_boundary_pins {p:mcio_vio_oe[2]} {mcio_vio_oe[2]_opin} -data
+create_boundary_pins {p:mcio_vio_oe[3]} {mcio_vio_oe[3]_opin} -data
+create_boundary_pins {p:mcio_vio_out[0]} {mcio_vio_out[0]_opin} -data
+create_boundary_pins {p:mcio_vio_out[1]} {mcio_vio_out[1]_opin} -data
+create_boundary_pins {p:mcio_vio_out[2]} {mcio_vio_out[2]_opin} -data
+create_boundary_pins {p:mcio_vio_out[3]} {mcio_vio_out[3]_opin} -data
+create_boundary_pins {p:test[2]} {test[2]_opin} -data
+create_boundary_pins {p:test_oe[2]} {test_oe[2]_opin} -data
+# Boundary pins for vp_1550_gpio_s_b2
+create_boundary_pins {p:fpga_sys_scl_in} {fpga_sys_scl_in_ipin} -data
+create_boundary_pins {p:fpga_sys_sda_in} {fpga_sys_sda_in_ipin} -data
+create_boundary_pins {p:mcio_scl_in} {mcio_scl_in_ipin} -data
+create_boundary_pins {p:mcio_sda_in} {mcio_sda_in_ipin} -data
+create_boundary_pins {p:fpga_sys_scl_oe} {fpga_sys_scl_oe_opin} -data
+create_boundary_pins {p:fpga_sys_scl_out} {fpga_sys_scl_out_opin} -data
+create_boundary_pins {p:fpga_sys_sda_oe} {fpga_sys_sda_oe_opin} -data
+create_boundary_pins {p:fpga_sys_sda_out} {fpga_sys_sda_out_opin} -data
+create_boundary_pins {p:mcio_oe1_l} {mcio_oe1_l_opin} -data
+create_boundary_pins {p:mcio_oe1_l_oe} {mcio_oe1_l_oe_opin} -data
+create_boundary_pins {p:mcio_oe_45_l} {mcio_oe_45_l_opin} -data
+create_boundary_pins {p:mcio_oe_45_l_oe} {mcio_oe_45_l_oe_opin} -data
+create_boundary_pins {p:mcio_scl_oe} {mcio_scl_oe_opin} -data
+create_boundary_pins {p:mcio_scl_out} {mcio_scl_out_opin} -data
+create_boundary_pins {p:mcio_sda_oe} {mcio_sda_oe_opin} -data
+create_boundary_pins {p:mcio_sda_out} {mcio_sda_out_opin} -data
+# Boundary pins for vp_1550_pll_nw_2
+create_boundary_pins {p:pll_nw_2_ref0_312p5_clk} {pll_nw_2_ref0_312p5_clk_ipin} -clock
+create_boundary_pins {p:vp_1550_pll_nw_2_lock} {vp_1550_pll_nw_2_lock_ipin} -data
+# Boundary pins for vp_1550_pll_sw_2
+create_boundary_pins {p:pll_sw_2_ref1_312p5_clk} {pll_sw_2_ref1_312p5_clk_ipin} -clock
+create_boundary_pins {p:vp_1550_pll_sw_2_lock} {vp_1550_pll_sw_2_lock_ipin} -data
+# Boundary pin placement
+# Boundary pins for noc_2d
+# Boundary pins for pll_chk_clk
+set_placement -fixed -batch {p:i_chk_clk} {d:i_user_06_00_trunk_00[16]}
+set_placement -fixed -batch {p:pll_chk_clk_lock} {d:i_user_12_01_lut_17[0]}
+# Boundary pins for pll_send_clk
+set_placement -fixed -batch {p:i_cc_clk} {d:i_user_06_00_trunk_00[1]}
+set_placement -fixed -batch {p:i_reg_clk} {d:i_user_06_00_trunk_00[2]}
+set_placement -fixed -batch {p:i_send_clk} {d:i_user_06_00_trunk_00[0]}
+set_placement -fixed -batch {p:pll_send_clk_lock} {d:i_user_00_01_lut_17[0]}
+# Boundary pins for vp_1550_clkio_ne
+set_placement -fixed -batch {p:fpga_rst_l} {d:i_user_06_09_trunk_00[126]}
+# Boundary pins for vp_1550_clkio_nw
+# Boundary pins for vp_1550_clkio_se
+# Boundary pins for vp_1550_clkio_sw
+# Boundary pins for vp_1550_gpio_n_b0
+set_placement -fixed -batch {p:ext_gpio_fpga_in[0]} {d:i_user_11_09_lut_13[15]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[1]} {d:i_user_11_09_lut_13[23]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[2]} {d:i_user_11_09_lut_14[3]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[3]} {d:i_user_11_09_lut_14[11]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[4]} {d:i_user_11_09_lut_14[19]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[5]} {d:i_user_11_09_lut_14[27]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[6]} {d:i_user_11_09_lut_15[7]}
+set_placement -fixed -batch {p:ext_gpio_fpga_in[7]} {d:i_user_11_09_lut_15[15]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[0]} {d:o_user_11_09_lut_12[16]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[1]} {d:o_user_11_09_lut_12[17]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[2]} {d:o_user_11_09_lut_12[18]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[3]} {d:o_user_11_09_lut_12[19]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[4]} {d:o_user_11_09_lut_12[20]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[5]} {d:o_user_11_09_lut_12[21]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[6]} {d:o_user_11_09_lut_12[22]}
+set_placement -fixed -batch {p:ext_gpio_fpga_oe[7]} {d:o_user_11_09_lut_12[23]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[0]} {d:o_user_11_09_lut_13[12]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[1]} {d:o_user_11_09_lut_13[20]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[2]} {d:o_user_11_09_lut_14[0]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[3]} {d:o_user_11_09_lut_14[8]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[4]} {d:o_user_11_09_lut_14[16]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[5]} {d:o_user_11_09_lut_14[24]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[6]} {d:o_user_11_09_lut_15[4]}
+set_placement -fixed -batch {p:ext_gpio_fpga_out[7]} {d:o_user_11_09_lut_15[12]}
+set_placement -fixed -batch {p:ext_gpio_oe_l} {d:o_user_11_09_lut_12[24]}
+set_placement -fixed -batch {p:ext_gpio_oe_l_oe} {d:o_user_11_09_lut_12[14]}
+set_placement -fixed -batch {p:led_oe_l} {d:o_user_11_09_lut_13[4]}
+set_placement -fixed -batch {p:led_oe_l_oe} {d:o_user_11_09_lut_12[15]}
+# Boundary pins for vp_1550_gpio_n_b1
+set_placement -fixed -batch {p:ext_gpio_dir[0]} {d:o_user_11_09_lut_10[6]}
+set_placement -fixed -batch {p:ext_gpio_dir[1]} {d:o_user_11_09_lut_10[14]}
+set_placement -fixed -batch {p:ext_gpio_dir[2]} {d:o_user_11_09_lut_10[22]}
+set_placement -fixed -batch {p:ext_gpio_dir[3]} {d:o_user_11_09_lut_11[2]}
+set_placement -fixed -batch {p:ext_gpio_dir[4]} {d:o_user_11_09_lut_11[10]}
+set_placement -fixed -batch {p:ext_gpio_dir[5]} {d:o_user_11_09_lut_11[18]}
+set_placement -fixed -batch {p:ext_gpio_dir[6]} {d:o_user_11_09_lut_11[26]}
+set_placement -fixed -batch {p:ext_gpio_dir[7]} {d:o_user_11_09_lut_12[6]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[0]} {d:o_user_11_09_lut_09[10]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[1]} {d:o_user_11_09_lut_09[11]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[2]} {d:o_user_11_09_lut_09[12]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[3]} {d:o_user_11_09_lut_09[13]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[4]} {d:o_user_11_09_lut_09[14]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[5]} {d:o_user_11_09_lut_09[15]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[6]} {d:o_user_11_09_lut_09[16]}
+set_placement -fixed -batch {p:ext_gpio_dir_oe[7]} {d:o_user_11_09_lut_09[17]}
+set_placement -fixed -batch {p:led_l[4]} {d:o_user_11_09_lut_09[18]}
+set_placement -fixed -batch {p:led_l[5]} {d:o_user_11_09_lut_09[26]}
+set_placement -fixed -batch {p:led_l_oe[4]} {d:o_user_11_09_lut_09[8]}
+set_placement -fixed -batch {p:led_l_oe[5]} {d:o_user_11_09_lut_09[9]}
+# Boundary pins for vp_1550_gpio_n_b2
+set_placement -fixed -batch {p:led_l[0]} {d:o_user_11_09_lut_07[0]}
+set_placement -fixed -batch {p:led_l[1]} {d:o_user_11_09_lut_07[8]}
+set_placement -fixed -batch {p:led_l[2]} {d:o_user_11_09_lut_07[16]}
+set_placement -fixed -batch {p:led_l[3]} {d:o_user_11_09_lut_07[24]}
+set_placement -fixed -batch {p:led_l[6]} {d:o_user_11_09_lut_08[4]}
+set_placement -fixed -batch {p:led_l[7]} {d:o_user_11_09_lut_08[12]}
+set_placement -fixed -batch {p:led_l_oe[0]} {d:o_user_11_09_lut_06[4]}
+set_placement -fixed -batch {p:led_l_oe[1]} {d:o_user_11_09_lut_06[5]}
+set_placement -fixed -batch {p:led_l_oe[2]} {d:o_user_11_09_lut_06[6]}
+set_placement -fixed -batch {p:led_l_oe[3]} {d:o_user_11_09_lut_06[7]}
+set_placement -fixed -batch {p:led_l_oe[6]} {d:o_user_11_09_lut_06[8]}
+set_placement -fixed -batch {p:led_l_oe[7]} {d:o_user_11_09_lut_06[9]}
+# Boundary pins for vp_1550_gpio_s_b0
+set_placement -fixed -batch {p:fpga_avr_rxd} {d:i_user_10_00_lut_07[7]}
+set_placement -fixed -batch {p:fpga_ftdi_rxd} {d:i_user_10_00_lut_07[23]}
+set_placement -fixed -batch {p:fpga_i2c_mux_gnt} {d:i_user_10_00_lut_06[11]}
+set_placement -fixed -batch {p:irq_to_fpga} {d:i_user_10_00_lut_08[3]}
+set_placement -fixed -batch {p:qsfp_int_fpga_l} {d:i_user_10_00_lut_06[3]}
+set_placement -fixed -batch {p:fpga_avr_txd} {d:o_user_10_00_lut_07[26]}
+set_placement -fixed -batch {p:fpga_avr_txd_oe} {d:o_user_10_00_lut_06[16]}
+set_placement -fixed -batch {p:fpga_ftdi_txd} {d:o_user_10_00_lut_08[14]}
+set_placement -fixed -batch {p:fpga_ftdi_txd_oe} {d:o_user_10_00_lut_06[18]}
+set_placement -fixed -batch {p:fpga_i2c_req_l} {d:o_user_10_00_lut_07[18]}
+set_placement -fixed -batch {p:fpga_i2c_req_l_oe} {d:o_user_10_00_lut_06[15]}
+set_placement -fixed -batch {p:irq_to_avr} {d:o_user_10_00_lut_09[10]}
+set_placement -fixed -batch {p:irq_to_avr_oe} {d:o_user_10_00_lut_06[21]}
+set_placement -fixed -batch {p:test[1]} {d:o_user_10_00_lut_06[22]}
+set_placement -fixed -batch {p:test_oe[1]} {d:o_user_10_00_lut_06[12]}
+# Boundary pins for vp_1550_gpio_s_b1
+set_placement -fixed -batch {p:mcio_vio_45_10_clk} {d:i_user_10_00_mt_00[1]}
+set_placement -fixed -batch {p:mcio_vio_in[0]} {d:i_user_10_00_lut_03[14]}
+set_placement -fixed -batch {p:mcio_vio_in[1]} {d:i_user_10_00_lut_03[22]}
+set_placement -fixed -batch {p:mcio_vio_in[2]} {d:i_user_10_00_lut_04[2]}
+set_placement -fixed -batch {p:mcio_vio_in[3]} {d:i_user_10_00_lut_04[10]}
+set_placement -fixed -batch {p:mcio_dir[0]} {d:o_user_10_00_lut_05[8]}
+set_placement -fixed -batch {p:mcio_dir[1]} {d:o_user_10_00_lut_05[16]}
+set_placement -fixed -batch {p:mcio_dir[2]} {d:o_user_10_00_lut_05[24]}
+set_placement -fixed -batch {p:mcio_dir[3]} {d:o_user_10_00_lut_06[4]}
+set_placement -fixed -batch {p:mcio_dir_45} {d:o_user_10_00_lut_03[16]}
+set_placement -fixed -batch {p:mcio_dir_45_oe} {d:o_user_10_00_lut_03[6]}
+set_placement -fixed -batch {p:mcio_dir_oe[0]} {d:o_user_10_00_lut_03[12]}
+set_placement -fixed -batch {p:mcio_dir_oe[1]} {d:o_user_10_00_lut_03[13]}
+set_placement -fixed -batch {p:mcio_dir_oe[2]} {d:o_user_10_00_lut_03[14]}
+set_placement -fixed -batch {p:mcio_dir_oe[3]} {d:o_user_10_00_lut_03[15]}
+set_placement -fixed -batch {p:mcio_vio_oe[0]} {d:o_user_10_00_lut_03[8]}
+set_placement -fixed -batch {p:mcio_vio_oe[1]} {d:o_user_10_00_lut_03[9]}
+set_placement -fixed -batch {p:mcio_vio_oe[2]} {d:o_user_10_00_lut_03[10]}
+set_placement -fixed -batch {p:mcio_vio_oe[3]} {d:o_user_10_00_lut_03[11]}
+set_placement -fixed -batch {p:mcio_vio_out[0]} {d:o_user_10_00_lut_04[4]}
+set_placement -fixed -batch {p:mcio_vio_out[1]} {d:o_user_10_00_lut_04[12]}
+set_placement -fixed -batch {p:mcio_vio_out[2]} {d:o_user_10_00_lut_04[20]}
+set_placement -fixed -batch {p:mcio_vio_out[3]} {d:o_user_10_00_lut_05[0]}
+set_placement -fixed -batch {p:test[2]} {d:o_user_10_00_lut_03[24]}
+set_placement -fixed -batch {p:test_oe[2]} {d:o_user_10_00_lut_03[7]}
+# Boundary pins for vp_1550_gpio_s_b2
+set_placement -fixed -batch {p:fpga_sys_scl_in} {d:i_user_10_00_lut_01[21]}
+set_placement -fixed -batch {p:fpga_sys_sda_in} {d:i_user_10_00_lut_02[1]}
+set_placement -fixed -batch {p:mcio_scl_in} {d:i_user_10_00_lut_00[17]}
+set_placement -fixed -batch {p:mcio_sda_in} {d:i_user_10_00_lut_00[25]}
+set_placement -fixed -batch {p:fpga_sys_scl_oe} {d:o_user_10_00_lut_00[6]}
+set_placement -fixed -batch {p:fpga_sys_scl_out} {d:o_user_10_00_lut_02[2]}
+set_placement -fixed -batch {p:fpga_sys_sda_oe} {d:o_user_10_00_lut_00[7]}
+set_placement -fixed -batch {p:fpga_sys_sda_out} {d:o_user_10_00_lut_02[10]}
+set_placement -fixed -batch {p:mcio_oe1_l} {d:o_user_10_00_lut_01[14]}
+set_placement -fixed -batch {p:mcio_oe1_l_oe} {d:o_user_10_00_lut_00[4]}
+set_placement -fixed -batch {p:mcio_oe_45_l} {d:o_user_10_00_lut_01[22]}
+set_placement -fixed -batch {p:mcio_oe_45_l_oe} {d:o_user_10_00_lut_00[5]}
+set_placement -fixed -batch {p:mcio_scl_oe} {d:o_user_10_00_lut_00[2]}
+set_placement -fixed -batch {p:mcio_scl_out} {d:o_user_10_00_lut_00[26]}
+set_placement -fixed -batch {p:mcio_sda_oe} {d:o_user_10_00_lut_00[3]}
+set_placement -fixed -batch {p:mcio_sda_out} {d:o_user_10_00_lut_01[6]}
+# Boundary pins for vp_1550_pll_nw_2
+set_placement -fixed -batch {p:pll_nw_2_ref0_312p5_clk} {d:i_user_06_09_trunk_00[0]}
+set_placement -fixed -batch {p:vp_1550_pll_nw_2_lock} {d:i_user_00_08_lut_17[2]}
+# Boundary pins for vp_1550_pll_sw_2
+set_placement -fixed -batch {p:pll_sw_2_ref1_312p5_clk} {d:i_user_06_00_trunk_00[3]}
+set_placement -fixed -batch {p:vp_1550_pll_sw_2_lock} {d:i_user_00_01_lut_17[2]}
+
+######################################
+# End IO Ring Boundary Pin Placement File
+######################################

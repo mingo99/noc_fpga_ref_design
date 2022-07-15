@@ -1,0 +1,43 @@
+#######################################
+# ACE GENERATED PDC FILE
+# Generated on: 2021.01.15 at 10:15:30 GMT
+# By: ACE 8.3
+# From project: mlp_conv2d_top
+#######################################
+# IO Ring Boundary Pin Placement File
+#######################################
+
+# Insertion of boundary pin instances
+# Boundary pins for clock_io_bank_ne
+# Boundary pins for gddr6_0
+# Boundary pins for gpio_bank_n
+create_boundary_pins {p:i_reset_n} {i_reset_n_ipin} -data
+create_boundary_pins {p:o_conv_done} {o_conv_done_opin} -data
+create_boundary_pins {p:o_conv_done_oe} {o_conv_done_oe_opin} -data
+create_boundary_pins {p:o_error} {o_error_opin} -data
+create_boundary_pins {p:o_error_oe} {o_error_oe_opin} -data
+# Boundary pins for noc
+# Boundary pins for pll_1
+create_boundary_pins {p:pll_1_lock} {pll_1_lock_ipin} -data
+# Boundary pins for pll_2
+create_boundary_pins {p:i_clk} {i_clk_ipin} -clock
+create_boundary_pins {p:pll_2_lock} {pll_2_lock_ipin} -data
+# Boundary pin placement
+# Boundary pins for clock_io_bank_ne
+# Boundary pins for gddr6_0
+# Boundary pins for gpio_bank_n
+set_placement -fixed -batch {p:i_reset_n} {d:i_user_11_09_lut_14[3]}
+set_placement -fixed -batch {p:o_conv_done} {d:o_user_11_09_lut_13[20]}
+set_placement -fixed -batch {p:o_conv_done_oe} {d:o_user_11_09_lut_12[17]}
+set_placement -fixed -batch {p:o_error} {d:o_user_11_09_lut_13[12]}
+set_placement -fixed -batch {p:o_error_oe} {d:o_user_11_09_lut_12[16]}
+# Boundary pins for noc
+# Boundary pins for pll_1
+set_placement -fixed -batch {p:pll_1_lock} {d:i_user_12_08_lut_17[0]}
+# Boundary pins for pll_2
+set_placement -fixed -batch {p:i_clk} {d:i_user_06_09_trunk_00[18]}
+set_placement -fixed -batch {p:pll_2_lock} {d:i_user_12_08_lut_17[1]}
+
+######################################
+# End IO Ring Boundary Pin Placement File
+######################################

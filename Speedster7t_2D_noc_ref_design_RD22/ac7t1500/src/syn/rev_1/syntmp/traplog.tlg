@@ -1,0 +1,79 @@
+@N: CD630 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/syntmp/gentmp5938Cdigoj":4:7:4:9|Synthesizing work.top.gen.
+@N: CD630 :"syng0UXHGSj":100:7:100:12|Synthesizing work.cmp_eq.cell_level.
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 23 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 24 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 25 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 26 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 27 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 28 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 29 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 30 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 31 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 32 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 33 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 34 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 35 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 36 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 37 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 38 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 39 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 40 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 41 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 42 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 43 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 44 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 45 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 46 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 47 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 48 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 49 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 50 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 51 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 52 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 53 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 54 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 55 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 56 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 57 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 58 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 59 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 60 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 61 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 62 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 63 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 64 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 65 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 66 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 67 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 68 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 69 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@W: CD796 :"syng0UXHGSj":123:11:123:18|Bit 70 of signal data_tmp is undriven. Possible simulation mismatch as initial value or default value is ignored. To avoid simulation mismatches, explicitly drive this bit. 
+@N: CD630 :"syng0UXHGSj":37:7:37:24|Synthesizing work.eq_element_twobits.eqn.
+@W: CD280 :"syng0UXHGSj":46:11:46:17|Unbound component MUXCY_L mapped to black box
+@N: CD630 :"syng0UXHGSj":46:11:46:17|Synthesizing work.muxcy_l.syn_black_box.
+Post processing for work.muxcy_l.syn_black_box
+Running optimization stage 1 on MUXCY_L .......
+Finished optimization stage 1 on MUXCY_L (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
+Post processing for work.eq_element_twobits.eqn
+Running optimization stage 1 on eq_element_twobits .......
+Finished optimization stage 1 on eq_element_twobits (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
+@N: CD630 :"syng0UXHGSj":6:7:6:16|Synthesizing work.eq_element.eqn.
+Post processing for work.eq_element.eqn
+Running optimization stage 1 on eq_element .......
+Finished optimization stage 1 on eq_element (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
+Post processing for work.cmp_eq.cell_level
+Running optimization stage 1 on CMP_EQ .......
+Finished optimization stage 1 on CMP_EQ (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
+Post processing for work.top.gen
+Running optimization stage 1 on top .......
+Finished optimization stage 1 on top (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
+Running optimization stage 2 on eq_element .......
+Finished optimization stage 2 on eq_element (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
+Running optimization stage 2 on MUXCY_L .......
+Finished optimization stage 2 on MUXCY_L (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
+Running optimization stage 2 on eq_element_twobits .......
+Finished optimization stage 2 on eq_element_twobits (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
+Running optimization stage 2 on CMP_EQ .......
+Finished optimization stage 2 on CMP_EQ (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)
+Running optimization stage 2 on top .......
+Finished optimization stage 2 on top (CPU Time 0h:00m:00s, Memory Used current: 128MB peak: 128MB)

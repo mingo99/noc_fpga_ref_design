@@ -1,0 +1,22 @@
+        Pin Assignment Report - Prepared - mlp_conv2d_top
+        _________________________________________________
+
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+
+Design: mlp_conv2d_top - impl_1 - mlp_conv2d_top
+Device: AC7t1500ES0
+Generated on Wed Jul 13 15:15:06 CST 2022
+Host: OMEN.localdomain
+
+Pin Assignment =======
+
+   Port Name       Direction  Pad/Macro            Placed  Device Port                Pad/Macro Site                                           Registered  Clock Domain  Target Frequency (MHz) 
+   i_clk           IN         i_clk_ipin           Fixed   i_user_06_09_trunk_00[18]  u_ic_north.u_ic_ns_tc0.u_ic_ns_trunktile.gclk_ipin[18]   No          i_clk         600                    
+   i_reset_n       IN         i_reset_n_ipin       Fixed   i_user_11_09_lut_14[3]     u_ic_north.u_ic_ns_lc09.u_ic_ns_luttile14.sg.slc3.ipin   No          ---           ---                    
+   pll_1_lock      IN         pll_1_lock_ipin      Fixed   i_user_12_08_lut_17[0]     u_ic_east.u_ic_ew_lc07.u_ic_ew_luttile17.sg.slc0.ipin    No          ---           ---                    
+   pll_2_lock      IN         pll_2_lock_ipin      Fixed   i_user_12_08_lut_17[1]     u_ic_east.u_ic_ew_lc07.u_ic_ew_luttile17.sg.slc1.ipin    No          ---           ---                    
+   o_conv_done     OUT        o_conv_done_opin     Fixed   o_user_11_09_lut_13[20]    u_ic_north.u_ic_ns_lc09.u_ic_ns_luttile13.sg.slc20.opin  No          i_clk         600                    
+   o_conv_done_oe  OUT        o_conv_done_oe_opin  Fixed   o_user_11_09_lut_12[17]    u_ic_north.u_ic_ns_lc09.u_ic_ns_luttile12.sg.slc17.opin  No          ---           ---                    
+   o_error         OUT        o_error_opin         Fixed   o_user_11_09_lut_13[12]    u_ic_north.u_ic_ns_lc09.u_ic_ns_luttile13.sg.slc12.opin  No          i_clk         600                    
+   o_error_oe      OUT        o_error_oe_opin      Fixed   o_user_11_09_lut_12[16]    u_ic_north.u_ic_ns_lc09.u_ic_ns_luttile12.sg.slc16.opin  No          ---           ---                    
+

@@ -1,0 +1,43 @@
+
+. Module name, LUT4, LUT6, DFF, ALU8, BRAM, LRAM, MLP, PADS
+. noc_2d_ref_design_top, 1328, 1311, 7971, 94, 2, 1, 0, 0
+.	. axi_bram_responder_Z4739190, 40, 272, 1141, 5, 2, 0, 0, 0
+.	.	. nap_master_wrapper_Z224421, 0, 0, 0, 0, 0, 0, 0, 0
+.	. axi_pkt_chk_Z4611980, 51, 95, 618, 17, 0, 0, 0, 0
+.	.	. random_seq_gen_Z4800250_1, 15, 0, 256, 2, 0, 0, 0, 0
+.	. axi_pkt_gen_Z4692260, 19, 4, 321, 5, 0, 0, 0, 0
+.	.	. random_seq_gen_16s_16s_1s_0s_1s_0_1s_16s, 0, 0, 12, 2, 0, 0, 0, 0
+.	.	. random_seq_gen_Z4800250_0, 15, 0, 256, 2, 0, 0, 0, 0
+.	. data_stream_pkt_chk_Z2890890, 250, 133, 1214, 28, 0, 0, 0, 0
+.	.	. random_seq_gen_Z4229340_1, 14, 4, 288, 0, 0, 0, 0, 0
+.	. data_stream_pkt_chk_Z4647330, 178, 182, 919, 28, 0, 0, 0, 0
+.	.	. random_seq_gen_Z3978100_1, 14, 4, 293, 0, 0, 0, 0, 0
+.	. data_stream_pkt_gen_Z449940, 312, 12, 1177, 0, 0, 0, 0, 0
+.	.	. random_seq_gen_Z4229340_0, 16, 4, 288, 0, 0, 0, 0, 0
+.	. data_stream_pkt_gen_Z459180, 316, 8, 888, 0, 0, 0, 0, 0
+.	.	. random_seq_gen_Z3978100_0, 23, 4, 293, 0, 0, 0, 0, 0
+.	. nap_horizontal_wrapper_Z3547280, 0, 0, 0, 0, 0, 0, 0, 0
+.	. nap_horizontal_wrapper_Z3547281, 0, 0, 0, 0, 0, 0, 0, 0
+.	. nap_slave_wrapper_Z3012560, 27, 26, 0, 0, 0, 0, 0, 0
+.	. nap_vertical_wrapper_Z2102000, 0, 0, 0, 0, 0, 0, 0, 0
+.	. nap_vertical_wrapper_Z2102001, 0, 0, 0, 0, 0, 0, 0, 0
+.	. reg_control_block_10s_2s_2s, 109, 571, 1370, 8, 0, 0, 0, 0
+.	.	. nap_master_wrapper_Z224420, 3, 121, 0, 0, 0, 0, 0, 0
+.	. reset_processor_v2_3s_5s_1s_4s_1s, 2, 0, 23, 0, 0, 0, 0, 0
+.	. shift_reg_10s_1s_0s_0s, 0, 0, 10, 0, 0, 0, 0, 0
+.	. shift_reg_12s_1s_0s_0s, 0, 0, 12, 0, 0, 0, 0, 0
+.	. shift_reg_16s_1s_0s_0s, 0, 0, 16, 0, 0, 0, 0, 0
+.	. shift_reg_16s_1s_0s_0s_0, 0, 1, 16, 0, 0, 0, 0, 0
+.	. shift_reg_16s_1s_0s_0s_1, 0, 0, 16, 0, 0, 0, 0, 0
+.	. shift_reg_16s_1s_0s_0s_2, 0, 0, 16, 0, 0, 0, 0, 0
+.	. shift_reg_18s_1s_0s_0s, 0, 0, 18, 0, 0, 0, 0, 0
+.	. shift_reg_6s_1s_0s_0s, 0, 0, 6, 0, 0, 0, 0, 0
+.	. shift_reg_6s_1s_0s_0s_0, 0, 0, 6, 0, 0, 0, 0, 0
+.	. shift_reg_6s_1s_0s_0s_1, 0, 0, 6, 0, 0, 0, 0, 0
+.	. shift_reg_6s_1s_0s_0s_2, 0, 0, 6, 0, 0, 0, 0, 0
+.	. shift_reg_7s_1s_0s_0s_0, 0, 0, 7, 0, 0, 0, 0, 0
+.	. shift_reg_7s_1s_0s_0s_1, 0, 0, 7, 0, 0, 0, 0, 0
+.	. shift_reg_8s_1s_0s_0s, 0, 0, 8, 0, 0, 0, 0, 0
+.	. shift_reg_8s_1s_0s_0s_0, 0, 0, 8, 0, 0, 0, 0, 0
+.	. shift_reg_8s_1s_0s_0s_1, 0, 0, 8, 0, 0, 0, 0, 0
+.	. shift_reg_8s_1s_0s_0s_2, 0, 0, 8, 0, 0, 0, 0, 0

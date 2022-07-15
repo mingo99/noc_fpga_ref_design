@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the optimization information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="3" name="Optimizations Summary">
+<parameter tooltip="Retiming summary: Registers Before / After retiming" name="Retiming">
+<data>248 / 295</data>
+<report_link name="more">
+<data>/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/synlog/report/mlp_conv2d_top_fpga_mapper_retiming.rpt</data>
+<title>START OF CLOCK OPTIMIZATION REPORT</title>
+</report_link>
+</parameter>
+</report_table>

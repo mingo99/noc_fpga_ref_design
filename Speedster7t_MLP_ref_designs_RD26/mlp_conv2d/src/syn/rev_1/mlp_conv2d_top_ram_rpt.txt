@@ -1,0 +1,31 @@
+
+#####  START OF RAM REPORT  #####
+
+#####  BLOCK_RAM REPORT  #####
+
+INSTANTIATED     RTL_INSTANCE_NAME     PRIMITIVE_TYPE     DEPTHXWIDTH(RTL)     USER_ATTRIBUTE     MAPPED_INSTANCE_NAME     DEPTHXWIDTH(CONFIGURATION)(A/B)     OUT_PIPE_REG_PORTA(EN/ARST/SRST)     OUT_PIPE_REG_PORTB(EN/ARST/SRST)     REASON
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+===============================================================================================================================================================================================================================================
+
+
+
+
+#####  LOGIC_RAM REPORT  #####
+
+INSTANTIATED     RTL_INSTANCE_NAME     PRIMITIVE_TYPE     DEPTHXWIDTH(RTL)     USER_ATTRIBUTE     MAPPED_INSTANCE_NAME     DEPTHXWIDTH(CONFIGURATION)(A/B)     OUT_PIPE_REG_PORTA(EN/ARST/SRST)     OUT_PIPE_REG_PORTB(EN/ARST/SRST)     REASON
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+===============================================================================================================================================================================================================================================
+
+
+
+
+#####  RAM/ROM TO REGISTER/LOGIC REPORT  #####
+
+RTL_INSTANCE_NAME                                     PRIMITIVE_TYPE     DEPTHXWIDTH(RTL)     USER_ATTRIBUTE     REASON                                                                                                          
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+i_out_fifo.un9_nap_out\.awaddr[0:1]                   ROM                4x2                  DEFAULT            ROM instance meets required threshold for logic mapping (width = 8, depth = 64), inferring instance using logic.
+i_reset_processor.gb_per_clk\[0\]\.pipe_rstn_0[4]     NA                 -1x-1                DEFAULT            Seqshift instance meets required threshold for register  mapping, inferring instance using registers.           
+=================================================================================================================================================================================================================================
+
+#####  END OF RAM REPORT  #####
+

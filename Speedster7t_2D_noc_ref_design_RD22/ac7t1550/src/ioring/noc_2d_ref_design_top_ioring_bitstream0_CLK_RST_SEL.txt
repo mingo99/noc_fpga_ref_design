@@ -1,0 +1,145 @@
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      08003000004    00001fe0
+w      08003000008    00001fe0
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      08013000004    00001fe0
+w      08013000008    00001fe0
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      08023000004    00001fe0
+w      08023000008    00001fe0
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      08033000004    00001fe0
+w      08033000008    00001fe0
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      08103000004    00001fe0
+w      08103000008    00001fe0
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      08113000004    00001fe0
+w      08113000008    00001fe0
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      08123000004    00001fe0
+w      08123000008    00001fe0
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      08133000004    00001fe0
+w      08133000008    00001fe0
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      08092000004    00001fe0
+w      08092000008    00001fe0
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      081d0000004    00001fe0
+w      081d0000008    00001fe0
+w      081d000000c    00001fe0
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      080b0000004    00001fe0
+w      080b0000008    00001fe0
+w      080b000000c    00001fe0
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      081b0000004    00000fee
+w      081b0000008    00000fee
+w      081b000000c    00000fee
+w      081b00005c8    000000ff
+w      081b00005cc    000000ff
+w      081b00005d0    000000ff
+w      081b00005d4    000000ff
+w      081b00005d8    000000ff
+w      081b00005dc    000000ff
+w      081b00005e0    000000ff
+w      081b00005e4    000000ff
+w      081b00005e8    000000ff
+w      081b00005ec    000000ff
+w      081b00005f0    000000ff
+w      081b00005f4    000000ff
+w      081b00005f8    000000ff
+w      081b00005fc    000000ff
+w      081b0000600    000000ff
+w      081b0000604    000000ff
+w      081b8c00000    0ff3fe20
+w      081b8d00000    0ff3fe20
+w      081b8e00000    0ff3fe20
+w      081b8f00000    0ff3fe20
+w      081b9c00000    0ff3fe20
+w      081b9d00000    0ff3fe20
+w      081b9e00000    0ff3fe20
+w      081b9f00000    0ff3fe20
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      081c0000004    00000fee
+w      081c0000008    00000fee
+w      081c000000c    00000fee
+w      081c00005c8    000000ff
+w      081c00005cc    000000ff
+w      081c00005d0    000000ff
+w      081c00005d4    000000ff
+w      081c00005d8    000000ff
+w      081c00005dc    000000ff
+w      081c00005e0    000000ff
+w      081c00005e4    000000ff
+w      081c00005e8    000000ff
+w      081c00005ec    000000ff
+w      081c00005f0    000000ff
+w      081c00005f4    000000ff
+w      081c00005f8    000000ff
+w      081c00005fc    000000ff
+w      081c0000600    000000ff
+w      081c0000604    000000ff
+w      081c8c00000    0ff3fe20
+w      081c8d00000    0ff3fe20
+w      081c8e00000    0ff3fe20
+w      081c8f00000    0ff3fe20
+w      081c9c00000    0ff3fe20
+w      081c9d00000    0ff3fe20
+w      081c9e00000    0ff3fe20
+w      081c9f00000    0ff3fe20
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      08190100008    000000ff
+w      08190100010    000000ff
+w      08190100018    000000ff
+w      08198c00000    0ff3fe20
+w      08198d00000    0ff3fe20
+w      08198e00000    0ff3fe20
+w      08198f00000    0ff3fe20
+w      08199c00000    0ff3fe20
+w      08199d00000    0ff3fe20
+w      08199e00000    0ff3fe20
+w      08199f00000    0ff3fe20
+w      0819ac00000    0ff3fe20
+w      0819ad00000    0ff3fe20
+w      0819ae00000    0ff3fe20
+w      0819af00000    0ff3fe20
+w      0819bc00000    0ff3fe20
+w      0819bd00000    0ff3fe20
+w      0819be00000    0ff3fe20
+w      0819bf00000    0ff3fe20
+##############################
+# Data for CLK_RST_SEL
+# CMD  ADDRESS      DATA
+w      081a0100008    000000ff
+w      081a0100010    000000ff
+w      081a0100018    000000ff

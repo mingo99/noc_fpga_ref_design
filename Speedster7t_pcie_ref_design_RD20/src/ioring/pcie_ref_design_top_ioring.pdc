@@ -1,0 +1,81 @@
+#######################################
+# ACE GENERATED PDC FILE
+# Generated on: 2021.05.04 at 06:44:45 PDT
+# By: ACE 8.3.3
+# From project: pcie_ref_design_top
+#######################################
+# IO Ring Boundary Pin Placement File
+#######################################
+
+# Insertion of boundary pin instances
+# Boundary pins for clock_io_bank
+# Boundary pins for gpio_bank_north
+create_boundary_pins {p:i_reset_n} {i_reset_n_ipin} -data
+create_boundary_pins {p:i_start} {i_start_ipin} -data
+create_boundary_pins {p:o_fail} {o_fail_opin} -data
+create_boundary_pins {p:o_fail_oe} {o_fail_oe_opin} -data
+create_boundary_pins {p:o_mstr_test_complete} {o_mstr_test_complete_opin} -data
+create_boundary_pins {p:o_mstr_test_complete_oe} {o_mstr_test_complete_oe_opin} -data
+# Boundary pins for noc
+# Boundary pins for pci_express_x16
+# Status
+create_boundary_pins {p:pci_express_x16_status_flr_pf_active[0]} {pci_express_x16_status_flr_pf_active[0]_ipin} -data
+create_boundary_pins {p:pci_express_x16_status_flr_pf_active[1]} {pci_express_x16_status_flr_pf_active[1]_ipin} -data
+create_boundary_pins {p:pci_express_x16_status_flr_pf_active[2]} {pci_express_x16_status_flr_pf_active[2]_ipin} -data
+create_boundary_pins {p:pci_express_x16_status_flr_pf_active[3]} {pci_express_x16_status_flr_pf_active[3]_ipin} -data
+create_boundary_pins {p:pci_express_x16_status_flr_vf_active} {pci_express_x16_status_flr_vf_active_ipin} -data
+create_boundary_pins {p:pci_express_x16_status_ltssm_state[0]} {pci_express_x16_status_ltssm_state[0]_ipin} -data
+create_boundary_pins {p:pci_express_x16_status_ltssm_state[1]} {pci_express_x16_status_ltssm_state[1]_ipin} -data
+create_boundary_pins {p:pci_express_x16_status_ltssm_state[2]} {pci_express_x16_status_ltssm_state[2]_ipin} -data
+create_boundary_pins {p:pci_express_x16_status_ltssm_state[3]} {pci_express_x16_status_ltssm_state[3]_ipin} -data
+create_boundary_pins {p:pci_express_x16_status_ltssm_state[4]} {pci_express_x16_status_ltssm_state[4]_ipin} -data
+create_boundary_pins {p:pci_express_x16_status_ltssm_state[5]} {pci_express_x16_status_ltssm_state[5]_ipin} -data
+# Boundary pins for pci_express_x8
+# Status
+create_boundary_pins {p:pci_express_x8_status_ltssm_state[0]} {pci_express_x8_status_ltssm_state[0]_ipin} -data
+create_boundary_pins {p:pci_express_x8_status_ltssm_state[1]} {pci_express_x8_status_ltssm_state[1]_ipin} -data
+create_boundary_pins {p:pci_express_x8_status_ltssm_state[2]} {pci_express_x8_status_ltssm_state[2]_ipin} -data
+create_boundary_pins {p:pci_express_x8_status_ltssm_state[3]} {pci_express_x8_status_ltssm_state[3]_ipin} -data
+create_boundary_pins {p:pci_express_x8_status_ltssm_state[4]} {pci_express_x8_status_ltssm_state[4]_ipin} -data
+create_boundary_pins {p:pci_express_x8_status_ltssm_state[5]} {pci_express_x8_status_ltssm_state[5]_ipin} -data
+# Boundary pins for pll_1
+create_boundary_pins {p:i_clk} {i_clk_ipin} -clock
+create_boundary_pins {p:pll_1_lock} {pll_1_lock_ipin} -data
+# Boundary pin placement
+# Boundary pins for clock_io_bank
+# Boundary pins for gpio_bank_north
+set_placement -fixed -batch {p:i_reset_n} {d:i_user_11_09_lut_13[15]}
+set_placement -fixed -batch {p:i_start} {d:i_user_11_09_lut_13[23]}
+set_placement -fixed -batch {p:o_fail} {d:o_user_11_09_lut_14[8]}
+set_placement -fixed -batch {p:o_fail_oe} {d:o_user_11_09_lut_12[19]}
+set_placement -fixed -batch {p:o_mstr_test_complete} {d:o_user_11_09_lut_14[0]}
+set_placement -fixed -batch {p:o_mstr_test_complete_oe} {d:o_user_11_09_lut_12[18]}
+# Boundary pins for noc
+# Boundary pins for pci_express_x16
+# Status
+set_placement -fixed -batch {p:pci_express_x16_status_flr_pf_active[0]} {d:i_user_10_09_mlp_00[10]}
+set_placement -fixed -batch {p:pci_express_x16_status_flr_pf_active[1]} {d:i_user_10_09_mlp_00[11]}
+set_placement -fixed -batch {p:pci_express_x16_status_flr_pf_active[2]} {d:i_user_10_09_mlp_00[12]}
+set_placement -fixed -batch {p:pci_express_x16_status_flr_pf_active[3]} {d:i_user_10_09_mlp_00[13]}
+set_placement -fixed -batch {p:pci_express_x16_status_flr_vf_active} {d:i_user_10_09_mlp_00[9]}
+set_placement -fixed -batch {p:pci_express_x16_status_ltssm_state[0]} {d:i_user_10_09_lut_00[1]}
+set_placement -fixed -batch {p:pci_express_x16_status_ltssm_state[1]} {d:i_user_10_09_lut_00[2]}
+set_placement -fixed -batch {p:pci_express_x16_status_ltssm_state[2]} {d:i_user_10_09_lut_00[3]}
+set_placement -fixed -batch {p:pci_express_x16_status_ltssm_state[3]} {d:i_user_10_09_lut_00[4]}
+set_placement -fixed -batch {p:pci_express_x16_status_ltssm_state[4]} {d:i_user_10_09_lut_00[5]}
+set_placement -fixed -batch {p:pci_express_x16_status_ltssm_state[5]} {d:i_user_10_09_lut_00[6]}
+# Boundary pins for pci_express_x8
+# Status
+set_placement -fixed -batch {p:pci_express_x8_status_ltssm_state[0]} {d:i_user_03_09_lut_08[20]}
+set_placement -fixed -batch {p:pci_express_x8_status_ltssm_state[1]} {d:i_user_03_09_lut_08[19]}
+set_placement -fixed -batch {p:pci_express_x8_status_ltssm_state[2]} {d:i_user_03_09_lut_08[18]}
+set_placement -fixed -batch {p:pci_express_x8_status_ltssm_state[3]} {d:i_user_03_09_lut_08[17]}
+set_placement -fixed -batch {p:pci_express_x8_status_ltssm_state[4]} {d:i_user_03_09_lut_08[16]}
+set_placement -fixed -batch {p:pci_express_x8_status_ltssm_state[5]} {d:i_user_03_09_lut_08[15]}
+# Boundary pins for pll_1
+set_placement -fixed -batch {p:i_clk} {d:i_user_06_09_trunk_00[16]}
+set_placement -fixed -batch {p:pll_1_lock} {d:i_user_12_08_lut_17[0]}
+
+######################################
+# End IO Ring Boundary Pin Placement File
+######################################

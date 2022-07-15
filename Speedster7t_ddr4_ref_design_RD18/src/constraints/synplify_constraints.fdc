@@ -1,0 +1,35 @@
+# -------------------------------------------------------------------------
+# Synplify physical constraints file
+# This file is used to set Synplify physical constraints, and attributes.
+# Note : Timing constraints are normally set in an SDC file
+# -------------------------------------------------------------------------
+
+# -------------------------------------------------------------------------
+# Example of how to change the available resources in the target device
+# -------------------------------------------------------------------------
+# define_global_attribute syn_allowed_resources {blockmults=0}
+
+# -------------------------------------------------------------------------
+# Example of how to set a soft compile point
+# -------------------------------------------------------------------------
+# define_compile_point  {v:work.alu_avr_cm4} -type {soft}
+
+# -------------------------------------------------------------------------
+# Example of how to set a soft compile point
+# if the compile point changed name on each run
+# -------------------------------------------------------------------------
+#foreach inst [c_list [find -hier -view oc_avr_hp_cm4*]] {
+#    define_compile_point $inst -type {soft}
+#}
+
+# -------------------------------------------------------------------------
+# Example of defaulting all roms to logic, (rather than LRAM or BRAM)
+# -------------------------------------------------------------------------
+# define_global_attribute  {syn_romstyle} {logic}
+
+# -------------------------------------------------------------------------
+# Example of ensuring RAMs only inferred for sufficiently large register sets
+# -------------------------------------------------------------------------
+# define_global_attribute  {syn_max_memsize_reg} {2048}
+
+

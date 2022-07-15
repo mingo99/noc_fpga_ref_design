@@ -1,0 +1,310 @@
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_13_33.log
+Implementation activated at 15:13:40 on 07/13/2022
+------------------------------------------------------
+ACE> run
+INFO: ===========================================
+INFO: Running flow step "run_prepare"
+INFO: ===========================================
+INFO: Loading technology libraries db...
+INFO: Loading AC7t1500ES0 definition...
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Reading project verilog netlists...
+INFO: Reading netlist file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/mlp_conv2d_top.vm
+INFO: File /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/mlp_conv2d_top.vm is a netlist synthesized by Synplify 2021.3.
+INFO: Netlist synthesized for part AC7t1500ES0F53A0C2.
+-- Reading structural Verilog file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/mlp_conv2d_top.vm
+/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/mlp_conv2d_top.vm(185151): INFO: setting mlp_conv2d_top as top level module (VNLR-1015)
+INFO: Deleting existing guidefile /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_verify_guidefile
+INFO: Running netlist reconditioner...
+INFO: Reconditioning pre_flatten Netlist mlp_conv2d_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_recondition_pre_flatten.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Reading project partitions files...
+INFO: Flattening netlist mlp_conv2d_top
+INFO: Reading project timing constraint files...
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ioring/mlp_conv2d_top_ioring.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d.sdc
+INFO: Reading project constraint files...
+INFO: Reading constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ioring/mlp_conv2d_top_ioring.pdc
+INFO: Reading XML constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ioring/mlp_conv2d_top_ioring_util.xml
+INFO: Reading constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d_b60.pdc
+Checking post_import Netlist mlp_conv2d_top
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_import Netlist mlp_conv2d_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_recondition_post_import.log
+INFO: Disconnected 326 unnecessary port connections on 2 BRAM instances
+INFO: Deleted 1531 zero-pin nets
+INFO: Disconnected 218 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Deleted 4700 unnecessary source instances
+INFO: Disconnected 121 nets without drivers
+INFO: Deleted 27503 dangling output nets
+INFO: Converted 9 sources driving data pins to constant LUTs (source not available)
+INFO: Deleted 243 MUX2 instances (correcting MUX2s with constant select pins)
+INFO: Removed 81 dangling instances and 78 dangling nets that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Reconditioning complete (runtime = 00:00:04)
+INFO: Compiling design...
+INFO: Flattening netlist mlp_conv2d_top
+INFO: Running constant propagation
+INFO: Running dangling logic removal
+INFO: Elaborating I/O cells ...
+INFO: Flattening netlist mlp_conv2d_top
+INFO: Running constant propagation
+INFO: Running dangling logic removal
+INFO: Elaborating I/O cells ...
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_elaborate Netlist mlp_conv2d_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_recondition_post_elaborate.log
+INFO: Disconnected 148 don't care inputs from ALUs in 2 iterations
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Elaborating I/O cells ...
+INFO: Mapping core cells ...
+INFO: Annotating timing constraints in ace
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ioring/mlp_conv2d_top_ioring.sdc
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d.sdc
+WARNING: mlp_conv2d.sdc, 13 instance '*mlp_multi_data_out*' not found.
+INFO: Saving Pre-Prepare checkpoint Acxdb Archive file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/mlp_conv2d_top_prepared_initial.acxdb
+INFO: Active implementation database saved to file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/mlp_conv2d_top_prepared_initial.acxdb
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist mlp_conv2d_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_recondition_post_map.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Remapping entire design...
+INFO: Netlist optimization complete. (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist mlp_conv2d_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_recondition_post_remap.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Initializing retiming log to file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_directed_retiming.log , 
+INFO: Running Area Optimization...
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Removed 55 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Removed 5 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Area Optimization complete (runtime = 00:00:02)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist mlp_conv2d_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_recondition_post_rewire_1.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Graph Rewriting.
+INFO: Removed 14 dangling instances that could not be reached from the primary outputs.  For detailed information enable the implementation option save_sweep_log_file.
+INFO: Made 16 applications of rules.
+INFO: Rewrite complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist mlp_conv2d_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_recondition_post_rewrite_1.log
+INFO: Disconnected 8 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Converted 9 sources driving data pins to constant LUTs (source not available)
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Inserted 17 fanout buffers
+INFO: Fanout Buffering complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist mlp_conv2d_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_recondition_post_fanout_3.log
+INFO: Converted 9 sources driving data pins to constant LUTs (source not available)
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist mlp_conv2d_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_recondition_post_fanout_4.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Flattening netlist mlp_conv2d_top
+INFO: Transformed 1 inverting ALUs
+INFO: Deleted 6 inverters
+INFO: Inserted 1 fanout buffers
+INFO: Fanout Buffering complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist mlp_conv2d_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_recondition_post_fanout_6.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Wrote clock report to /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_clocks_prepared.html
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_prepare Netlist mlp_conv2d_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_recondition_post_prepare.log
+INFO: Merged: 0 MLPs
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Wrote utilization report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_utilization_prepared.html
+INFO: Wrote utilization report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_utilization_prepared.txt
+INFO: Wrote pin assignment report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_pins_prepared.html
+INFO: Wrote pin assignment report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_pins_prepared.txt
+INFO: Saving Post-Prepare checkpoint Acxdb Archive file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/mlp_conv2d_top_prepared.acxdb
+INFO: Active implementation database saved to file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/mlp_conv2d_top_prepared.acxdb
+Checking post_prepare Netlist mlp_conv2d_top
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Flow step "run_prepare" completed in 57 seconds.  Peak memory usage is 5666 MB. Cputime 41 seconds.
+INFO: ===========================================
+INFO: Running flow step "report_timing_prepared"
+INFO: ===========================================
+INFO: Running clustering
+INFO: Clustering complete (runtime = 00:00:00, memory 5556 MB)
+INFO: Timing analysis for temperature 0C
+INFO: Running Timing Analysis
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ioring/mlp_conv2d_top_ioring.sdc
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/constraints/mlp_conv2d.sdc
+WARNING: mlp_conv2d.sdc, 13 instance '*mlp_multi_data_out*' not found.
+INFO: Calculating upper limits of clock frequencies
+INFO: Timing analysis completed.
+INFO: Current Timing
+INFO: Clock: i_clk; target: 600.0 MHz; upper-limit: 529.4 MHz; meets timing: setup no (-0.222ns), hold no (-0.160ns)
+INFO: Clock: **async_default**; target: 600.0 MHz; upper-limit: 1098.8 MHz; meets timing: setup yes (+0.757ns)
+INFO: Wrote Timing Report to /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_timing_prepared_C2_0p85V_0C.html
+INFO: Flow step "report_timing_prepared" completed in 52 seconds.  Peak memory usage is 6349 MB. Cputime 43 seconds.
+INFO: ===========================================
+INFO: Running flow step "run_place"
+INFO: ===========================================
+INFO: Running reset removal
+INFO: No Reset removal work to do
+INFO: Running vmode removal
+INFO: No vmode blocks detected
+INFO: Transmitting routing visualization update...
+INFO: Completed transmitting routing visualization data
+INFO: Unplaced 0 instances
+Checking pre_pnr Netlist mlp_conv2d_top
+-- Checking IO Assignment...
+-- Checking pre-placement...
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Boundary placement: Placing ASCs...
+INFO: Running automatic placement region creation...
+Running global placement on netlist mlp_conv2d_top...
+Created 20 fast-feedback clusters
+INFO: Building modules from pre-clustering
+-- Phase 0 took 20.1s (1/1,100:520)
+-- Phase 1 took 0.0s (0/0,0:520)
+-- Phase 2 took 0.1s (1/1,55:175)
+-- Phase 3 took 67.7s (13/14,833:2766)
+-- Phase 4 took 32.6s (6/9,477:1492)
+INFO: IO placement took 00:00:32
+INFO: Global Placement complete (runtime = 00:03:14)
+INFO: Wrote placement report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_placement_global.txt
+INFO: Writing Report File completed /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/.debug/mlp_conv2d_top_placement_global.txt (runtime = 00:00:00)
+INFO: Placing special I/Os ...
+INFO: Running Placement-based cloning...
+INFO: Running Netlist Optimization...
+INFO: Netlist Optimization complete (runtime = 00:00:24)
+INFO: Deleted 0 inverters
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist mlp_conv2d_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Active implementation database saved to file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/mlp_conv2d_top_placed_loweffort.acxdb
+INFO: Writing mlp_conv2d_top_placed_loweffort.acxdb completed (runtime = 00:00:01)
+INFO: Running Placement Optimization...
+Recreated 20 fast-feedback clusters
+INFO: Optimized 8 fast-connect clusters
+INFO: Placement Optimize FastConnect complete (runtime = 00:00:17)
+INFO: Running Placement Optimization...
+INFO: Progress: 50% done
+INFO: Progress: 66% done
+INFO: Progress: 100% done
+INFO: IDT: 5, FDT: 1
+INFO: Building modules from pre-clustering
+INFO: Balanced 18 pipeline stages
+INFO: Placement Optimization complete (runtime = 00:01:35)
+INFO: Active implementation database saved to file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/mlp_conv2d_top_placed_higheffort.acxdb
+INFO: Writing mlp_conv2d_top_placed_higheffort.acxdb completed (runtime = 00:00:01)
+INFO: Running Area Optimization...
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Removed 1 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Area Optimization complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist mlp_conv2d_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Placement Legalizer Cleanup complete (runtime = 00:00:00)
+INFO: Running Placement Validation...
+INFO: top dims: 268, 310
+Recreated 20 fast-feedback clusters
+INFO: Placing 20 fast-feedback clusters
+INFO: Placement Validation complete (runtime = 00:00:21)
+INFO: Running Find WideGates...
+INFO: Post-Placement Pin Re-Assignment...
+INFO: Placement Find WideGates complete (runtime = 00:00:38)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist mlp_conv2d_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Rewire Equivalent Clocks (runtime = 00:00:00)
+INFO: Running Placement Validation...
+INFO: top dims: 268, 310
+Recreated 20 fast-feedback clusters
+INFO: Placing 20 fast-feedback clusters
+INFO: Placement Validation complete (runtime = 00:00:01)
+INFO: Saving Post-Place checkpoint Acxdb Archive file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/mlp_conv2d_top_placed.acxdb
+INFO: Active implementation database saved to file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/mlp_conv2d_top_placed.acxdb
+INFO: Writing mlp_conv2d_top_placed.acxdb completed (runtime = 00:00:01)
+INFO: Wrote utilization report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_utilization_placed.html
+INFO: Wrote utilization report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_utilization_placed.txt
+INFO: Wrote clock report to /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/ace/impl_1/reports/mlp_conv2d_top_clocks_placed.html
+Checking post_place Netlist mlp_conv2d_top
+-- Checking IO Assignment...
+-- Checking boundary placement...
+-- Checking placement...
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:02)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Flow step "run_place" completed in 398 seconds.  Peak memory usage is 6382 MB. Cputime 242 seconds.
+INFO: ===========================================
+INFO: Running flow step "run_route"
+INFO: ===========================================
+INFO: Unplaced 0 instances
+INFO: Running reset removal
+INFO: No Reset removal work to do
+INFO: Running vmode removal
+INFO: No vmode blocks detected
+INFO: Multithread: based on placement area, number of threads set to 1
+INFO: ace:router:Routing 54313 of 54321 nets, evaluation mode.
+INFO: Bus wires usage enabled
+INFO: ace:router: Router-setup runtime 0:04.92 ; wallclock 0:13.36
+INFO:     3                           i_clk_ipin_net	doms  2 (core  1,regions  3 [ 0  3]) .............FFF routed drep                     i_clk    #  
+INFO: ace:router: Initial-clock-route runtime 0:01.25 ; wallclock 0:01.65
+INFO: SUMMARY: same tile 5192, short neighbour 96, far neighbour 54122
+INFO: ace:router: Initial-route runtime 0:13.24 ; wallclock 0:10.25
+INFO: ace:router:Initial: 5014 of 5288 nets routed, 5120 overflows, 4 max edge, 202988, 23192, 14722, 15558, 61971, 87545, 130426
+INFO: ace:router: Resolve-congestion runtime 0:03.26 ; wallclock 0:03.36
+INFO: ace:router: Post-opt runtime 0:02.07 ; wallclock 0:02.09
+INFO: ace:router: Clock-skew-opt-and-misc runtime 0:00.14 ; wallclock 0:00.13
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_31_38.log
+Implementation activated at 15:31:45 on 07/13/2022
+------------------------------------------------------
+ACE> restore_project "/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/noc_2d_ref_design_top.acxprj" -activeimpl "impl_1"
+WARNING: The netlist file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/noc_2d_ref_design_top.vm could not be added to the project because it does not exist on the file system.
+WARNING: Relative paths are relative to the ACE project file directory, not the current working directory you launched ACE from.
+WARNING: The value of: "F53A0" is not allowed for impl option: package.  Valid values are: {F53}.
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_31_38.log
+Implementation activated at 15:32:28 on 07/13/2022
+------------------------------------------------------
+ACE> set_active_impl -project "mlp_conv2d_top" "impl_1"
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_31_38.log
+Implementation activated at 15:32:29 on 07/13/2022
+------------------------------------------------------
+ACE> set_active_impl -project "noc_2d_ref_design_top" "impl_1"
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_31_38.log
+Implementation activated at 15:32:33 on 07/13/2022
+------------------------------------------------------
+ACE> set_active_impl -project "noc_2d_ref_design_top" "impl_1"
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_48_02.log
+Implementation activated at 15:48:36 on 07/13/2022
+------------------------------------------------------
+ACE> remove_project "mlp_conv2d_top"
+ACE> set_active_impl -project "noc_2d_ref_design_top" "impl_1"

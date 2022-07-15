@@ -1,0 +1,90 @@
+#--  Synopsys, Inc.
+#--  Version R-2021.03X+7t
+#--  Project file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/run_options.txt
+#--  Written on Wed Jul 13 15:35:06 2022
+
+
+#project files
+add_file -verilog -vlog_std sysv "/eda/ace/libraries/device_models/AC7t1500ES0_synplify.sv"
+add_file -verilog "../rtl/default_nettype.v"
+add_file -verilog -vlog_std sysv "../rtl/mlp_wrapper_multi.sv"
+add_file -verilog -vlog_std sysv "../rtl/dot_product_16_8x8_multi.sv"
+add_file -verilog -vlog_std sysv "../rtl/nap_slave_wrapper.sv"
+add_file -verilog -vlog_std sysv "../rtl/dataflow_control.sv"
+add_file -verilog -vlog_std sysv "../rtl/line_fifo.sv"
+add_file -verilog -vlog_std sysv "../rtl/out_fifo.sv"
+add_file -verilog -vlog_std sysv "../rtl/reset_processor.sv"
+add_file -verilog -vlog_std sysv "../rtl/mlp_conv2d_top.sv"
+add_file -constraint "../constraints/mlp_conv2d_synplify.sdc"
+add_file -fpga_constraint "../constraints/mlp_conv2d.fdc"
+
+
+#implementation: "rev_1"
+impl -add rev_1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -project_relative_includes 1
+
+#
+#implementation parameter settings
+set_option -hdl_param -set BATCH 60
+set_option -include_path {../../src/include;$ACE_INSTALL_DIR/libraries/}
+
+#device options
+set_option -technology AchronixSpeedster7t
+set_option -part AC7t1500ES0
+set_option -package F53A0
+set_option -speed_grade C2
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "mlp_conv2d_top"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency auto
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_structural_verilog 0
+set_option -write_vhdl 0
+
+# Achronix Speedster7t
+set_option -maxfan 10000
+set_option -rw_check_on_ram 0
+set_option -disable_io_insertion 1
+set_option -retime_registers_forward 0
+set_option -pipe 1
+set_option -retiming 1
+set_option -update_models_cp 0
+set_option -run_prop_extract 1
+set_option -fix_gated_and_generated_clocks 1
+set_option -mem_init_file 0
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "rev_1/mlp_conv2d_top.vm"
+impl -active "rev_1"

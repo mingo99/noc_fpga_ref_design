@@ -1,0 +1,59 @@
+# -------------------------------------------------------------------------
+# ACE placements file
+# This defines the physical placement of instances on the die
+# Primarily the IO locations, however instance locations and placement
+# regions can also be defined here
+# -------------------------------------------------------------------------
+
+# -------------------------------------------------------------------------
+# Example of how to place the NAPs in the design
+# -------------------------------------------------------------------------
+
+# place the horizontal NAPs (data streaming)
+# col=1 row=3
+set_placement -fixed {i:i_nap_row_1.i_nap_horizontal}  {s:x_core.NOC[1][3].logic.noc.nap_s}
+# col=9 row=3
+set_placement -fixed {i:i_nap_row_2.i_nap_horizontal}  {s:x_core.NOC[9][3].logic.noc.nap_s}
+
+
+# place the vertical NAPs (data streaming)
+# col=3 row=1
+set_placement -fixed {i:i_nap_col_3.i_nap_vertical}  {s:x_core.NOC[3][1].logic.noc.nap_m}
+# col=3 row=7
+set_placement -fixed {i:i_nap_col_4.i_nap_vertical}  {s:x_core.NOC[3][7].logic.noc.nap_m}
+
+
+# place the AXI slave NAP
+# col=2 row=5
+set_placement -fixed {i:i_axi_slave_wrapper_in.i_axi_slave} {s:x_core.NOC[2][5].logic.noc.nap_s}
+
+# place the AXI master NAP
+# col=9 row=8
+set_placement -fixed {i:i_axi_bram_rsp.i_axi_master_nap.i_axi_master} {s:x_core.NOC[9][8].logic.noc.nap_m}
+
+# place the AXI master NAP for Register Control Block
+# col=5 row=5
+set_placement -fixed {i:i_reg_control_block.i_axi_master.i_axi_master} {s:x_core.NOC[5][5].logic.noc.nap_m}
+
+# Region for AXI bram responder code to prevent logic from pulling away from the NAP
+create_region "region_bram_resp" {204 1 242 39}
+add_region_find_insts "region_bram_resp" {find {i_axi_bram_rsp.*} -insts}
+
+# Fix the FIFO's to be halfway up the NAP, (they were tending be bias towards the bottom)
+set_placement -fixed {i:i_axi_bram_rsp.xact_mem_lo} {s:x_core.BMLP[31][29].logic.bmlp.bram[1]}
+set_placement -fixed {i:i_axi_bram_rsp.xact_mem_hi} {s:x_core.BMLP[31][30].logic.bmlp.bram[0]}
+
+# NAP resets are targeted to be reset over clock
+set_clock_type -data_center [find nap_chk_rstn -nets]
+set_clock_type -data_center [find nap_send_rstn -nets]
+
+# Keep AXI pkt gen local to NAP
+create_region "region_axi_pkt_gen" {25 117 53 153}
+add_region_insts region_axi_pkt_gen [find i_axi_pkt_gen* -insts]
+add_region_insts region_axi_pkt_gen [find i_axi_pkt_chk* -insts]
+add_region_insts region_axi_pkt_gen [find test_rx_count* -insts]
+add_region_insts region_axi_pkt_gen [find test_gen_count* -insts]
+# Make sure start of pipeline is inside the region
+add_region_insts region_axi_pkt_gen [find x_shift_reg_xact_done*_0_ -insts]
+add_region_insts region_axi_pkt_gen [find i_xact_fifo* -inst]
+

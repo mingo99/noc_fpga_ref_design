@@ -1,0 +1,205 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03X+7t
+Install: /eda/synpro/fpga/R-2021.03X
+OS: Ubuntu 20.04.4 LTS
+Hostname: OMEN
+max virtual memory: unlimited (bytes)
+max user processes: 31123
+max stack size: 8388608 (bytes)
+
+
+Implementation : rev_1
+
+# Written on Wed Jul 13 15:35:27 2022
+
+##### DESIGN INFO #######################################################
+
+Top View:                "noc_2d_ref_design_top"
+Constraint File(s):      "/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/constraints/synplify_constraints.sdc"
+                         "/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/constraints/synplify_constraints.fdc"
+
+
+
+
+##### SUMMARY ############################################################
+
+Found 0 issues in 0 out of 11 constraints
+
+
+##### DETAILS ############################################################
+
+
+
+Clock Relationships
+*******************
+
+Starting     Ending       |     rise to rise     |     fall to fall     |     rise to fall     |     fall to rise                     
+-------------------------------------------------------------------------------------------------------------------------------------
+chk_clk      chk_clk      |     2.004            |     No paths         |     No paths         |     No paths                         
+chk_clk      reg_clk      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+send_clk     send_clk     |     2.000            |     No paths         |     No paths         |     No paths                         
+send_clk     reg_clk      |     Diff grp         |     No paths         |     No paths         |     No paths                         
+reg_clk      send_clk     |     Diff grp         |     No paths         |     No paths         |     No paths                         
+reg_clk      reg_clk      |     5.000            |     No paths         |     No paths         |     No paths                         
+=====================================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+Unconstrained Start/End Points
+******************************
+
+p:ext_gpio_dir[0]
+p:ext_gpio_dir[1]
+p:ext_gpio_dir[2]
+p:ext_gpio_dir[3]
+p:ext_gpio_dir[4]
+p:ext_gpio_dir[5]
+p:ext_gpio_dir[6]
+p:ext_gpio_dir[7]
+p:ext_gpio_dir_oe[0]
+p:ext_gpio_dir_oe[1]
+p:ext_gpio_dir_oe[2]
+p:ext_gpio_dir_oe[3]
+p:ext_gpio_dir_oe[4]
+p:ext_gpio_dir_oe[5]
+p:ext_gpio_dir_oe[6]
+p:ext_gpio_dir_oe[7]
+p:ext_gpio_fpga_in[0]
+p:ext_gpio_fpga_in[1]
+p:ext_gpio_fpga_in[2]
+p:ext_gpio_fpga_in[3]
+p:ext_gpio_fpga_in[4]
+p:ext_gpio_fpga_in[5]
+p:ext_gpio_fpga_in[6]
+p:ext_gpio_fpga_in[7]
+p:ext_gpio_fpga_oe[0]
+p:ext_gpio_fpga_oe[1]
+p:ext_gpio_fpga_oe[2]
+p:ext_gpio_fpga_oe[3]
+p:ext_gpio_fpga_oe[4]
+p:ext_gpio_fpga_oe[5]
+p:ext_gpio_fpga_oe[6]
+p:ext_gpio_fpga_oe[7]
+p:ext_gpio_fpga_out[0]
+p:ext_gpio_fpga_out[1]
+p:ext_gpio_fpga_out[2]
+p:ext_gpio_fpga_out[3]
+p:ext_gpio_fpga_out[4]
+p:ext_gpio_fpga_out[5]
+p:ext_gpio_fpga_out[6]
+p:ext_gpio_fpga_out[7]
+p:ext_gpio_oe_l
+p:ext_gpio_oe_l_oe
+p:fpga_avr_rxd
+p:fpga_avr_txd
+p:fpga_avr_txd_oe
+p:fpga_ftdi_rxd
+p:fpga_ftdi_txd
+p:fpga_ftdi_txd_oe
+p:fpga_i2c_mux_gnt
+p:fpga_i2c_req_l
+p:fpga_i2c_req_l_oe
+p:fpga_rst_l
+p:fpga_sys_scl_in
+p:fpga_sys_scl_oe
+p:fpga_sys_scl_out
+p:fpga_sys_sda_in
+p:fpga_sys_sda_oe
+p:fpga_sys_sda_out
+p:irq_to_avr
+p:irq_to_avr_oe
+p:irq_to_fpga
+p:led_l[0]
+p:led_l[1]
+p:led_l[2]
+p:led_l[3]
+p:led_l[4]
+p:led_l[5]
+p:led_l[6]
+p:led_l[7]
+p:led_l_oe[0]
+p:led_l_oe[1]
+p:led_l_oe[2]
+p:led_l_oe[3]
+p:led_l_oe[4]
+p:led_l_oe[5]
+p:led_l_oe[6]
+p:led_l_oe[7]
+p:led_oe_l
+p:led_oe_l_oe
+p:mcio_dir[0]
+p:mcio_dir[1]
+p:mcio_dir[2]
+p:mcio_dir[3]
+p:mcio_dir_45
+p:mcio_dir_45_oe
+p:mcio_dir_oe[0]
+p:mcio_dir_oe[1]
+p:mcio_dir_oe[2]
+p:mcio_dir_oe[3]
+p:mcio_oe1_l
+p:mcio_oe1_l_oe
+p:mcio_oe_45_l
+p:mcio_oe_45_l_oe
+p:mcio_scl_in
+p:mcio_scl_oe
+p:mcio_scl_out
+p:mcio_sda_in
+p:mcio_sda_oe
+p:mcio_sda_out
+p:mcio_vio_45_10_clk
+p:mcio_vio_in[0]
+p:mcio_vio_in[1]
+p:mcio_vio_in[2]
+p:mcio_vio_in[3]
+p:mcio_vio_oe[0]
+p:mcio_vio_oe[1]
+p:mcio_vio_oe[2]
+p:mcio_vio_oe[3]
+p:mcio_vio_out[0]
+p:mcio_vio_out[1]
+p:mcio_vio_out[2]
+p:mcio_vio_out[3]
+p:pll_chk_clk_lock
+p:pll_nw_2_ref0_312p5_clk
+p:pll_send_clk_lock
+p:pll_sw_2_ref1_312p5_clk
+p:qsfp_int_fpga_l
+p:test[1]
+p:test[2]
+p:test_oe[1]
+p:test_oe[2]
+p:vp_pll_nw_2_lock
+p:vp_pll_sw_2_lock
+
+
+Inapplicable constraints
+************************
+
+(none)
+
+
+Applicable constraints with issues
+**********************************
+
+(none)
+
+
+Constraints with matching wildcard expressions
+**********************************************
+
+(none)
+
+
+Library Report
+**************
+
+
+# End of Constraint Checker Report

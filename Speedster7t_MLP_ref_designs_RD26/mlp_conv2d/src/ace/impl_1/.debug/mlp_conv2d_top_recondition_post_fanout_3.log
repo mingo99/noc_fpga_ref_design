@@ -1,0 +1,19 @@
+        Reconditioner Logfile - post_mapping - mlp_conv2d_top
+        _____________________________________________________
+
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+
+Design: mlp_conv2d_top - impl_1 - mlp_conv2d_top
+Device: AC7t1500ES0
+Generated on Wed Jul 13 15:15:05 CST 2022
+Host: OMEN.localdomain
+
+INFO: Converted SOURCE1_T instance Vdd_src1_2 into constant LUT6_T (correcting SOURCE to TIEOFF_none data pin connection): Vdd_src1_2const1_RR4_0/pin:dout -> net:src1_2_DUP_RR4_0 -> DFFR_T:d
+INFO: Converted SOURCE1_T instance Vdd_src1_2 into constant LUT6_T (correcting SOURCE to TIEOFF_none data pin connection): Vdd_src1_2const1_RR4_1/pin:dout -> net:src1_2_DUP_RR4_1 -> DFFER_T:d
+INFO: Converted SOURCE1_T instance Vdd_src1_2 into constant LUT6_T (correcting SOURCE to TIEOFF_none data pin connection): Vdd_src1_2const1_RR4_2/pin:dout -> net:src1_2_DUP_RR4_2 -> DFFER_T:d
+INFO: Converted SOURCE1_T instance Vdd_src1_2 into constant LUT6_T (correcting SOURCE to TIEOFF_none data pin connection): Vdd_src1_2const1_RR4_3/pin:dout -> net:src1_2_DUP_RR4_3 -> DFFER_T:d
+INFO: Converted SOURCE1_T instance Vdd_src1_2 into constant LUT6_T (correcting SOURCE to TIEOFF_none data pin connection): Vdd_src1_2const1_RR4_4/pin:dout -> net:src1_2_DUP_RR4_4 -> DFFER_T:d
+INFO: Converted SOURCE1_T instance Vdd_src1_2 into constant LUT6_T (correcting SOURCE to TIEOFF_none data pin connection): Vdd_src1_2const1_RR4_5/pin:dout -> net:src1_2_DUP_RR4_5 -> DFFER_T:d
+INFO: Converted SOURCE1_T instance Vdd_src1_2 into constant LUT6_T (correcting SOURCE to TIEOFF_none data pin connection): Vdd_src1_2const1_RR4_6/pin:dout -> net:src1_2_DUP_RR4_6 -> DFFER_T:d
+INFO: Converted SOURCE1_T instance Vdd_src1_2 into constant LUT6_T (correcting SOURCE to TIEOFF_none data pin connection): Vdd_src1_2const1_RR4_7/pin:dout -> net:src1_2_DUP_RR4_7 -> OPIN_T:din
+INFO: Converted SOURCE1_T instance Vdd_src1_2 into constant LUT6_T (correcting SOURCE to TIEOFF_none data pin connection): Vdd_src1_2const1_RR4_8/pin:dout -> net:src1_2_DUP_RR4_8 -> OPIN_T:din

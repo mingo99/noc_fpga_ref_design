@@ -1,0 +1,75 @@
+# Auto-generated configuration file
+# Written by ac7t1500_2D_NoC_demo.tcl on 2022-07-05_16:36:52
+# File uses 42-bit addressing and 32-bit data
+#
+# Clear user registers
+# Clear all user registers
+# NAP AXI WRITE col 5 row 5 addr 00000000000 value 0x0
+w 04240000000 00000000
+# NAP AXI WRITE col 5 row 5 addr 00000000004 value 0x0
+w 04240000004 00000000
+# NAP AXI WRITE col 5 row 5 addr 00000000008 value 0x0
+w 04240000008 00000000
+# NAP AXI WRITE col 5 row 5 addr 0000000000C value 0x0
+w 0424000000c 00000000
+# NAP AXI WRITE col 5 row 5 addr 00000000010 value 0x0
+w 04240000010 00000000
+# NAP AXI WRITE col 5 row 5 addr 00000000014 value 0x0
+w 04240000014 00000000
+# NAP AXI WRITE col 5 row 5 addr 00000000018 value 0x0
+w 04240000018 00000000
+# NAP AXI WRITE col 5 row 5 addr 0000000001C value 0x0
+w 0424000001c 00000000
+# NAP AXI WRITE col 5 row 5 addr 00000000020 value 0x0
+w 04240000020 00000000
+# NAP AXI WRITE col 5 row 5 addr 00000000024 value 0x0
+w 04240000024 00000000
+# NAP AXI WRITE col 5 row 5 addr 24 value 12345678
+w 04240000024 12345678
+# Wait for 32 nS
+d 00000000000 00000008
+# NAP AXI VERIFY col 5 row 5 addr 24 exp 12345678
+v 04240000024 12345678
+# NAP AXI WRITE col 5 row 5 addr 24 value aa55dead
+w 04240000024 aa55dead
+# Wait for 32 nS
+d 00000000000 00000008
+# NAP AXI VERIFY col 5 row 5 addr 24 exp aa55dead
+v 04240000024 aa55dead
+# Read version registers
+# Read version registers
+# NAP AXI READ col 5 row 5 addr fff0000
+r 0424fff0000 00000000
+# NAP AXI READ col 5 row 5 addr fff0004
+r 0424fff0004 00000000
+# NAP AXI READ col 5 row 5 addr fff0008
+r 0424fff0008 00000000
+# NAP AXI READ col 5 row 5 addr fff000c
+r 0424fff000c 00000000
+# Write transactions
+# NAP AXI WRITE col 5 row 5 addr 8 value c8
+w 04240000008 000000c8
+# NAP AXI VERIFY col 5 row 5 addr 8 exp c8
+v 04240000008 c8
+# Start sequence
+# NAP AXI WRITE col 5 row 5 addr 0 value 0x60
+w 04240000000 00000060
+# NAP AXI WRITE col 5 row 5 addr 0 value 0x78
+w 04240000000 00000078
+# NAP AXI WRITE col 5 row 5 addr 0 value 0x7e
+w 04240000000 0000007e
+# NAP AXI WRITE col 5 row 5 addr 0 value 0x7f
+w 04240000000 0000007f
+# NAP AXI READ col 5 row 5 addr 4
+r 04240000004 00000000
+# Wait for 50 uS
+d 00000000000 000030D4
+# NAP AXI WRITE col 5 row 5 addr 0 value 0x7c
+w 04240000000 0000007c
+# NAP AXI WRITE col 5 row 5 addr 0 value 0x78
+w 04240000000 00000078
+# NAP AXI VERIFY col 5 row 5 addr 4 exp 02000007
+v 04240000004 02000007
+# NAP AXI READ col 5 row 5 addr 4
+r 04240000004 00000000
+# End of file

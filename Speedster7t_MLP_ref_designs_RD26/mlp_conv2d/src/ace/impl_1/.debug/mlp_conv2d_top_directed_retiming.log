@@ -1,0 +1,4 @@
+Directed forward and backward flip-flop retiming
+
+Retimed 0 Flip-Flops backward as specified using set_property -retime_backward
+Retimed 0 Flip-Flops forward as specified using set_property -retime_forward

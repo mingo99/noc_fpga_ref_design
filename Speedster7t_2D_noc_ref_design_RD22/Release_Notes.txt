@@ -1,0 +1,56 @@
+Release Notes for 2D NoC Reference Design RD22
+==============================================
+
+Version 4.0 - 27th Jan 22
+    * Compatible with ACE 8.6.1
+    * Compatbile with DSM 8.6.0
+
+    * 2D NoC Reference Design : ac7t1500
+          
+    * 2D NoC Reference Design : ac7t1550
+          Added second design to demonstrate AC7t1550 Cryptographic Engine usage
+
+Version 3.1 - 8th June 2021
+    * Compatible with ACE 8.3.4
+    * Compatbile with DSM 8.3.3
+
+    * Changed selected device speed grade to C2 to support wider device selection
+    * Changed clock and GPIO pin-out to be compatible with VectorPath card
+
+Version 3.0 - 22nd July 2020
+    * Compatible with ACE 8.2 and simulation package 8.2
+
+    * Updated I/O configuration files (.acxip) to work with ACE 8.2
+      including corresponding updated timing and placement constraint
+      files (.sdc and .pdc)
+
+    * Added options to ace_options.tcl to meet timing closure
+
+    * Added additional detail in documentation regarding I/O and clock
+      changes for ACE 8.2
+
+Version 2.0 - 28th May 2020
+    * Compatible with ACE 8.1.2 and simulation package 8.1.2.update1
+
+    * Added hold_fixing option to ace_options.tcl to meet timing closure
+
+    * Set NoC arbitration values to default of 32'x in NAP wrappers
+
+    * Updated testbench ac7t1500 instantiation to connect direct to ports
+
+    * To support simulation under Windows, added qsim_noc_ref_design.do
+      script to /sim/questa.  This can be run using the vsim GUI in
+      any operating system.
+
+    * Added additional detail in documentation regarding Windows flows
+
+    Known Issues
+    ============
+    There is a port width mismatch between the NAP simulation model and the
+    NAP implementaton model.  Correctly raddr is 28-bits.
+    This results in simulation warnings which can safely be ignored
+    This mismatch will be fixed in future releases of ACE.
+
+Version 1.0 - 27th February 2020
+    Initial Release.  Compatible with ACE 8.1.1.beta
+

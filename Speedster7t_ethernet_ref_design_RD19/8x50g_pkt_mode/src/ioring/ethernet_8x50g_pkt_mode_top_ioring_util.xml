@@ -1,0 +1,14 @@
+<utilization_data>
+<summary title="IO Pad Sites" utilization="0.000"/>
+<summary title="GPIO Pad Sites" utilization="0.000" indent_level="1"/>
+<summary title="CLKIO Pad Sites" utilization="0.000" indent_level="1"/>
+<details cell_name="I/O Pads (Total)" instances="0" sites="88" utilization="0.000"/>
+<details cell_name="GPIO Pads" instances="0" sites="64" utilization="0.000"/>
+<details cell_name="CLKIO Pads" instances="0" sites="24" utilization="0.000"/>
+<details cell_name="PLLs" instances="4" sites="16" utilization="25.000"/>
+<details cell_name="DDR4s" instances="0" sites="1" utilization="0.000"/>
+<details cell_name="GDDR6s" instances="0" sites="8" utilization="0.000"/>
+<details cell_name="Ethernet Controllers" instances="1" sites="2" utilization="50.000"/>
+<details cell_name="PCIe Controllers" instances="0" sites="2" utilization="0.000"/>
+<details cell_name="SerDes Lanes" instances="8" sites="32" utilization="25.000"/>
+</utilization_data>

@@ -1,0 +1,88 @@
+#--  Synopsys, Inc.
+#--  Version P-2019.09X-Beta1+7t
+#--  Project file ethernet_ref_design_top.prj
+#--  Written on Mon Apr 13 14:50:18 2020
+
+set ACE_INSTALL_DIR $::env(ACE_INSTALL_DIR)
+
+#project files
+#add_file -verilog "$ACE_INSTALL_DIR/libraries/device_models/7t_synplify.v"
+add_file -verilog "$ACE_INSTALL_DIR/libraries/device_models/AC7t1500ES0_synplify.sv"
+add_file -verilog "../../src/rtl/default_nettype.v"
+add_file -verilog -vlog_std sysv "../../src/rtl/nap_ethernet_wrapper.sv"
+add_file -verilog -vlog_std sysv "../../src/rtl/random_seq_engine.sv"
+add_file -verilog -vlog_std sysv "../../src/rtl/reset_processor.sv"
+add_file -verilog -vlog_std sysv "../../src/rtl/eth_pkt_gen.sv"
+add_file -verilog -vlog_std sysv "../../src/rtl/eth_pkt_chk.sv"
+add_file -verilog -vlog_std sysv "../../src/rtl/eth_fifo_256x512k.sv"
+add_file -verilog -vlog_std sysv "../../src/rtl/eth_rx_4way_switch.sv"
+add_file -verilog -vlog_std sysv "../../src/rtl/tx_100g_rate_limit.sv"
+add_file -verilog -vlog_std sysv "../../src/rtl/ethernet_8x50g_pkt_mode_top.sv"
+add_file -constraint "../../src/constraints/synplify_constraints.sdc"
+add_file -fpga_constraint "../../src/constraints/synplify_constraints.fdc"
+
+
+
+#implementation: "rev_1"
+impl -add rev_1 -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std sysv
+set_option -project_relative_includes 1
+set_option -include_path {../../src/include;$ACE_INSTALL_DIR/libraries/}
+
+#device options
+set_option -technology AchronixSpeedster7t
+set_option -part AC7t1500ES0
+set_option -package F53A0
+set_option -speed_grade C1
+set_option -part_companion ""
+
+#compilation/mapping options
+set_option -top_module "ethernet_8x50g_pkt_mode_top"
+
+# hdl_compiler_options
+set_option -distributed_compile 0
+set_option -hdl_strict_syntax 0
+
+# mapper_without_write_options
+set_option -frequency 500
+set_option -srs_instrumentation 1
+
+# mapper_options
+set_option -write_verilog 0
+set_option -write_vhdl 0
+
+# Achronix Speedster7t
+set_option -maxfan 10000
+set_option -rw_check_on_ram 0
+set_option -disable_io_insertion 1
+set_option -retime_registers_forward 0
+set_option -pipe 1
+set_option -retiming 1
+set_option -update_models_cp 0
+set_option -run_prop_extract 1
+set_option -fix_gated_and_generated_clocks 1
+
+# NFilter
+set_option -no_sequential_opt 0
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+set_option -multi_file_compilation_unit 1
+
+# Compiler Options
+set_option -auto_infer_blackbox 0
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "rev_1/ethernet_8x50g_pkt_mode_top.vm"
+impl -active "rev_1"

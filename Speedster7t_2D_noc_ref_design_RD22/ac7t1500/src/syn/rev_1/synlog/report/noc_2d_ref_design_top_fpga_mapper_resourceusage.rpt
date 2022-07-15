@@ -1,0 +1,53 @@
+---------------------------------------
+Resource Usage Report for noc_2d_ref_design_top 
+
+Mapping to part: ac7t1500es0f53a0c2
+Cell usage:
+ALU8       94 uses
+DFF        2404 uses
+DFFE         2731 uses
+DFFER         2059 uses
+DFFES         5 uses
+DFFC         698 uses
+DFFP         17 uses
+DFFEC         3 uses
+DFFEP        32 uses
+ACX_BRAM72K_SDP  2 uses
+ACX_LRAM2K_FIFO  1 use
+ACX_NAP_AXI_MASTER  2 uses
+ACX_NAP_AXI_SLAVE  1 use
+ACX_NAP_HORIZONTAL  2 uses
+ACX_NAP_VERTICAL  2 uses
+ACX_SYNCHRONIZER  11 uses
+LUT4            1328 uses
+LUT6            1311 uses
+
+
+Resource usage inside Blackboxes:
+Block RAM : 2 uses
+Logic RAM : 1 use
+DSP64 : 0 use
+ALU8 : 0 use
+LUT6 : 0 use
+DFF : 22 uses
+
+
+RAM/ROM usage summary
+Total BRAM :   0 + 2 = 2 of 2560 (less than 1%)
+
+Total LRAM :   0 + 1 = 1 of 2560 (less than 1%)
+
+
+DSP usage summary: 
+Total DSP:  0 + 0 = 0 of 2560 (0.00%)
+
+ALU usage summary: 
+Total ALU8:   94 + 0 = 94 of 172800 (less than 1%)
+
+Mapping Summary:
+No. of Resources used of Total No. of Resource Available: 
+Total LUT6:   = 1311
+Total LUT4:   = 1328
+Total LUT:   2639  + 0 = 2639 of 691200 (less than 1%))
+Total DFF :   7949 + 22 = 7971 of 1382400 (less than 1%)
+

@@ -1,0 +1,220 @@
+
+Copyright (C) 1994-2021 Synopsys, Inc.
+This Synopsys software and all associated documentation are proprietary to Synopsys, Inc.
+and may only be used pursuant to the terms and conditions of a written license agreement
+with Synopsys, Inc. All other use, reproduction, modification, or distribution of the
+Synopsys software or the associated documentation is strictly prohibited.
+Tool: Synplify Pro (R)
+Build: R-2021.03X+7t
+Install: /eda/synpro/fpga/R-2021.03X
+OS: Ubuntu 20.04.4 LTS
+Hostname: OMEN
+max virtual memory: unlimited (bytes)
+max user processes: 31123
+max stack size: unlimited (bytes)
+
+
+Implementation : rev_1
+Synopsys HDL compiler and linker, Version comp202103synp1, Build 236R, Built Sep 30 2021 09:58:23, @3999424
+
+Modified Files: 0
+FID:  path (prevtimestamp, timestamp)
+
+*******************************************************************
+Modules that may have changed as a result of file changes: 0
+MID:  lib.cell.view
+
+*******************************************************************
+Unmodified files: 35
+FID:  path (timestamp)
+0        /eda/ace/libraries/common/ace_defines.sv (2022-03-18 04:18:43)
+1        /eda/ace/libraries/device_models/AC7t1500ES0_synplify.sv (2022-03-18 02:07:10)
+2        /eda/ace/libraries/speedster7t/common/bram20k_init_params_inc.sv (2022-03-18 02:07:10)
+3        /eda/ace/libraries/speedster7t/common/bram80k_init_params_inc.sv (2022-03-18 02:07:10)
+4        /eda/ace/libraries/speedster7t/common/defines_inc.sv (2022-03-18 02:07:10)
+5        /eda/ace/libraries/speedster7t/common/ioring_defines_inc.sv (2022-03-18 02:07:10)
+6        /eda/ace/libraries/speedster7t/speedster7t_user_macros.sv (2022-03-18 02:07:10)
+7        /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K.sv (2022-03-18 02:07:05)
+8        /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K_FIFO.sv (2022-03-18 02:07:05)
+9        /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K_SDP.sv (2022-03-18 02:07:05)
+10       /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_LRAM2K_FIFO.sv (2022-03-18 02:07:05)
+11       /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_LRAM2K_SDP.sv (2022-03-18 02:07:05)
+12       /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72.sv (2022-03-18 02:07:05)
+13       /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72_INT.sv (2022-03-18 02:07:05)
+14       /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72_INT16_MULT_2X.sv (2022-03-18 02:07:06)
+15       /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_MLP72_INT8_MULT_4X.sv (2022-03-18 02:07:05)
+16       /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv (2022-03-18 02:07:05)
+17       /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core_hd1000.sv (2022-03-18 02:07:10)
+18       /eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv (2022-03-18 02:07:05)
+19       /eda/synpro/fpga/R-2021.03X/lib/generic/speedster7t.v (2021-09-30 01:55:42)
+20       /eda/synpro/fpga/R-2021.03X/lib/vlog/hypermods.v (2021-10-01 00:54:25)
+21       /eda/synpro/fpga/R-2021.03X/lib/vlog/scemi_objects.v (2021-10-01 00:54:25)
+22       /eda/synpro/fpga/R-2021.03X/lib/vlog/scemi_pipes.svh (2021-10-01 00:54:25)
+23       /eda/synpro/fpga/R-2021.03X/lib/vlog/umr_capim.v (2021-10-01 00:54:25)
+24       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/include/7t_interfaces.svh (2021-01-22 21:12:48)
+25       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv (2021-01-22 21:12:48)
+26       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/default_nettype.v (2021-01-22 21:12:48)
+27       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv (2021-01-22 21:12:48)
+28       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/line_fifo.sv (2021-01-22 21:12:48)
+29       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_conv2d_top.sv (2021-01-22 21:12:48)
+30       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_wrapper_multi.sv (2021-01-22 21:12:48)
+31       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/nap_slave_wrapper.sv (2021-01-22 21:12:48)
+32       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv (2021-01-22 21:12:48)
+33       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/reset_processor.sv (2021-01-22 21:12:48)
+34       /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/syn/rev_1/syntmp/hdlparams.dat (2022-07-12 14:38:17)
+
+*******************************************************************
+Unchanged modules: 152
+MID:  lib.cell.view
+0        work.ACX_ALU4.verilog
+1        work.ACX_ALU8.verilog
+2        work.ACX_ALU8f.verilog
+3        work.ACX_ALU8i.verilog
+4        work.ACX_AUTO_CLKGEN.verilog
+5        work.ACX_AUTO_CLKGEN_TOGGLE.verilog
+6        work.ACX_BMACC56.verilog
+7        work.ACX_BMLP72.verilog
+8        work.ACX_BRAM72K.verilog
+9        work.ACX_BRAM72K_FIFO.verilog
+10       work.ACX_BRAM72K_SDP.verilog
+11       work.ACX_BUS_DFF.verilog
+12       work.ACX_BUS_DFFE.verilog
+13       work.ACX_BUS_DFFN.verilog
+14       work.ACX_BUS_DFFNE.verilog
+15       work.ACX_BUS_MUX4.verilog
+16       work.ACX_CLKDIV.verilog
+17       work.ACX_CLKGATE.verilog
+18       work.ACX_CLKSWITCH.verilog
+19       work.ACX_CLK_IPIN.verilog
+20       work.ACX_CLK_OPIN.verilog
+21       work.ACX_DFF.verilog
+22       work.ACX_DFFC.verilog
+23       work.ACX_DFFE.verilog
+24       work.ACX_DFFEC.verilog
+25       work.ACX_DFFEP.verilog
+26       work.ACX_DFFER.verilog
+27       work.ACX_DFFES.verilog
+28       work.ACX_DFFN.verilog
+29       work.ACX_DFFNC.verilog
+30       work.ACX_DFFNE.verilog
+31       work.ACX_DFFNEC.verilog
+32       work.ACX_DFFNEP.verilog
+33       work.ACX_DFFNER.verilog
+34       work.ACX_DFFNES.verilog
+35       work.ACX_DFFNP.verilog
+36       work.ACX_DFFNR.verilog
+37       work.ACX_DFFNS.verilog
+38       work.ACX_DFFP.verilog
+39       work.ACX_DFFR.verilog
+40       work.ACX_DFFS.verilog
+41       work.ACX_FLOAT.verilog
+42       work.ACX_IPIN.verilog
+43       work.ACX_ITIEHI.verilog
+44       work.ACX_ITIELO.verilog
+45       work.ACX_LMUX2.verilog
+46       work.ACX_LRAM2K_FIFO.verilog
+47       work.ACX_LRAM2K_SDP.verilog
+48       work.ACX_LUT4.verilog
+49       work.ACX_LUT5x2.verilog
+50       work.ACX_LUT6.verilog
+51       work.ACX_LUTf.verilog
+52       work.ACX_MLP72.verilog
+53       work.ACX_MLP72_INT.verilog
+54       work.ACX_MLP72_INT16_MULT_2X.verilog
+55       work.ACX_MLP72_INT8_MULT_4X.verilog
+56       work.ACX_MLUT.verilog
+57       work.ACX_MUX2.verilog
+58       work.ACX_NAP_AXI_MASTER.verilog
+59       work.ACX_NAP_AXI_SLAVE.verilog
+60       work.ACX_NAP_DFT_MASTER.verilog
+61       work.ACX_NAP_DFT_SLAVE.verilog
+62       work.ACX_NAP_ETHERNET.verilog
+63       work.ACX_NAP_HORIZONTAL.verilog
+64       work.ACX_NAP_VERTICAL.verilog
+65       work.ACX_OPIN.verilog
+66       work.ACX_PROBE_CONNECT.verilog
+67       work.ACX_PROBE_CONNECT256.verilog
+68       work.ACX_PROBE_POINT.verilog
+69       work.ACX_PROBE_POINT256.verilog
+70       work.ACX_RST_SYNC_CLKTRUNK.verilog
+71       work.ACX_SLACKMATCH.verilog
+72       work.ACX_SLACKMATCH_SINGLE.verilog
+73       work.ACX_SYNCHRONIZER.verilog
+74       work.ACX_SYNCHRONIZER_N.verilog
+75       work.ACX_TIEHI.verilog
+76       work.ACX_TIELO.verilog
+77       work.ACX_TIMING_DISABLE_BUF.verilog
+78       work.ACX_UNUSED.verilog
+79       work.ACX_WEAK_PULLDOWN.verilog
+80       work.ACX_WEAK_PULLUP.verilog
+81       work.ACX_jtap.verilog
+82       work.ALU8.verilog
+83       work.ALU8f.verilog
+84       work.ALU8i.verilog
+85       work.BMACC56.verilog
+86       work.BMULT28X28.verilog
+87       work.BRAM72K.verilog
+88       work.BRAM72K_FIFO.verilog
+89       work.BRAM72K_SDP.verilog
+90       work.BRAM72K_SDPN.verilog
+91       work.BRAM72K_SDPW.verilog
+92       work.BRAM80K.verilog
+93       work.BRAM80KFIFO.verilog
+94       work.BUS_DFF.verilog
+95       work.BUS_DFFE.verilog
+96       work.BUS_DFFN.verilog
+97       work.BUS_DFFNE.verilog
+98       work.BUS_MUX4.verilog
+99       work.CFG_CLK_IPIN.verilog
+100      work.CFG_CLK_OPIN.verilog
+101      work.CFG_IPIN.verilog
+102      work.CFG_OPIN.verilog
+103      work.CLKDIV.verilog
+104      work.CLKGATE.verilog
+105      work.CLKSWITCH.verilog
+106      work.CLK_IPIN.verilog
+107      work.CLK_OPIN.verilog
+108      work.DFF.verilog
+109      work.DFFE.verilog
+110      work.DFFER.verilog
+111      work.DFFES.verilog
+112      work.DFFN.verilog
+113      work.DFFNE.verilog
+114      work.DFFNER.verilog
+115      work.DFFNES.verilog
+116      work.DFFNR.verilog
+117      work.DFFNS.verilog
+118      work.DFFR.verilog
+119      work.DFFS.verilog
+120      work.IPIN.verilog
+121      work.LMUX2.verilog
+122      work.LRAM2K_FIFO.verilog
+123      work.LRAM2K_SDP.verilog
+124      work.LUT5x2.verilog
+125      work.LUT6.verilog
+126      work.LUTf.verilog
+127      work.MLP72.verilog
+128      work.MLP72_INT.verilog
+129      work.MLP72_INT16_MULT_2X.verilog
+130      work.MLP72_INT8_MULT_4X.verilog
+131      work.MLUT.verilog
+132      work.MUX2.verilog
+133      work.NAP_AXI_MASTER.verilog
+134      work.NAP_AXI_SLAVE.verilog
+135      work.NAP_DFT_MASTER.verilog
+136      work.NAP_DFT_SLAVE.verilog
+137      work.NAP_ETHERNET.verilog
+138      work.NAP_HORIZONTAL.verilog
+139      work.NAP_VERTICAL.verilog
+140      work.OPIN.verilog
+141      work.RST_SYNC_CLKTRUNK.verilog
+142      work.dataflow_control.verilog
+143      work.dot_product_16_8x8_multi.verilog
+144      work.jtap.verilog
+145      work.line_fifo.verilog
+146      work.mlp_conv2d_top.verilog
+147      work.mlp_wrapper_multi.verilog
+148      work.nap_slave_wrapper.verilog
+149      work.out_fifo.verilog
+150      work.reset_processor.verilog
+151      work.t_AXI4.verilog

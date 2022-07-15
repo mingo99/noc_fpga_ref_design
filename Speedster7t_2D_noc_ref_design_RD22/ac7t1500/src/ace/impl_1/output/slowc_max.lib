@@ -1,0 +1,3 @@
+library (slowc_max_SS765mV0CWCl) {
+include_file (/eda/ace/system/data/AC7t1500ES0/timing_libs/SS765mV0CWCl.lib)
+}

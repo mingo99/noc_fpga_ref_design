@@ -1,0 +1,33 @@
+#!/usr/bin/tclsh
+
+# gen_rand <rows> <columns> [<decimal>]
+#
+# Prints matrix with random int8 numbers. Default is in hex, but if
+# <decimal> is 1 the values are printed in decimal.
+
+proc gen_rand_int8 {rows columns {decimal 0}} {
+    for {set r 0} {$r < $rows} {incr r} {
+        for {set c 0} {$c < $columns} {incr c} {
+            set n [expr round(255*rand())]
+            if {$decimal} {
+                if {$n & 0x80} {
+                    set s [expr ~$n + 1]
+                    puts -nonewline "[format -%3d $n] "
+                } else {
+                    puts -nonewline " [format %3d $n] "
+                }
+            } else {
+                puts -nonewline "[format %02x $n] "
+            }
+        }
+        puts ""
+    }
+}
+
+if {$argc != 2 && $argc != 3} {
+    puts stderr "Usage: gen_rand num_rows num_columns"
+    exit
+}
+gen_rand_int8 {*}$argv
+
+

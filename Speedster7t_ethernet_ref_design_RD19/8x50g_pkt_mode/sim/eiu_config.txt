@@ -1,0 +1,68 @@
+# ------------------------------------------
+# Config file
+# Supports both # and // comments
+# ------------------------------------------
+# Format is <cmd> <addr> <data>
+# For reads, put 0x0 for the data
+# [27:0] passed to IP
+# [33:28] target ID, set outside this file
+# ------------------------------------------
+
+// From eth_sys_core
+// Address Decoder
+// 27:12 used to select the 
+//  12'h000 - IPCNT    Register for IPCNTL
+//  12'h100 - p80      Common PCS for 400G/200G
+//  12'h200 - p20      PCS0 for 200G/100G,
+//  12'h300 - p21      PCS1 for 200G/100G,
+//  12'h400 - m80_c0   MAC0 for 400G/200G,
+//  12'h500 - m80_c1   MAC1 for 400G/200G,
+//  12'h600 - mq0      QUAD MAC0 for 200G/100G
+//  12'h700 - mq1      QUAD MAC1 for 200G/100G 
+//  12'h800 - phy_psel0 PSEL for SERDES QUAD0(PHY) 
+//  12'h900 - phy_psel0 PSEL for SERDES QUAD0(PHY) 
+
+// Serdes lanes.  Map from Serdes to Ethernet
+// The default mappings are 7564_3120.  Change to 7654_3210
+// TX lanemap = 0x170, RX = 0x171
+w 00005c0 76543210
+w 00005c4 76543210
+
+// EIU
+// Reg 0.  Mode[5:3], Mode[2:0].  Both equal to 3'b001 for 400G packet mode
+// Cut-through mode not supported for 400G packet mode, bit 6 & 14 must be clear
+// Addresses are word based, so x4 the value in the datasheet
+w 0000014 00000009
+
+// Need to use subsystem 0 for 400G MAC 0
+// Sub0 source registers run 0x68-6F = 0x1A0 - 0x1BC
+// Sub0 dest   registers run 0x88-8F = 0x220 - 0x23C
+
+// Use both EIU columns, 0 & 1
+// NAPs are in rows 7 & 8
+// Column bit is reversed.  Config 0 = col 1, Config 1 = col 0
+// Source registers
+w 00001a0 0000000e
+w 00001a4 00000010
+w 00001a8 0000000f
+w 00001ac 00000011
+
+// Destination registers
+w 0000220 0000000e
+w 0000224 00000010
+w 0000228 0000000f
+w 000022c 00000011
+
+// Not necessary to programme buffer thresholds
+// They control the flags to the fabric, which are not currently used
+// They do not have an impact on the buffer functions
+
+// Release MTIP resets.  Addr 0x182
+w 0000608 00ffffff
+
+// Read back some of the registers to confirm settings
+v 00005c0 76543210
+v 00005c4 76543210
+v 0000014 00000009
+v 000022c 00000011
+

@@ -1,0 +1,167 @@
+        Clock/Reset Report - noc_2d_ref_design_top
+        __________________________________________
+
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+
+Design: noc_2d_ref_design_top - impl_1 - noc_2d_ref_design_top
+Device: AC7t1500ES0 C3 0.85V 0C
+Generated on Wed Jul 13 15:40:23 CST 2022
+Host: OMEN.localdomain
+
+  - Clock Summary
+  - Clock Relationships
+  - Effective Clock Constraints
+  - Clock Regions
+
+---------------------------------------------------------------------------
+
+
+Clock Summary =======
+
+
+  This section shows a summary of each clock domain's effective target
+  period, phase, and target frequency.  Clock constraints that were not
+  specified by the user are highlighted in the table below.  
+
+   Clock                                 Period     Phase  Target Frequency (MHz) 
+   v_acx_sc_GPIO_H_IOB1_GLB_SER_GEN_CLK  100.00ns   0      10                     
+   pll_sw_2_ref1_312p5_clk               3200.00ps  0      312.5                  
+   pll_nw_2_ref0_312p5_clk               3200.00ps  0      312.5                  
+   mcio_vio_45_10_clk                    100.00ns   0      10                     
+   i_reg_clk                             5000.00ps  0      200                    
+   i_chk_clk                             2004.01ps  0      499                    
+   i_send_clk                            2000.00ps  0      500                    
+
+
+---------------------------------------------------------------------------
+
+
+Clock Relationships =======
+
+
+  This section shows a table of clock relationships for each clock group,
+  followed by a list of unrelated clock domains (if any).  Entries in the
+  clock relationship tables indicate the frequency ratio of the clock row
+  / clock column.
+
+
+Unrelated clocks
+
+   Unrelated Clock                      
+   v_acx_sc_GPIO_H_IOB1_GLB_SER_GEN_CLK 
+   pll_sw_2_ref1_312p5_clk              
+   pll_nw_2_ref0_312p5_clk              
+   mcio_vio_45_10_clk                   
+   i_reg_clk                            
+   i_chk_clk                            
+   i_send_clk                           
+
+
+
+---------------------------------------------------------------------------
+
+
+Effective Clock Constraints =======
+
+
+  This section shows the set of resolved clock constraints. For
+  set_false_path constraints, only those where both -to and -from are
+  clocks are shown.
+
+create_clock v_acx_sc_GPIO_H_IOB1_GLB_SER_GEN_CLK -period 100
+set_clock_groups -asynchronous -group { v_acx_sc_GPIO_H_IOB1_GLB_SER_GEN_CLK }
+
+create_clock pll_sw_2_ref1_312p5_clk -period 3.2
+set_clock_groups -asynchronous -group { pll_sw_2_ref1_312p5_clk }
+
+create_clock pll_nw_2_ref0_312p5_clk -period 3.2
+set_clock_groups -asynchronous -group { pll_nw_2_ref0_312p5_clk }
+
+create_clock mcio_vio_45_10_clk -period 100
+set_clock_groups -asynchronous -group { mcio_vio_45_10_clk }
+
+create_clock i_reg_clk -period 5
+set_clock_groups -asynchronous -group { i_reg_clk }
+
+create_clock i_chk_clk -period 2.004008016
+set_clock_groups -asynchronous -group { i_chk_clk }
+
+create_clock i_send_clk -period 2
+set_clock_groups -asynchronous -group { i_send_clk }
+
+
+
+---------------------------------------------------------------------------
+
+
+Clock Region Summary (3 clocks) =======
+
+
+Legend
+
+
+  - (t) - balanced trunk clock
+  - (m) - mini trunk clock
+  - (b) - branch clock
+  - (/) - divider
+  - (>) - clock gate
+  - (@) - data-generated
+  - (r) - ring connects only (never enters the core)
+  - +   - clock drives data
+  - [.## ] - a '.' for each region this net does not use, '#' for each
+    region where this net is in use ( quick visual reference to see how
+    many regions a net uses ) 
+   Total , 3 clocks (0 ring connects only)        SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_send_clk_ipin_net  [##...#.#####....]  (t)   4245  2      2      1         4     2    4256  
+   i_chk_clk_ipin_net   [###.###.......##]  (t)   2219  1      1      1                    2222  
+   i_reg_clk_ipin_net   [###.############]  (t)   1513  1             1                    1515  
+   Region CLK_REGION_0_6 , 2 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_chk_clk_ipin_net                       (t)   783   1                                  784   
+   i_reg_clk_ipin_net                       (t)   1                                        1     
+   Region CLK_REGION_0_5 , 3 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_chk_clk_ipin_net                       (t)   84                                       84    
+   i_reg_clk_ipin_net                       (t)   18                                       18    
+   i_send_clk_ipin_net                      (t)   7                                        7     
+   Region CLK_REGION_0_4 , 3 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_reg_clk_ipin_net                       (t)   1193  1                                  1194  
+   i_send_clk_ipin_net                      (t)   995          1                      2    998   
+   i_chk_clk_ipin_net                       (t)   105                                      105   
+   Region CLK_REGION_0_3 , 2 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_reg_clk_ipin_net                       (t)   41                                       41    
+   i_send_clk_ipin_net                      (t)   8                                        8     
+   Region CLK_REGION_0_2 , 2 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_send_clk_ipin_net                      (t)   1175         1                           1176  
+   i_reg_clk_ipin_net                       (t)   3                                        3     
+   Region CLK_REGION_0_1 , 2 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_send_clk_ipin_net                      (t)   16                                       16    
+   i_reg_clk_ipin_net                       (t)   3                                        3     
+   Region CLK_REGION_0_0 , 2 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_send_clk_ipin_net                      (t)   894   1                                  895   
+   i_reg_clk_ipin_net                       (t)   2                                        2     
+   Region CLK_REGION_1_7 , 2 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_send_clk_ipin_net                      (t)   1147  1                       4          1152  
+   i_reg_clk_ipin_net                       (t)   22                                       22    
+   Region CLK_REGION_1_6 , 2 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_reg_clk_ipin_net                       (t)   19                                       19    
+   i_chk_clk_ipin_net                       (t)   6                                        6     
+   Region CLK_REGION_1_5 , 3 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_reg_clk_ipin_net                       (t)   13                                       13    
+   i_chk_clk_ipin_net                       (t)   7                                        7     
+   i_send_clk_ipin_net                      (t)   3                                        3     
+   Region CLK_REGION_1_4 , 2 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_reg_clk_ipin_net                       (t)   86                                       86    
+   i_chk_clk_ipin_net                       (t)   47                                       47    
+   Region CLK_REGION_1_3 , 2 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_chk_clk_ipin_net                       (t)   120                                      120   
+   i_reg_clk_ipin_net                       (t)   104                                      104   
+   Region CLK_REGION_1_2 , 2 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_chk_clk_ipin_net                       (t)   1067         1                           1068  
+   i_reg_clk_ipin_net                       (t)   3                                        3     
+   Region CLK_REGION_1_1 , 1 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_reg_clk_ipin_net                       (t)   3                                        3     
+   Region CLK_REGION_1_0 , 1 clocks               SEQ   NAP_M  NAP_S  CLK_IPIN  BRAM  MLP  Total 
+   i_reg_clk_ipin_net                       (t)   2                                        2     
+
+
+---------------------------------------------------------------------------
+

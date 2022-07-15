@@ -1,0 +1,190 @@
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":46:15:46:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":60:15:60:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":78:15:78:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":93:15:93:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":111:15:111:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":123:15:123:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":139:15:139:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":151:15:151:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":166:15:166:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":177:15:177:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":192:15:192:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":203:15:203:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":221:15:221:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":235:15:235:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":248:15:248:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":260:15:260:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":276:15:276:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":287:15:287:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":302:15:302:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":316:15:316:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":334:15:334:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":349:15:349:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":368:15:368:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":383:15:383:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":401:15:401:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":414:15:414:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":432:15:432:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":447:15:447:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":466:15:466:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":481:15:481:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":499:15:499:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":512:15:512:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":529:15:529:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":543:15:543:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":561:15:561:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":575:15:575:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":592:15:592:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":604:15:604:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":621:15:621:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":635:15:635:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":653:15:653:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":667:15:667:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":684:15:684:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":696:15:696:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":713:15:713:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":725:15:725:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":743:15:743:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":759:15:759:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":778:15:778:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":794:15:794:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":816:15:816:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":834:15:834:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":854:15:854:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":871:15:871:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":887:15:887:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":899:15:899:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":948:15:948:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":1001:15:1001:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":1057:15:1057:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":1455:15:1455:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":1859:15:1859:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":1907:15:1907:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":1965:15:1965:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2020:15:2020:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2045:15:2045:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2081:15:2081:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2120:15:2120:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2148:15:2148:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2179:15:2179:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2209:15:2209:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2262:16:2262:16|User defined attribute syn_black_box detected 
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2279:16:2279:16|User defined attribute syn_black_box detected 
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2313:16:2313:16|User defined attribute syn_black_box detected 
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2330:16:2330:16|User defined attribute syn_black_box detected 
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2357:18:2357:18|User defined attribute syn_black_box detected 
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2371:18:2371:18|User defined attribute syn_black_box detected 
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2480:54:2480:66|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2530:13:2530:25|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2539:13:2539:25|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2592:44:2592:56|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2603:44:2603:56|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2614:49:2614:61|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2625:49:2625:61|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2636:46:2636:58|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2647:46:2647:58|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2658:51:2658:63|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2669:51:2669:63|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core_hd1000.sv":349:53:349:65|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core_hd1000.sv":755:50:755:62|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":32:15:32:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":42:15:42:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":55:15:55:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":72:15:72:27|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":86:39:86:51|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":97:39:97:51|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":111:40:111:52|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":121:40:121:52|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":137:39:137:51|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":154:39:154:51|User defined pragma syn_black_box detected
+@W: CG100 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_io.sv":174:40:174:52|User defined pragma syn_black_box detected
+@W: CG133 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":84:64:84:76|Object nap_out_state is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":216:4:216:9|Pruning unused register arready_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":216:4:216:9|Pruning unused register rid_d[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL271 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":473:4:473:9|Pruning unused bits 11 to 9 of mlp_matrix_addr[11:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":473:4:473:9|Pruning unused bits 11 to 9 of mlp_matrix_addr_d[11:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":473:4:473:9|Pruning unused bits 11 to 9 of mlp_matrix_addr_2d[11:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":292:48:292:48|Undriven input mlpclk on instance i_bram
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Pruning unused register gb_mlp_col[3].gb_empty_rows.genblk1[15].mlp_dout_result[15][15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":536:16:536:21|Pruning unused register gb_mlp_col[0].gb_empty_rows.genblk1[15].mlp_dout_result[15][15:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":90:4:90:9|Pruning unused register first_del. Make sure that there are no unused intermediate registers.
+@W: CL271 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":128:4:128:9|Pruning unused bits 60 to 17 of last_pipe[60:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":115:4:115:9|Pruning unused bits 59 to 16 of first_pipe[59:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL271 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":90:4:90:9|Pruning unused bits 127 to 64 of a_del[127:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CG532 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":100:4:100:10|Within an initial block, only Verilog force statements and memory initialization statements and initialization of entire variable are recognized, and all other content is ignored. Simulation mismatch may occur
+@W: CG204 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":100:4:100:10|Within an initial block, memory initialization statements of entire variable and nested loops are not recognized. Simulation mismatch may occur
+@W: CG133 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":51:28:51:36|Object data_hold is declared but not assigned. Either assign a value or remove the declaration.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/out_fifo.sv":180:4:180:9|Pruning unused register mlp_req_next_d. Make sure that there are no unused intermediate registers.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_conv2d_top.sv":135:36:135:47|Removing wire mlp_data_out, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_conv2d_top.sv":136:36:136:53|Removing wire mlp_data_out_valid, as there is no assignment to it.
+@W: CL156 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_conv2d_top.sv":136:36:136:53|*Input mlp_data_out_valid to expression [instance] has undriven bits; assigning undriven bits to 0.  Simulation mismatch possible. Assign all bits of the input.
+@W: CL246 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/mlp_wrapper_multi.sv":40:40:40:46|Input port bits 143 to 128 of mlp_din[143:0] are unused. Assign logic for all port bits or change the input port size.
+@W: CL279 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":77:4:77:9|Pruning register bits 71 to 65 of bram_wr_data[71:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dot_product_16_8x8_multi.sv":77:4:77:9|Pruning register bit 64 of bram_wr_data[64:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL138 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing register 'nap_in.arlock' because it is only assigned 0 or its original value.
+@W: CL138 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing register 'nap_in.arqos' because it is only assigned 0 or its original value.
+@W: CL138 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Removing register 'nap_in.arregion' because it is only assigned 0 or its original value.
+@W: CL279 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Pruning register bits 9 to 3 of nap_in_page_addr[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":236:4:236:9|Pruning register bits 1 to 0 of nap_in_page_addr[9:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL260 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":406:4:406:9|Pruning register bit 2 of matrix_h_count[2:0]. If this is not the intended behavior, drive the input with valid values, or an input from the top level.
+@W: CL279 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_MLP_ref_designs_RD26/mlp_conv2d/src/rtl/dataflow_control.sv":345:4:345:9|Pruning register bits 1 to 0 of lines_to_load_ps_m1[11:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+

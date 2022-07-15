@@ -1,0 +1,3 @@
+library (fastc_max_FFP935mV0CWCl) {
+include_file (/eda/ace/system/data/AC7t1500ES0/timing_libs/FFP935mV0CWCl.lib)
+}

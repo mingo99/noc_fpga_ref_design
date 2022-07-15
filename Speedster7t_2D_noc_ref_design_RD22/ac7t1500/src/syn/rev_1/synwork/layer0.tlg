@@ -1,0 +1,863 @@
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2279:57:2279:57|Synthesizing module work_/eda/ace/libraries/device_models/AC7t1500ES0_synplify.sv_unit in library work.
+Selecting top level module noc_2d_ref_design_top
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":125:10:125:22|Synthesizing interface t_DATA_STREAM in library work
+
+	DATA_WIDTH=32'b00000000000000000000000100100000
+	ADDR_WIDTH=32'b00000000000000000000000000000100
+   Generated name = t_DATA_STREAM_Z154740
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":128:29:128:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":129:29:129:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":130:29:130:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":131:29:131:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":132:29:132:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":133:29:133:32|Bi-directional port is being changed to input as port has no output
+Running optimization stage 1 on t_DATA_STREAM_Z154740 .......
+Finished optimization stage 1 on t_DATA_STREAM_Z154740 (CPU Time 0h:00m:00s, Memory Used current: 138MB peak: 138MB)
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":125:10:125:22|Synthesizing interface t_DATA_STREAM in library work
+
+	DATA_WIDTH=32'b00000000000000000000000100100000
+	ADDR_WIDTH=32'b00000000000000000000000000000100
+   Generated name = t_DATA_STREAM_Z154741
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":128:29:128:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":129:29:129:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":130:29:130:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":131:29:131:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":132:29:132:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":133:29:133:32|Bi-directional port is being changed to input as port has no output
+Running optimization stage 1 on t_DATA_STREAM_Z154741 .......
+Finished optimization stage 1 on t_DATA_STREAM_Z154741 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":125:10:125:22|Synthesizing interface t_DATA_STREAM in library work
+
+	DATA_WIDTH=32'b00000000000000000000000100100000
+	ADDR_WIDTH=32'b00000000000000000000000000000100
+   Generated name = t_DATA_STREAM_Z154742
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":128:29:128:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":129:29:129:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":130:29:130:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":131:29:131:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":132:29:132:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":133:29:133:32|Bi-directional port is being changed to input as port has no output
+Running optimization stage 1 on t_DATA_STREAM_Z154742 .......
+Finished optimization stage 1 on t_DATA_STREAM_Z154742 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":125:10:125:22|Synthesizing interface t_DATA_STREAM in library work
+
+	DATA_WIDTH=32'b00000000000000000000000100100000
+	ADDR_WIDTH=32'b00000000000000000000000000000100
+   Generated name = t_DATA_STREAM_Z154743
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":128:29:128:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":129:29:129:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":130:29:130:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":131:29:131:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":132:29:132:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":133:29:133:32|Bi-directional port is being changed to input as port has no output
+Running optimization stage 1 on t_DATA_STREAM_Z154743 .......
+Finished optimization stage 1 on t_DATA_STREAM_Z154743 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":125:10:125:22|Synthesizing interface t_DATA_STREAM in library work
+
+	DATA_WIDTH=32'b00000000000000000000000100100101
+	ADDR_WIDTH=32'b00000000000000000000000000000100
+   Generated name = t_DATA_STREAM_Z1911180
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":128:29:128:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":129:29:129:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":130:29:130:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":131:29:131:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":132:29:132:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":133:29:133:32|Bi-directional port is being changed to input as port has no output
+Running optimization stage 1 on t_DATA_STREAM_Z1911180 .......
+Finished optimization stage 1 on t_DATA_STREAM_Z1911180 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":125:10:125:22|Synthesizing interface t_DATA_STREAM in library work
+
+	DATA_WIDTH=32'b00000000000000000000000100100101
+	ADDR_WIDTH=32'b00000000000000000000000000000100
+   Generated name = t_DATA_STREAM_Z1911181
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":128:29:128:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":129:29:129:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":130:29:130:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":131:29:131:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":132:29:132:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":133:29:133:32|Bi-directional port is being changed to input as port has no output
+Running optimization stage 1 on t_DATA_STREAM_Z1911181 .......
+Finished optimization stage 1 on t_DATA_STREAM_Z1911181 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":125:10:125:22|Synthesizing interface t_DATA_STREAM in library work
+
+	DATA_WIDTH=32'b00000000000000000000000100100101
+	ADDR_WIDTH=32'b00000000000000000000000000000100
+   Generated name = t_DATA_STREAM_Z1911182
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":128:29:128:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":129:29:129:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":130:29:130:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":131:29:131:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":132:29:132:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":133:29:133:32|Bi-directional port is being changed to input as port has no output
+Running optimization stage 1 on t_DATA_STREAM_Z1911182 .......
+Finished optimization stage 1 on t_DATA_STREAM_Z1911182 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":125:10:125:22|Synthesizing interface t_DATA_STREAM in library work
+
+	DATA_WIDTH=32'b00000000000000000000000100100101
+	ADDR_WIDTH=32'b00000000000000000000000000000100
+   Generated name = t_DATA_STREAM_Z1911183
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":128:29:128:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":129:29:129:33|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":130:29:130:32|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":131:29:131:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":132:29:132:31|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":133:29:133:32|Bi-directional port is being changed to input as port has no output
+Running optimization stage 1 on t_DATA_STREAM_Z1911183 .......
+Finished optimization stage 1 on t_DATA_STREAM_Z1911183 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":62:10:62:15|Synthesizing interface t_AXI4 in library work
+
+	DATA_WIDTH=32'b00000000000000000000000100000000
+	ADDR_WIDTH=32'b00000000000000000000000000101010
+	LEN_WIDTH=32'b00000000000000000000000000001000
+	ID_WIDTH=32'b00000000000000000000000000001000
+   Generated name = t_AXI4_Z3548520
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":67:32:67:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":68:32:68:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":69:32:69:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":70:32:70:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":71:32:71:35|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":72:32:72:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":73:32:73:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":74:32:74:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":75:32:75:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":76:32:76:39|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":77:32:77:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":78:32:78:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":79:32:79:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":80:32:80:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":81:32:81:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":82:32:82:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":83:32:83:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":84:32:84:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":85:32:85:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":86:32:86:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":87:32:87:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":88:32:88:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":89:32:89:34|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":90:32:90:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":91:32:91:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":92:32:92:35|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":93:32:93:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":94:32:94:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":95:32:95:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":96:32:96:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":97:32:97:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":98:32:98:39|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":99:32:99:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":100:32:100:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":101:32:101:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":102:32:102:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":103:32:103:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":104:32:104:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":105:32:105:34|Bi-directional port is being changed to input as port has no output
+Running optimization stage 1 on t_AXI4_Z3548520 .......
+Finished optimization stage 1 on t_AXI4_Z3548520 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/reset_processor_v2.sv":38:7:38:24|Synthesizing module reset_processor_v2 in library work.
+
+	NUM_INPUT_RESETS=32'b00000000000000000000000000000011
+	IN_RST_PIPE_LENGTH=32'b00000000000000000000000000000101
+	SYNC_INPUT_RESETS=32'b00000000000000000000000000000001
+	OUT_RST_PIPE_LENGTH=32'b00000000000000000000000000000100
+	RESET_OVER_CLOCK=32'b00000000000000000000000000000001
+   Generated name = reset_processor_v2_3s_5s_1s_4s_1s
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2314:7:2314:22|Synthesizing module ACX_SYNCHRONIZER in library work.
+Running optimization stage 1 on reset_processor_v2_3s_5s_1s_4s_1s .......
+Finished optimization stage 1 on reset_processor_v2_3s_5s_1s_4s_1s (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":62:10:62:15|Synthesizing interface t_AXI4 in library work
+
+	DATA_WIDTH=32'b00000000000000000000000100000000
+	ADDR_WIDTH=32'b00000000000000000000000000011100
+	LEN_WIDTH=32'b00000000000000000000000000001000
+	ID_WIDTH=32'b00000000000000000000000000001000
+   Generated name = t_AXI4_Z4929040
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":67:32:67:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":68:32:68:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":69:32:69:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":70:32:70:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":71:32:71:35|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":72:32:72:36|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":73:32:73:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":74:32:74:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":75:32:75:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":76:32:76:39|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":77:32:77:37|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":78:32:78:38|Bi-directional port is being changed to input as port has no output
+@N: CL112 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":79:32:79:37|Bi-directional port is being changed to input as port has no output
+
+Only the first 100 messages of id 'CL112' are reported. To see all messages use 'report_messages -log /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synlog/noc_2d_ref_design_top_compiler.srr -id CL112' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL112} -count unlimited' in the Tcl shell.
+Running optimization stage 1 on t_AXI4_Z4929040 .......
+Finished optimization stage 1 on t_AXI4_Z4929040 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":962:7:962:24|Synthesizing module ACX_NAP_AXI_MASTER in library work.
+Running optimization stage 1 on ACX_NAP_AXI_MASTER .......
+Finished optimization stage 1 on ACX_NAP_AXI_MASTER (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/nap_master_wrapper.sv":32:7:32:24|Synthesizing module nap_master_wrapper in library work.
+
+	COLUMN=4'bxxxx
+	ROW=4'bxxxx
+	N2S_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	S2N_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   Generated name = nap_master_wrapper_Z224420
+Running optimization stage 1 on nap_master_wrapper_Z224420 .......
+Finished optimization stage 1 on nap_master_wrapper_Z224420 (CPU Time 0h:00m:00s, Memory Used current: 139MB peak: 139MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/reg_control_block.sv":36:7:36:23|Synthesizing module reg_control_block in library work.
+
+	NUM_USER_REGS=32'b00000000000000000000000000001010
+	IN_REGS_PIPE=32'b00000000000000000000000000000010
+	OUT_REGS_PIPE=32'b00000000000000000000000000000010
+   Generated name = reg_control_block_10s_2s_2s
+Running optimization stage 1 on reg_control_block_10s_2s_2s .......
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/reg_control_block.sv":278:8:278:13|Pruning unused register gb_decode.jj[31:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/reg_control_block.sv":126:4:126:9|Pruning unused register new_read. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on reg_control_block_10s_2s_2s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/shift_reg.sv":35:7:35:15|Synthesizing module shift_reg in library work.
+
+	LENGTH=32'b00000000000000000000000000001100
+	WIDTH=32'b00000000000000000000000000000001
+	NOKEEP=32'b00000000000000000000000000000000
+	RESET_ALL=32'b00000000000000000000000000000000
+   Generated name = shift_reg_12s_1s_0s_0s
+Running optimization stage 1 on shift_reg_12s_1s_0s_0s .......
+Finished optimization stage 1 on shift_reg_12s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/shift_reg.sv":35:7:35:15|Synthesizing module shift_reg in library work.
+
+	LENGTH=32'b00000000000000000000000000001000
+	WIDTH=32'b00000000000000000000000000000001
+	NOKEEP=32'b00000000000000000000000000000000
+	RESET_ALL=32'b00000000000000000000000000000000
+   Generated name = shift_reg_8s_1s_0s_0s
+Running optimization stage 1 on shift_reg_8s_1s_0s_0s .......
+Finished optimization stage 1 on shift_reg_8s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/shift_reg.sv":35:7:35:15|Synthesizing module shift_reg in library work.
+
+	LENGTH=32'b00000000000000000000000000000111
+	WIDTH=32'b00000000000000000000000000000001
+	NOKEEP=32'b00000000000000000000000000000000
+	RESET_ALL=32'b00000000000000000000000000000000
+   Generated name = shift_reg_7s_1s_0s_0s
+Running optimization stage 1 on shift_reg_7s_1s_0s_0s .......
+Finished optimization stage 1 on shift_reg_7s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/shift_reg.sv":35:7:35:15|Synthesizing module shift_reg in library work.
+
+	LENGTH=32'b00000000000000000000000000000110
+	WIDTH=32'b00000000000000000000000000000001
+	NOKEEP=32'b00000000000000000000000000000000
+	RESET_ALL=32'b00000000000000000000000000000000
+   Generated name = shift_reg_6s_1s_0s_0s
+Running optimization stage 1 on shift_reg_6s_1s_0s_0s .......
+Finished optimization stage 1 on shift_reg_6s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2132:7:2132:24|Synthesizing module ACX_NAP_HORIZONTAL in library work.
+Running optimization stage 1 on ACX_NAP_HORIZONTAL .......
+Finished optimization stage 1 on ACX_NAP_HORIZONTAL (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/nap_horizontal_wrapper.sv":32:7:32:28|Synthesizing module nap_horizontal_wrapper in library work.
+
+	COLUMN=4'bxxxx
+	ROW=4'bxxxx
+	E2W_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	W2E_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   Generated name = nap_horizontal_wrapper_Z3547280
+Running optimization stage 1 on nap_horizontal_wrapper_Z3547280 .......
+Finished optimization stage 1 on nap_horizontal_wrapper_Z3547280 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/nap_horizontal_wrapper.sv":32:7:32:28|Synthesizing module nap_horizontal_wrapper in library work.
+
+	COLUMN=4'bxxxx
+	ROW=4'bxxxx
+	E2W_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	W2E_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   Generated name = nap_horizontal_wrapper_Z3547281
+Running optimization stage 1 on nap_horizontal_wrapper_Z3547281 .......
+Finished optimization stage 1 on nap_horizontal_wrapper_Z3547281 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":2193:7:2193:22|Synthesizing module ACX_NAP_VERTICAL in library work.
+Running optimization stage 1 on ACX_NAP_VERTICAL .......
+Finished optimization stage 1 on ACX_NAP_VERTICAL (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/nap_vertical_wrapper.sv":32:7:32:26|Synthesizing module nap_vertical_wrapper in library work.
+
+	COLUMN=4'bxxxx
+	ROW=4'bxxxx
+	N2S_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	S2N_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   Generated name = nap_vertical_wrapper_Z2102000
+Running optimization stage 1 on nap_vertical_wrapper_Z2102000 .......
+Finished optimization stage 1 on nap_vertical_wrapper_Z2102000 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/nap_vertical_wrapper.sv":32:7:32:26|Synthesizing module nap_vertical_wrapper in library work.
+
+	COLUMN=4'bxxxx
+	ROW=4'bxxxx
+	N2S_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	S2N_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   Generated name = nap_vertical_wrapper_Z2102001
+Running optimization stage 1 on nap_vertical_wrapper_Z2102001 .......
+Finished optimization stage 1 on nap_vertical_wrapper_Z2102001 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/shift_reg.sv":35:7:35:15|Synthesizing module shift_reg in library work.
+
+	LENGTH=32'b00000000000000000000000000010000
+	WIDTH=32'b00000000000000000000000000000001
+	NOKEEP=32'b00000000000000000000000000000000
+	RESET_ALL=32'b00000000000000000000000000000000
+   Generated name = shift_reg_16s_1s_0s_0s
+Running optimization stage 1 on shift_reg_16s_1s_0s_0s .......
+Finished optimization stage 1 on shift_reg_16s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/random_seq_engine.sv":32:7:32:20|Synthesizing module random_seq_gen in library work.
+
+	OUTPUT_WIDTH=32'b00000000000000000000000100100000
+	WORD_WIDTH=32'b00000000000000000000000000001000
+	LINEAR_COUNT=32'b00000000000000000000000000000000
+	COUNT_DOWN=32'b00000000000000000000000000000000
+	FIRST_WORD_LINEAR=32'b00000000000000000000000000000001
+	INIT_VALUE=288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	NUM_WORDS=32'b00000000000000000000000000100100
+	OUTPUT_WIDTH_INT=32'b00000000000000000000000100100000
+   Generated name = random_seq_gen_Z4229340
+Running optimization stage 1 on random_seq_gen_Z4229340 .......
+Finished optimization stage 1 on random_seq_gen_Z4229340 (CPU Time 0h:00m:00s, Memory Used current: 146MB peak: 151MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_gen.sv":33:7:33:25|Synthesizing module data_stream_pkt_gen in library work.
+
+	LINEAR_PKTS=32'b00000000000000000000000000000000
+	TGT_DATA_WIDTH=32'b00000000000000000000000100100000
+   Generated name = data_stream_pkt_gen_Z449940
+@N: CG179 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_gen.sv":218:52:218:56|Removing redundant assignment.
+@N: CG179 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_gen.sv":219:52:219:55|Removing redundant assignment.
+Running optimization stage 1 on data_stream_pkt_gen_Z449940 .......
+Finished optimization stage 1 on data_stream_pkt_gen_Z449940 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 168MB)
+@W: CG168 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":104:3:104:12|Type of parameter INIT_VALUE on the instance i_data_gen is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":34:7:34:25|Synthesizing module data_stream_pkt_chk in library work.
+
+	LINEAR_PKTS=32'b00000000000000000000000000000000
+	TGT_DATA_WIDTH=32'b00000000000000000000000100100000
+	FIRST_WORD_LINEAR=32'b00000000000000000000000000000001
+	INIT_VALUE=288'b000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+   Generated name = data_stream_pkt_chk_Z2890890
+@A: CG412 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":226:16:226:51|Treating === and !== as == and != -- possible simulation mismatch
+Running optimization stage 1 on data_stream_pkt_chk_Z2890890 .......
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":404:3:404:8|Pruning unused register rx_eop_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":404:3:404:8|Pruning unused register rx_sop_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":404:3:404:8|Pruning unused register rx_src_d[3:0]. Make sure that there are no unused intermediate registers.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":301:11:301:16|Register bit genblk1.data_match_stg1[18] is always 1.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":404:3:404:8|Pruning unused register rx_ready_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":404:3:404:8|Pruning unused register rx_valid_d. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on data_stream_pkt_chk_Z2890890 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 168MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/random_seq_engine.sv":32:7:32:20|Synthesizing module random_seq_gen in library work.
+
+	OUTPUT_WIDTH=32'b00000000000000000000000100100101
+	WORD_WIDTH=32'b00000000000000000000000000001000
+	LINEAR_COUNT=32'b00000000000000000000000000000000
+	COUNT_DOWN=32'b00000000000000000000000000000000
+	FIRST_WORD_LINEAR=32'b00000000000000000000000000000001
+	INIT_VALUE=293'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	NUM_WORDS=32'b00000000000000000000000000100101
+	OUTPUT_WIDTH_INT=32'b00000000000000000000000100101000
+   Generated name = random_seq_gen_Z3978100
+Running optimization stage 1 on random_seq_gen_Z3978100 .......
+Finished optimization stage 1 on random_seq_gen_Z3978100 (CPU Time 0h:00m:00s, Memory Used current: 152MB peak: 168MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_gen.sv":33:7:33:25|Synthesizing module data_stream_pkt_gen in library work.
+
+	LINEAR_PKTS=32'b00000000000000000000000000000000
+	TGT_DATA_WIDTH=32'b00000000000000000000000100100101
+   Generated name = data_stream_pkt_gen_Z459180
+Running optimization stage 1 on data_stream_pkt_gen_Z459180 .......
+Finished optimization stage 1 on data_stream_pkt_gen_Z459180 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@W: CG168 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":104:3:104:12|Type of parameter INIT_VALUE on the instance i_data_gen is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":34:7:34:25|Synthesizing module data_stream_pkt_chk in library work.
+
+	LINEAR_PKTS=32'b00000000000000000000000000000000
+	TGT_DATA_WIDTH=32'b00000000000000000000000100100101
+	FIRST_WORD_LINEAR=32'b00000000000000000000000000000001
+	INIT_VALUE=293'b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+   Generated name = data_stream_pkt_chk_Z4647330
+@A: CG412 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":226:16:226:51|Treating === and !== as == and != -- possible simulation mismatch
+Running optimization stage 1 on data_stream_pkt_chk_Z4647330 .......
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":404:3:404:8|Pruning unused register rx_eop_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":404:3:404:8|Pruning unused register rx_sop_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":404:3:404:8|Pruning unused register rx_src_d[3:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":404:3:404:8|Pruning unused register rx_ready_d. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":404:3:404:8|Pruning unused register rx_valid_d. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on data_stream_pkt_chk_Z4647330 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG637 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/nap_interfaces.svh":62:10:62:15|Synthesizing interface t_AXI4 in library work
+
+	DATA_WIDTH=32'b00000000000000000000000100000000
+	ADDR_WIDTH=32'b00000000000000000000000000011100
+	LEN_WIDTH=32'b00000000000000000000000000001000
+	ID_WIDTH=32'b00000000000000000000000000001000
+   Generated name = t_AXI4_Z4929041
+Running optimization stage 1 on t_AXI4_Z4929041 .......
+Finished optimization stage 1 on t_AXI4_Z4929041 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/nap_master_wrapper.sv":32:7:32:24|Synthesizing module nap_master_wrapper in library work.
+
+	COLUMN=4'bxxxx
+	ROW=4'bxxxx
+	N2S_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	S2N_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   Generated name = nap_master_wrapper_Z224421
+Running optimization stage 1 on nap_master_wrapper_Z224421 .......
+Finished optimization stage 1 on nap_master_wrapper_Z224421 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_BRAM72K_SDP.sv":1082:7:1082:21|Synthesizing module ACX_BRAM72K_SDP in library work.
+Running optimization stage 1 on ACX_BRAM72K_SDP .......
+Finished optimization stage 1 on ACX_BRAM72K_SDP (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":34:7:34:24|Synthesizing module axi_bram_responder in library work.
+
+	TGT_DATA_WIDTH=32'b00000000000000000000000100000000
+	TGT_ADDR_WIDTH=32'b00000000000000000000000000011100
+	NAP_COL=4'bxxxx
+	NAP_ROW=4'bxxxx
+	NAP_N2S_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	NAP_S2N_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	AXI4_ID_WIDTH=32'b00000000000000000000000000001000
+	AXI4_SLAVE_ADDR_WIDTH=32'b00000000000000000000000000001001
+	NAP_DATA_WIDTH=32'b00000000000000000000000100000000
+	NAP_ADDR_WIDTH=32'b00000000000000000000000000011100
+   Generated name = axi_bram_responder_Z4739190
+@N: CG179 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":415:44:415:48|Removing redundant assignment.
+@N: CG179 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":416:42:416:44|Removing redundant assignment.
+@N: CG179 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":417:45:417:50|Removing redundant assignment.
+@N: CG179 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":418:44:418:48|Removing redundant assignment.
+@N: CG179 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":443:44:443:48|Removing redundant assignment.
+@N: CG179 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":577:27:577:36|Removing redundant assignment.
+@N: CG179 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":578:27:578:36|Removing redundant assignment.
+@N: CG179 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":579:27:579:36|Removing redundant assignment.
+Running optimization stage 1 on axi_bram_responder_Z4739190 .......
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":529:3:529:8|Pruning unused register xact_aw_len[7:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":529:3:529:8|Pruning unused register xact_aw_burst[1:0]. Make sure that there are no unused intermediate registers.
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":344:3:344:8|Pruning unused register xact_ar_burst[1:0]. Make sure that there are no unused intermediate registers.
+Finished optimization stage 1 on axi_bram_responder_Z4739190 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_core.sv":1416:7:1416:23|Synthesizing module ACX_NAP_AXI_SLAVE in library work.
+Running optimization stage 1 on ACX_NAP_AXI_SLAVE .......
+Finished optimization stage 1 on ACX_NAP_AXI_SLAVE (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/nap_slave_wrapper.sv":32:7:32:23|Synthesizing module nap_slave_wrapper in library work.
+
+	CSR_ACCESS_ENABLE=1'b0
+	COLUMN=4'bxxxx
+	ROW=4'bxxxx
+	E2W_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	W2E_ARB_SCHED=32'bxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+   Generated name = nap_slave_wrapper_Z3012560
+Running optimization stage 1 on nap_slave_wrapper_Z3012560 .......
+Finished optimization stage 1 on nap_slave_wrapper_Z3012560 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/shift_reg.sv":35:7:35:15|Synthesizing module shift_reg in library work.
+
+	LENGTH=32'b00000000000000000000000000001010
+	WIDTH=32'b00000000000000000000000000000001
+	NOKEEP=32'b00000000000000000000000000000000
+	RESET_ALL=32'b00000000000000000000000000000000
+   Generated name = shift_reg_10s_1s_0s_0s
+Running optimization stage 1 on shift_reg_10s_1s_0s_0s .......
+Finished optimization stage 1 on shift_reg_10s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@W: CG168 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":115:6:115:15|Type of parameter INIT_VALUE on the instance i_data_gen is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/random_seq_engine.sv":32:7:32:20|Synthesizing module random_seq_gen in library work.
+
+	OUTPUT_WIDTH=32'b00000000000000000000000100000000
+	WORD_WIDTH=32'b00000000000000000000000000010000
+	LINEAR_COUNT=32'b00000000000000000000000000000000
+	COUNT_DOWN=32'b00000000000000000000000000000000
+	FIRST_WORD_LINEAR=32'b00000000000000000000000000000001
+	INIT_VALUE=256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	NUM_WORDS=32'b00000000000000000000000000010000
+	OUTPUT_WIDTH_INT=32'b00000000000000000000000100000000
+   Generated name = random_seq_gen_Z4800250
+Running optimization stage 1 on random_seq_gen_Z4800250 .......
+Finished optimization stage 1 on random_seq_gen_Z4800250 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/random_seq_engine.sv":32:7:32:20|Synthesizing module random_seq_gen in library work.
+
+	OUTPUT_WIDTH=32'b00000000000000000000000000010000
+	WORD_WIDTH=32'b00000000000000000000000000010000
+	LINEAR_COUNT=32'b00000000000000000000000000000001
+	COUNT_DOWN=32'b00000000000000000000000000000000
+	FIRST_WORD_LINEAR=32'b00000000000000000000000000000001
+	INIT_VALUE=16'b0000000000000000
+	NUM_WORDS=32'b00000000000000000000000000000001
+	OUTPUT_WIDTH_INT=32'b00000000000000000000000000010000
+   Generated name = random_seq_gen_16s_16s_1s_0s_1s_0_1s_16s
+Running optimization stage 1 on random_seq_gen_16s_16s_1s_0s_1s_0_1s_16s .......
+Finished optimization stage 1 on random_seq_gen_16s_16s_1s_0s_1s_0_1s_16s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":32:7:32:17|Synthesizing module axi_pkt_gen in library work.
+
+	LINEAR_PKTS=32'b00000000000000000000000000000000
+	LINEAR_ADDR=32'b00000000000000000000000000000001
+	TGT_ADDR_WIDTH=32'b00000000000000000000000000010000
+	TGT_ADDR_PAD_WIDTH=32'b00000000000000000000000000001100
+	TGT_ADDR_ID=14'b00010001000111
+	TGT_DATA_WIDTH=32'b00000000000000000000000100000000
+	MAX_BURST_LEN=32'b00000000000000000000000000001111
+	AXI_ADDR_WIDTH=32'b00000000000000000000000000101010
+	RAND_DATA_INIT=256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	MAX_BURST_BITS=32'b00000000000000000000000000000100
+	ADDR_BYTE_STEP=32'b00000000000000000000000000000101
+	TGT_BURST_SIZE=32'b00000000000000000000000000000101
+	SEQ_ADDR_WIDTH=32'b00000000000000000000000000010000
+	ACTIVE_ADDR_WIDTH=32'b00000000000000000000000000001011
+   Generated name = axi_pkt_gen_Z4692260
+Running optimization stage 1 on axi_pkt_gen_Z4692260 .......
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awlock is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awcache[0] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awcache[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awcache[2] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awcache[3] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awprot[0] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awprot[1] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awprot[2] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awqos[0] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awqos[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awqos[2] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awqos[3] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awregion[0] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awregion[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awregion[2] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awsize[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit addr_written[0] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit addr_written[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit addr_written[2] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit addr_written[3] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awlen[4] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awlen[5] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awlen[6] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.awlen[7] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[0] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[1] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[2] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[3] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[4] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[5] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[6] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[7] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[8] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[9] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[10] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[11] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[12] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[13] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[14] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[15] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[16] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[17] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[18] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[19] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[20] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[21] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[22] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[23] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[24] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[25] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[26] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[27] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[28] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[29] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[30] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit axi_if.wstrb[31] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit len_written[4] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit len_written[5] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit len_written[6] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Register bit len_written[7] is always 0.
+@W: CL279 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Pruning register bits 3 to 0 of addr_written[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+@W: CL279 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Pruning register bits 7 to 4 of len_written[7:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on axi_pkt_gen_Z4692260 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG364 :"/eda/ace/libraries/speedster7t/syn/speedster7t_user_macros_LRAM2K_FIFO.sv":54:7:54:21|Synthesizing module ACX_LRAM2K_FIFO in library work.
+Running optimization stage 1 on ACX_LRAM2K_FIFO .......
+Finished optimization stage 1 on ACX_LRAM2K_FIFO (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@W: CG168 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":103:6:103:15|Type of parameter INIT_VALUE on the instance i_data_gen is not in accordance with the type of parameter on corresponding module. Please update RTL with correct parameter type 
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":35:7:35:17|Synthesizing module axi_pkt_chk in library work.
+
+	LINEAR_PKTS=32'b00000000000000000000000000000000
+	TGT_ADDR_WIDTH=32'b00000000000000000000000000010000
+	TGT_ADDR_PAD_WIDTH=32'b00000000000000000000000000001100
+	TGT_ADDR_ID=14'b00010001000111
+	TGT_DATA_WIDTH=32'b00000000000000000000000100000000
+	AXI_ADDR_WIDTH=32'b00000000000000000000000000101010
+	RAND_DATA_INIT=256'b0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+	NO_AR_LIMIT=32'b00000000000000000000000000000000
+	ADDR_BYTE_STEP=32'b00000000000000000000000000000101
+	TGT_BURST_SIZE=32'b00000000000000000000000000000101
+	ACTIVE_ADDR_WIDTH=32'b00000000000000000000000000001011
+   Generated name = axi_pkt_chk_Z4611980
+@A: CG412 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":166:26:166:55|Treating === and !== as == and != -- possible simulation mismatch
+Running optimization stage 1 on axi_pkt_chk_Z4611980 .......
+@W: CL169 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":356:4:356:9|Pruning unused register arready_d. Make sure that there are no unused intermediate registers.
+@N: CL134 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":220:4:220:9|Found RAM arid_pipe, depth=2, width=8
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":220:4:220:9|Register bit axi_if.arsize[0] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":220:4:220:9|Register bit axi_if.arsize[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":220:4:220:9|Register bit axi_if.arsize[2] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":220:4:220:9|Register bit axi_if.arlock is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[0] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[2] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[3] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[4] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[16] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[17] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[18] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[19] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[20] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[21] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[22] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[23] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[24] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[25] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[26] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[27] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[28] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[29] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[30] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[31] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[32] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[33] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[34] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[35] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[36] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[37] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[38] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[39] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[40] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":207:4:207:9|Register bit axi_if.araddr[41] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":220:4:220:9|Register bit axi_if.arburst[0] is always 1.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":220:4:220:9|Register bit axi_if.arburst[1] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":220:4:220:9|Register bit axi_if.arcache[0] is always 0.
+@N: CL189 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":220:4:220:9|Register bit axi_if.arcache[1] is always 0.
+
+Only the first 100 messages of id 'CL189' are reported. To see all messages use 'report_messages -log /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synlog/noc_2d_ref_design_top_compiler.srr -id CL189' in the Tcl shell. To see all messages in future runs, use the command 'message_override -limit {CL189} -count unlimited' in the Tcl shell.
+Finished optimization stage 1 on axi_pkt_chk_Z4611980 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/shift_reg.sv":35:7:35:15|Synthesizing module shift_reg in library work.
+
+	LENGTH=32'b00000000000000000000000000010010
+	WIDTH=32'b00000000000000000000000000000001
+	NOKEEP=32'b00000000000000000000000000000000
+	RESET_ALL=32'b00000000000000000000000000000000
+   Generated name = shift_reg_18s_1s_0s_0s
+Running optimization stage 1 on shift_reg_18s_1s_0s_0s .......
+Finished optimization stage 1 on shift_reg_18s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+@N: CG364 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/noc_2d_ref_design_top.sv":45:7:45:27|Synthesizing module noc_2d_ref_design_top in library work.
+@W: CG1239 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/noc_2d_ref_design_top.sv":789:19:789:31|Undriven input i_max_bursts on instance i_axi_pkt_gen
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":34:40:34:56|Removing wire ext_gpio_fpga_out, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":35:40:35:55|Removing wire ext_gpio_fpga_oe, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":38:40:38:51|Removing wire ext_gpio_dir, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":42:40:42:52|Removing wire ext_gpio_oe_l, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":48:40:48:47|Removing wire led_oe_l, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":55:40:55:51|Removing wire fpga_avr_txd, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":57:40:57:49|Removing wire irq_to_avr, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":61:40:61:53|Removing wire fpga_i2c_req_l, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":67:40:67:52|Removing wire fpga_ftdi_txd, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":70:40:70:43|Removing wire test, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":75:40:75:55|Removing wire fpga_sys_scl_out, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":76:40:76:54|Removing wire fpga_sys_scl_oe, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":78:40:78:55|Removing wire fpga_sys_sda_out, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":79:40:79:54|Removing wire fpga_sys_sda_oe, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":82:40:82:47|Removing wire mcio_dir, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":84:40:84:50|Removing wire mcio_dir_45, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":91:40:91:51|Removing wire mcio_vio_out, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":92:40:92:50|Removing wire mcio_vio_oe, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":95:40:95:49|Removing wire mcio_oe1_l, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":97:40:97:51|Removing wire mcio_oe_45_l, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":100:40:100:50|Removing wire mcio_scl_oe, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":101:40:101:51|Removing wire mcio_scl_out, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":102:40:102:50|Removing wire mcio_sda_oe, as there is no assignment to it.
+@W: CG360 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":103:40:103:51|Removing wire mcio_sda_out, as there is no assignment to it.
+Running optimization stage 1 on noc_2d_ref_design_top .......
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":34:40:34:56|*Output ext_gpio_fpga_out has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":35:40:35:55|*Output ext_gpio_fpga_oe has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":38:40:38:51|*Output ext_gpio_dir has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":42:40:42:52|*Output ext_gpio_oe_l has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":48:40:48:47|*Output led_oe_l has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":55:40:55:51|*Output fpga_avr_txd has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":57:40:57:49|*Output irq_to_avr has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":61:40:61:53|*Output fpga_i2c_req_l has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":67:40:67:52|*Output fpga_ftdi_txd has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":70:40:70:43|*Output test has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":75:40:75:55|*Output fpga_sys_scl_out has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":76:40:76:54|*Output fpga_sys_scl_oe has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":78:40:78:55|*Output fpga_sys_sda_out has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":79:40:79:54|*Output fpga_sys_sda_oe has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":82:40:82:47|*Output mcio_dir has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":84:40:84:50|*Output mcio_dir_45 has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":91:40:91:51|*Output mcio_vio_out has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":92:40:92:50|*Output mcio_vio_oe has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":95:40:95:49|*Output mcio_oe1_l has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":97:40:97:51|*Output mcio_oe_45_l has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":100:40:100:50|*Output mcio_scl_oe has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":101:40:101:51|*Output mcio_scl_out has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":102:40:102:50|*Output mcio_sda_oe has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL318 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":103:40:103:51|*Output mcio_sda_out has undriven bits; assigning undriven bits to 'Z'.  Simulation mismatch possible. Assign all bits of the output.
+@W: CL271 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/noc_2d_ref_design_top.sv":760:3:760:8|Pruning unused bits 14 to 0 of test_rx_count_d[15:0]. If this is not the intended behavior, drive the inputs with valid values, or inputs from the top level.
+Finished optimization stage 1 on noc_2d_ref_design_top (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+Running optimization stage 2 on noc_2d_ref_design_top .......
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":33:40:33:55|Input ext_gpio_fpga_in is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":51:40:51:49|Input fpga_rst_l is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":52:40:52:50|Input irq_to_fpga is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":54:40:54:51|Input fpga_avr_rxd is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":60:40:60:55|Input fpga_i2c_mux_gnt is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":64:40:64:54|Input qsfp_int_fpga_l is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":66:40:66:52|Input fpga_ftdi_rxd is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":74:40:74:54|Input fpga_sys_scl_in is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":77:40:77:54|Input fpga_sys_sda_in is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":87:40:87:50|Input mcio_scl_in is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":88:40:88:50|Input mcio_sda_in is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":90:40:90:50|Input mcio_vio_in is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":93:40:93:57|Input mcio_vio_45_10_clk is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":106:40:106:62|Input pll_nw_2_ref0_312p5_clk is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":107:40:107:55|Input vp_pll_nw_2_lock is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":109:40:109:62|Input pll_sw_2_ref1_312p5_clk is unused.
+@N: CL159 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/include/vectorpath_rev1_port_list.svh":110:40:110:55|Input vp_pll_sw_2_lock is unused.
+Finished optimization stage 2 on noc_2d_ref_design_top (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+Running optimization stage 2 on shift_reg_18s_1s_0s_0s .......
+Finished optimization stage 2 on shift_reg_18s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+Running optimization stage 2 on axi_pkt_chk_Z4611980 .......
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":220:4:220:9|Trying to extract state machine for register ar_state.
+Extracted state machine for register ar_state
+State machine has 4 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":305:4:305:9|Trying to extract state machine for register rd_state.
+Extracted state machine for register rd_state
+State machine has 2 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+@W: CL246 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_chk.sv":56:40:56:50|Input port bits 15 to 11 of i_xact_addr[15:0] are unused. Assign logic for all port bits or change the input port size.
+Finished optimization stage 2 on axi_pkt_chk_Z4611980 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+Running optimization stage 2 on ACX_LRAM2K_FIFO .......
+Finished optimization stage 2 on ACX_LRAM2K_FIFO (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+Running optimization stage 2 on axi_pkt_gen_Z4692260 .......
+@W: CL177 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Sharing sequential element data_enable and merging addr_enable. Add a syn_preserve attribute to the element to prevent sharing.
+@W: CL177 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Sharing sequential element written_valid and merging update_burst_len. Add a syn_preserve attribute to the element to prevent sharing.
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_pkt_gen.sv":177:4:177:9|Trying to extract state machine for register wr_state.
+Extracted state machine for register wr_state
+State machine has 6 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+   00000000000000000000000000000101
+Finished optimization stage 2 on axi_pkt_gen_Z4692260 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+Running optimization stage 2 on random_seq_gen_16s_16s_1s_0s_1s_0_1s_16s .......
+Finished optimization stage 2 on random_seq_gen_16s_16s_1s_0s_1s_0_1s_16s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+Running optimization stage 2 on random_seq_gen_Z4800250 .......
+Finished optimization stage 2 on random_seq_gen_Z4800250 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+Running optimization stage 2 on shift_reg_10s_1s_0s_0s .......
+Finished optimization stage 2 on shift_reg_10s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+Running optimization stage 2 on nap_slave_wrapper_Z3012560 .......
+Finished optimization stage 2 on nap_slave_wrapper_Z3012560 (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+Running optimization stage 2 on ACX_NAP_AXI_SLAVE .......
+Finished optimization stage 2 on ACX_NAP_AXI_SLAVE (CPU Time 0h:00m:00s, Memory Used current: 170MB peak: 170MB)
+Running optimization stage 2 on axi_bram_responder_Z4739190 .......
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":479:3:479:8|Trying to extract state machine for register wr_xact_state.
+Extracted state machine for register wr_xact_state
+State machine has 4 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":253:3:253:8|Trying to extract state machine for register rd_xact_state.
+Extracted state machine for register rd_xact_state
+State machine has 3 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/axi_bram_responder.sv":198:3:198:8|Trying to extract state machine for register r_dout_valid.
+Extracted state machine for register r_dout_valid
+State machine has 3 reachable states with original encodings of:
+   00
+   01
+   11
+Finished optimization stage 2 on axi_bram_responder_Z4739190 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 179MB)
+Running optimization stage 2 on ACX_BRAM72K_SDP .......
+Finished optimization stage 2 on ACX_BRAM72K_SDP (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 179MB)
+Running optimization stage 2 on nap_master_wrapper_Z224421 .......
+Finished optimization stage 2 on nap_master_wrapper_Z224421 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 179MB)
+Running optimization stage 2 on t_AXI4_Z4929041 .......
+Finished optimization stage 2 on t_AXI4_Z4929041 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 179MB)
+Running optimization stage 2 on data_stream_pkt_chk_Z4647330 .......
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":139:3:139:8|Trying to extract state machine for register chk_state.
+Extracted state machine for register chk_state
+State machine has 3 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+Finished optimization stage 2 on data_stream_pkt_chk_Z4647330 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 179MB)
+Running optimization stage 2 on data_stream_pkt_gen_Z459180 .......
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_gen.sv":143:4:143:9|Trying to extract state machine for register gen_state.
+Extracted state machine for register gen_state
+State machine has 3 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+Finished optimization stage 2 on data_stream_pkt_gen_Z459180 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on random_seq_gen_Z3978100 .......
+Finished optimization stage 2 on random_seq_gen_Z3978100 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on data_stream_pkt_chk_Z2890890 .......
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_chk.sv":139:3:139:8|Trying to extract state machine for register chk_state.
+Extracted state machine for register chk_state
+State machine has 3 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+Finished optimization stage 2 on data_stream_pkt_chk_Z2890890 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on data_stream_pkt_gen_Z449940 .......
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/data_stream_pkt_gen.sv":143:4:143:9|Trying to extract state machine for register gen_state.
+Extracted state machine for register gen_state
+State machine has 3 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+Finished optimization stage 2 on data_stream_pkt_gen_Z449940 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on random_seq_gen_Z4229340 .......
+Finished optimization stage 2 on random_seq_gen_Z4229340 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on shift_reg_16s_1s_0s_0s .......
+Finished optimization stage 2 on shift_reg_16s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on nap_vertical_wrapper_Z2102001 .......
+Finished optimization stage 2 on nap_vertical_wrapper_Z2102001 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on nap_vertical_wrapper_Z2102000 .......
+Finished optimization stage 2 on nap_vertical_wrapper_Z2102000 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on ACX_NAP_VERTICAL .......
+Finished optimization stage 2 on ACX_NAP_VERTICAL (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on nap_horizontal_wrapper_Z3547281 .......
+Finished optimization stage 2 on nap_horizontal_wrapper_Z3547281 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on nap_horizontal_wrapper_Z3547280 .......
+Finished optimization stage 2 on nap_horizontal_wrapper_Z3547280 (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on ACX_NAP_HORIZONTAL .......
+Finished optimization stage 2 on ACX_NAP_HORIZONTAL (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on shift_reg_6s_1s_0s_0s .......
+Finished optimization stage 2 on shift_reg_6s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on shift_reg_7s_1s_0s_0s .......
+Finished optimization stage 2 on shift_reg_7s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on shift_reg_8s_1s_0s_0s .......
+Finished optimization stage 2 on shift_reg_8s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on shift_reg_12s_1s_0s_0s .......
+Finished optimization stage 2 on shift_reg_12s_1s_0s_0s (CPU Time 0h:00m:00s, Memory Used current: 179MB peak: 211MB)
+Running optimization stage 2 on reg_control_block_10s_2s_2s .......
+@N: CL201 :"/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/rtl/reg_control_block.sv":126:4:126:9|Trying to extract state machine for register axi_state.
+Extracted state machine for register axi_state
+State machine has 5 reachable states with original encodings of:
+   00000000000000000000000000000000
+   00000000000000000000000000000001
+   00000000000000000000000000000010
+   00000000000000000000000000000011
+   00000000000000000000000000000100
+Finished optimization stage 2 on reg_control_block_10s_2s_2s (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on nap_master_wrapper_Z224420 .......
+Finished optimization stage 2 on nap_master_wrapper_Z224420 (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on ACX_NAP_AXI_MASTER .......
+Finished optimization stage 2 on ACX_NAP_AXI_MASTER (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on t_AXI4_Z4929040 .......
+Finished optimization stage 2 on t_AXI4_Z4929040 (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on reset_processor_v2_3s_5s_1s_4s_1s .......
+Finished optimization stage 2 on reset_processor_v2_3s_5s_1s_4s_1s (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on t_AXI4_Z3548520 .......
+Finished optimization stage 2 on t_AXI4_Z3548520 (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on t_DATA_STREAM_Z1911183 .......
+Finished optimization stage 2 on t_DATA_STREAM_Z1911183 (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on t_DATA_STREAM_Z1911182 .......
+Finished optimization stage 2 on t_DATA_STREAM_Z1911182 (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on t_DATA_STREAM_Z1911181 .......
+Finished optimization stage 2 on t_DATA_STREAM_Z1911181 (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on t_DATA_STREAM_Z1911180 .......
+Finished optimization stage 2 on t_DATA_STREAM_Z1911180 (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on t_DATA_STREAM_Z154743 .......
+Finished optimization stage 2 on t_DATA_STREAM_Z154743 (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on t_DATA_STREAM_Z154742 .......
+Finished optimization stage 2 on t_DATA_STREAM_Z154742 (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on t_DATA_STREAM_Z154741 .......
+Finished optimization stage 2 on t_DATA_STREAM_Z154741 (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+Running optimization stage 2 on t_DATA_STREAM_Z154740 .......
+Finished optimization stage 2 on t_DATA_STREAM_Z154740 (CPU Time 0h:00m:00s, Memory Used current: 180MB peak: 211MB)
+
+For a summary of runtime and memory usage per design unit, please see file:
+==========================================================
+@L: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synwork/layer0.rt.csv
+

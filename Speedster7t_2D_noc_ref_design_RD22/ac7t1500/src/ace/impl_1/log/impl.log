@@ -1,0 +1,433 @@
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_31_38.log
+Implementation activated at 15:32:14 on 07/13/2022
+------------------------------------------------------
+ACE> reset_impl_option -all -project "noc_2d_ref_design_top" -impl "impl_1"
+ACE> save_project -project "noc_2d_ref_design_top"
+ACE> set_active_impl -project "mlp_conv2d_top" "impl_1"
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_31_38.log
+Implementation activated at 15:32:30 on 07/13/2022
+------------------------------------------------------
+ACE> set_active_impl -project "noc_2d_ref_design_top" "impl_1"
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_31_38.log
+Implementation activated at 15:32:32 on 07/13/2022
+------------------------------------------------------
+ACE> set_active_impl -project "noc_2d_ref_design_top" "impl_1"
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_31_38.log
+Implementation activated at 15:32:33 on 07/13/2022
+------------------------------------------------------
+ACE> set_active_impl -project "mlp_conv2d_top" "impl_1"
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_31_38.log
+Implementation activated at 15:32:36 on 07/13/2022
+------------------------------------------------------
+ACE> set_active_impl -project "noc_2d_ref_design_top" "impl_1"
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_31_38.log
+Implementation activated at 15:32:38 on 07/13/2022
+------------------------------------------------------
+ACE> run -resume
+INFO: ===========================================
+INFO: Running flow step "run_prepare"
+INFO: ===========================================
+INFO: Loading technology libraries db...
+INFO: Loading AC7t1500ES0 definition...
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Reading project verilog netlists...
+ERROR: No netlists have been added to the active project.  Please add the netlist files to your project you wish to use and try again.
+ERROR: Design Preparation failed
+
+ERROR: Flow step "run_prepare" failed in 22 seconds.  Peak memory usage is 4725 MB. Cputime 12 seconds.
+INFO: ===========================================
+ERROR: Overall flow failed in 22 seconds.  Peak memory usage is 4725 MB. Cputime 12 seconds.
+INFO: ===========================================
+ACE> add_project_netlist -project "noc_2d_ref_design_top" "/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/noc_2d_ref_design_top.vm"
+ACE> run -resume
+INFO: ===========================================
+INFO: Running flow step "run_prepare"
+INFO: ===========================================
+INFO: Loading technology libraries db...
+INFO: Loading AC7t1500ES0 definition...
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+INFO: Reading project verilog netlists...
+INFO: Reading netlist file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/noc_2d_ref_design_top.vm
+INFO: File /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/noc_2d_ref_design_top.vm is a netlist synthesized by Synplify 2021.3.
+INFO: Netlist synthesized for part AC7t1500ES0F53A0C2.
+WARNING: This netlist has been synthesized for a target Speed Grade that is different from selected Speed Grade C3.
+-- Reading structural Verilog file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/noc_2d_ref_design_top.vm
+/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/noc_2d_ref_design_top.vm(88378): INFO: setting noc_2d_ref_design_top as top level module (VNLR-1015)
+INFO: Deleting existing guidefile /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_verify_guidefile
+INFO: Running netlist reconditioner...
+INFO: Reconditioning pre_flatten Netlist noc_2d_ref_design_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_recondition_pre_flatten.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Reading project partitions files...
+INFO: Flattening netlist noc_2d_ref_design_top
+INFO: Reading project timing constraint files...
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_850mV_0C_fast.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_850mV_0C_slow.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_850mV_n40C_fast.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_850mV_n40C_slow.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_850mV_125C_fast.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_850mV_125C_slow.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_750mV_0C_fast.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_750mV_0C_slow.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_750mV_n40C_fast.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_750mV_n40C_slow.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_750mV_125C_fast.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_750mV_125C_slow.sdc
+INFO: Reading timing constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/constraints/ace_constraints.sdc
+INFO: Reading project constraint files...
+INFO: Reading constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring.pdc
+INFO: Reading constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/constraints/ace_placements.pdc
+INFO: Reading XML constraint file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_util.xml
+Checking post_import Netlist noc_2d_ref_design_top
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_import Netlist noc_2d_ref_design_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_recondition_post_import.log
+INFO: Disconnected 20 unnecessary port connections on 2 BRAM instances
+INFO: Deleted 3303 zero-pin nets
+INFO: Disconnected 1742 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Removed constant-1 set/reset pin from 14 DFF instances
+INFO: Disconnected 55 nets without drivers
+INFO: Deleted 1377 dangling output nets
+INFO: Converted 42 sources driving data pins to constant LUTs (source not available)
+INFO: Deleted 288 MUX2 instances (correcting MUX2s with constant select pins)
+INFO: Removed 467 dangling instances and 424 dangling nets that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Reconditioning complete (runtime = 00:00:01)
+INFO: Compiling design...
+INFO: Flattening netlist noc_2d_ref_design_top
+INFO: Running constant propagation
+INFO: Running dangling logic removal
+INFO: Elaborating I/O cells ...
+INFO: Flattening netlist noc_2d_ref_design_top
+INFO: Running constant propagation
+INFO: Running dangling logic removal
+INFO: Elaborating I/O cells ...
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_elaborate Netlist noc_2d_ref_design_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_recondition_post_elaborate.log
+INFO: Disconnected 170 don't care inputs from ALUs in 2 iterations
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Elaborating I/O cells ...
+INFO: Mapping core cells ...
+INFO: Annotating timing constraints in ace
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring.sdc
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_850mV_0C_slow.sdc
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/constraints/ace_constraints.sdc
+INFO: Saving Pre-Prepare checkpoint Acxdb Archive file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/noc_2d_ref_design_top_prepared_initial.acxdb
+INFO: Active implementation database saved to file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/noc_2d_ref_design_top_prepared_initial.acxdb
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist noc_2d_ref_design_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_recondition_post_map.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Remapping entire design...
+INFO: Netlist optimization complete. (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist noc_2d_ref_design_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_recondition_post_remap.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Initializing retiming log to file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_directed_retiming.log , 
+INFO: Running Area Optimization...
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Removed 50 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Area Optimization complete (runtime = 00:00:02)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist noc_2d_ref_design_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_recondition_post_rewire_1.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Graph Rewriting.
+INFO: Removed 36 dangling instances that could not be reached from the primary outputs.  For detailed information enable the implementation option save_sweep_log_file.
+INFO: Made 57 applications of rules.
+INFO: Rewrite complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist noc_2d_ref_design_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_recondition_post_rewrite_1.log
+INFO: Disconnected 7 LUT inputs (due to unnecessary SOURCE/LUT connections)
+INFO: Converted 42 sources driving data pins to constant LUTs (source not available)
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Inserted 78 fanout buffers
+INFO: Fanout Buffering complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist noc_2d_ref_design_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_recondition_post_fanout_3.log
+INFO: Converted 42 sources driving data pins to constant LUTs (source not available)
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist noc_2d_ref_design_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_recondition_post_fanout_4.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Flattening netlist noc_2d_ref_design_top
+INFO: Deleted 3 inverters
+INFO: Inserted 3 fanout buffers
+INFO: Fanout Buffering complete (runtime = 00:00:00)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_mapping Netlist noc_2d_ref_design_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_recondition_post_fanout_6.log
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Wrote clock report to /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_clocks_prepared.html
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_gen.addr_enable" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_gen.axi_if_awid_cry_0_0_56.lmux0" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_gen.axi_if_awid_cry_0_0_56.lmux1" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_gen.axi_if_awid_cry_0_0_56.lmux2" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_gen.axi_if_awid_cry_0_0_56.lmux3" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_gen.axi_if_awid_cry_0_0_56.lmux4" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_gen.axi_if_awid_cry_0_0_56.lmux5" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_gen.axi_if_awid_cry_0_0_56.lmux6" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_gen.axi_if_awid_cry_0_0_56.lmux7" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_gen.i1" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_gen.i2" (skipped)
+WARNING: Too many messages printed of the form "Could not find instance with name". Skipped 38 similar messages.
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_chk.data_match_2_0_0_I_1_017.lmux0" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_chk.data_match_2_0_0_I_1_017.lmux1" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_chk.data_match_2_0_0_I_1_017.lmux2" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_chk.data_match_2_0_0_I_1_017.lmux3" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_chk.data_match_2_0_0_I_1_017.lmux4" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_chk.data_match_2_0_0_I_1_017.lmux5" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_chk.data_match_2_0_0_I_1_017.lmux6" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_chk.data_match_2_0_0_I_1_017.lmux7" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_chk.data_match_2_0_0_I_19_018.lmux0" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_chk.data_match_2_0_0_I_19_018.lmux1" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:i_axi_pkt_chk.data_match_2_0_0_I_19_018.lmux2" (skipped)
+WARNING: Too many messages printed of the form "Could not find instance with name". Skipped 122 similar messages.
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:test_gen_count_4_0_cry_0_ns" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:test_gen_count_4_0_cry_1_ns" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:test_gen_count_4_0_cry_2_ns" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:test_gen_count_4_0_cry_3_ns" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:test_gen_count_4_0_cry_4_ns" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:test_gen_count_4_0_cry_5_ns" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:test_gen_count_4_0_cry_6_ns" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:test_gen_count_4_0_cry_7_ns" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:test_gen_count_4_0_cry_8_1840.lmux5" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:test_gen_count_4_0_cry_8_1840.lmux6" (skipped)
+WARNING: Could not apply command "ace::add_region_insts region_axi_pkt_gen". Could not find instance with name "i:test_gen_count_4_0_cry_8_1840.lmux7" (skipped)
+WARNING: Too many messages printed of the form "Could not find instance with name". Skipped 4 similar messages.
+INFO: Set existing defparam: used_as_reset on Instance: fpga_rst_l_ipin
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_prepare Netlist noc_2d_ref_design_top
+INFO: For detailed information see the file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_recondition_post_prepare.log
+INFO: Permuted A and B inputs on 3 ALUs to improve related LUT packing
+INFO: Merged: 0 MLPs
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Wrote utilization report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_utilization_prepared.html
+INFO: Wrote utilization report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_utilization_prepared.txt
+INFO: Wrote pin assignment report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_pins_prepared.html
+INFO: Wrote pin assignment report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_pins_prepared.txt
+INFO: Saving Post-Prepare checkpoint Acxdb Archive file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/noc_2d_ref_design_top_prepared.acxdb
+INFO: Active implementation database saved to file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/noc_2d_ref_design_top_prepared.acxdb
+Checking post_prepare Netlist noc_2d_ref_design_top
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Flow step "run_prepare" completed in 43 seconds.  Peak memory usage is 6456 MB. Cputime 28 seconds.
+INFO: ===========================================
+INFO: Running flow step "report_timing_prepared"
+INFO: ===========================================
+INFO: Running clustering
+INFO: Clustering complete (runtime = 00:00:00, memory 6392 MB)
+INFO: Timing analysis for temperature 0C
+INFO: Running Timing Analysis
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring.sdc
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_850mV_0C_fast.sdc
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/constraints/ace_constraints.sdc
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring.sdc
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ioring/noc_2d_ref_design_top_ioring_delays_C3_850mV_0C_slow.sdc
+INFO: Reading constraints file /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/constraints/ace_constraints.sdc
+INFO: Calculating upper limits of clock frequencies
+INFO: Timing analysis completed.
+INFO: Current Timing
+INFO: Clock: i_chk_clk; target: 499.0 MHz; upper-limit: 555.4 MHz; meets timing: setup yes (+0.204ns), hold yes (+0.067ns)
+INFO: Clock: i_reg_clk; target: 200.0 MHz; upper-limit: 321.4 MHz; meets timing: setup yes (+1.889ns), hold yes (+0.074ns)
+INFO: Clock: i_send_clk; target: 500.0 MHz; upper-limit: 379.3 MHz; meets timing: setup no (-0.636ns), hold no (-0.174ns)
+INFO: Clock: **async_default**; target: 500.0 MHz; upper-limit: 1044.8 MHz; meets timing: setup yes (+1.043ns), hold yes (+0.250ns)
+INFO: Wrote Timing Report to /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_timing_prepared_C3_0p85V_0C.html
+INFO: Flow step "report_timing_prepared" completed in 30 seconds.  Peak memory usage is 6466 MB. Cputime 26 seconds.
+INFO: ===========================================
+INFO: Running flow step "run_place"
+INFO: ===========================================
+INFO: Running reset removal
+INFO: No Reset removal work to do
+INFO: Running vmode removal
+INFO: No vmode blocks detected
+INFO: Transmitting routing visualization update...
+INFO: Completed transmitting routing visualization data
+INFO: Unplaced 0 instances
+Checking pre_pnr Netlist noc_2d_ref_design_top
+-- Checking IO Assignment...
+-- Checking pre-placement...
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:00)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Boundary placement: Placing ASCs...
+INFO: Running automatic placement region creation...
+Running global placement on netlist noc_2d_ref_design_top...
+Created 9 fast-feedback clusters
+INFO: Building modules from pre-clustering
+INFO: Imported 5 region constraints
+-- Phase 0 took 5.8s (1/1,100:547)
+-- Phase 1 took 0.0s (0/0,0:547)
+-- Phase 2 took 13.7s (8/9,711:2225)
+-- Phase 3 took 12.2+4.7s (7/8,529:1626)
+-- Phase 4 took 24.1s (13/16,1227:3752)
+INFO: Block placement took 00:00:09
+INFO: IO placement took 00:00:09
+INFO: Global Placement complete (runtime = 00:01:28)
+INFO: Wrote placement report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_placement_global.txt
+INFO: Writing Report File completed /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/.debug/noc_2d_ref_design_top_placement_global.txt (runtime = 00:00:00)
+INFO: Placing special I/Os ...
+INFO: Running Placement-based cloning...
+INFO: Running Netlist Optimization...
+INFO: Netlist Optimization complete (runtime = 00:00:05)
+INFO: Deleted 0 inverters
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist noc_2d_ref_design_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Active implementation database saved to file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/noc_2d_ref_design_top_placed_loweffort.acxdb
+INFO: Writing noc_2d_ref_design_top_placed_loweffort.acxdb completed (runtime = 00:00:00)
+INFO: Running Placement Optimization...
+Recreated 9 fast-feedback clusters
+INFO: Optimized 4 fast-connect clusters
+INFO: Placement Optimize FastConnect complete (runtime = 00:00:06)
+INFO: Running Placement Optimization...
+INFO: Running Post-Validation Optimization. Optimized 2 objects
+INFO: Progress: 50% done
+INFO: Progress: 66% done
+INFO: Progress: 100% done
+INFO: IDT: 5, FDT: 0
+INFO: IDT: 5, FDT: 1
+INFO: Building modules from pre-clustering
+INFO: Imported 5 region constraints
+INFO: Balanced 589 pipeline stages
+INFO: Placement Optimization complete (runtime = 00:00:45)
+INFO: Active implementation database saved to file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/noc_2d_ref_design_top_placed_higheffort.acxdb
+INFO: Writing noc_2d_ref_design_top_placed_higheffort.acxdb completed (runtime = 00:00:01)
+INFO: Running Area Optimization...
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Removed 5 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Removed 1 dangling instances that could not be reached from the primary outputs. For detailed information enable the implementation option save_sweep_log_file.
+INFO: Area Optimization complete (runtime = 00:00:01)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist noc_2d_ref_design_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Placement Legalizer Cleanup complete (runtime = 00:00:00)
+INFO: Running Placement Validation...
+INFO: top dims: 268, 310
+Recreated 9 fast-feedback clusters
+INFO: Placing 9 fast-feedback clusters
+INFO: Placement Validation complete (runtime = 00:00:07)
+INFO: Running Find WideGates...
+INFO: Post-Placement Pin Re-Assignment...
+INFO: Re-Assignment complete. Re-Assigned 64 connections based on Functional Equivalence
+INFO: Placement Find WideGates complete (runtime = 00:00:16)
+INFO: Running netlist reconditioner...
+INFO: Reconditioning post_place Netlist noc_2d_ref_design_top
+INFO: Reconditioning complete (runtime = 00:00:00)
+INFO: Rewired 0 pins to equivalent clocks
+INFO: Rewire Equivalent Clocks (runtime = 00:00:00)
+INFO: Running Placement Validation...
+INFO: top dims: 268, 310
+Recreated 9 fast-feedback clusters
+INFO: Placing 9 fast-feedback clusters
+INFO: Placement Validation complete (runtime = 00:00:02)
+INFO: Saving Post-Place checkpoint Acxdb Archive file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/noc_2d_ref_design_top_placed.acxdb
+INFO: Active implementation database saved to file: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/noc_2d_ref_design_top_placed.acxdb
+INFO: Writing noc_2d_ref_design_top_placed.acxdb completed (runtime = 00:00:01)
+INFO: Wrote utilization report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_utilization_placed.html
+INFO: Wrote utilization report file to: /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_utilization_placed.txt
+INFO: Wrote clock report to /mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/reports/noc_2d_ref_design_top_clocks_placed.html
+Checking post_place Netlist noc_2d_ref_design_top
+-- Checking IO Assignment...
+-- Checking boundary placement...
+-- Checking placement...
+-- Checking netlist...
+INFO: Check complete (runtime = 00:00:03)
+INFO: Check returned: 0 errors and 0 warnings
+INFO: Flow step "run_place" completed in 178 seconds.  Peak memory usage is 6540 MB. Cputime 159 seconds.
+INFO: ===========================================
+INFO: Running flow step "run_route"
+INFO: ===========================================
+INFO: Unplaced 0 instances
+INFO: Running reset removal
+INFO: No Reset removal work to do
+INFO: Running vmode removal
+INFO: No vmode blocks detected
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_48_02.log
+Implementation activated at 15:48:09 on 07/13/2022
+------------------------------------------------------
+ACE> run -resume
+INFO: ===========================================
+INFO: Running flow step "run_prepare"
+INFO: ===========================================
+INFO: Loading technology libraries db...
+INFO: Loading AC7t1500ES0 definition...
+INFO: Loading fabric db...
+INFO: Fabric load completed.
+WARNING: Operation was canceled.
+WARNING: Operation was canceled.
+ERROR: Flow step "run_prepare" failed in -1657698492 seconds.  Peak memory usage is 0 MB. Cputime 10 seconds.
+INFO: ===========================================
+ERROR: Overall flow failed in -1657698492 seconds.  Peak memory usage is 0 MB. Cputime 10 seconds.
+INFO: ===========================================
+ACE> set_active_impl -project "mlp_conv2d_top" "impl_1"
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_48_02.log
+Implementation activated at 15:49:00 on 07/13/2022
+------------------------------------------------------
+ACE> set_active_impl -project "noc_2d_ref_design_top" "impl_1"
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_13_15_48_02.log
+Implementation activated at 15:49:01 on 07/13/2022
+------------------------------------------------------
+ACE> restore_impl "/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/ace/impl_1/noc_2d_ref_design_top_placed.acxdb"
+INFO: Loading technology libraries db...
+INFO: Checking place and route completeness...
+INFO: Routing incomplete
+INFO: Placement complete
+INFO: Restore impl completed.
+INFO: Transmitting metadata...
+INFO: Completed transmitting metadata.
+INFO: Transmitting placement visualization data...
+INFO: Completed transmitting placement visualization data
+INFO: Transmitting routing visualization data...
+INFO: Completed transmitting routing visualization data
+ACE> exit 0
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_15_13_39_31.log
+Implementation activated at 13:39:39 on 07/15/2022
+------------------------------------------------------
+
+------------------------------------------------------
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+The full session log may be found at /home/mingo/.achronix/ace_2022_07_15_13_41_33.log
+Implementation activated at 13:41:40 on 07/15/2022
+------------------------------------------------------

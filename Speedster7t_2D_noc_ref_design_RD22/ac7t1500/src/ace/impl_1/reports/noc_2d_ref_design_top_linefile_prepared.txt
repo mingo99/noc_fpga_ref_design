@@ -1,0 +1,45 @@
+Repaired Instance: SOURCE0_T : Gnd_src0_2
+Repaired Instance: SOURCE1_T : Vdd_src1_1
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_0
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_1
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_2
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_3
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_4
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_5
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_6
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_7
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_8
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_9
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_10
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_11
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_12
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_13
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_14
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_15
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_16
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_17
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_18
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_19
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_20
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_21
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_22
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_23
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_24
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_25
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_26
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_27
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_28
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_29
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_30
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_31
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_32
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_33
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_34
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_35
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_36
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_37
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_38
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_39
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_40
+Unable to repair Instance: LUT6_T : Vdd_src1_1const1_RR4_41
+Number Repaired: 2 Number Broken: 42

@@ -1,0 +1,317 @@
+@P:  Worst Slack : -1.231
+@P:  ACX_BRAM72K_Z576400_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z576400_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z576400_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z576400_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z576400_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z576400_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z576400_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z576400_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z576400_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z576400_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z576400_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z576400_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z576400_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z576400_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z576400_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z576400_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z576400_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z576400_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z576400_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z576400_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z777380_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z777380_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z777380_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z777380_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z777380_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z777380_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z777380_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z777380_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z777380_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z777380_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z777380_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z777380_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z777380_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z777380_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z777380_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z777380_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z777380_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z777380_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z777380_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z777380_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z978360_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z978360_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z978360_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z978360_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z978360_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z978360_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z978360_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z978360_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z978360_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z978360_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z978360_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z978360_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z978360_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z978360_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z978360_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z978360_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z978360_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z978360_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z978360_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z978360_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z1179340_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z1179340_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z1179340_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z1179340_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z1179340_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z1179340_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z1179340_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z1179340_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z1179340_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z1179340_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z1179340_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z1179340_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z1179340_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z1179340_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z1179340_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z1179340_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z1179340_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z1179340_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z1179340_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z1179340_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z1842800_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z1842800_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z1842800_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z1842800_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z1842800_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z1842800_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z1842800_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z1842800_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z1842800_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z1842800_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z1842800_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z1842800_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z1842800_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z1842800_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z1842800_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z1842800_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z1842800_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z1842800_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z1842800_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z1842800_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z2043780_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z2043780_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z2043780_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z2043780_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z2043780_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z2043780_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z2043780_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z2043780_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z2043780_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z2043780_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z2043780_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z2043780_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z2043780_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z2043780_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z2043780_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z2043780_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z2043780_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z2043780_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z2043780_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z2043780_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z2117110_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z2117110_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z2117110_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z2117110_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z2117110_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z2117110_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z2117110_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z2117110_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z2117110_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z2117110_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z2117110_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z2117110_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z2117110_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z2117110_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z2117110_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z2117110_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z2117110_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z2117110_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z2117110_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z2117110_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z2244760_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z2244760_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z2244760_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z2244760_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z2244760_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z2244760_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z2244760_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z2244760_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z2244760_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z2244760_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3097350_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3097350_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3097350_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3097350_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3097350_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3097350_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3097350_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3097350_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3097350_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3097350_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3097350_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3097350_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3097350_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3097350_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3097350_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3097350_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3097350_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3097350_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3097350_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3097350_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3298330_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3298330_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3298330_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3298330_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3298330_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3298330_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3298330_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3298330_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3298330_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3298330_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3298330_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3298330_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3298330_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3298330_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3298330_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3298330_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3298330_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3298330_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3298330_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3298330_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3499310_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3499310_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3499310_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3499310_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3499310_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3499310_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3499310_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3499310_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3499310_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3499310_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3499310_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3499310_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3499310_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3499310_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3499310_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3499310_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3499310_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3499310_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3499310_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3499310_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3700290_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3700290_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3700290_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3700290_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3700290_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3700290_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3700290_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3700290_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3700290_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3700290_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3700290_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3700290_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3700290_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3700290_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3700290_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3700290_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3700290_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3700290_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3700290_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3700290_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3901270_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3901270_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3901270_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3901270_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3901270_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3901270_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3901270_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3901270_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3901270_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3901270_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3901270_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3901270_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3901270_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3901270_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3901270_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z3901270_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z3901270_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z3901270_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z3901270_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z3901270_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z4363750_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z4363750_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z4363750_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z4363750_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z4363750_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z4363750_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z4363750_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z4363750_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z4363750_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z4363750_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z4363750_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z4363750_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z4363750_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z4363750_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z4363750_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z4363750_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z4363750_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z4363750_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z4363750_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z4363750_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z4564730_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z4564730_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z4564730_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z4564730_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z4564730_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z4564730_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z4564730_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z4564730_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z4564730_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z4564730_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z4564730_2|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z4564730_2|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z4564730_2|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z4564730_2|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z4564730_2|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z4564730_3|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z4564730_3|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z4564730_3|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z4564730_3|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z4564730_3|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z4765710_0|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z4765710_0|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z4765710_0|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z4765710_0|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z4765710_0|mlpram_rden_inferred_clock - Slack : NA
+@P:  ACX_BRAM72K_Z4765710_1|mlpram_rden_inferred_clock - Estimated Frequency : NA
+@P:  ACX_BRAM72K_Z4765710_1|mlpram_rden_inferred_clock - Requested Frequency : 200.0 MHz
+@P:  ACX_BRAM72K_Z4765710_1|mlpram_rden_inferred_clock - Estimated Period : NA
+@P:  ACX_BRAM72K_Z4765710_1|mlpram_rden_inferred_clock - Requested Period : 5.000
+@P:  ACX_BRAM72K_Z4765710_1|mlpram_rden_inferred_clock - Slack : NA
+@P:  clk - Estimated Frequency : 345.9 MHz
+@P:  clk - Requested Frequency : 602.4 MHz
+@P:  clk - Estimated Period : 2.891
+@P:  clk - Requested Period : 1.660
+@P:  clk - Slack : -1.231
+@P:  System - Estimated Frequency : 224.6 MHz
+@P:  System - Requested Frequency : 200.0 MHz
+@P:  System - Estimated Period : 4.453
+@P:  System - Requested Period : 5.000
+@P:  System - Slack : 0.547
+@P: mlp_conv2d_top Part : ac7t1500es0f53a0c2
+@P: mlp_conv2d_top BRAM : 62 of 2560 (2.42%)
+@P: mlp_conv2d_top LRAM : 0 of 2560 (0.00%)
+@P: mlp_conv2d_top ALU8 : 41 of 172800 (less than 1%)
+@P: mlp_conv2d_top DFF  : 3006 of 1382400 (less than 1%)
+@P:  CPU Time : 0h:01m:17s

@@ -1,0 +1,36 @@
+// 32x8 matrix, signed int8 elements in hex
+
+// column 0 is 1, 2, ..., 32. The other numbers are random
+01 6d 37 c9 10 7a 8a 76 
+02 5c e8 e4 44 c4 e9 bd 
+03 90 11 52 b6 29 0d 7d 
+04 9c 26 02 ea 6c 86 4e 
+05 72 5f 1e d2 7f 08 cf 
+06 14 fc 92 42 0a 7d 6a 
+07 80 12 60 d4 45 d5 b0 
+08 26 c2 40 da ce 10 3e 
+09 d4 9c c3 2c 2d 74 ed 
+0a c7 fa a8 54 87 d0 7b 
+0b 82 93 fb d3 a6 1b 76 
+0c 17 1d 62 8b 7d 31 2f 
+0d 72 12 62 99 22 28 67 
+0e 31 e4 01 3f 05 a0 5c 
+0f 4b d8 40 e9 c0 46 17 
+10 7f f3 25 8c 87 6b 07 
+11 21 dc 7a 92 39 ae 63 
+12 4d f6 bd 38 7d e5 d7 
+13 d8 5f 64 b9 88 af fc 
+14 0e 64 63 29 a7 66 79 
+15 19 b0 a6 95 b7 3b 65 
+16 64 b7 72 a9 cb 9e 38 
+17 98 a1 c8 6a 52 f6 67 
+18 7d 22 10 60 08 d6 57 
+19 a0 da fc 40 21 24 71 
+1a a6 85 16 29 24 8c 17 
+1b f1 f5 83 73 b9 ad db 
+1c 2c c9 81 ee 21 58 f2 
+1d d1 f5 5e 50 96 01 e7 
+1e ae 65 32 24 b5 68 c9 
+1f 2a 18 34 72 1a e2 88 
+20 cb e9 5e 04 3c 9b d8
+

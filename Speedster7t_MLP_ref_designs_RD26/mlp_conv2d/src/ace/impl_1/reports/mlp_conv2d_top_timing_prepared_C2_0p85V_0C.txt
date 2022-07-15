@@ -1,0 +1,2776 @@
+         Timing Report - Prepared - mlp_conv2d_top
+        __________________________________________
+
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+
+Design: mlp_conv2d_top - impl_1 - mlp_conv2d_top
+Device: AC7t1500ES0 C2 0.85V 0C
+Generated on Wed Jul 13 15:15:59 CST 2022
+Host: OMEN.localdomain
+
+  Time unit: 1 ns
+
+---------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------
+
+
+Summary =======
+
+   Critical Timing Paths - Slow Corner - Setup (max)                                                                                          
+   Path                                                                                                             Delay (ns)                
+   Path Id  From                                                      To                         Clock / Group      Required  Arrival  Slack  
+   sc_s0    i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16  i_control.lines_to_go_10_  i_clk              3.345     3.568    -0.222 
+   sc_s10   i_clk                                                     i_in_fifo.i_bram_l         **async_default**  2.784     2.028    +0.757 
+
+
+
+   Critical Timing Paths - Slow Corner - Hold (min)                                                                       
+   Path                                                                                        Delay (ns)                 
+   Path Id  From                           To                                   Clock / Group  Required  Arrival  Slack   
+   sc_h0    i_out_fifo.nap_out_wdata_184_  i_axi_slave_wrapper_out.i_axi_slave  i_clk          2.244     2.084    -0.160* 
+
+
+
+   Critical Timing Paths - Fast Corner - Setup (max)                                                                                          
+   Path                                                                                                             Delay (ns)                
+   Path Id  From                                                      To                         Clock / Group      Required  Arrival  Slack  
+   fc_s0    i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16  i_control.lines_to_go_10_  i_clk              3.476     3.530    -0.055 
+   fc_s10   i_clk                                                     i_in_fifo.i_bram_l         **async_default**  3.006     1.970    +1.036 
+
+
+
+   Critical Timing Paths - Fast Corner - Hold (min)                                                                       
+   Path                                                                                        Delay (ns)                 
+   Path Id  From                           To                                   Clock / Group  Required  Arrival  Slack   
+   fc_h0    i_out_fifo.nap_out_wdata_184_  i_axi_slave_wrapper_out.i_axi_slave  i_clk          2.143     2.060    -0.082* 
+
+
+
+   Collective Summary of All Corners                                                                                                
+                      Slack (ns)      Frequency (MHz)                                                                               
+   Clock / Group      setup   hold    Target  Upper Limit  Comment                                                                  
+   i_clk              -0.222  -0.160  600.0   529.4        ---                                                                      
+   **async_default**  0.757   ---     600.0   1098.8        A path in this group can limit the frequency of its target clock i_clk. 
+
+
+
+  Upper limit of frequency on a clock may be bound by the upper limit of
+  frequency on some other clocks which are generated from a common source
+  clock. These clocks, if present, are labeled as 'limiting clocks' in
+  comments below.
+
+  The 'Slack' column corresponds to the worst setup or hold slack values
+  over all corners.
+
+
+---------------------------------------------------------------------------
+
+
+Details =======
+
+
+  Paths are ordered by clock groups and then by slack within each clock
+  group
+
+Critical Timing Paths - Slow Corner - Setup (max)
+
+
+
+
+
+Path Id: sc_s0
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_10_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: slow
+Logic Delay: 0.438
+Net Delay: 1.408
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.058  1.956 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.596 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.070  2.666 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.114 ^ i_control.lines_to_go_4572/din2 (LUT5)                           
+        0.134  3.248 v i_control.lines_to_go_4572/dout                                  
+     8                 i_control.N_10219_i (net)                                        
+        0.320  3.568 v i_control.lines_to_go_10_/rn (DFFER)                             
+               3.568   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_10_/ck (DFFER)                             
+       -0.176  3.345   library setup time                                               
+               3.345   data required time                                               
+----------------------------------------------------------------------------------------
+               3.345   data required time                                               
+              -3.568   data arrival time                                                
+----------------------------------------------------------------------------------------
+        0.001 -0.222   statistical adjustment                                           
+              -0.222   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: sc_s1
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_11_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: slow
+Logic Delay: 0.438
+Net Delay: 1.408
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.058  1.956 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.596 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.070  2.666 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.114 ^ i_control.lines_to_go_4572/din2 (LUT5)                           
+        0.134  3.248 v i_control.lines_to_go_4572/dout                                  
+     8                 i_control.N_10219_i (net)                                        
+        0.320  3.568 v i_control.lines_to_go_11_/rn (DFFER)                             
+               3.568   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_11_/ck (DFFER)                             
+       -0.176  3.345   library setup time                                               
+               3.345   data required time                                               
+----------------------------------------------------------------------------------------
+               3.345   data required time                                               
+              -3.568   data arrival time                                                
+----------------------------------------------------------------------------------------
+        0.001 -0.222   statistical adjustment                                           
+              -0.222   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: sc_s2
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_2_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: slow
+Logic Delay: 0.438
+Net Delay: 1.408
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.058  1.956 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.596 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.070  2.666 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.114 ^ i_control.lines_to_go_4572/din2 (LUT5)                           
+        0.134  3.248 v i_control.lines_to_go_4572/dout                                  
+     8                 i_control.N_10219_i (net)                                        
+        0.320  3.568 v i_control.lines_to_go_2_/rn (DFFER)                              
+               3.568   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_2_/ck (DFFER)                              
+       -0.176  3.345   library setup time                                               
+               3.345   data required time                                               
+----------------------------------------------------------------------------------------
+               3.345   data required time                                               
+              -3.568   data arrival time                                                
+----------------------------------------------------------------------------------------
+        0.001 -0.222   statistical adjustment                                           
+              -0.222   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: sc_s3
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_3_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: slow
+Logic Delay: 0.438
+Net Delay: 1.408
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.058  1.956 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.596 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.070  2.666 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.114 ^ i_control.lines_to_go_4572/din2 (LUT5)                           
+        0.134  3.248 v i_control.lines_to_go_4572/dout                                  
+     8                 i_control.N_10219_i (net)                                        
+        0.320  3.568 v i_control.lines_to_go_3_/rn (DFFER)                              
+               3.568   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_3_/ck (DFFER)                              
+       -0.176  3.345   library setup time                                               
+               3.345   data required time                                               
+----------------------------------------------------------------------------------------
+               3.345   data required time                                               
+              -3.568   data arrival time                                                
+----------------------------------------------------------------------------------------
+        0.001 -0.222   statistical adjustment                                           
+              -0.222   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: sc_s4
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_4_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: slow
+Logic Delay: 0.438
+Net Delay: 1.408
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.058  1.956 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.596 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.070  2.666 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.114 ^ i_control.lines_to_go_4572/din2 (LUT5)                           
+        0.134  3.248 v i_control.lines_to_go_4572/dout                                  
+     8                 i_control.N_10219_i (net)                                        
+        0.320  3.568 v i_control.lines_to_go_4_/rn (DFFER)                              
+               3.568   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_4_/ck (DFFER)                              
+       -0.176  3.345   library setup time                                               
+               3.345   data required time                                               
+----------------------------------------------------------------------------------------
+               3.345   data required time                                               
+              -3.568   data arrival time                                                
+----------------------------------------------------------------------------------------
+        0.001 -0.222   statistical adjustment                                           
+              -0.222   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: sc_s5
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_8_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: slow
+Logic Delay: 0.438
+Net Delay: 1.408
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.058  1.956 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.596 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.070  2.666 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.114 ^ i_control.lines_to_go_4572/din2 (LUT5)                           
+        0.134  3.248 v i_control.lines_to_go_4572/dout                                  
+     8                 i_control.N_10219_i (net)                                        
+        0.320  3.568 v i_control.lines_to_go_8_/rn (DFFER)                              
+               3.568   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_8_/ck (DFFER)                              
+       -0.176  3.345   library setup time                                               
+               3.345   data required time                                               
+----------------------------------------------------------------------------------------
+               3.345   data required time                                               
+              -3.568   data arrival time                                                
+----------------------------------------------------------------------------------------
+        0.001 -0.222   statistical adjustment                                           
+              -0.222   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: sc_s6
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_9_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: slow
+Logic Delay: 0.438
+Net Delay: 1.408
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.058  1.956 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.596 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.070  2.666 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.114 ^ i_control.lines_to_go_4572/din2 (LUT5)                           
+        0.134  3.248 v i_control.lines_to_go_4572/dout                                  
+     8                 i_control.N_10219_i (net)                                        
+        0.320  3.568 v i_control.lines_to_go_9_/rn (DFFER)                              
+               3.568   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_9_/ck (DFFER)                              
+       -0.176  3.345   library setup time                                               
+               3.345   data required time                                               
+----------------------------------------------------------------------------------------
+               3.345   data required time                                               
+              -3.568   data arrival time                                                
+----------------------------------------------------------------------------------------
+        0.001 -0.222   statistical adjustment                                           
+              -0.222   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: sc_s7
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_mod_0_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: slow
+Logic Delay: 0.438
+Net Delay: 1.408
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.058  1.956 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.596 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.070  2.666 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.114 ^ i_control.lines_to_go_4572/din2 (LUT5)                           
+        0.134  3.248 v i_control.lines_to_go_4572/dout                                  
+     8                 i_control.N_10219_i (net)                                        
+        0.320  3.568 v i_control.lines_to_go_mod_0_/sn (DFFES)                          
+               3.568   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_mod_0_/ck (DFFES)                          
+       -0.176  3.345   library setup time                                               
+               3.345   data required time                                               
+----------------------------------------------------------------------------------------
+               3.345   data required time                                               
+              -3.568   data arrival time                                                
+----------------------------------------------------------------------------------------
+        0.001 -0.222   statistical adjustment                                           
+              -0.222   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: sc_s8
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_10_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: slow
+Logic Delay: 0.342
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.058  1.956 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.596 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.070  2.666 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.114 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.134  3.248 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.632 v i_control.lines_to_go_10_/ce (DFFER)                             
+               3.632   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_10_/ck (DFFER)                             
+       -0.080  3.441   library setup time                                               
+               3.441   data required time                                               
+----------------------------------------------------------------------------------------
+               3.441   data required time                                               
+              -3.632   data arrival time                                                
+----------------------------------------------------------------------------------------
+              -0.191   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: sc_s9
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_11_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: slow
+Logic Delay: 0.342
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.058  1.956 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.596 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.070  2.666 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.114 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.134  3.248 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.632 v i_control.lines_to_go_11_/ce (DFFER)                             
+               3.632   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_11_/ck (DFFER)                             
+       -0.080  3.441   library setup time                                               
+               3.441   data required time                                               
+----------------------------------------------------------------------------------------
+               3.441   data required time                                               
+              -3.632   data arrival time                                                
+----------------------------------------------------------------------------------------
+              -0.191   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: sc_s10
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_in_fifo.i_bram_l (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: slow
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -2.023
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                          Placement
+-----------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                             
+        2.028  2.028   clock network delay                                 
+               2.028 ^ i_in_fifo.i_bram_l/_n_clk_cm_rdclk_sel (BRAM72K_SDP) x_core.BMLP[29][4].logic.bmlp.bram[0]
+               2.028   data arrival time                                   
+
+        1.667  1.667   clock i_clk (rise edge)                             
+        2.023  3.690   clock network delay (propagated)                    
+       -0.043  3.647   clock uncertainty                                   
+        0.000  3.647   clock reconvergence pessimism                       
+               3.647 ^ i_in_fifo.i_bram_l/_n_clk_cm_wrclk_sel (BRAM72K_SDP) x_core.BMLP[29][4].logic.bmlp.bram[0]
+       -0.863  2.784   library recovery time                               
+               2.784   data required time                                  
+-----------------------------------------------------------------------------------------------------------------
+               2.784   data required time                                  
+              -2.028   data arrival time                                   
+-----------------------------------------------------------------------------------------------------------------
+        0.001  0.757   statistical adjustment                              
+               0.757   slack (MET)                                         
+
+
+
+
+
+
+
+Path Id: sc_s11
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: slow
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -2.023
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        Placement
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                           
+        2.028  2.028   clock network delay                                                                               
+               2.028 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K) x_core.BMLP[29][5].logic.bmlp.bram[0]
+               2.028   data arrival time                                                                                 
+
+        1.667  1.667   clock i_clk (rise edge)                                                                           
+        2.023  3.690   clock network delay (propagated)                                                                  
+       -0.043  3.647   clock uncertainty                                                                                 
+        0.000  3.647   clock reconvergence pessimism                                                                     
+               3.647 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K) x_core.BMLP[29][5].logic.bmlp.bram[0]
+       -0.863  2.784   library recovery time                                                                             
+               2.784   data required time                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               2.784   data required time                                                                                
+              -2.028   data arrival time                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.001  0.757   statistical adjustment                                                                            
+               0.757   slack (MET)                                                                                       
+
+
+
+
+
+
+
+Path Id: sc_s12
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: slow
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -2.023
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        Placement
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                           
+        2.028  2.028   clock network delay                                                                               
+               2.028 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K) x_core.BMLP[31][4].logic.bmlp.bram[0]
+               2.028   data arrival time                                                                                 
+
+        1.667  1.667   clock i_clk (rise edge)                                                                           
+        2.023  3.690   clock network delay (propagated)                                                                  
+       -0.043  3.647   clock uncertainty                                                                                 
+        0.000  3.647   clock reconvergence pessimism                                                                     
+               3.647 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K) x_core.BMLP[31][4].logic.bmlp.bram[0]
+       -0.863  2.784   library recovery time                                                                             
+               2.784   data required time                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               2.784   data required time                                                                                
+              -2.028   data arrival time                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.001  0.757   statistical adjustment                                                                            
+               0.757   slack (MET)                                                                                       
+
+
+
+
+
+
+
+Path Id: sc_s13
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: slow
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -2.023
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        Placement
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                           
+        2.028  2.028   clock network delay                                                                               
+               2.028 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K) x_core.BMLP[30][4].logic.bmlp.bram[0]
+               2.028   data arrival time                                                                                 
+
+        1.667  1.667   clock i_clk (rise edge)                                                                           
+        2.023  3.690   clock network delay (propagated)                                                                  
+       -0.043  3.647   clock uncertainty                                                                                 
+        0.000  3.647   clock reconvergence pessimism                                                                     
+               3.647 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K) x_core.BMLP[30][4].logic.bmlp.bram[0]
+       -0.863  2.784   library recovery time                                                                             
+               2.784   data required time                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               2.784   data required time                                                                                
+              -2.028   data arrival time                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.001  0.757   statistical adjustment                                                                            
+               0.757   slack (MET)                                                                                       
+
+
+
+
+
+
+
+Path Id: sc_s14
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: slow
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -2.023
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        Placement
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                           
+        2.028  2.028   clock network delay                                                                               
+               2.028 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K) x_core.BMLP[28][4].logic.bmlp.bram[0]
+               2.028   data arrival time                                                                                 
+
+        1.667  1.667   clock i_clk (rise edge)                                                                           
+        2.023  3.690   clock network delay (propagated)                                                                  
+       -0.043  3.647   clock uncertainty                                                                                 
+        0.000  3.647   clock reconvergence pessimism                                                                     
+               3.647 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K) x_core.BMLP[28][4].logic.bmlp.bram[0]
+       -0.863  2.784   library recovery time                                                                             
+               2.784   data required time                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               2.784   data required time                                                                                
+              -2.028   data arrival time                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.001  0.757   statistical adjustment                                                                            
+               0.757   slack (MET)                                                                                       
+
+
+
+
+
+
+
+Path Id: sc_s15
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_in_fifo.i_bram_h (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: slow
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -2.028
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                          Placement
+-----------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                             
+        2.048  2.048   clock network delay                                 
+               2.048 ^ i_in_fifo.i_bram_h/_n_clk_cm_wrclk_sel (BRAM72K_SDP) x_core.BMLP[29][4].logic.bmlp.bram[1]
+               2.048   data arrival time                                   
+
+        1.667  1.667   clock i_clk (rise edge)                             
+        2.028  3.695   clock network delay (propagated)                    
+       -0.043  3.652   clock uncertainty                                   
+        0.000  3.652   clock reconvergence pessimism                       
+               3.652 ^ i_in_fifo.i_bram_h/_n_clk_cm_rdclk_sel (BRAM72K_SDP) x_core.BMLP[29][4].logic.bmlp.bram[1]
+       -0.807  2.845   library recovery time                               
+               2.845   data required time                                  
+-----------------------------------------------------------------------------------------------------------------
+               2.845   data required time                                  
+              -2.048   data arrival time                                   
+-----------------------------------------------------------------------------------------------------------------
+               0.797   slack (MET)                                         
+
+
+
+
+
+
+
+Path Id: sc_s16
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: slow
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -2.028
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        
+--------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                            
+        2.048  2.048   clock network delay                                                                                
+               2.048 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K)
+               2.048   data arrival time                                                                                  
+
+        1.667  1.667   clock i_clk (rise edge)                                                                            
+        2.028  3.695   clock network delay (propagated)                                                                   
+       -0.043  3.652   clock uncertainty                                                                                  
+        0.000  3.652   clock reconvergence pessimism                                                                      
+               3.652 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K)
+       -0.807  2.845   library recovery time                                                                              
+               2.845   data required time                                                                                 
+--------------------------------------------------------------------------------------------------------------------------
+               2.845   data required time                                                                                 
+              -2.048   data arrival time                                                                                  
+--------------------------------------------------------------------------------------------------------------------------
+               0.797   slack (MET)                                                                                        
+
+
+
+
+
+
+
+Path Id: sc_s17
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: slow
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -2.028
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        
+--------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                            
+        2.048  2.048   clock network delay                                                                                
+               2.048 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K)
+               2.048   data arrival time                                                                                  
+
+        1.667  1.667   clock i_clk (rise edge)                                                                            
+        2.028  3.695   clock network delay (propagated)                                                                   
+       -0.043  3.652   clock uncertainty                                                                                  
+        0.000  3.652   clock reconvergence pessimism                                                                      
+               3.652 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K)
+       -0.807  2.845   library recovery time                                                                              
+               2.845   data required time                                                                                 
+--------------------------------------------------------------------------------------------------------------------------
+               2.845   data required time                                                                                 
+              -2.048   data arrival time                                                                                  
+--------------------------------------------------------------------------------------------------------------------------
+               0.797   slack (MET)                                                                                        
+
+
+
+
+
+
+
+Path Id: sc_s18
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: slow
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -2.028
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        
+--------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                            
+        2.048  2.048   clock network delay                                                                                
+               2.048 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K)
+               2.048   data arrival time                                                                                  
+
+        1.667  1.667   clock i_clk (rise edge)                                                                            
+        2.028  3.695   clock network delay (propagated)                                                                   
+       -0.043  3.652   clock uncertainty                                                                                  
+        0.000  3.652   clock reconvergence pessimism                                                                      
+               3.652 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K)
+       -0.807  2.845   library recovery time                                                                              
+               2.845   data required time                                                                                 
+--------------------------------------------------------------------------------------------------------------------------
+               2.845   data required time                                                                                 
+              -2.048   data arrival time                                                                                  
+--------------------------------------------------------------------------------------------------------------------------
+               0.797   slack (MET)                                                                                        
+
+
+
+
+
+
+
+Path Id: sc_s19
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: slow
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -2.028
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        
+--------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                            
+        2.048  2.048   clock network delay                                                                                
+               2.048 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K)
+               2.048   data arrival time                                                                                  
+
+        1.667  1.667   clock i_clk (rise edge)                                                                            
+        2.028  3.695   clock network delay (propagated)                                                                   
+       -0.043  3.652   clock uncertainty                                                                                  
+        0.000  3.652   clock reconvergence pessimism                                                                      
+               3.652 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K)
+       -0.807  2.845   library recovery time                                                                              
+               2.845   data required time                                                                                 
+--------------------------------------------------------------------------------------------------------------------------
+               2.845   data required time                                                                                 
+              -2.048   data arrival time                                                                                  
+--------------------------------------------------------------------------------------------------------------------------
+               0.797   slack (MET)                                                                                        
+
+
+
+
+Critical Timing Paths - Slow Corner - Hold (min)
+
+
+
+
+
+Path Id: sc_h0
+
+
+Startpoint: i_out_fifo.nap_out_wdata_184_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: slow
+Logic Delay: -0.258
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_184_/ck (DFFE)                       
+        0.058  1.956 ^ i_out_fifo.nap_out_wdata_184_/q                               
+     1                 nap_out.wdata[184] (net)                                      
+        0.128  2.084 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[184] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.084   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.316  2.244   library hold time                                             
+               2.244   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.244   data required time                                            
+              -2.084   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.160   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: sc_h1
+
+
+Startpoint: i_out_fifo.nap_out_wdata_187_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: slow
+Logic Delay: -0.258
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_187_/ck (DFFE)                       
+        0.058  1.956 ^ i_out_fifo.nap_out_wdata_187_/q                               
+     1                 nap_out.wdata[187] (net)                                      
+        0.128  2.084 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[187] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.084   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.316  2.244   library hold time                                             
+               2.244   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.244   data required time                                            
+              -2.084   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.160   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: sc_h2
+
+
+Startpoint: i_out_fifo.nap_out_wdata_177_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: slow
+Logic Delay: -0.258
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_177_/ck (DFFE)                       
+        0.058  1.956 ^ i_out_fifo.nap_out_wdata_177_/q                               
+     1                 nap_out.wdata[177] (net)                                      
+        0.128  2.084 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[177] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.084   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.316  2.244   library hold time                                             
+               2.244   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.244   data required time                                            
+              -2.084   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.160   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: sc_h3
+
+
+Startpoint: i_out_fifo.nap_out_wdata_178_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: slow
+Logic Delay: -0.257
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_178_/ck (DFFE)                       
+        0.058  1.956 ^ i_out_fifo.nap_out_wdata_178_/q                               
+     1                 nap_out.wdata[178] (net)                                      
+        0.128  2.084 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[178] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.084   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.315  2.243   library hold time                                             
+               2.243   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.243   data required time                                            
+              -2.084   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.159   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: sc_h4
+
+
+Startpoint: i_out_fifo.nap_out_wdata_179_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: slow
+Logic Delay: -0.257
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_179_/ck (DFFE)                       
+        0.058  1.956 ^ i_out_fifo.nap_out_wdata_179_/q                               
+     1                 nap_out.wdata[179] (net)                                      
+        0.128  2.084 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[179] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.084   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.315  2.243   library hold time                                             
+               2.243   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.243   data required time                                            
+              -2.084   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.159   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: sc_h5
+
+
+Startpoint: i_out_fifo.nap_out_wdata_182_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: slow
+Logic Delay: -0.256
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_182_/ck (DFFE)                       
+        0.058  1.956 ^ i_out_fifo.nap_out_wdata_182_/q                               
+     1                 nap_out.wdata[182] (net)                                      
+        0.128  2.084 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[182] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.084   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.314  2.242   library hold time                                             
+               2.242   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.242   data required time                                            
+              -2.084   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.158   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: sc_h6
+
+
+Startpoint: i_out_fifo.nap_out_wdata_176_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: slow
+Logic Delay: -0.256
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_176_/ck (DFFE)                       
+        0.058  1.956 ^ i_out_fifo.nap_out_wdata_176_/q                               
+     1                 nap_out.wdata[176] (net)                                      
+        0.128  2.084 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[176] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.084   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.314  2.242   library hold time                                             
+               2.242   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.242   data required time                                            
+              -2.084   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.158   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: sc_h7
+
+
+Startpoint: i_out_fifo.nap_out_wdata_189_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: slow
+Logic Delay: -0.256
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_189_/ck (DFFE)                       
+        0.058  1.956 ^ i_out_fifo.nap_out_wdata_189_/q                               
+     1                 nap_out.wdata[189] (net)                                      
+        0.128  2.084 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[189] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.084   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.314  2.242   library hold time                                             
+               2.242   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.242   data required time                                            
+              -2.084   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+        0.001 -0.157   statistical adjustment                                        
+              -0.157   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: sc_h8
+
+
+Startpoint: i_out_fifo.nap_out_wdata_183_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: slow
+Logic Delay: -0.256
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_183_/ck (DFFE)                       
+        0.058  1.956 ^ i_out_fifo.nap_out_wdata_183_/q                               
+     1                 nap_out.wdata[183] (net)                                      
+        0.128  2.084 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[183] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.084   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.314  2.242   library hold time                                             
+               2.242   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.242   data required time                                            
+              -2.084   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+        0.001 -0.157   statistical adjustment                                        
+              -0.157   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: sc_h9
+
+
+Startpoint: i_out_fifo.nap_out_wdata_180_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: slow
+Logic Delay: -0.255
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_180_/ck (DFFE)                       
+        0.058  1.956 ^ i_out_fifo.nap_out_wdata_180_/q                               
+     1                 nap_out.wdata[180] (net)                                      
+        0.128  2.084 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[180] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.084   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.313  2.241   library hold time                                             
+               2.241   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.241   data required time                                            
+              -2.084   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.157   slack (VIOLATED)                                              
+
+
+
+
+Critical Timing Paths - Fast Corner - Setup (max)
+
+
+
+
+
+Path Id: fc_s0
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_10_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: fast
+Logic Delay: 0.205
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.034  1.932 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.572 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.043  2.615 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.063 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.083  3.146 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.530 v i_control.lines_to_go_10_/ce (DFFER)                             
+               3.530   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_10_/ck (DFFER)                             
+       -0.045  3.476   library setup time                                               
+               3.476   data required time                                               
+----------------------------------------------------------------------------------------
+               3.476   data required time                                               
+              -3.530   data arrival time                                                
+----------------------------------------------------------------------------------------
+       -0.001 -0.055   statistical adjustment                                           
+              -0.055   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: fc_s1
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_11_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: fast
+Logic Delay: 0.205
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.034  1.932 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.572 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.043  2.615 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.063 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.083  3.146 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.530 v i_control.lines_to_go_11_/ce (DFFER)                             
+               3.530   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_11_/ck (DFFER)                             
+       -0.045  3.476   library setup time                                               
+               3.476   data required time                                               
+----------------------------------------------------------------------------------------
+               3.476   data required time                                               
+              -3.530   data arrival time                                                
+----------------------------------------------------------------------------------------
+       -0.001 -0.055   statistical adjustment                                           
+              -0.055   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: fc_s2
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_1_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: fast
+Logic Delay: 0.205
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.034  1.932 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.572 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.043  2.615 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.063 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.083  3.146 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.530 v i_control.lines_to_go_1_/ce (DFFER)                              
+               3.530   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_1_/ck (DFFER)                              
+       -0.045  3.476   library setup time                                               
+               3.476   data required time                                               
+----------------------------------------------------------------------------------------
+               3.476   data required time                                               
+              -3.530   data arrival time                                                
+----------------------------------------------------------------------------------------
+       -0.001 -0.055   statistical adjustment                                           
+              -0.055   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: fc_s3
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_2_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: fast
+Logic Delay: 0.205
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.034  1.932 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.572 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.043  2.615 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.063 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.083  3.146 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.530 v i_control.lines_to_go_2_/ce (DFFER)                              
+               3.530   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_2_/ck (DFFER)                              
+       -0.045  3.476   library setup time                                               
+               3.476   data required time                                               
+----------------------------------------------------------------------------------------
+               3.476   data required time                                               
+              -3.530   data arrival time                                                
+----------------------------------------------------------------------------------------
+       -0.001 -0.055   statistical adjustment                                           
+              -0.055   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: fc_s4
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_3_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: fast
+Logic Delay: 0.205
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.034  1.932 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.572 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.043  2.615 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.063 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.083  3.146 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.530 v i_control.lines_to_go_3_/ce (DFFER)                              
+               3.530   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_3_/ck (DFFER)                              
+       -0.045  3.476   library setup time                                               
+               3.476   data required time                                               
+----------------------------------------------------------------------------------------
+               3.476   data required time                                               
+              -3.530   data arrival time                                                
+----------------------------------------------------------------------------------------
+       -0.001 -0.055   statistical adjustment                                           
+              -0.055   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: fc_s5
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_4_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: fast
+Logic Delay: 0.205
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.034  1.932 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.572 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.043  2.615 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.063 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.083  3.146 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.530 v i_control.lines_to_go_4_/ce (DFFER)                              
+               3.530   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_4_/ck (DFFER)                              
+       -0.045  3.476   library setup time                                               
+               3.476   data required time                                               
+----------------------------------------------------------------------------------------
+               3.476   data required time                                               
+              -3.530   data arrival time                                                
+----------------------------------------------------------------------------------------
+       -0.001 -0.055   statistical adjustment                                           
+              -0.055   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: fc_s6
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_5_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: fast
+Logic Delay: 0.205
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.034  1.932 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.572 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.043  2.615 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.063 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.083  3.146 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.530 v i_control.lines_to_go_5_/ce (DFFER)                              
+               3.530   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_5_/ck (DFFER)                              
+       -0.045  3.476   library setup time                                               
+               3.476   data required time                                               
+----------------------------------------------------------------------------------------
+               3.476   data required time                                               
+              -3.530   data arrival time                                                
+----------------------------------------------------------------------------------------
+       -0.001 -0.055   statistical adjustment                                           
+              -0.055   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: fc_s7
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_6_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: fast
+Logic Delay: 0.205
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.034  1.932 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.572 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.043  2.615 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.063 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.083  3.146 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.530 v i_control.lines_to_go_6_/ce (DFFER)                              
+               3.530   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_6_/ck (DFFER)                              
+       -0.045  3.476   library setup time                                               
+               3.476   data required time                                               
+----------------------------------------------------------------------------------------
+               3.476   data required time                                               
+              -3.530   data arrival time                                                
+----------------------------------------------------------------------------------------
+       -0.001 -0.055   statistical adjustment                                           
+              -0.055   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: fc_s8
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_7_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: fast
+Logic Delay: 0.205
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.034  1.932 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.572 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.043  2.615 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.063 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.083  3.146 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.530 v i_control.lines_to_go_7_/ce (DFFER)                              
+               3.530   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_7_/ck (DFFER)                              
+       -0.045  3.476   library setup time                                               
+               3.476   data required time                                               
+----------------------------------------------------------------------------------------
+               3.476   data required time                                               
+              -3.530   data arrival time                                                
+----------------------------------------------------------------------------------------
+       -0.001 -0.055   statistical adjustment                                           
+              -0.055   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: fc_s9
+
+
+Startpoint: i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16 (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_control.lines_to_go_8_ (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: max
+Corner: fast
+Logic Delay: 0.205
+Net Delay: 1.472
+Clock Skew: 0.000
+Logic Levels: 2
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                      
+----------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                          
+        1.898  1.898   clock network delay (propagated)                                 
+        0.000  1.898 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/ck (DFF)
+        0.034  1.932 ^ i_reset_processor.gb_per_clk_0__pipe_rstn_1_4__RR_DUP_16/q       
+    61                 sys_rstn_RR_DUP_16 (net)                                         
+        0.640  2.572 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/din3 (LUT4)                
+        0.043  2.615 ^ i_control.N_499_m_1_iv_i_o2_i_a3_0_a4/dout                       
+    17                 i_control.arvalid10 (net)                                        
+        0.448  3.063 ^ i_control.un1_rready_d57_3_i_0_0/din2 (LUT6)                     
+        0.083  3.146 v i_control.un1_rready_d57_3_i_0_0/dout                            
+    12                 i_control.un1_rready_d57_3_i_0_0_Z (net)                         
+        0.384  3.530 v i_control.lines_to_go_8_/ce (DFFER)                              
+               3.530   data arrival time                                                
+
+        1.667  1.667   clock i_clk (rise edge)                                          
+        1.898  3.565   clock network delay (propagated)                                 
+       -0.044  3.521   clock uncertainty                                                
+        0.000  3.521   clock reconvergence pessimism                                    
+               3.521 ^ i_control.lines_to_go_8_/ck (DFFER)                              
+       -0.045  3.476   library setup time                                               
+               3.476   data required time                                               
+----------------------------------------------------------------------------------------
+               3.476   data required time                                               
+              -3.530   data arrival time                                                
+----------------------------------------------------------------------------------------
+       -0.001 -0.055   statistical adjustment                                           
+              -0.055   slack (VIOLATED)                                                 
+
+
+
+
+
+
+
+Path Id: fc_s10
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_in_fifo.i_bram_l (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: fast
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -1.967
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                          Placement
+-----------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                             
+        1.970  1.970   clock network delay                                 
+               1.970 ^ i_in_fifo.i_bram_l/_n_clk_cm_rdclk_sel (BRAM72K_SDP) x_core.BMLP[29][4].logic.bmlp.bram[0]
+               1.970   data arrival time                                   
+
+        1.667  1.667   clock i_clk (rise edge)                             
+        1.967  3.634   clock network delay (propagated)                    
+       -0.043  3.591   clock uncertainty                                   
+        0.000  3.591   clock reconvergence pessimism                       
+               3.591 ^ i_in_fifo.i_bram_l/_n_clk_cm_wrclk_sel (BRAM72K_SDP) x_core.BMLP[29][4].logic.bmlp.bram[0]
+       -0.585  3.006   library recovery time                               
+               3.006   data required time                                  
+-----------------------------------------------------------------------------------------------------------------
+               3.006   data required time                                  
+              -1.970   data arrival time                                   
+-----------------------------------------------------------------------------------------------------------------
+               1.036   slack (MET)                                         
+
+
+
+
+
+
+
+Path Id: fc_s11
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: fast
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -1.967
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        Placement
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                           
+        1.970  1.970   clock network delay                                                                               
+               1.970 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K) x_core.BMLP[29][5].logic.bmlp.bram[0]
+               1.970   data arrival time                                                                                 
+
+        1.667  1.667   clock i_clk (rise edge)                                                                           
+        1.967  3.634   clock network delay (propagated)                                                                  
+       -0.043  3.591   clock uncertainty                                                                                 
+        0.000  3.591   clock reconvergence pessimism                                                                     
+               3.591 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K) x_core.BMLP[29][5].logic.bmlp.bram[0]
+       -0.585  3.006   library recovery time                                                                             
+               3.006   data required time                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               3.006   data required time                                                                                
+              -1.970   data arrival time                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               1.036   slack (MET)                                                                                       
+
+
+
+
+
+
+
+Path Id: fc_s12
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: fast
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -1.967
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        Placement
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                           
+        1.970  1.970   clock network delay                                                                               
+               1.970 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K) x_core.BMLP[31][4].logic.bmlp.bram[0]
+               1.970   data arrival time                                                                                 
+
+        1.667  1.667   clock i_clk (rise edge)                                                                           
+        1.967  3.634   clock network delay (propagated)                                                                  
+       -0.043  3.591   clock uncertainty                                                                                 
+        0.000  3.591   clock reconvergence pessimism                                                                     
+               3.591 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_1__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K) x_core.BMLP[31][4].logic.bmlp.bram[0]
+       -0.585  3.006   library recovery time                                                                             
+               3.006   data required time                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               3.006   data required time                                                                                
+              -1.970   data arrival time                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               1.036   slack (MET)                                                                                       
+
+
+
+
+
+
+
+Path Id: fc_s13
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: fast
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -1.967
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        Placement
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                           
+        1.970  1.970   clock network delay                                                                               
+               1.970 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K) x_core.BMLP[30][4].logic.bmlp.bram[0]
+               1.970   data arrival time                                                                                 
+
+        1.667  1.667   clock i_clk (rise edge)                                                                           
+        1.967  3.634   clock network delay (propagated)                                                                  
+       -0.043  3.591   clock uncertainty                                                                                 
+        0.000  3.591   clock reconvergence pessimism                                                                     
+               3.591 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_2__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K) x_core.BMLP[30][4].logic.bmlp.bram[0]
+       -0.585  3.006   library recovery time                                                                             
+               3.006   data required time                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               3.006   data required time                                                                                
+              -1.970   data arrival time                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               1.036   slack (MET)                                                                                       
+
+
+
+
+
+
+
+Path Id: fc_s14
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: fast
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -1.967
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        Placement
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                           
+        1.970  1.970   clock network delay                                                                               
+               1.970 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K) x_core.BMLP[28][4].logic.bmlp.bram[0]
+               1.970   data arrival time                                                                                 
+
+        1.667  1.667   clock i_clk (rise edge)                                                                           
+        1.967  3.634   clock network delay (propagated)                                                                  
+       -0.043  3.591   clock uncertainty                                                                                 
+        0.000  3.591   clock reconvergence pessimism                                                                     
+               3.591 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_3__gb_mlp_row_0__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K) x_core.BMLP[28][4].logic.bmlp.bram[0]
+       -0.585  3.006   library recovery time                                                                             
+               3.006   data required time                                                                                
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               3.006   data required time                                                                                
+              -1.970   data arrival time                                                                                 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+               1.036   slack (MET)                                                                                       
+
+
+
+
+
+
+
+Path Id: fc_s15
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_in_fifo.i_bram_h (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: fast
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -1.970
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                          Placement
+-----------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                             
+        1.983  1.983   clock network delay                                 
+               1.983 ^ i_in_fifo.i_bram_h/_n_clk_cm_wrclk_sel (BRAM72K_SDP) x_core.BMLP[29][4].logic.bmlp.bram[1]
+               1.983   data arrival time                                   
+
+        1.667  1.667   clock i_clk (rise edge)                             
+        1.970  3.637   clock network delay (propagated)                    
+       -0.043  3.594   clock uncertainty                                   
+        0.000  3.594   clock reconvergence pessimism                       
+               3.594 ^ i_in_fifo.i_bram_h/_n_clk_cm_rdclk_sel (BRAM72K_SDP) x_core.BMLP[29][4].logic.bmlp.bram[1]
+       -0.552  3.042   library recovery time                               
+               3.042   data required time                                  
+-----------------------------------------------------------------------------------------------------------------
+               3.042   data required time                                  
+              -1.983   data arrival time                                   
+-----------------------------------------------------------------------------------------------------------------
+        0.001  1.060   statistical adjustment                              
+               1.060   slack (MET)                                         
+
+
+
+
+
+
+
+Path Id: fc_s16
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: fast
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -1.970
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        
+--------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                            
+        1.983  1.983   clock network delay                                                                                
+               1.983 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K)
+               1.983   data arrival time                                                                                  
+
+        1.667  1.667   clock i_clk (rise edge)                                                                            
+        1.970  3.637   clock network delay (propagated)                                                                   
+       -0.043  3.594   clock uncertainty                                                                                  
+        0.000  3.594   clock reconvergence pessimism                                                                      
+               3.594 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_10__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K)
+       -0.552  3.042   library recovery time                                                                              
+               3.042   data required time                                                                                 
+--------------------------------------------------------------------------------------------------------------------------
+               3.042   data required time                                                                                 
+              -1.983   data arrival time                                                                                  
+--------------------------------------------------------------------------------------------------------------------------
+        0.001  1.060   statistical adjustment                                                                             
+               1.060   slack (MET)                                                                                        
+
+
+
+
+
+
+
+Path Id: fc_s17
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: fast
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -1.970
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        
+--------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                            
+        1.983  1.983   clock network delay                                                                                
+               1.983 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K)
+               1.983   data arrival time                                                                                  
+
+        1.667  1.667   clock i_clk (rise edge)                                                                            
+        1.970  3.637   clock network delay (propagated)                                                                   
+       -0.043  3.594   clock uncertainty                                                                                  
+        0.000  3.594   clock reconvergence pessimism                                                                      
+               3.594 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_11__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K)
+       -0.552  3.042   library recovery time                                                                              
+               3.042   data required time                                                                                 
+--------------------------------------------------------------------------------------------------------------------------
+               3.042   data required time                                                                                 
+              -1.983   data arrival time                                                                                  
+--------------------------------------------------------------------------------------------------------------------------
+        0.001  1.060   statistical adjustment                                                                             
+               1.060   slack (MET)                                                                                        
+
+
+
+
+
+
+
+Path Id: fc_s18
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: fast
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -1.970
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        
+--------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                            
+        1.983  1.983   clock network delay                                                                                
+               1.983 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K)
+               1.983   data arrival time                                                                                  
+
+        1.667  1.667   clock i_clk (rise edge)                                                                            
+        1.970  3.637   clock network delay (propagated)                                                                   
+       -0.043  3.594   clock uncertainty                                                                                  
+        0.000  3.594   clock reconvergence pessimism                                                                      
+               3.594 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_12__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K)
+       -0.552  3.042   library recovery time                                                                              
+               3.042   data required time                                                                                 
+--------------------------------------------------------------------------------------------------------------------------
+               3.042   data required time                                                                                 
+              -1.983   data arrival time                                                                                  
+--------------------------------------------------------------------------------------------------------------------------
+        0.001  1.060   statistical adjustment                                                                             
+               1.060   slack (MET)                                                                                        
+
+
+
+
+
+
+
+Path Id: fc_s19
+
+
+Startpoint: i_clk (clock source 'i_clk')
+Endpoint: i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K (recovery check against rising-edge clock i_clk)
+Path Group: **async_default**
+Path Type: max
+Corner: fast
+Logic Delay: 0.000
+Net Delay: 0.000
+Clock Skew: -1.970
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                                                        
+--------------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                                                            
+        1.983  1.983   clock network delay                                                                                
+               1.983 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K/_n_clk_cm_wrclk_sel (BRAM72K)
+               1.983   data arrival time                                                                                  
+
+        1.667  1.667   clock i_clk (rise edge)                                                                            
+        1.970  3.637   clock network delay (propagated)                                                                   
+       -0.043  3.594   clock uncertainty                                                                                  
+        0.000  3.594   clock reconvergence pessimism                                                                      
+               3.594 ^ i_mlp_multi.i_dp_16_8x8.gb_mlp_col_0__gb_mlp_row_13__i_bram.U_BRAM72K/_n_clk_cm_rdclk_sel (BRAM72K)
+       -0.552  3.042   library recovery time                                                                              
+               3.042   data required time                                                                                 
+--------------------------------------------------------------------------------------------------------------------------
+               3.042   data required time                                                                                 
+              -1.983   data arrival time                                                                                  
+--------------------------------------------------------------------------------------------------------------------------
+        0.001  1.060   statistical adjustment                                                                             
+               1.060   slack (MET)                                                                                        
+
+
+
+
+Critical Timing Paths - Fast Corner - Hold (min)
+
+
+
+
+
+Path Id: fc_h0
+
+
+Startpoint: i_out_fifo.nap_out_wdata_184_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: fast
+Logic Delay: -0.181
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_184_/ck (DFFE)                       
+        0.034  1.932 ^ i_out_fifo.nap_out_wdata_184_/q                               
+     1                 nap_out.wdata[184] (net)                                      
+        0.128  2.060 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[184] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.060   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.215  2.143   library hold time                                             
+               2.143   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.143   data required time                                            
+              -2.060   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+        0.001 -0.082   statistical adjustment                                        
+              -0.082   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: fc_h1
+
+
+Startpoint: i_out_fifo.nap_out_wdata_177_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: fast
+Logic Delay: -0.181
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_177_/ck (DFFE)                       
+        0.034  1.932 ^ i_out_fifo.nap_out_wdata_177_/q                               
+     1                 nap_out.wdata[177] (net)                                      
+        0.128  2.060 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[177] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.060   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.215  2.143   library hold time                                             
+               2.143   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.143   data required time                                            
+              -2.060   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+        0.001 -0.082   statistical adjustment                                        
+              -0.082   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: fc_h2
+
+
+Startpoint: i_out_fifo.nap_out_wdata_178_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: fast
+Logic Delay: -0.180
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_178_/ck (DFFE)                       
+        0.034  1.932 ^ i_out_fifo.nap_out_wdata_178_/q                               
+     1                 nap_out.wdata[178] (net)                                      
+        0.128  2.060 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[178] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.060   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.214  2.142   library hold time                                             
+               2.142   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.142   data required time                                            
+              -2.060   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.082   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: fc_h3
+
+
+Startpoint: i_out_fifo.nap_out_wdata_187_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: fast
+Logic Delay: -0.180
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_187_/ck (DFFE)                       
+        0.034  1.932 ^ i_out_fifo.nap_out_wdata_187_/q                               
+     1                 nap_out.wdata[187] (net)                                      
+        0.128  2.060 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[187] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.060   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.214  2.142   library hold time                                             
+               2.142   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.142   data required time                                            
+              -2.060   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.082   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: fc_h4
+
+
+Startpoint: i_out_fifo.nap_out_wdata_179_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: fast
+Logic Delay: -0.180
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_179_/ck (DFFE)                       
+        0.034  1.932 ^ i_out_fifo.nap_out_wdata_179_/q                               
+     1                 nap_out.wdata[179] (net)                                      
+        0.128  2.060 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[179] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.060   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.214  2.142   library hold time                                             
+               2.142   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.142   data required time                                            
+              -2.060   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+        0.001 -0.081   statistical adjustment                                        
+              -0.081   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: fc_h5
+
+
+Startpoint: i_out_fifo.nap_out_wdata_182_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: fast
+Logic Delay: -0.179
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_182_/ck (DFFE)                       
+        0.034  1.932 ^ i_out_fifo.nap_out_wdata_182_/q                               
+     1                 nap_out.wdata[182] (net)                                      
+        0.128  2.060 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[182] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.060   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.213  2.141   library hold time                                             
+               2.141   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.141   data required time                                            
+              -2.060   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.081   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: fc_h6
+
+
+Startpoint: i_out_fifo.nap_out_wdata_183_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: fast
+Logic Delay: -0.179
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_183_/ck (DFFE)                       
+        0.034  1.932 ^ i_out_fifo.nap_out_wdata_183_/q                               
+     1                 nap_out.wdata[183] (net)                                      
+        0.128  2.060 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[183] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.060   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.213  2.141   library hold time                                             
+               2.141   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.141   data required time                                            
+              -2.060   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.081   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: fc_h7
+
+
+Startpoint: i_out_fifo.nap_out_wdata_176_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: fast
+Logic Delay: -0.179
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_176_/ck (DFFE)                       
+        0.034  1.932 ^ i_out_fifo.nap_out_wdata_176_/q                               
+     1                 nap_out.wdata[176] (net)                                      
+        0.128  2.060 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[176] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.060   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.213  2.141   library hold time                                             
+               2.141   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.141   data required time                                            
+              -2.060   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+              -0.081   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: fc_h8
+
+
+Startpoint: i_out_fifo.nap_out_wdata_189_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: fast
+Logic Delay: -0.179
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_189_/ck (DFFE)                       
+        0.034  1.932 ^ i_out_fifo.nap_out_wdata_189_/q                               
+     1                 nap_out.wdata[189] (net)                                      
+        0.128  2.060 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[189] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.060   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.213  2.141   library hold time                                             
+               2.141   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.141   data required time                                            
+              -2.060   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+        0.001 -0.080   statistical adjustment                                        
+              -0.080   slack (VIOLATED)                                              
+
+
+
+
+
+
+
+Path Id: fc_h9
+
+
+Startpoint: i_out_fifo.nap_out_wdata_180_ (rising edge-triggered flip-flop clocked by i_clk)
+Endpoint: i_axi_slave_wrapper_out.i_axi_slave (rising edge-triggered flip-flop clocked by i_clk)
+Path Group: i_clk
+Path Type: min
+Corner: fast
+Logic Delay: -0.179
+Net Delay: 0.128
+Clock Skew: 0.000
+Logic Levels: 0
+Fast-connects: 0
+
+Fanout  Delay   Time   Description                                                    Placement
+----------------------------------------------------------------------------------------------------------------------
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.000  1.898 ^ i_out_fifo.nap_out_wdata_180_/ck (DFFE)                       
+        0.034  1.932 ^ i_out_fifo.nap_out_wdata_180_/q                               
+     1                 nap_out.wdata[180] (net)                                      
+        0.128  2.060 ^ i_axi_slave_wrapper_out.i_axi_slave/wdata[180] (NAP_AXI_SLAVE) x_core.NOC[8][3].logic.noc.nap_s
+               2.060   data arrival time                                             
+
+        0.000  0.000   clock i_clk (rise edge)                                       
+        1.898  1.898   clock network delay (propagated)                              
+        0.030  1.928   clock uncertainty                                             
+        0.000  1.928   clock reconvergence pessimism                                 
+               1.928 ^ i_axi_slave_wrapper_out.i_axi_slave/clk (NAP_AXI_SLAVE)        x_core.NOC[8][3].logic.noc.nap_s
+        0.213  2.141   library hold time                                             
+               2.141   data required time                                            
+----------------------------------------------------------------------------------------------------------------------
+               2.141   data required time                                            
+              -2.060   data arrival time                                             
+----------------------------------------------------------------------------------------------------------------------
+        0.001 -0.080   statistical adjustment                                        
+              -0.080   slack (VIOLATED)                                              
+
+
+
+
+---------------------------------------------------------------------------
+
+
+  Unconstrained timing paths are not included in this report. See
+  implementation option 'report_unconstrained_timing_paths'.
+
+  The performance and operating frequency of clocks in the design may be
+  limited by hardware capabilities of the device. These limits are not
+  represented in the timing report. Please consult device documentation
+  for more details on these limitations.
+
+---------------------------------------------------------------------------
+

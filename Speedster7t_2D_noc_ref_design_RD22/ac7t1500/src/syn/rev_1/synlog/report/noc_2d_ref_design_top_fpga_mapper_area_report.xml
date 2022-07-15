@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- *************************************************************************************
+FILE DESCRIPTION
+The file contains the area information from mapper to be displayed as part of the summary report.
+*******************************************************************************************-->
+<report_table display_priority="1" name="Area Summary">
+<report_link name="Detailed report">
+<data>/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synlog/report/noc_2d_ref_design_top_fpga_mapper_resourceusage.rpt</data>
+<title>Resource Usage</title>
+</report_link>
+<report_link name="Hierarchical Area report">
+<data>/mnt/d/Achronix/reference_design/noc_fpga_ref_design/Speedster7t_2D_noc_ref_design_RD22/ac7t1500/src/syn/rev_1/synlog/report/noc_2d_ref_design_top_fpga_mapper_hier_area_report.xml</data>
+<title>Hierarchical Area Report</title>
+</report_link>
+<parameter tooltip="Total DFF used" name="DFF">
+<data>7971 of 1382400 (less than 1%)</data>
+</parameter>
+<parameter tooltip="Total BRAM used" name="BRAM">
+<data>2 of 2560 (less than 1%)</data>
+</parameter>
+<parameter tooltip="Total LRAM used" name="LRAM">
+<data>1 of 2560 (less than 1%)</data>
+</parameter>
+<parameter tooltip="Total MLP used" name="MLP">
+<data>0 of 2560 (0.00%)</data>
+</parameter>
+<parameter tooltip="Total LUT used" name="LUT">
+<data>2639 of 691200 (less than 1%)</data>
+</parameter>
+<parameter tooltip="Total ALU8 used" name="ALU8">
+<data>94 of 172800 (less than 1%)</data>
+</parameter>
+</report_table>

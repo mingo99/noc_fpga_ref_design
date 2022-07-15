@@ -1,0 +1,36 @@
+Release Notes for DDR Reference Design RD18
+===========================================
+
+Version 4.0 - 10th December 2020
+    * Compatible with ACE 8.2.1 and simulation package 8.2.1
+    * Changed selected device speed grade to C2 to support wider customer device choice
+	* Added RTL simulation mode to model the DDR4 subsystem using full RTL
+      To use RTL simulation, user must obtain suitable DDR4 models from vendors
+      See User Guide for further details
+	* Updated ACE project files and signal naming to match ACE 8.2.1
+
+Version 3.0 - 21st July 2020
+    * Refreshed design to make it compatible with ACE 8.2
+    * Modified ACE I/O Designer (.acxip) files as per ACE 8.2 
+	* Updated signal/port name changes in RTL to reflect changes in ACE 8.2 
+
+
+Version 2.0 - 13th May 2020
+    * Compatible with simulation package ACE 8.1.2.upgrade1
+    * Changed NAP clock to 500MHz to be consistant with other Ref. designs
+    * Updated DDR clock to 800MHz
+    * Testbench parameters added to help define the periods of the clocks in the design
+    * Updated ACE GUI project to fix timing violations
+
+Version 1.1 - 10th March 2020
+    * Added hold_fixing option to ace_options.tcl to support ACE 8.1.1.
+    * To support simulation under Windows, added qsim_ddr_ref_design.do
+      script to /sim/questa.  This can be run using the vsim GUI in
+      any operating system.
+    * Added additional detail in documentation regarding Windows flows
+
+
+Version 1.0 - 28th February 2020
+    * Initial Release.  Compatible with ACE 8.1.1.beta
+
+

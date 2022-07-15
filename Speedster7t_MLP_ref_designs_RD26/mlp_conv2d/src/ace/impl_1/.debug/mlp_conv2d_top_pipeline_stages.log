@@ -1,0 +1,42 @@
+
+----------------------------------
+Pipeline stage 1: i_control.mlp_din_sof_d (x_core.L[149][52].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: i_control.mlp_din_sof_2d (x_core.L[149][49].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 3: i_control.mlp_din_sof_3d (x_core.L[149][46].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 4: i_mlp_multi.i_dp_16_8x8.first_pipe_0_ (x_core.L[149][43].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: i_control.mlp_matrix_addr_d_5_ (x_core.L[147][47].rlb.lg[1].ls[0].smux_seq_omux.seq[3])
+Pipeline stage 2: i_control.mlp_matrix_addr_2d_5_ (x_core.L[148][45].rlb.lg[0].ls[1].smux_seq_omux.seq[1])
+Pipeline stage 3: i_mlp_multi.i_dp_16_8x8.rdaddr_del_5_ (x_core.L[148][43].rlb.lg[1].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: i_control.mlp_matrix_addr_d_4_ (x_core.L[147][47].rlb.lg[1].ls[0].smux_seq_omux.seq[2])
+Pipeline stage 2: i_control.mlp_matrix_addr_2d_4_ (x_core.L[148][45].rlb.lg[0].ls[1].smux_seq_omux.seq[0])
+Pipeline stage 3: i_mlp_multi.i_dp_16_8x8.rdaddr_del_4_ (x_core.L[148][43].rlb.lg[1].ls[0].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: i_control.mlp_matrix_addr_d_3_ (x_core.L[146][49].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: i_control.mlp_matrix_addr_2d_3_ (x_core.L[147][45].rlb.lg[0].ls[0].smux_seq_omux.seq[2])
+Pipeline stage 3: i_mlp_multi.i_dp_16_8x8.rdaddr_del_3_ (x_core.L[147][42].rlb.lg[1].ls[1].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: i_control.mlp_matrix_addr_d_2_ (x_core.L[147][47].rlb.lg[1].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 2: i_control.mlp_matrix_addr_2d_2_ (x_core.L[148][45].rlb.lg[0].ls[0].smux_seq_omux.seq[3])
+Pipeline stage 3: i_mlp_multi.i_dp_16_8x8.rdaddr_del_2_ (x_core.L[148][43].rlb.lg[1].ls[0].smux_seq_omux.seq[2])
+
+----------------------------------
+Pipeline stage 1: i_control.mlp_matrix_addr_d_1_ (x_core.L[147][46].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 2: i_control.mlp_matrix_addr_2d_1_ (x_core.L[147][44].rlb.lg[1].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 3: i_mlp_multi.i_dp_16_8x8.rdaddr_del_1_ (x_core.L[147][41].rlb.lg[1].ls[1].smux_seq_omux.seq[0])
+
+----------------------------------
+Pipeline stage 1: i_control.mlp_matrix_addr_d_0_ (x_core.L[148][45].rlb.lg[0].ls[1].smux_seq_omux.seq[2])
+Pipeline stage 2: i_control.mlp_matrix_addr_2d_0_ (x_core.L[149][43].rlb.lg[0].ls[0].smux_seq_omux.seq[1])
+Pipeline stage 3: i_mlp_multi.i_dp_16_8x8.rdaddr_del_0_ (x_core.L[149][41].rlb.lg[1].ls[0].smux_seq_omux.seq[3])
+
+----------------------------------
+Pipeline stage 1: i_reset_processor.gb_per_clk_0__pipe_rstn_0_0_ (x_core.L[164][125].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 2: i_reset_processor.gb_per_clk_0__pipe_rstn_0_1_ (x_core.L[159][106].rlb.lg[0].ls[0].smux_seq_omux.seq[0])
+Pipeline stage 3: i_reset_processor.gb_per_clk_0__pipe_rstn_0_2_ (x_core.L[155][88].rlb.lg[0].ls[1].smux_seq_omux.seq[3])
+Pipeline stage 4: i_reset_processor.gb_per_clk_0__pipe_rstn_0_3_ (x_core.L[150][70].rlb.lg[1].ls[1].smux_seq_omux.seq[3])

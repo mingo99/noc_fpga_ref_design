@@ -1,0 +1,29 @@
+        Reconditioner Logfile - post_prepare - noc_2d_ref_design_top
+        ____________________________________________________________
+
+ACE -- Achronix CAD Environment -- Version 8.7 -- Build  302850 -- Date 2022-03-17 11:00
+
+Design: noc_2d_ref_design_top - impl_1 - noc_2d_ref_design_top
+Device: AC7t1500ES0
+Generated on Wed Jul 13 15:36:54 CST 2022
+Host: OMEN.localdomain
+
+INFO: Permuted A[0] and B[0] inputs on ALU8i_T test_gen_count_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[1] and B[1] inputs on ALU8i_T test_gen_count_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[2] and B[2] inputs on ALU8i_T test_gen_count_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[3] and B[3] inputs on ALU8i_T test_gen_count_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[4] and B[4] inputs on ALU8i_T test_gen_count_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[5] and B[5] inputs on ALU8i_T test_gen_count_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[6] and B[6] inputs on ALU8i_T test_gen_count_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[7] and B[7] inputs on ALU8i_T test_gen_count_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[0] and B[0] inputs on ALU8i_T test_gen_count_4_0_cry_8_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[1] and B[1] inputs on ALU8i_T test_gen_count_4_0_cry_8_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[2] and B[2] inputs on ALU8i_T test_gen_count_4_0_cry_8_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[3] and B[3] inputs on ALU8i_T test_gen_count_4_0_cry_8_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[0] and B[0] inputs on ALU8i_T i_axi_bram_rsp.xact_ar_len_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[1] and B[1] inputs on ALU8i_T i_axi_bram_rsp.xact_ar_len_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[2] and B[2] inputs on ALU8i_T i_axi_bram_rsp.xact_ar_len_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[3] and B[3] inputs on ALU8i_T i_axi_bram_rsp.xact_ar_len_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[4] and B[4] inputs on ALU8i_T i_axi_bram_rsp.xact_ar_len_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[5] and B[5] inputs on ALU8i_T i_axi_bram_rsp.xact_ar_len_4_0_cry_0_1 (Moving LUT driver from B to A input)
+INFO: Permuted A[6] and B[6] inputs on ALU8i_T i_axi_bram_rsp.xact_ar_len_4_0_cry_0_1 (Moving LUT driver from B to A input)

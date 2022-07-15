@@ -1,0 +1,22 @@
+@P:  Worst Slack : -0.952
+@P:  chk_clk - Estimated Frequency : 423.4 MHz
+@P:  chk_clk - Requested Frequency : 499.0 MHz
+@P:  chk_clk - Estimated Period : 2.362
+@P:  chk_clk - Requested Period : 2.004
+@P:  chk_clk - Slack : -0.358
+@P:  reg_clk - Estimated Frequency : 289.7 MHz
+@P:  reg_clk - Requested Frequency : 200.0 MHz
+@P:  reg_clk - Estimated Period : 3.452
+@P:  reg_clk - Requested Period : 5.000
+@P:  reg_clk - Slack : 1.548
+@P:  send_clk - Estimated Frequency : 338.8 MHz
+@P:  send_clk - Requested Frequency : 500.0 MHz
+@P:  send_clk - Estimated Period : 2.952
+@P:  send_clk - Requested Period : 2.000
+@P:  send_clk - Slack : -0.952
+@P: noc_2d_ref_design_top Part : ac7t1500es0f53a0c2
+@P: noc_2d_ref_design_top BRAM : 2 of 2560 (less than 1%)
+@P: noc_2d_ref_design_top LRAM : 1 of 2560 (less than 1%)
+@P: noc_2d_ref_design_top ALU8 : 94 of 172800 (less than 1%)
+@P: noc_2d_ref_design_top DFF  : 7971 of 1382400 (less than 1%)
+@P:  CPU Time : 0h:00m:17s

@@ -1,0 +1,23 @@
+# -----------------------------------------------------------------------------
+# ACE placmements file
+# Conv2d design.  40 instances placed at each double cluster location
+# Fix location of any primitive
+# Set attributes such as fanout_limit or set a reset to be on the clock network
+# -----------------------------------------------------------------------------
+
+
+# Place all NAPs in a grid.
+# ACE is able to place MLP's suitably based on NAP placement alone.
+
+for {set row 0} {$row < 4} {incr row} {
+    for {set col 0} {$col < 10} {incr col} {
+        set nrow [expr {$row*2}];   #increment by 1 to fit new NoC site name change
+        set ncol [expr {$col+1}];   #increment by 1 to fit new NoC site name change
+        
+        incr nrow
+        set_placement -fixed i:chip_row_$row\__chip_col_$col\__i_top.i_axi_slave_wrapper_in.i_axi_slave  s:x_core.NOC[$ncol][$nrow].logic.noc.nap_s
+        incr nrow
+        set_placement -fixed i:chip_row_$row\__chip_col_$col\__i_top.i_axi_slave_wrapper_out.i_axi_slave s:x_core.NOC[$ncol][$nrow].logic.noc.nap_s
+        
+    }
+}
